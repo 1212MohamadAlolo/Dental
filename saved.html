@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#2d6a68" />
+  <meta name="description" content="قسم المحفوظات لعرض الفقرات المحفوظة من صفحات مقرر تشريح الفم والأسنان." />
+  <title>المحفوظات | تشريح الفم والأسنان</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
+
+  <header class="topbar no-print">
+    <div class="topbar__inner shell">
+      <div class="brand" aria-label="قسم المحفوظات">
+        <div class="brand__mark bookmarks-brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img"><path d="M13 7h22v35l-11-7-11 7V7Z"/><path d="M19 15h10M19 21h10"/></svg>
+        </div>
+        <div>
+          <p class="brand__eyebrow">تشريح الفم والأسنان</p>
+          <h1 class="brand__title">المحفوظات</h1>
+        </div>
+      </div>
+      <div class="topbar__actions">
+        <span class="page-pill">الفقرات المحفوظة: <strong id="savedCount">0</strong></span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="course-nav no-print" aria-label="التنقل بين صفحات المقرر">
+    <div class="shell course-nav__inner">
+      <div class="course-pages">
+        <a class="course-page-link" href="index.html">01 · الفك العلوي</a>
+        <a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
+        <a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
+        <a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
+        <a class="course-page-link" href="page-05.html">05 · الغدد اللعابية</a>
+        <a class="course-page-link" href="page-06.html">06 · الأسنان والبزوغ</a>
+        <a class="course-page-link" href="page-07.html">07 · بنية الأسنان</a>
+        <a class="course-page-link" href="page-08.html">08 · النسج المحيطة بالسن</a>
+        <a class="course-page-link" href="page-09.html">09 · الأمراض اللثوية</a>
+        <a class="course-page-link" href="page-10.html">10 · اضطرابات النسج الداعمة</a>
+        <a class="course-page-link" href="page-11.html">11 · التهاب الفم</a>
+        <a class="course-page-link" href="page-12.html">12 · القلاع والسلاق والنكاف</a>
+        <a class="course-page-link" href="page-13.html">13 · الآفات ما قبل السرطانية والسرطانية</a>
+        <a class="course-page-link" href="page-14.html">14 · القلح والتلونات السنية</a>
+        <a class="course-page-link" href="page-15.html">15 · بخر الفم</a>
+        <a class="course-page-link" href="page-16.html">16 · العادات الفموية السيئة</a>
+        <a class="course-page-link" href="page-17.html">17 · نخر الأسنان</a>
+        <a class="course-page-link course-page-link--exam" href="comprehensive-exam.html">الاختبار الشامل</a>
+        <a class="course-page-link course-page-link--saved is-current" href="saved.html" aria-current="page">المحفوظات <span class="bookmarks-count-badge">0</span></a>
+      </div>
+      <span class="course-nav__status">17 صفحة تعليمية + اختبار شامل + محفوظات</span>
+    </div>
+  </nav>
+
+  <main id="main-content" class="shell saved-main">
+    <article class="saved-hero">
+      <div>
+        <span class="section-kicker">مراجعتك الشخصية</span>
+        <h2>كل الفقرات التي حفظتها في مكان واحد</h2>
+        <p id="savedSummary" class="no-bookmark">لم تحفظ أي فقرة بعد.</p>
+      </div>
+      <div class="saved-hero__icon" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><path d="M17 8h30v47L32 45 17 55V8Z"/><path d="M25 20h14M25 28h14"/></svg>
+      </div>
+    </article>
+
+    <section class="saved-toolbar no-print" aria-label="أدوات المحفوظات">
+      <label class="saved-search">
+        <span>البحث في المحفوظات</span>
+        <input id="savedSearch" type="search" placeholder="ابحث في نص الفقرة أو اسم الصفحة…" autocomplete="off" />
+      </label>
+      <label class="saved-sort">
+        <span>الترتيب</span>
+        <select id="savedSort">
+          <option value="newest">الأحدث حفظاً</option>
+          <option value="oldest">الأقدم حفظاً</option>
+          <option value="page">حسب الصفحة</option>
+        </select>
+      </label>
+      <div class="saved-toolbar__count">النتائج: <strong id="visibleSavedCount">0</strong></div>
+      <button id="clearSavedBtn" class="clear-saved-button" type="button">حذف جميع المحفوظات</button>
+    </section>
+
+    <section id="savedEmpty" class="saved-empty" hidden>
+      <div class="saved-empty__icon" aria-hidden="true">☆</div>
+      <h2>لا توجد فقرات محفوظة</h2>
+      <p class="no-bookmark">افتح أي صفحة تعليمية واضغط زر <strong>حفظ</strong> بجانب الفقرة، وستظهر هنا مباشرة.</p>
+      <a href="index.html" class="primary-button">الذهاب إلى الصفحة الأولى</a>
+    </section>
+
+    <section id="savedItems" class="saved-items" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer no-print">
+    <div class="shell site-footer__inner">
+      <p>المحفوظات الشخصية — تشريح الفم والأسنان</p>
+      <span>يمكن فتح كل فقرة مباشرة في صفحتها الأصلية</span>
+    </div>
+  </footer>
+
+  <script src="bookmarks.js"></script>
+</body>
+</html>
