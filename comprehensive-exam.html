@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="global-ui.css" />
   <link rel="stylesheet" href="comprehensive-exam.css" />
 </head>
 <body class="exam-page">
@@ -67,12 +68,12 @@
         <div class="exam-hero__content">
           <span class="exam-kicker">محاكاة اختبار جامعي</span>
           <h2>اختبار شامل من 100 سؤال</h2>
-          <p>تم تجهيز أربعة نماذج ثابتة، يحتوي كل نموذج على 100 سؤال اختيار من متعدد من الصفحات السبع عشرة. يمكنك إعادة الاختبار واختيار نموذج مختلف دون انتظار توليد الأسئلة.</p>
+          <p>تم تجهيز أربعة نماذج ثابتة، ويمكنك تشغيلها بطريقتين: تدريب مع تصحيح فوري، أو محاكاة امتحان حقيقية تُظهر النتيجة بعد التسليم.</p>
           <div class="exam-facts">
             <span><strong>100</strong> سؤال اختيار من متعدد</span>
             <span><strong>4</strong> نماذج جاهزة × 100 سؤال</span>
             <span><strong>17</strong> صفحة مشمولة</span>
-            <span><strong>60–120</strong> دقيقة</span>
+            <span><strong>تدريب/محاكاة</strong> طريقتان</span>
           </div>
         </div>
         <div class="exam-hero__seal" aria-hidden="true">
@@ -96,9 +97,22 @@
           <p class="variant-selection-note">المحدد حالياً: <strong id="selectedVariantLabel">النموذج 1</strong></p>
         </section>
 
-        <section class="exam-card duration-card" aria-labelledby="durationTitle">
+
+        <section class="exam-card mode-card" aria-labelledby="modeTitle">
           <div class="exam-card__heading">
             <span class="exam-step">2</span>
+            <div><h3 id="modeTitle">اختر طريقة الاختبار</h3><p>تدريب للتعلم المباشر أو محاكاة امتحان حقيقية.</p></div>
+          </div>
+          <div class="mode-presets" role="group" aria-label="طريقة الاختبار">
+            <button type="button" class="mode-preset is-active" data-exam-mode="training" aria-pressed="true"><strong>وضع التدريب</strong><span>تصحيح فوري + إعادة المحاولة + مؤقت اختياري</span></button>
+            <button type="button" class="mode-preset" data-exam-mode="simulation" aria-pressed="false"><strong>محاكاة الامتحان</strong><span>لا يظهر التصحيح إلا بعد التسليم + مؤقت إلزامي</span></button>
+          </div>
+          <label class="untimed-toggle"><input id="untimedTraining" type="checkbox" checked><span>بدون مؤقت في وضع التدريب</span></label>
+        </section>
+
+        <section class="exam-card duration-card" aria-labelledby="durationTitle">
+          <div class="exam-card__heading">
+            <span class="exam-step">3</span>
             <div><h3 id="durationTitle">اختر مدة الاختبار</h3><p>المدة اختيارية من ساعة إلى ساعتين.</p></div>
           </div>
 
@@ -117,12 +131,13 @@
 
         <section class="exam-card rules-card" aria-labelledby="rulesTitle">
           <div class="exam-card__heading">
-            <span class="exam-step">3</span>
+            <span class="exam-step">4</span>
             <div><h3 id="rulesTitle">نظام الاختبار</h3><p>قواعد واضحة قبل بدء المحاولة.</p></div>
           </div>
           <ul class="exam-rules">
             <li>يوجد أربعة نماذج جاهزة، في كل نموذج 100 سؤال من جميع الصفحات.</li>
-            <li>بعد اختيار الإجابة تظهر فوراً نتيجة صحيحة أو خاطئة مع الإجابة الصحيحة والشرح.</li>
+            <li>في وضع التدريب يظهر التصحيح والشرح فوراً، ويمكن إعادة محاولة السؤال.</li>
+            <li>في محاكاة الامتحان لا تظهر الإجابات الصحيحة إلا بعد التسليم.</li>
             <li>يمكن التنقل بين الأسئلة ووضع علامة للمراجعة.</li>
             <li>يتم التسليم تلقائياً عند انتهاء الوقت.</li>
             <li>يُحفظ تقدم المحاولة في المتصفح عند التحديث أو الإغلاق العرضي.</li>
@@ -148,15 +163,18 @@
 
     <section id="examScreen" class="exam-screen" hidden>
       <div class="exam-toolbar no-print">
+        <span id="activeModeBadge" class="active-mode-badge">وضع التدريب</span>
+        <span id="mobileQuestionBadge" class="mobile-question-badge">1 / 100</span>
         <div class="exam-timer" id="timerBox" aria-live="polite">
           <span>الوقت المتبقي</span>
           <strong id="timerText">01:30:00</strong>
         </div>
         <div class="exam-progress-summary">
           <div><span>تمت الإجابة</span><strong id="answeredCount">0 / 100</strong></div>
-          <div class="exam-progress-track"><span id="answeredProgress"></span></div>
+          <div class="exam-progress-track"><span id="answeredProgress"></span><span id="markedProgress"></span></div>
         </div>
         <button id="markReviewBtn" class="review-button" type="button" aria-pressed="false">☆ وضع علامة للمراجعة</button>
+        <button id="pauseExamBtn" class="review-button" type="button">حفظ والخروج</button>
         <button id="submitExamBtn" class="submit-exam-button" type="button">تسليم الاختبار</button>
       </div>
 
@@ -179,6 +197,7 @@
                 <strong id="instantFeedbackTitle"></strong>
                 <p id="instantFeedbackAnswer"></p>
                 <p id="instantFeedbackExplanation" class="instant-feedback__explanation"></p>
+                <button id="retryQuestionBtn" class="retry-question-button" type="button" hidden>إعادة محاولة السؤال</button>
               </div>
             </div>
           </div>
@@ -223,6 +242,7 @@
             <div><span>غير مجاب</span><strong id="blankResult">0</strong></div>
             <div><span>الوقت المستخدم</span><strong id="usedTimeResult">00:00</strong></div>
             <div><span>نموذج الاختبار</span><strong id="variantResult">النموذج 1</strong></div>
+            <div><span>طريقة الاختبار</span><strong id="modeResult">وضع التدريب</strong></div>
           </div>
         </div>
       </article>
@@ -276,5 +296,7 @@
   </dialog>
 
   <script src="comprehensive-exam.js"></script>
+  <script src="bookmarks.js"></script>
+  <script src="global-ui.js"></script>
 </body>
 </html>

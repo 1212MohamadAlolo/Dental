@@ -227,7 +227,7 @@
     entry.button.setAttribute('aria-label', entry.button.title);
     entry.button.innerHTML = saved
       ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4V3Z"/></svg><span>محفوظة</span>'
-      : '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4V3Z"/></svg><span>حفظ</span>';
+      : '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4V3Z"/></svg><span>حفظ الفقرة</span>';
   }
 
   async function toggleBookmark(entry) {
@@ -244,24 +244,39 @@
   }
 
   function initParagraphButtons() {
-    const candidates = [...document.querySelectorAll('#overviewPanel p')].filter((paragraph) => {
-      if (paragraph.closest('.no-bookmark, .section-heading, dialog, .bookmark-toast')) return false;
-      return normalizeText(paragraph.textContent).length >= 20;
-    });
+    const allParagraphs = [...document.querySelectorAll('main p')];
 
+    const isEligibleParagraph = (paragraph, minimumLength = 1) => {
+      if (paragraph.closest('#studyPanel, .no-bookmark, .section-heading, .page-actions, dialog, .bookmark-toast')) return false;
+      if (paragraph.matches('[hidden]') || paragraph.closest('[hidden]')) return false;
+      return normalizeText(paragraph.textContent).length >= minimumLength;
+    };
+
+    // Keep the old ID calculation for the paragraphs that were bookmarkable before,
+    // so existing saved links remain valid after this expansion.
+    const legacyCandidates = [...document.querySelectorAll('#overviewPanel p')]
+      .filter((paragraph) => {
+        if (paragraph.closest('.no-bookmark, .section-heading, dialog, .bookmark-toast')) return false;
+        return normalizeText(paragraph.textContent).length >= 20;
+      });
+
+    const candidates = allParagraphs.filter((paragraph) => isEligibleParagraph(paragraph));
     const pageTitle = getPageTitle();
+
     candidates.forEach((paragraph, index) => {
       if (paragraph.dataset.bookmarkReady === 'true') return;
+
       const text = normalizeText(paragraph.textContent);
-      const id = `saved-${hashString(`${fileName}|${index}|${text}`)}`;
+      const legacyIndex = legacyCandidates.indexOf(paragraph);
+      const identity = legacyIndex >= 0
+        ? `${fileName}|${legacyIndex}|${text}`
+        : `${fileName}|all|${index}|${text}`;
+      const id = `saved-${hashString(identity)}`;
+
       paragraph.id = paragraph.id || id;
       const paragraphId = paragraph.id;
       paragraph.dataset.bookmarkReady = 'true';
       paragraph.classList.add('bookmarkable-paragraph');
-
-      const content = document.createElement('span');
-      content.className = 'bookmarkable-paragraph__content';
-      while (paragraph.firstChild) content.appendChild(paragraph.firstChild);
 
       const button = document.createElement('button');
       button.type = 'button';
@@ -278,9 +293,14 @@
       const entry = { paragraph, button, item };
       paragraphEntries.push(entry);
       updateParagraphButton(entry);
-      button.addEventListener('click', () => toggleBookmark(entry));
+      button.addEventListener('click', (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        toggleBookmark(entry);
+      });
 
-      paragraph.append(button, content);
+      // Absolute overlay: appended directly without wrapping or changing paragraph flow.
+      paragraph.appendChild(button);
     });
 
     const target = location.hash ? document.querySelector(location.hash) : null;
