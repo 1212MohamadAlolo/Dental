@@ -13,9 +13,13 @@
     question.correct < question.options.length
   );
 
+  // Four pre-built exam models. Each model contains 100 validated MCQs and covers all 17 pages.
+  const PREBUILT_EXAM_VARIANTS = [[{"id":"p17-q02","optionOrder":[0,2,1,3]},{"id":"p16-q08","optionOrder":[3,0,1,2]},{"id":"p14-q10","optionOrder":[0,1,2,3]},{"id":"p12-q11","optionOrder":[3,2,0,1]},{"id":"p05-q09","optionOrder":[0,3,2,1]},{"id":"p02-q06","optionOrder":[0,1]},{"id":"p06-q04","optionOrder":[1,3,2,0]},{"id":"p15-q01","optionOrder":[0,2,3,1]},{"id":"p03-q06","optionOrder":[0,1,2,3]},{"id":"p01-q04","optionOrder":[2,1,0,3]},{"id":"p07-q01","optionOrder":[2,1,0,3]},{"id":"p02-q04","optionOrder":[2,0,3,1]},{"id":"p15-q02","optionOrder":[1,0,2,3]},{"id":"p07-q03","optionOrder":[2,1,0,3]},{"id":"p16-q15","optionOrder":[0,2,3,1]},{"id":"p14-q02","optionOrder":[1,3,2,0]},{"id":"p12-q08","optionOrder":[0,1,2,3]},{"id":"p07-q08","optionOrder":[1,2,0,3]},{"id":"p14-q13","optionOrder":[2,3,1,0]},{"id":"p09-q11","optionOrder":[3,1,0,2]},{"id":"p09-q10","optionOrder":[2,3,1,0]},{"id":"p15-q15","optionOrder":[0,1,2,3]},{"id":"p11-q11","optionOrder":[2,1,3,0]},{"id":"p05-q01","optionOrder":[3,2,1,0]},{"id":"p17-q03","optionOrder":[1,2,3,0]},{"id":"p10-q08","optionOrder":[1,3,0,2]},{"id":"p11-q06","optionOrder":[3,2,0,1]},{"id":"p04-q03","optionOrder":[1,0,3,2]},{"id":"p09-q07","optionOrder":[1,3,2,0]},{"id":"p10-q11","optionOrder":[3,2,0,1]},{"id":"p06-q01","optionOrder":[3,2,0,1]},{"id":"p14-q14","optionOrder":[3,0,1,2]},{"id":"p08-q10","optionOrder":[0,3,2,1]},{"id":"p13-q10","optionOrder":[2,0,3,1]},{"id":"p04-q02","optionOrder":[0,1,2,3]},{"id":"p14-q03","optionOrder":[0,1,3,2]},{"id":"p13-q06","optionOrder":[2,3,0,1]},{"id":"p06-q05","optionOrder":[3,1,0,2]},{"id":"p12-q09","optionOrder":[1,2,3,0]},{"id":"p17-q17","optionOrder":[2,3,0,1]},{"id":"p17-q16","optionOrder":[1,2,3,0]},{"id":"p11-q12","optionOrder":[0,2,1,3]},{"id":"p01-q03","optionOrder":[1,0]},{"id":"p08-q08","optionOrder":[2,1,0,3]},{"id":"p16-q01","optionOrder":[3,1,0,2]},{"id":"p15-q14","optionOrder":[1,2,0,3]},{"id":"p17-q12","optionOrder":[0,1,3,2]},{"id":"p10-q10","optionOrder":[2,0,3,1]},{"id":"p14-q06","optionOrder":[2,3,1,0]},{"id":"p01-q01","optionOrder":[1,2,0,3]},{"id":"p04-q01","optionOrder":[1,3,0,2]},{"id":"p11-q02","optionOrder":[1,2,0,3]},{"id":"p10-q12","optionOrder":[1,3,2,0]},{"id":"p03-q01","optionOrder":[1,0,3,2]},{"id":"p11-q13","optionOrder":[0,2,3,1]},{"id":"p09-q12","optionOrder":[2,1,0,3]},{"id":"p16-q16","optionOrder":[0,1,2,3]},{"id":"p14-q01","optionOrder":[2,1,3,0]},{"id":"p11-q10","optionOrder":[2,0,3,1]},{"id":"p04-q05","optionOrder":[3,1,0,2]},{"id":"p11-q07","optionOrder":[3,2,1,0]},{"id":"p02-q03","optionOrder":[1,0]},{"id":"p09-q08","optionOrder":[2,1,3,0]},{"id":"p16-q02","optionOrder":[1,0,3,2]},{"id":"p17-q01","optionOrder":[0,3,1,2]},{"id":"p01-q05","optionOrder":[2,3,1,0]},{"id":"p16-q12","optionOrder":[3,0,1,2]},{"id":"p03-q05","optionOrder":[1,3,2,0]},{"id":"p08-q01","optionOrder":[3,0,1,2]},{"id":"p16-q03","optionOrder":[3,0,1,2]},{"id":"p13-q11","optionOrder":[0,1,3,2]},{"id":"p15-q03","optionOrder":[3,2,1,0]},{"id":"p07-q11","optionOrder":[1,3,2,0]},{"id":"p08-q09","optionOrder":[0,1,2,3]},{"id":"p06-q07","optionOrder":[3,2,0,1]},{"id":"p17-q08","optionOrder":[0,2,3,1]},{"id":"p11-q09","optionOrder":[0,1,3,2]},{"id":"p07-q07","optionOrder":[3,1,2,0]},{"id":"p02-q05","optionOrder":[1,0,2,3]},{"id":"p05-q05","optionOrder":[1,0,3,2]},{"id":"p06-q13","optionOrder":[2,1,0,3]},{"id":"p03-q03","optionOrder":[1,0,3,2]},{"id":"p13-q13","optionOrder":[2,3,1,0]},{"id":"p07-q10","optionOrder":[3,0,2,1]},{"id":"p14-q04","optionOrder":[1,3,0,2]},{"id":"p05-q06","optionOrder":[2,0,1,3]},{"id":"p02-q01","optionOrder":[3,2,1,0]},{"id":"p08-q12","optionOrder":[0,3,1,2]},{"id":"p16-q06","optionOrder":[2,3,0,1]},{"id":"p04-q09","optionOrder":[2,3,1,0]},{"id":"p06-q02","optionOrder":[3,0,2,1]},{"id":"p05-q07","optionOrder":[0,3,1,2]},{"id":"p12-q10","optionOrder":[0,2,3,1]},{"id":"p12-q07","optionOrder":[0,1,3,2]},{"id":"p13-q09","optionOrder":[3,2,1,0]},{"id":"p01-q02","optionOrder":[3,1,2,0]},{"id":"p16-q07","optionOrder":[1,2,0,3]},{"id":"p03-q02","optionOrder":[1,0]},{"id":"p10-q13","optionOrder":[0,3,1,2]},{"id":"p13-q12","optionOrder":[1,3,0,2]}],[{"id":"p15-q14","optionOrder":[3,0,2,1]},{"id":"p02-q06","optionOrder":[0,1]},{"id":"p17-q05","optionOrder":[3,2,1,0]},{"id":"p11-q02","optionOrder":[2,3,1,0]},{"id":"p04-q01","optionOrder":[1,2,3,0]},{"id":"p17-q04","optionOrder":[0,2,3,1]},{"id":"p08-q08","optionOrder":[0,2,3,1]},{"id":"p03-q04","optionOrder":[1,0]},{"id":"p16-q06","optionOrder":[0,3,1,2]},{"id":"p07-q03","optionOrder":[0,1,2,3]},{"id":"p17-q07","optionOrder":[2,0,1,3]},{"id":"p14-q07","optionOrder":[3,2,0,1]},{"id":"p03-q02","optionOrder":[1,0]},{"id":"p03-q05","optionOrder":[2,3,1,0]},{"id":"p15-q04","optionOrder":[3,2,0,1]},{"id":"p16-q09","optionOrder":[0,1,3,2]},{"id":"p07-q04","optionOrder":[0,2,1,3]},{"id":"p06-q11","optionOrder":[2,1,0,3]},{"id":"p08-q06","optionOrder":[2,1,3,0]},{"id":"p12-q15","optionOrder":[3,2,0,1]},{"id":"p01-q01","optionOrder":[2,3,0,1]},{"id":"p15-q11","optionOrder":[2,1,0,3]},{"id":"p06-q14","optionOrder":[1,0,2,3]},{"id":"p10-q07","optionOrder":[1,0,3,2]},{"id":"p11-q01","optionOrder":[0,3,1,2]},{"id":"p13-q03","optionOrder":[3,1,2,0]},{"id":"p07-q08","optionOrder":[3,1,2,0]},{"id":"p01-q04","optionOrder":[3,0,1,2]},{"id":"p03-q01","optionOrder":[1,0,2,3]},{"id":"p13-q15","optionOrder":[2,1,3,0]},{"id":"p13-q16","optionOrder":[2,3,1,0]},{"id":"p04-q06","optionOrder":[3,1,2,0]},{"id":"p13-q02","optionOrder":[3,1,2,0]},{"id":"p06-q01","optionOrder":[2,3,1,0]},{"id":"p13-q12","optionOrder":[3,1,0,2]},{"id":"p09-q02","optionOrder":[0,3,2,1]},{"id":"p11-q05","optionOrder":[1,2,0,3]},{"id":"p17-q08","optionOrder":[0,1,3,2]},{"id":"p08-q02","optionOrder":[2,1,3,0]},{"id":"p05-q09","optionOrder":[3,1,2,0]},{"id":"p12-q13","optionOrder":[1,2,0,3]},{"id":"p05-q03","optionOrder":[2,3,0,1]},{"id":"p16-q08","optionOrder":[3,1,2,0]},{"id":"p15-q08","optionOrder":[3,0,1,2]},{"id":"p16-q05","optionOrder":[1,0,2,3]},{"id":"p16-q04","optionOrder":[2,1,3,0]},{"id":"p13-q14","optionOrder":[1,0,2,3]},{"id":"p10-q05","optionOrder":[2,0,1,3]},{"id":"p05-q07","optionOrder":[1,3,2,0]},{"id":"p06-q08","optionOrder":[2,1,3,0]},{"id":"p06-q13","optionOrder":[3,1,2,0]},{"id":"p07-q10","optionOrder":[3,2,0,1]},{"id":"p04-q07","optionOrder":[3,2,1,0]},{"id":"p02-q04","optionOrder":[1,2,0,3]},{"id":"p11-q04","optionOrder":[3,1,2,0]},{"id":"p04-q09","optionOrder":[1,0,2,3]},{"id":"p16-q07","optionOrder":[2,1,0,3]},{"id":"p05-q01","optionOrder":[1,3,0,2]},{"id":"p07-q05","optionOrder":[1,3,0,2]},{"id":"p14-q08","optionOrder":[1,0,3,2]},{"id":"p11-q14","optionOrder":[3,1,0,2]},{"id":"p09-q04","optionOrder":[3,0,1,2]},{"id":"p12-q16","optionOrder":[2,3,0,1]},{"id":"p06-q10","optionOrder":[1,0,3,2]},{"id":"p01-q06","optionOrder":[1,0]},{"id":"p10-q01","optionOrder":[0,2,3,1]},{"id":"p04-q02","optionOrder":[1,2,3,0]},{"id":"p02-q03","optionOrder":[0,1]},{"id":"p12-q12","optionOrder":[2,0,3,1]},{"id":"p01-q02","optionOrder":[0,3,1,2]},{"id":"p15-q06","optionOrder":[3,2,0,1]},{"id":"p15-q05","optionOrder":[2,1,0,3]},{"id":"p14-q04","optionOrder":[3,0,2,1]},{"id":"p09-q13","optionOrder":[0,2,3,1]},{"id":"p14-q05","optionOrder":[2,1,3,0]},{"id":"p13-q01","optionOrder":[1,3,0,2]},{"id":"p05-q06","optionOrder":[1,3,0,2]},{"id":"p09-q05","optionOrder":[1,2,3,0]},{"id":"p10-q04","optionOrder":[1,0,2,3]},{"id":"p11-q07","optionOrder":[0,3,1,2]},{"id":"p01-q03","optionOrder":[0,1]},{"id":"p17-q09","optionOrder":[3,2,0,1]},{"id":"p17-q06","optionOrder":[1,3,2,0]},{"id":"p15-q07","optionOrder":[3,1,0,2]},{"id":"p10-q02","optionOrder":[3,2,1,0]},{"id":"p08-q05","optionOrder":[3,1,2,0]},{"id":"p02-q05","optionOrder":[1,2,0,3]},{"id":"p09-q01","optionOrder":[2,0,1,3]},{"id":"p04-q05","optionOrder":[0,3,1,2]},{"id":"p13-q06","optionOrder":[1,2,0,3]},{"id":"p03-q06","optionOrder":[0,2,1,3]},{"id":"p16-q03","optionOrder":[1,3,2,0]},{"id":"p08-q01","optionOrder":[3,0,2,1]},{"id":"p08-q04","optionOrder":[1,0,3,2]},{"id":"p12-q14","optionOrder":[2,0,1,3]},{"id":"p07-q07","optionOrder":[3,0,2,1]},{"id":"p14-q06","optionOrder":[3,1,2,0]},{"id":"p10-q14","optionOrder":[1,0,3,2]},{"id":"p05-q05","optionOrder":[2,3,0,1]},{"id":"p02-q02","optionOrder":[2,3,0,1]}],[{"id":"p10-q06","optionOrder":[0,2,3,1]},{"id":"p13-q06","optionOrder":[3,1,0,2]},{"id":"p08-q02","optionOrder":[0,3,2,1]},{"id":"p07-q03","optionOrder":[2,3,0,1]},{"id":"p10-q10","optionOrder":[1,3,2,0]},{"id":"p15-q11","optionOrder":[1,3,0,2]},{"id":"p08-q01","optionOrder":[2,1,0,3]},{"id":"p16-q13","optionOrder":[0,1,3,2]},{"id":"p02-q05","optionOrder":[0,2,1,3]},{"id":"p05-q07","optionOrder":[3,2,1,0]},{"id":"p10-q04","optionOrder":[0,1,3,2]},{"id":"p01-q06","optionOrder":[0,1]},{"id":"p15-q13","optionOrder":[2,0,3,1]},{"id":"p10-q01","optionOrder":[2,0,1,3]},{"id":"p06-q14","optionOrder":[2,3,0,1]},{"id":"p03-q01","optionOrder":[1,0,2,3]},{"id":"p17-q13","optionOrder":[1,2,0,3]},{"id":"p07-q11","optionOrder":[1,3,0,2]},{"id":"p14-q08","optionOrder":[2,0,3,1]},{"id":"p16-q16","optionOrder":[0,1,3,2]},{"id":"p11-q08","optionOrder":[0,2,1,3]},{"id":"p06-q05","optionOrder":[0,3,1,2]},{"id":"p09-q10","optionOrder":[0,1,3,2]},{"id":"p16-q10","optionOrder":[3,2,0,1]},{"id":"p16-q02","optionOrder":[1,2,0,3]},{"id":"p14-q09","optionOrder":[2,3,1,0]},{"id":"p14-q01","optionOrder":[3,0,2,1]},{"id":"p06-q08","optionOrder":[1,2,3,0]},{"id":"p06-q04","optionOrder":[1,3,0,2]},{"id":"p11-q07","optionOrder":[3,0,2,1]},{"id":"p04-q06","optionOrder":[1,0,3,2]},{"id":"p16-q12","optionOrder":[3,1,2,0]},{"id":"p05-q05","optionOrder":[3,0,2,1]},{"id":"p10-q08","optionOrder":[3,0,2,1]},{"id":"p15-q05","optionOrder":[2,0,3,1]},{"id":"p17-q11","optionOrder":[0,1,2,3]},{"id":"p04-q09","optionOrder":[0,2,1,3]},{"id":"p14-q11","optionOrder":[1,0,2,3]},{"id":"p11-q09","optionOrder":[0,2,3,1]},{"id":"p12-q05","optionOrder":[1,2,0,3]},{"id":"p08-q12","optionOrder":[0,2,1,3]},{"id":"p09-q08","optionOrder":[3,1,0,2]},{"id":"p17-q10","optionOrder":[2,3,0,1]},{"id":"p17-q09","optionOrder":[0,1,3,2]},{"id":"p01-q03","optionOrder":[0,1]},{"id":"p07-q04","optionOrder":[2,3,1,0]},{"id":"p16-q11","optionOrder":[3,1,2,0]},{"id":"p17-q12","optionOrder":[1,0,3,2]},{"id":"p13-q07","optionOrder":[0,2,1,3]},{"id":"p03-q03","optionOrder":[2,1,0,3]},{"id":"p05-q01","optionOrder":[3,2,1,0]},{"id":"p02-q01","optionOrder":[2,0,1,3]},{"id":"p15-q09","optionOrder":[2,0,1,3]},{"id":"p12-q04","optionOrder":[3,1,0,2]},{"id":"p01-q02","optionOrder":[3,0,2,1]},{"id":"p11-q10","optionOrder":[1,2,3,0]},{"id":"p06-q01","optionOrder":[2,3,1,0]},{"id":"p03-q05","optionOrder":[1,0,3,2]},{"id":"p10-q07","optionOrder":[0,3,1,2]},{"id":"p04-q02","optionOrder":[0,3,1,2]},{"id":"p06-q07","optionOrder":[1,3,0,2]},{"id":"p12-q03","optionOrder":[2,0,1,3]},{"id":"p13-q04","optionOrder":[2,1,3,0]},{"id":"p05-q06","optionOrder":[3,2,1,0]},{"id":"p08-q09","optionOrder":[0,3,1,2]},{"id":"p04-q07","optionOrder":[0,3,1,2]},{"id":"p03-q04","optionOrder":[1,0]},{"id":"p06-q02","optionOrder":[1,2,3,0]},{"id":"p04-q03","optionOrder":[3,2,0,1]},{"id":"p05-q03","optionOrder":[3,1,0,2]},{"id":"p12-q16","optionOrder":[2,3,0,1]},{"id":"p14-q06","optionOrder":[0,3,1,2]},{"id":"p13-q03","optionOrder":[0,2,3,1]},{"id":"p07-q01","optionOrder":[0,1,2,3]},{"id":"p12-q01","optionOrder":[3,0,2,1]},{"id":"p11-q13","optionOrder":[2,0,1,3]},{"id":"p02-q02","optionOrder":[3,0,2,1]},{"id":"p14-q13","optionOrder":[0,2,3,1]},{"id":"p01-q05","optionOrder":[2,0,3,1]},{"id":"p03-q06","optionOrder":[0,1,3,2]},{"id":"p08-q10","optionOrder":[0,1,3,2]},{"id":"p16-q09","optionOrder":[2,1,0,3]},{"id":"p14-q10","optionOrder":[2,1,0,3]},{"id":"p16-q01","optionOrder":[0,3,2,1]},{"id":"p02-q03","optionOrder":[0,1]},{"id":"p15-q10","optionOrder":[0,3,1,2]},{"id":"p12-q09","optionOrder":[2,0,1,3]},{"id":"p14-q12","optionOrder":[3,0,2,1]},{"id":"p10-q11","optionOrder":[0,2,3,1]},{"id":"p09-q07","optionOrder":[0,1,2,3]},{"id":"p01-q01","optionOrder":[1,0,3,2]},{"id":"p13-q05","optionOrder":[0,2,3,1]},{"id":"p09-q06","optionOrder":[2,3,0,1]},{"id":"p07-q10","optionOrder":[3,1,2,0]},{"id":"p11-q06","optionOrder":[0,1,3,2]},{"id":"p02-q04","optionOrder":[0,3,1,2]},{"id":"p15-q12","optionOrder":[0,3,1,2]},{"id":"p04-q05","optionOrder":[0,2,1,3]},{"id":"p09-q11","optionOrder":[2,3,1,0]},{"id":"p12-q02","optionOrder":[2,0,1,3]}],[{"id":"p10-q01","optionOrder":[2,1,0,3]},{"id":"p03-q05","optionOrder":[3,0,2,1]},{"id":"p13-q09","optionOrder":[3,0,1,2]},{"id":"p04-q06","optionOrder":[2,1,0,3]},{"id":"p10-q13","optionOrder":[1,3,2,0]},{"id":"p09-q12","optionOrder":[3,2,1,0]},{"id":"p13-q10","optionOrder":[1,3,0,2]},{"id":"p12-q02","optionOrder":[0,2,3,1]},{"id":"p07-q10","optionOrder":[0,2,3,1]},{"id":"p01-q04","optionOrder":[0,2,3,1]},{"id":"p17-q04","optionOrder":[3,2,0,1]},{"id":"p05-q03","optionOrder":[2,1,3,0]},{"id":"p11-q01","optionOrder":[2,3,1,0]},{"id":"p11-q11","optionOrder":[1,0,2,3]},{"id":"p13-q05","optionOrder":[1,0,3,2]},{"id":"p02-q01","optionOrder":[3,1,0,2]},{"id":"p05-q09","optionOrder":[0,3,1,2]},{"id":"p16-q01","optionOrder":[3,2,1,0]},{"id":"p07-q05","optionOrder":[3,1,2,0]},{"id":"p12-q08","optionOrder":[3,1,0,2]},{"id":"p14-q14","optionOrder":[1,0,2,3]},{"id":"p14-q11","optionOrder":[2,1,0,3]},{"id":"p11-q13","optionOrder":[3,0,1,2]},{"id":"p15-q02","optionOrder":[0,1,3,2]},{"id":"p16-q16","optionOrder":[2,1,3,0]},{"id":"p09-q11","optionOrder":[0,1,3,2]},{"id":"p03-q04","optionOrder":[1,0]},{"id":"p13-q01","optionOrder":[0,1,2,3]},{"id":"p11-q12","optionOrder":[1,2,3,0]},{"id":"p17-q01","optionOrder":[3,1,0,2]},{"id":"p04-q03","optionOrder":[0,2,3,1]},{"id":"p17-q15","optionOrder":[3,1,0,2]},{"id":"p17-q16","optionOrder":[1,2,0,3]},{"id":"p08-q04","optionOrder":[1,3,2,0]},{"id":"p15-q01","optionOrder":[2,1,3,0]},{"id":"p14-q03","optionOrder":[0,2,1,3]},{"id":"p16-q15","optionOrder":[1,0,2,3]},{"id":"p05-q05","optionOrder":[1,3,2,0]},{"id":"p02-q06","optionOrder":[1,0]},{"id":"p08-q09","optionOrder":[2,1,0,3]},{"id":"p01-q02","optionOrder":[3,0,2,1]},{"id":"p16-q02","optionOrder":[3,2,0,1]},{"id":"p06-q11","optionOrder":[0,1,2,3]},{"id":"p01-q05","optionOrder":[3,0,2,1]},{"id":"p06-q14","optionOrder":[2,0,3,1]},{"id":"p03-q03","optionOrder":[1,2,3,0]},{"id":"p16-q14","optionOrder":[3,0,1,2]},{"id":"p02-q04","optionOrder":[0,1,3,2]},{"id":"p15-q15","optionOrder":[3,0,1,2]},{"id":"p07-q08","optionOrder":[3,2,1,0]},{"id":"p06-q10","optionOrder":[1,2,0,3]},{"id":"p15-q14","optionOrder":[2,3,0,1]},{"id":"p02-q03","optionOrder":[0,1]},{"id":"p10-q14","optionOrder":[3,2,1,0]},{"id":"p12-q09","optionOrder":[1,0,2,3]},{"id":"p14-q02","optionOrder":[1,2,3,0]},{"id":"p15-q05","optionOrder":[0,2,1,3]},{"id":"p09-q13","optionOrder":[0,1,3,2]},{"id":"p13-q11","optionOrder":[1,2,3,0]},{"id":"p05-q01","optionOrder":[3,1,0,2]},{"id":"p15-q03","optionOrder":[2,0,1,3]},{"id":"p09-q04","optionOrder":[2,0,1,3]},{"id":"p04-q05","optionOrder":[3,2,0,1]},{"id":"p06-q08","optionOrder":[1,0,2,3]},{"id":"p01-q06","optionOrder":[0,1]},{"id":"p04-q02","optionOrder":[3,0,2,1]},{"id":"p12-q10","optionOrder":[3,0,2,1]},{"id":"p10-q02","optionOrder":[1,2,0,3]},{"id":"p08-q06","optionOrder":[2,1,0,3]},{"id":"p11-q04","optionOrder":[2,1,3,0]},{"id":"p14-q04","optionOrder":[1,0,2,3]},{"id":"p03-q02","optionOrder":[1,0]},{"id":"p14-q01","optionOrder":[1,0,2,3]},{"id":"p11-q14","optionOrder":[2,1,3,0]},{"id":"p05-q06","optionOrder":[0,3,1,2]},{"id":"p09-q01","optionOrder":[1,2,0,3]},{"id":"p13-q08","optionOrder":[1,2,3,0]},{"id":"p17-q12","optionOrder":[2,3,1,0]},{"id":"p08-q05","optionOrder":[0,2,1,3]},{"id":"p07-q11","optionOrder":[1,0,2,3]},{"id":"p10-q08","optionOrder":[2,0,1,3]},{"id":"p03-q06","optionOrder":[1,3,2,0]},{"id":"p14-q05","optionOrder":[1,3,2,0]},{"id":"p06-q13","optionOrder":[0,2,1,3]},{"id":"p01-q01","optionOrder":[2,1,0,3]},{"id":"p07-q01","optionOrder":[0,3,1,2]},{"id":"p12-q07","optionOrder":[1,0,2,3]},{"id":"p12-q06","optionOrder":[3,0,2,1]},{"id":"p08-q08","optionOrder":[2,0,1,3]},{"id":"p17-q14","optionOrder":[2,0,1,3]},{"id":"p07-q07","optionOrder":[0,2,3,1]},{"id":"p02-q02","optionOrder":[2,1,3,0]},{"id":"p13-q12","optionOrder":[1,2,0,3]},{"id":"p10-q12","optionOrder":[3,2,1,0]},{"id":"p04-q01","optionOrder":[1,2,3,0]},{"id":"p16-q06","optionOrder":[3,2,0,1]},{"id":"p12-q15","optionOrder":[0,2,3,1]},{"id":"p16-q10","optionOrder":[0,1,3,2]},{"id":"p09-q02","optionOrder":[2,1,3,0]},{"id":"p17-q17","optionOrder":[1,2,0,3]}]];
+  const VARIANT_COUNT = PREBUILT_EXAM_VARIANTS.length;
+
   const EXAM_SIZE = 100;
-  const STORAGE_KEY = 'oral-course-comprehensive-exam-v2';
-  const RESULT_KEY = 'oral-course-comprehensive-exam-result-v2';
+  const STORAGE_KEY = 'oral-course-comprehensive-exam-v3';
+  const RESULT_KEY = 'oral-course-comprehensive-exam-result-v3';
 
   const $ = (id) => document.getElementById(id);
   const setupScreen = $('setupScreen');
@@ -29,6 +33,8 @@
   let examState = null;
   let timerInterval = null;
   let currentReviewFilter = 'incorrect';
+  let selectedVariant = 0;
+  const OLD_STORAGE_KEYS = ['oral-course-comprehensive-exam-v2', 'oral-course-comprehensive-exam-result-v2'];
 
   function storageGet(key) {
     try { return window.localStorage.getItem(key); } catch (_) { return null; }
@@ -79,53 +85,36 @@
     return QUESTION_BANK.find((q) => q.id === id);
   }
 
-  function buildBalancedExam() {
-    const grouped = new Map();
-    ELIGIBLE_QUESTIONS.forEach((question) => {
-      if (!grouped.has(question.page)) grouped.set(question.page, []);
-      grouped.get(question.page).push(question);
-    });
-
-    const selected = [];
-    const selectedIds = new Set();
-    // Five valid multiple-choice questions from every page: 17 × 5 = 85.
-    for (let page = 1; page <= 17; page += 1) {
-      const pageQuestions = grouped.get(page) || [];
-      if (pageQuestions.length < 5) {
-        throw new Error(`لا توجد أسئلة اختيار من متعدد كافية للصفحة ${page}.`);
+  function getPrebuiltExam(variantIndex) {
+    const normalized = Number.isInteger(variantIndex) ? variantIndex : 0;
+    const model = PREBUILT_EXAM_VARIANTS[normalized];
+    if (!Array.isArray(model) || model.length !== EXAM_SIZE) {
+      throw new Error('نموذج الاختبار المحدد غير متاح.');
+    }
+    const seen = new Set();
+    const copy = model.map((shell) => {
+      const question = getQuestionById(shell.id);
+      if (!question || seen.has(shell.id) || !Array.isArray(shell.optionOrder)) {
+        throw new Error('يوجد خطأ في نموذج الاختبار المحدد.');
       }
-      shuffle(pageQuestions).slice(0, 5).forEach((question) => {
-        selected.push(question);
-        selectedIds.add(question.id);
-      });
-    }
-
-    // Complete the exam with random valid MCQs from the remaining eligible pool.
-    shuffle(ELIGIBLE_QUESTIONS.filter((question) => !selectedIds.has(question.id)))
-      .slice(0, EXAM_SIZE - selected.length)
-      .forEach((question) => selected.push(question));
-
-    if (selected.length !== EXAM_SIZE) {
-      throw new Error('تعذر تكوين اختبار من 100 سؤال.');
-    }
-
-    return shuffle(selected).map((question) => ({
-      id: question.id,
-      optionOrder: shuffle(question.options.map((_, index) => index))
-    }));
+      seen.add(shell.id);
+      return { id: shell.id, optionOrder: [...shell.optionOrder] };
+    });
+    return copy;
   }
 
-  function createNewState(durationMinutes) {
+  function createNewState(durationMinutes, variantIndex) {
     const now = Date.now();
     return {
-      version: 2,
+      version: 3,
       status: 'active',
+      variantIndex,
       durationMinutes,
       startedAt: now,
       endsAt: now + durationMinutes * 60 * 1000,
       submittedAt: null,
       current: 0,
-      questions: buildBalancedExam(),
+      questions: getPrebuiltExam(variantIndex),
       answers: Array(EXAM_SIZE).fill(null),
       marked: Array(EXAM_SIZE).fill(false)
     };
@@ -138,18 +127,53 @@
   function loadSavedState() {
     try {
       const saved = JSON.parse(storageGet(STORAGE_KEY));
-      if (!saved || saved.version !== 2 || saved.questions?.length !== EXAM_SIZE) return null;
+      if (!saved || saved.version !== 3 || saved.questions?.length !== EXAM_SIZE) return null;
       return saved;
     } catch (_) {
       return null;
     }
   }
 
+  function isMobileExamViewport() {
+    return window.matchMedia('(max-width: 760px)').matches;
+  }
+
+  function collapseMobilePalette() {
+    if (!isMobileExamViewport()) return;
+    const palette = document.querySelector('.question-palette');
+    if (!palette) return;
+    palette.classList.add('is-collapsed');
+    const toggle = $('togglePaletteBtn');
+    if (toggle) {
+      toggle.textContent = 'إظهار';
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  }
+
+  function resetMobileQuestionScroll() {
+    if (!isMobileExamViewport()) return;
+    requestAnimationFrame(() => {
+      const body = document.querySelector('.exam-question-body');
+      if (body) body.scrollTo({ top: 0, behavior: 'auto' });
+    });
+  }
+
   function setScreen(name) {
     setupScreen.hidden = name !== 'setup';
     examScreen.hidden = name !== 'exam';
     resultScreen.hidden = name !== 'result';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    const examActive = name === 'exam';
+    document.body.classList.toggle('exam-active', examActive);
+    document.documentElement.classList.toggle('exam-active', examActive);
+
+    if (examActive && isMobileExamViewport()) {
+      collapseMobilePalette();
+      window.scrollTo({ top: 0, behavior: 'auto' });
+      resetMobileQuestionScroll();
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   }
 
   function syncDurationUI(minutes) {
@@ -160,6 +184,27 @@
     });
   }
 
+  function syncVariantUI(variantIndex) {
+    selectedVariant = Math.max(0, Math.min(VARIANT_COUNT - 1, Number(variantIndex) || 0));
+    document.querySelectorAll('.variant-preset').forEach((button) => {
+      const active = Number(button.dataset.variant) === selectedVariant;
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+    const label = $('selectedVariantLabel');
+    if (label) label.textContent = `النموذج ${selectedVariant + 1}`;
+    const note = $('startExamBtn')?.querySelector('small');
+    if (note && !$('startExamBtn').disabled) note.textContent = `سيبدأ النموذج ${selectedVariant + 1} المكوّن من 100 سؤال جاهز`;
+  }
+
+  function resetStartButton() {
+    const button = $('startExamBtn');
+    if (!button) return;
+    button.disabled = false;
+    const note = button.querySelector('small');
+    if (note) note.textContent = `سيبدأ النموذج ${selectedVariant + 1} المكوّن من 100 سؤال جاهز`;
+  }
+
   function updateResumeCard() {
     const saved = loadSavedState();
     if (!saved) {
@@ -168,13 +213,14 @@
     }
     const remaining = Math.max(0, saved.endsAt - Date.now());
     const answered = saved.answers.filter((answer) => answer !== null).length;
-    $('resumeDetails').textContent = `تمت الإجابة عن ${answered} سؤال، والوقت المتبقي ${formatClock(remaining)}.`;
+    $('resumeDetails').textContent = `النموذج ${Number(saved.variantIndex ?? 0) + 1} · تمت الإجابة عن ${answered} سؤال، والوقت المتبقي ${formatClock(remaining)}.`;
     resumeCard.hidden = false;
   }
 
-  function startExam(durationMinutes) {
+  function startExam(durationMinutes, variantIndex) {
+    storageRemove(STORAGE_KEY);
     storageRemove(RESULT_KEY);
-    examState = createNewState(durationMinutes);
+    examState = createNewState(durationMinutes, variantIndex);
     saveState();
     launchExam();
   }
@@ -199,17 +245,19 @@
     const index = examState.current;
     const question = getRenderedQuestion(index);
     const selected = examState.answers[index];
+    const isAnswered = selected !== null;
+    const isCorrect = isAnswered && selected === question.correctIndex;
 
     $('questionSource').textContent = `الصفحة ${String(question.page).padStart(2, '0')} · ${question.pageTitle}`;
-    $('examQuestionNumber').textContent = `السؤال ${index + 1} من ${EXAM_SIZE}`;
+    $('examQuestionNumber').textContent = `النموذج ${Number(examState.variantIndex ?? 0) + 1} · السؤال ${index + 1} من ${EXAM_SIZE}`;
     $('questionPosition').textContent = `${index + 1} / ${EXAM_SIZE}`;
     $('examQuestionText').textContent = question.prompt;
 
     const status = $('questionStatus');
     status.className = 'question-status';
-    if (selected !== null) {
-      status.textContent = 'تمت الإجابة';
-      status.classList.add('is-answered');
+    if (isAnswered) {
+      status.textContent = isCorrect ? 'إجابة صحيحة' : 'إجابة خاطئة';
+      status.classList.add('is-answered', isCorrect ? 'is-correct' : 'is-wrong');
     } else {
       status.textContent = 'غير مجاب';
     }
@@ -223,9 +271,15 @@
       button.type = 'button';
       button.className = 'exam-option';
       button.classList.toggle('is-selected', selected === optionIndex);
+      if (isAnswered) {
+        button.disabled = true;
+        button.classList.toggle('is-correct', optionIndex === question.correctIndex);
+        button.classList.toggle('is-wrong', selected === optionIndex && !isCorrect);
+      }
       button.setAttribute('aria-pressed', String(selected === optionIndex));
       button.innerHTML = `<span class="exam-option__letter">${letters[optionIndex]}</span><span>${escapeHTML(option)}</span>`;
       button.addEventListener('click', () => {
+        if (examState.answers[index] !== null) return;
         examState.answers[index] = optionIndex;
         saveState();
         renderQuestion();
@@ -234,6 +288,27 @@
       });
       options.appendChild(button);
     });
+
+    const feedback = $('instantFeedback');
+    if (isAnswered) {
+      feedback.hidden = false;
+      feedback.className = `instant-feedback ${isCorrect ? 'is-correct' : 'is-wrong'}`;
+      $('instantFeedbackIcon').textContent = isCorrect ? '✓' : '×';
+      $('instantFeedbackTitle').textContent = isCorrect ? 'إجابتك صحيحة' : 'إجابتك خاطئة';
+      $('instantFeedbackAnswer').textContent = isCorrect
+        ? `الإجابة الصحيحة: ${question.options[question.correctIndex]}`
+        : `الإجابة الصحيحة هي: ${question.options[question.correctIndex]}`;
+      $('instantFeedbackExplanation').textContent = question.explanation || '';
+      $('instantFeedbackExplanation').hidden = !question.explanation;
+    } else {
+      feedback.hidden = true;
+      feedback.className = 'instant-feedback';
+      $('instantFeedbackIcon').textContent = '';
+      $('instantFeedbackTitle').textContent = '';
+      $('instantFeedbackAnswer').textContent = '';
+      $('instantFeedbackExplanation').textContent = '';
+      $('instantFeedbackExplanation').hidden = true;
+    }
 
     const markButton = $('markReviewBtn');
     const isMarked = examState.marked[index];
@@ -244,6 +319,7 @@
     $('prevExamQuestion').disabled = index === 0;
     $('nextExamQuestion').disabled = index === EXAM_SIZE - 1;
     renderPalette();
+    resetMobileQuestionScroll();
   }
 
   function renderPalette() {
@@ -262,7 +338,12 @@
         examState.current = index;
         saveState();
         renderQuestion();
-        if (window.innerWidth < 760) window.scrollTo({ top: $('examScreen').offsetTop, behavior: 'smooth' });
+        if (isMobileExamViewport()) {
+          collapseMobilePalette();
+          resetMobileQuestionScroll();
+        } else {
+          window.scrollTo({ top: $('examScreen').offsetTop, behavior: 'smooth' });
+        }
       });
       grid.appendChild(button);
     });
@@ -333,7 +414,8 @@
     });
     const submittedAt = Date.now();
     return {
-      version: 2,
+      version: 3,
+      variantIndex: Number(examState.variantIndex ?? 0),
       durationMinutes: examState.durationMinutes,
       startedAt: examState.startedAt,
       submittedAt,
@@ -362,7 +444,7 @@
     if (percent >= 80) return ['جيد جداً', 'إجابات قوية، مع حاجة إلى مراجعة محدودة للمحاور الأضعف.'];
     if (percent >= 70) return ['جيد', 'الأساس العلمي واضح، لكن بعض الصفحات تحتاج تثبيتاً إضافياً.'];
     if (percent >= 60) return ['مقبول', 'نجحت في الأساسيات، وتحتاج إلى مراجعة منظمة قبل الاختبار التالي.'];
-    return ['يحتاج إلى مراجعة', 'راجع الأسئلة الخاطئة والمتروكة، ثم أعد المحاولة ببنك أسئلة جديد.'];
+    return ['يحتاج إلى مراجعة', 'راجع الأسئلة الخاطئة والمتروكة، ثم أعد المحاولة بنموذج آخر.'];
   }
 
   function renderResult(result) {
@@ -376,6 +458,7 @@
     $('wrongResult').textContent = String(result.wrong);
     $('blankResult').textContent = String(result.blank);
     $('usedTimeResult').textContent = formatUsedTime(result.submittedAt - result.startedAt);
+    $('variantResult').textContent = `النموذج ${Number(result.variantIndex ?? 0) + 1}`;
     $('resultScoreRing').style.setProperty('--score-angle', `${result.percent * 3.6}deg`);
 
     renderBreakdown(result);
@@ -435,12 +518,15 @@
   function loadLastResult() {
     try {
       const result = JSON.parse(storageGet(RESULT_KEY));
-      return result?.version === 2 ? result : null;
+      return result?.version === 3 ? result : null;
     } catch (_) {
       return null;
     }
   }
 
+  document.querySelectorAll('.variant-preset').forEach((button) => {
+    button.addEventListener('click', () => syncVariantUI(Number(button.dataset.variant)));
+  });
   durationRange.addEventListener('input', () => syncDurationUI(Number(durationRange.value)));
   document.querySelectorAll('.duration-preset').forEach((button) => {
     button.addEventListener('click', () => syncDurationUI(Number(button.dataset.minutes)));
@@ -450,9 +536,9 @@
     const note = button.querySelector('small');
     const originalNote = note.textContent;
     button.disabled = true;
-    note.textContent = 'جارٍ إنشاء الاختبار…';
+    note.textContent = 'جارٍ تجهيز النموذج…';
     try {
-      startExam(Number(durationRange.value));
+      startExam(Number(durationRange.value), selectedVariant);
     } catch (error) {
       console.error(error);
       button.disabled = false;
@@ -467,7 +553,9 @@
   });
   $('discardAttemptBtn').addEventListener('click', () => {
     storageRemove(STORAGE_KEY);
+    examState = null;
     updateResumeCard();
+    resetStartButton();
   });
   $('prevExamQuestion').addEventListener('click', () => {
     if (examState.current > 0) { examState.current -= 1; saveState(); renderQuestion(); }
@@ -496,8 +584,15 @@
     });
   });
   $('newAttemptBtn').addEventListener('click', () => {
+    const lastResult = loadLastResult();
+    const nextVariant = ((Number(lastResult?.variantIndex ?? selectedVariant) + 1) % VARIANT_COUNT);
+    clearInterval(timerInterval);
+    storageRemove(STORAGE_KEY);
     storageRemove(RESULT_KEY);
+    examState = null;
     syncDurationUI(90);
+    syncVariantUI(nextVariant);
+    resetStartButton();
     setScreen('setup');
     updateResumeCard();
   });
@@ -511,6 +606,19 @@
     if (examState?.status === 'active') saveState();
   });
 
+  window.addEventListener('resize', () => {
+    if (examState?.status !== 'active') return;
+    document.body.classList.add('exam-active');
+    document.documentElement.classList.add('exam-active');
+    if (isMobileExamViewport()) {
+      collapseMobilePalette();
+      resetMobileQuestionScroll();
+    }
+  });
+
+  OLD_STORAGE_KEYS.forEach(storageRemove);
   syncDurationUI(90);
+  syncVariantUI(0);
+  resetStartButton();
   updateResumeCard();
 })();

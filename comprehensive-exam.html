@@ -2,7 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#2d6a68" />
   <meta name="description" content="اختبار شامل تفاعلي من 100 سؤال اختيار من متعدد من صفحات مقرر تشريح الفم والأسنان." />
   <title>الاختبار الشامل | تشريح الفم والأسنان</title>
@@ -67,10 +67,10 @@
         <div class="exam-hero__content">
           <span class="exam-kicker">محاكاة اختبار جامعي</span>
           <h2>اختبار شامل من 100 سؤال</h2>
-          <p>يُنشأ الاختبار من أسئلة الاختيار من متعدد الصالحة في الصفحات السبع عشرة. تتغير الأسئلة وترتيبها وترتيب الخيارات في كل محاولة، مع ضمان تغطية جميع الصفحات.</p>
+          <p>تم تجهيز أربعة نماذج ثابتة، يحتوي كل نموذج على 100 سؤال اختيار من متعدد من الصفحات السبع عشرة. يمكنك إعادة الاختبار واختيار نموذج مختلف دون انتظار توليد الأسئلة.</p>
           <div class="exam-facts">
             <span><strong>100</strong> سؤال اختيار من متعدد</span>
-            <span><strong>188</strong> سؤال اختيار من متعدد مؤهلاً</span>
+            <span><strong>4</strong> نماذج جاهزة × 100 سؤال</span>
             <span><strong>17</strong> صفحة مشمولة</span>
             <span><strong>60–120</strong> دقيقة</span>
           </div>
@@ -82,9 +82,23 @@
       </article>
 
       <div class="exam-setup-grid">
-        <section class="exam-card duration-card" aria-labelledby="durationTitle">
+        <section class="exam-card variant-card" aria-labelledby="variantTitle">
           <div class="exam-card__heading">
             <span class="exam-step">1</span>
+            <div><h3 id="variantTitle">اختر نموذج الاختبار</h3><p>أربعة نماذج جاهزة، في كل نموذج 100 سؤال مع تغطية الصفحات كلها.</p></div>
+          </div>
+          <div class="variant-presets" role="group" aria-label="اختيار نموذج الاختبار">
+            <button type="button" class="variant-preset is-active" data-variant="0" aria-pressed="true"><strong>النموذج 1</strong><span>100 سؤال</span></button>
+            <button type="button" class="variant-preset" data-variant="1" aria-pressed="false"><strong>النموذج 2</strong><span>100 سؤال</span></button>
+            <button type="button" class="variant-preset" data-variant="2" aria-pressed="false"><strong>النموذج 3</strong><span>100 سؤال</span></button>
+            <button type="button" class="variant-preset" data-variant="3" aria-pressed="false"><strong>النموذج 4</strong><span>100 سؤال</span></button>
+          </div>
+          <p class="variant-selection-note">المحدد حالياً: <strong id="selectedVariantLabel">النموذج 1</strong></p>
+        </section>
+
+        <section class="exam-card duration-card" aria-labelledby="durationTitle">
+          <div class="exam-card__heading">
+            <span class="exam-step">2</span>
             <div><h3 id="durationTitle">اختر مدة الاختبار</h3><p>المدة اختيارية من ساعة إلى ساعتين.</p></div>
           </div>
 
@@ -103,12 +117,12 @@
 
         <section class="exam-card rules-card" aria-labelledby="rulesTitle">
           <div class="exam-card__heading">
-            <span class="exam-step">2</span>
+            <span class="exam-step">3</span>
             <div><h3 id="rulesTitle">نظام الاختبار</h3><p>قواعد واضحة قبل بدء المحاولة.</p></div>
           </div>
           <ul class="exam-rules">
-            <li>يُختار 100 سؤال جديداً في كل محاولة من جميع الصفحات.</li>
-            <li>لا تظهر الإجابات الصحيحة أثناء الاختبار؛ تظهر فقط بعد التسليم.</li>
+            <li>يوجد أربعة نماذج جاهزة، في كل نموذج 100 سؤال من جميع الصفحات.</li>
+            <li>بعد اختيار الإجابة تظهر فوراً نتيجة صحيحة أو خاطئة مع الإجابة الصحيحة والشرح.</li>
             <li>يمكن التنقل بين الأسئلة ووضع علامة للمراجعة.</li>
             <li>يتم التسليم تلقائياً عند انتهاء الوقت.</li>
             <li>يُحفظ تقدم المحاولة في المتصفح عند التحديث أو الإغلاق العرضي.</li>
@@ -127,7 +141,7 @@
       <div class="start-exam-wrap">
         <button id="startExamBtn" class="start-exam-button" type="button">
           <span>ابدأ الاختبار الشامل</span>
-          <small>سيتم إنشاء 100 سؤال عشوائي الآن</small>
+          <small>سيبدأ النموذج 1 المكوّن من 100 سؤال جاهز</small>
         </button>
       </div>
     </section>
@@ -159,6 +173,14 @@
           <div class="exam-question-body">
             <h3 id="examQuestionText">جارٍ تحميل السؤال…</h3>
             <div id="examOptions" class="exam-options"></div>
+            <div id="instantFeedback" class="instant-feedback" role="status" aria-live="polite" hidden>
+              <div id="instantFeedbackIcon" class="instant-feedback__icon" aria-hidden="true"></div>
+              <div class="instant-feedback__content">
+                <strong id="instantFeedbackTitle"></strong>
+                <p id="instantFeedbackAnswer"></p>
+                <p id="instantFeedbackExplanation" class="instant-feedback__explanation"></p>
+              </div>
+            </div>
           </div>
 
           <footer class="exam-question-footer no-print">
@@ -200,6 +222,7 @@
             <div><span>الإجابات الخاطئة</span><strong id="wrongResult">0</strong></div>
             <div><span>غير مجاب</span><strong id="blankResult">0</strong></div>
             <div><span>الوقت المستخدم</span><strong id="usedTimeResult">00:00</strong></div>
+            <div><span>نموذج الاختبار</span><strong id="variantResult">النموذج 1</strong></div>
           </div>
         </div>
       </article>
@@ -231,7 +254,7 @@
       <div class="result-actions no-print">
         <a class="secondary-button result-link-button" href="index.html">العودة إلى الصفحات</a>
         <button id="printResultBtn" class="secondary-button" type="button">طباعة النتيجة</button>
-        <button id="newAttemptBtn" class="primary-button" type="button">محاولة جديدة بأسئلة مختلفة</button>
+        <button id="newAttemptBtn" class="primary-button" type="button">اختيار نموذج آخر وإعادة الاختبار</button>
       </div>
     </section>
   </main>
