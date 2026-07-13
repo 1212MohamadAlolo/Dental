@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="global-ui.css" />
   <link rel="stylesheet" href="annotation-mode.css" />
+  <link rel="stylesheet" href="print-system.css" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
@@ -29,7 +30,7 @@
       </div>
       <div class="topbar__actions">
         <span class="page-pill" aria-label="رقم الصفحة">الصفحة 09</span>
-        <button class="icon-button" id="printBtn" type="button" title="طباعة الصفحة" aria-label="طباعة الصفحة">
+        <button class="icon-button" id="printBtn" type="button" title="حفظ الدرس كملف PDF بحجم A4" aria-label="حفظ الدرس كملف PDF بحجم A4">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/></svg>
         </button>
       </div>
@@ -131,11 +132,11 @@
           </div>
 
           <figure class="anatomy-card source-figure page09-photo-card">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-09/gingivitis-photo.png" data-title="صورة سريرية لالتهاب اللثة" aria-label="تكبير صورة التهاب اللثة">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-09/gingivitis-photo.webp" data-title="صورة سريرية لالتهاب اللثة" aria-label="تكبير صورة التهاب اللثة">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap page09-photo-card__image">
-              <img src="assets/page-09/gingivitis-photo.png" alt="صورة سريرية تبين احمراراً وانتفاخاً في اللثة الأمامية" loading="eager" />
+              <img src="assets/page-09/gingivitis-photo.webp" alt="صورة سريرية تبين احمراراً وانتفاخاً في اللثة الأمامية" loading="lazy" decoding="async" width="860" height="510" />
             </div>
             <figcaption>
               <strong>صورة مقتطعة من الصفحة الأصلية</strong>
@@ -208,11 +209,11 @@
 
         <div class="support-figure-row">
           <figure class="anatomy-card source-figure support-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-09/acute-mouth-inflammation-illustration.png" data-title="رسم توضيحي للوز والبلعوم في حالة التهاب" aria-label="تكبير الرسم الداعم">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-09/acute-mouth-inflammation-illustration.webp" data-title="رسم توضيحي للوز والبلعوم في حالة التهاب" aria-label="تكبير الرسم الداعم">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap support-figure__image">
-              <img src="assets/page-09/acute-mouth-inflammation-illustration.png" alt="رسم يقارن بين الحالة الطبيعية وحالة الالتهاب في الفم والبلعوم" loading="lazy" />
+              <img src="assets/page-09/acute-mouth-inflammation-illustration.webp" alt="رسم يقارن بين الحالة الطبيعية وحالة الالتهاب في الفم والبلعوم" loading="lazy" decoding="async" width="860" height="676" />
             </div>
             <figcaption>
               <strong>رسم مقتطع من الصفحة الأصلية</strong>
@@ -257,11 +258,11 @@
           </div>
 
           <figure class="anatomy-card source-figure page09-photo-card page09-photo-card--large">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-09/periodontal-abscess-photo.png" data-title="صورة سريرية لخراج لثوي رباطي" aria-label="تكبير صورة الخراج اللثوي">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-09/periodontal-abscess-photo.webp" data-title="صورة سريرية لخراج لثوي رباطي" aria-label="تكبير صورة الخراج اللثوي">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap page09-photo-card__image page09-photo-card__image--large">
-              <img src="assets/page-09/periodontal-abscess-photo.png" alt="صورة سريرية لخراج لثوي فوق الأسنان الأمامية العلوية" loading="lazy" />
+              <img src="assets/page-09/periodontal-abscess-photo.webp" alt="صورة سريرية لخراج لثوي فوق الأسنان الأمامية العلوية" loading="lazy" decoding="async" width="900" height="567" />
             </div>
             <figcaption>
               <strong>صورة مقتطعة من الصفحة الأصلية</strong>
@@ -401,12 +402,13 @@
 
   <dialog class="image-dialog" id="imageDialog">
     <button class="dialog-close" id="dialogClose" type="button" aria-label="إغلاق الصورة">×</button>
-    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" /></div>
+    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" decoding="async" /></div>
   </dialog>
 
   <script src="page-09.js"></script>
   <script src="bookmarks.js"></script>
   <script src="global-ui.js"></script>
   <script src="annotation-mode.js"></script>
+  <script src="print-system.js"></script>
 </body>
 </html>

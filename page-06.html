@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="global-ui.css" />
   <link rel="stylesheet" href="annotation-mode.css" />
+  <link rel="stylesheet" href="print-system.css" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
@@ -29,7 +30,7 @@
       </div>
       <div class="topbar__actions">
         <span class="page-pill" aria-label="رقم الصفحة">الصفحة 06</span>
-        <button class="icon-button" id="printBtn" type="button" title="طباعة الصفحة" aria-label="طباعة الصفحة">
+        <button class="icon-button" id="printBtn" type="button" title="حفظ الدرس كملف PDF بحجم A4" aria-label="حفظ الدرس كملف PDF بحجم A4">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/></svg>
         </button>
       </div>
@@ -165,11 +166,11 @@
         </div>
 
         <figure class="anatomy-card source-figure eruption-source-figure">
-          <button class="image-zoom no-print" type="button" data-image="assets/page-06/eruption-timeline-source.png" data-title="أوقات بزوغ الأسنان المؤقتة والدائمة" aria-label="تكبير مخطط أوقات بزوغ الأسنان">
+          <button class="image-zoom no-print" type="button" data-image="assets/page-06/eruption-timeline-source.webp" data-title="أوقات بزوغ الأسنان المؤقتة والدائمة" aria-label="تكبير مخطط أوقات بزوغ الأسنان">
             <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
           </button>
           <div class="anatomy-card__image-wrap eruption-source-figure__image">
-            <img src="assets/page-06/eruption-timeline-source.png" alt="مخطط مأخوذ من المصدر يوضح أوقات بزوغ الأسنان المؤقتة والدائمة في الفكين" loading="eager" />
+            <img src="assets/page-06/eruption-timeline-source.webp" alt="مخطط مأخوذ من المصدر يوضح أوقات بزوغ الأسنان المؤقتة والدائمة في الفكين" loading="lazy" decoding="async" width="1048" height="674" />
           </div>
           <figcaption>
             <strong>المخطط الوارد في الصفحة الأصلية</strong>
@@ -502,12 +503,13 @@
 
   <dialog class="image-dialog" id="imageDialog">
     <button class="dialog-close" id="dialogClose" type="button" aria-label="إغلاق الصورة">×</button>
-    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" /></div>
+    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" decoding="async" /></div>
   </dialog>
 
   <script src="page-06.js"></script>
   <script src="bookmarks.js"></script>
   <script src="global-ui.js"></script>
   <script src="annotation-mode.js"></script>
+  <script src="print-system.js"></script>
 </body>
 </html>
