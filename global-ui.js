@@ -66,9 +66,6 @@
       <a href="learning-map.html" title="خريطة التعلم" aria-label="خريطة التعلم">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5 9 4l6 2.5L20 4v13.5L15 20l-6-2.5L4 20V6.5Z"/><path d="M9 4v13.5M15 6.5V20"/></svg>
       </a>
-      <button id="globalInkToggle" type="button" title="وضع القراءة والتلخيص بالقلم" aria-label="وضع القراءة والتلخيص بالقلم">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 20 4.2-1 10.4-10.4-3.2-3.2L5 15.8 4 20Z"/><path d="m13.8 7 3.2 3.2M4 20h5"/></svg>
-      </button>
       <button id="globalImagesToggle" type="button" aria-pressed="false" title="إخفاء الصور مؤقتاً">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z"/><path d="m5 16 4-4 3 3 2-2 5 4M8 9h.01"/></svg>
       </button>
