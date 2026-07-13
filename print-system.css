@@ -68,11 +68,6 @@
   .save-paragraph-button,
   .bookmark-toast,
   .bookmark-storage-frame,
-  .ink-toolbar,
-  .ink-mode-intro,
-  .ink-toast,
-  .ink-entry-pill,
-  #globalInkToggle,
   #studyPanel,
   .print-preparing-toast {
     display: none !important;
@@ -688,30 +683,6 @@
 
   li + li {
     margin-block-start: .8mm !important;
-  }
-
-  /* Saved pen/highlighter strokes remain part of the PDF. */
-  .ink-host {
-    position: relative !important;
-    isolation: isolate !important;
-  }
-
-  .ink-layer {
-    display: block !important;
-    pointer-events: none !important;
-  }
-
-  .ink-summary-sheet:not(.has-ink) {
-    display: none !important;
-  }
-
-  .ink-summary-sheet.has-ink {
-    display: block !important;
-    break-before: page;
-  }
-
-  .ink-summary-paper {
-    min-height: 190mm !important;
   }
 
   /* Generic safety net against horizontal clipping. */

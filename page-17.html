@@ -11,32 +11,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="global-ui.css" />
-  <link rel="stylesheet" href="annotation-mode-recovery.css" />
-  <link rel="stylesheet" href="learning-modes-recovery.css" />
+  <link rel="stylesheet" href="learning-modes-two.css?v=1.0.0" />
   <link rel="stylesheet" href="interactive-images.css" />
   <link rel="stylesheet" href="print-system.css" />
-  <script id="ink-recovery-bootstrap">
-    (() => {
-      const fileName = decodeURIComponent(location.pathname.split('/').pop() || 'index.html');
-      const key = `oral-health-learning-mode-v1:${fileName}`;
-      try {
-        if (localStorage.getItem(key) === 'summary') localStorage.setItem(key, 'reading');
-      } catch (_) {}
-      try {
-        if (history.state && history.state.oralHealthInkMode) {
-          history.replaceState({ ...history.state, oralHealthInkMode: false }, '', location.href);
-        }
-      } catch (_) {}
-      window.addEventListener('DOMContentLoaded', () => {
-        document.body?.classList.remove('ink-mode', 'ink-pen-down');
-        if (document.body && !document.body.dataset.learningMode) document.body.dataset.learningMode = 'reading';
-      }, { once: true });
-    })();
-  </script>
+  <link rel="stylesheet" href="dark-mode-polish.css?v=1.0.0" />
 </head>
 <body>
-    <button class="ink-emergency-recovery no-print" type="button" aria-label="الخروج الآمن من وضع التلخيص"
-    onclick="(() => { const f = decodeURIComponent(location.pathname.split('/').pop() || 'index.html'); try { localStorage.setItem('oral-health-learning-mode-v1:' + f, 'reading'); } catch (_) {} document.body.classList.remove('ink-mode','ink-pen-down','ink-ui-ready'); document.body.dataset.learningMode='reading'; const o=document.getElementById('overviewPanel'); const s=document.getElementById('studyPanel'); if(o){o.hidden=false;o.style.display='block';} if(s){s.hidden=true;s.style.display='none';} document.querySelectorAll('.mode-tab').forEach(t=>{const a=t.dataset.mode==='reading';t.classList.toggle('is-active',a);t.setAttribute('aria-selected',String(a));}); this.hidden=true; })()">خروج آمن إلى القراءة</button>
 <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
 
   <header class="topbar no-print">
@@ -339,7 +319,7 @@
 
     <nav class="page-actions no-print" aria-label="التنقل التسلسلي">
       <a class="page-action" href="page-16.html"><span>→ الصفحة السابقة</span><span>العادات الفموية السيئة</span></a>
-      <span class="page-counter">صفحة 17 من 70</span>
+      <span class="page-counter">صفحة 17 من 17</span>
       <span class="page-action page-action--primary is-disabled"><span>الصفحة التالية</span><span>آخر صفحة في هذا الجزء ←</span></span>
     </nav>
   </main>
@@ -359,8 +339,7 @@
   <script src="page-17.js"></script>
   <script src="bookmarks.js"></script>
   <script src="global-ui.js"></script>
-  <script src="annotation-mode-recovery.js"></script>
-  <script src="learning-modes-recovery.js"></script>
+  <script src="learning-modes-two.js?v=1.0.0"></script>
   <script src="interactive-images.js"></script>
   <script src="print-system.js"></script>
 </body>
