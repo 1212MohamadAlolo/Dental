@@ -1,0 +1,769 @@
+{
+  "images": [
+    {
+      "png": "assets/page-01/maxilla-anterior-whiteboard.png",
+      "webp": "assets/page-01/maxilla-anterior-whiteboard.webp",
+      "old_bytes": 1691448,
+      "new_bytes": 178018,
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "png": "assets/page-01/maxilla-medial-whiteboard.png",
+      "webp": "assets/page-01/maxilla-medial-whiteboard.webp",
+      "old_bytes": 1511982,
+      "new_bytes": 124524,
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "png": "assets/page-02/mandible-dental-relations-whiteboard.png",
+      "webp": "assets/page-02/mandible-dental-relations-whiteboard.webp",
+      "old_bytes": 1062003,
+      "new_bytes": 76200,
+      "width": 1739,
+      "height": 1358
+    },
+    {
+      "png": "assets/page-02/mandible-lateral-whiteboard.png",
+      "webp": "assets/page-02/mandible-lateral-whiteboard.webp",
+      "old_bytes": 642466,
+      "new_bytes": 71774,
+      "width": 1148,
+      "height": 1031
+    },
+    {
+      "png": "assets/page-02/mandible-medial-whiteboard.png",
+      "webp": "assets/page-02/mandible-medial-whiteboard.webp",
+      "old_bytes": 577555,
+      "new_bytes": 66954,
+      "width": 1172,
+      "height": 1028
+    },
+    {
+      "png": "assets/page-03/lips-anatomy-source.png",
+      "webp": "assets/page-03/lips-anatomy-source.webp",
+      "old_bytes": 387587,
+      "new_bytes": 35446,
+      "width": 792,
+      "height": 450
+    },
+    {
+      "png": "assets/page-03/page-03-source.png",
+      "webp": "assets/page-03/page-03-source.webp",
+      "old_bytes": 233276,
+      "new_bytes": 101082,
+      "width": 773,
+      "height": 971
+    },
+    {
+      "png": "assets/page-04/oral-cavity-source.png",
+      "webp": "assets/page-04/oral-cavity-source.webp",
+      "old_bytes": 110721,
+      "new_bytes": 16566,
+      "width": 520,
+      "height": 380
+    },
+    {
+      "png": "assets/page-04/page-04-source-01.png",
+      "webp": "assets/page-04/page-04-source-01.webp",
+      "old_bytes": 172233,
+      "new_bytes": 65362,
+      "width": 782,
+      "height": 1012
+    },
+    {
+      "png": "assets/page-04/page-04-source-02.png",
+      "webp": "assets/page-04/page-04-source-02.webp",
+      "old_bytes": 216503,
+      "new_bytes": 98592,
+      "width": 700,
+      "height": 1101
+    },
+    {
+      "png": "assets/page-04/page-04-source-03.png",
+      "webp": "assets/page-04/page-04-source-03.webp",
+      "old_bytes": 21297,
+      "new_bytes": 18586,
+      "width": 633,
+      "height": 155
+    },
+    {
+      "png": "assets/page-04/tongue-regions-source.png",
+      "webp": "assets/page-04/tongue-regions-source.webp",
+      "old_bytes": 119736,
+      "new_bytes": 16238,
+      "width": 425,
+      "height": 420
+    },
+    {
+      "png": "assets/page-05/page-05-source-01.png",
+      "webp": "assets/page-05/page-05-source-01.webp",
+      "old_bytes": 143522,
+      "new_bytes": 85112,
+      "width": 706,
+      "height": 809
+    },
+    {
+      "png": "assets/page-05/page-05-source-02.png",
+      "webp": "assets/page-05/page-05-source-02.webp",
+      "old_bytes": 217314,
+      "new_bytes": 62620,
+      "width": 720,
+      "height": 729
+    },
+    {
+      "png": "assets/page-05/salivary-glands-source.png",
+      "webp": "assets/page-05/salivary-glands-source.webp",
+      "old_bytes": 324276,
+      "new_bytes": 28512,
+      "width": 840,
+      "height": 580
+    },
+    {
+      "png": "assets/page-06/eruption-timeline-source.png",
+      "webp": "assets/page-06/eruption-timeline-source.webp",
+      "old_bytes": 649806,
+      "new_bytes": 92414,
+      "width": 1048,
+      "height": 674
+    },
+    {
+      "png": "assets/page-06/page-06-source-01.png",
+      "webp": "assets/page-06/page-06-source-01.webp",
+      "old_bytes": 334842,
+      "new_bytes": 97734,
+      "width": 699,
+      "height": 997
+    },
+    {
+      "png": "assets/page-06/page-06-source-02.png",
+      "webp": "assets/page-06/page-06-source-02.webp",
+      "old_bytes": 85440,
+      "new_bytes": 47062,
+      "width": 685,
+      "height": 597
+    },
+    {
+      "png": "assets/page-06/page-06-source-03.png",
+      "webp": "assets/page-06/page-06-source-03.webp",
+      "old_bytes": 51970,
+      "new_bytes": 33090,
+      "width": 618,
+      "height": 261
+    },
+    {
+      "png": "assets/page-06/page-06-source-04.png",
+      "webp": "assets/page-06/page-06-source-04.webp",
+      "old_bytes": 149503,
+      "new_bytes": 91654,
+      "width": 703,
+      "height": 610
+    },
+    {
+      "png": "assets/page-06/page-06-source-05.png",
+      "webp": "assets/page-06/page-06-source-05.webp",
+      "old_bytes": 174669,
+      "new_bytes": 101760,
+      "width": 718,
+      "height": 1101
+    },
+    {
+      "png": "assets/page-06/page-06-source-06.png",
+      "webp": "assets/page-06/page-06-source-06.webp",
+      "old_bytes": 200547,
+      "new_bytes": 122148,
+      "width": 697,
+      "height": 1091
+    },
+    {
+      "png": "assets/page-07/cementum-source-diagram.png",
+      "webp": "assets/page-07/cementum-source-diagram.webp",
+      "old_bytes": 545809,
+      "new_bytes": 54318,
+      "width": 760,
+      "height": 762
+    },
+    {
+      "png": "assets/page-07/dentin-microstructure.png",
+      "webp": "assets/page-07/dentin-microstructure.webp",
+      "old_bytes": 228197,
+      "new_bytes": 29426,
+      "width": 760,
+      "height": 360
+    },
+    {
+      "png": "assets/page-07/dentin-tooth-cross-section.png",
+      "webp": "assets/page-07/dentin-tooth-cross-section.webp",
+      "old_bytes": 517773,
+      "new_bytes": 71934,
+      "width": 760,
+      "height": 731
+    },
+    {
+      "png": "assets/page-07/page-07-source-01.png",
+      "webp": "assets/page-07/page-07-source-01.webp",
+      "old_bytes": 208498,
+      "new_bytes": 127832,
+      "width": 687,
+      "height": 978
+    },
+    {
+      "png": "assets/page-07/page-07-source-02.png",
+      "webp": "assets/page-07/page-07-source-02.webp",
+      "old_bytes": 317813,
+      "new_bytes": 93682,
+      "width": 705,
+      "height": 1082
+    },
+    {
+      "png": "assets/page-07/page-07-source-03.png",
+      "webp": "assets/page-07/page-07-source-03.webp",
+      "old_bytes": 219191,
+      "new_bytes": 49182,
+      "width": 838,
+      "height": 422
+    },
+    {
+      "png": "assets/page-07/page-07-source-04.png",
+      "webp": "assets/page-07/page-07-source-04.webp",
+      "old_bytes": 158725,
+      "new_bytes": 58120,
+      "width": 818,
+      "height": 460
+    },
+    {
+      "png": "assets/page-07/pulp-source-diagram.png",
+      "webp": "assets/page-07/pulp-source-diagram.webp",
+      "old_bytes": 527935,
+      "new_bytes": 72780,
+      "width": 720,
+      "height": 1092
+    },
+    {
+      "png": "assets/page-08/alveolar-bone-arabic-diagram.png",
+      "webp": "assets/page-08/alveolar-bone-arabic-diagram.webp",
+      "old_bytes": 401049,
+      "new_bytes": 45684,
+      "width": 760,
+      "height": 817
+    },
+    {
+      "png": "assets/page-08/gingiva-anatomy-english.png",
+      "webp": "assets/page-08/gingiva-anatomy-english.webp",
+      "old_bytes": 443032,
+      "new_bytes": 43462,
+      "width": 760,
+      "height": 768
+    },
+    {
+      "png": "assets/page-08/page-08-source-01.png",
+      "webp": "assets/page-08/page-08-source-01.webp",
+      "old_bytes": 260040,
+      "new_bytes": 86182,
+      "width": 763,
+      "height": 1057
+    },
+    {
+      "png": "assets/page-08/page-08-source-02.png",
+      "webp": "assets/page-08/page-08-source-02.webp",
+      "old_bytes": 199707,
+      "new_bytes": 118462,
+      "width": 756,
+      "height": 1056
+    },
+    {
+      "png": "assets/page-08/page-08-source-03.png",
+      "webp": "assets/page-08/page-08-source-03.webp",
+      "old_bytes": 270639,
+      "new_bytes": 81722,
+      "width": 754,
+      "height": 1051
+    },
+    {
+      "png": "assets/page-08/page-08-source-04.png",
+      "webp": "assets/page-08/page-08-source-04.webp",
+      "old_bytes": 225745,
+      "new_bytes": 63222,
+      "width": 725,
+      "height": 770
+    },
+    {
+      "png": "assets/page-08/periodontium-overview-diagram.png",
+      "webp": "assets/page-08/periodontium-overview-diagram.webp",
+      "old_bytes": 528284,
+      "new_bytes": 54764,
+      "width": 760,
+      "height": 892
+    },
+    {
+      "png": "assets/page-09/acute-mouth-inflammation-illustration.png",
+      "webp": "assets/page-09/acute-mouth-inflammation-illustration.webp",
+      "old_bytes": 287566,
+      "new_bytes": 66062,
+      "width": 860,
+      "height": 676
+    },
+    {
+      "png": "assets/page-09/gingivitis-photo.png",
+      "webp": "assets/page-09/gingivitis-photo.webp",
+      "old_bytes": 302722,
+      "new_bytes": 21834,
+      "width": 860,
+      "height": 510
+    },
+    {
+      "png": "assets/page-09/page-09-source-01.png",
+      "webp": "assets/page-09/page-09-source-01.webp",
+      "old_bytes": 240856,
+      "new_bytes": 85820,
+      "width": 720,
+      "height": 1020
+    },
+    {
+      "png": "assets/page-09/page-09-source-02.png",
+      "webp": "assets/page-09/page-09-source-02.webp",
+      "old_bytes": 231235,
+      "new_bytes": 144972,
+      "width": 689,
+      "height": 1051
+    },
+    {
+      "png": "assets/page-09/page-09-source-03.png",
+      "webp": "assets/page-09/page-09-source-03.webp",
+      "old_bytes": 304752,
+      "new_bytes": 116660,
+      "width": 714,
+      "height": 1041
+    },
+    {
+      "png": "assets/page-09/page-09-source-04.png",
+      "webp": "assets/page-09/page-09-source-04.webp",
+      "old_bytes": 362342,
+      "new_bytes": 121410,
+      "width": 730,
+      "height": 1040
+    },
+    {
+      "png": "assets/page-09/page-09-source-05.png",
+      "webp": "assets/page-09/page-09-source-05.webp",
+      "old_bytes": 63309,
+      "new_bytes": 37750,
+      "width": 744,
+      "height": 326
+    },
+    {
+      "png": "assets/page-09/periodontal-abscess-photo.png",
+      "webp": "assets/page-09/periodontal-abscess-photo.webp",
+      "old_bytes": 427515,
+      "new_bytes": 35402,
+      "width": 900,
+      "height": 567
+    },
+    {
+      "png": "assets/page-12/aphthous-ulcers-source-photo.png",
+      "webp": "assets/page-12/aphthous-ulcers-source-photo.webp",
+      "old_bytes": 283654,
+      "new_bytes": 19452,
+      "width": 900,
+      "height": 519
+    },
+    {
+      "png": "assets/page-12/page-12-source-01.png",
+      "webp": "assets/page-12/page-12-source-01.webp",
+      "old_bytes": 259654,
+      "new_bytes": 98396,
+      "width": 724,
+      "height": 1047
+    },
+    {
+      "png": "assets/page-12/page-12-source-02.png",
+      "webp": "assets/page-12/page-12-source-02.webp",
+      "old_bytes": 251024,
+      "new_bytes": 157494,
+      "width": 747,
+      "height": 1093
+    },
+    {
+      "png": "assets/page-12/page-12-source-03.png",
+      "webp": "assets/page-12/page-12-source-03.webp",
+      "old_bytes": 134513,
+      "new_bytes": 73920,
+      "width": 745,
+      "height": 950
+    },
+    {
+      "png": "assets/page-13/leukoplakia-photo.png",
+      "webp": "assets/page-13/leukoplakia-photo.webp",
+      "old_bytes": 151888,
+      "new_bytes": 13644,
+      "width": 568,
+      "height": 296
+    },
+    {
+      "png": "assets/page-13/leukoplakia-tongue-alt.png",
+      "webp": "assets/page-13/leukoplakia-tongue-alt.webp",
+      "old_bytes": 210001,
+      "new_bytes": 18866,
+      "width": 465,
+      "height": 446
+    },
+    {
+      "png": "assets/page-13/lip-cancer-photo.png",
+      "webp": "assets/page-13/lip-cancer-photo.webp",
+      "old_bytes": 207564,
+      "new_bytes": 20266,
+      "width": 560,
+      "height": 290
+    },
+    {
+      "png": "assets/page-13/oral-lesion-source-photo.png",
+      "webp": "assets/page-13/oral-lesion-source-photo.webp",
+      "old_bytes": 218114,
+      "new_bytes": 16246,
+      "width": 460,
+      "height": 460
+    },
+    {
+      "png": "assets/page-13/page-13-source-01.png",
+      "webp": "assets/page-13/page-13-source-01.webp",
+      "old_bytes": 265150,
+      "new_bytes": 94742,
+      "width": 702,
+      "height": 1085
+    },
+    {
+      "png": "assets/page-13/page-13-source-02.png",
+      "webp": "assets/page-13/page-13-source-02.webp",
+      "old_bytes": 332093,
+      "new_bytes": 96942,
+      "width": 753,
+      "height": 1033
+    },
+    {
+      "png": "assets/page-13/page-13-source-03.png",
+      "webp": "assets/page-13/page-13-source-03.webp",
+      "old_bytes": 315344,
+      "new_bytes": 139334,
+      "width": 724,
+      "height": 1056
+    },
+    {
+      "png": "assets/page-13/page-13-source-04.png",
+      "webp": "assets/page-13/page-13-source-04.webp",
+      "old_bytes": 181481,
+      "new_bytes": 55926,
+      "width": 724,
+      "height": 806
+    },
+    {
+      "png": "assets/page-13/vestibule-cancer-photo.png",
+      "webp": "assets/page-13/vestibule-cancer-photo.webp",
+      "old_bytes": 205777,
+      "new_bytes": 14718,
+      "width": 560,
+      "height": 459
+    },
+    {
+      "png": "assets/page-14/calculus-anterior-photo.png",
+      "webp": "assets/page-14/calculus-anterior-photo.webp",
+      "old_bytes": 172893,
+      "new_bytes": 14858,
+      "width": 516,
+      "height": 414
+    },
+    {
+      "png": "assets/page-14/calculus-lingual-photo.png",
+      "webp": "assets/page-14/calculus-lingual-photo.webp",
+      "old_bytes": 214391,
+      "new_bytes": 20272,
+      "width": 467,
+      "height": 414
+    },
+    {
+      "png": "assets/page-14/page-14-source-01.png",
+      "webp": "assets/page-14/page-14-source-01.webp",
+      "old_bytes": 302710,
+      "new_bytes": 96190,
+      "width": 732,
+      "height": 1044
+    },
+    {
+      "png": "assets/page-14/page-14-source-02.png",
+      "webp": "assets/page-14/page-14-source-02.webp",
+      "old_bytes": 170227,
+      "new_bytes": 99840,
+      "width": 707,
+      "height": 1089
+    },
+    {
+      "png": "assets/page-15/page-15-source-01.png",
+      "webp": "assets/page-15/page-15-source-01.webp",
+      "old_bytes": 187031,
+      "new_bytes": 112444,
+      "width": 739,
+      "height": 1051
+    },
+    {
+      "png": "assets/page-15/page-15-source-02.png",
+      "webp": "assets/page-15/page-15-source-02.webp",
+      "old_bytes": 299183,
+      "new_bytes": 77926,
+      "width": 691,
+      "height": 928
+    },
+    {
+      "png": "assets/page-15/page-15-source-03.png",
+      "webp": "assets/page-15/page-15-source-03.webp",
+      "old_bytes": 169600,
+      "new_bytes": 98710,
+      "width": 758,
+      "height": 981
+    },
+    {
+      "png": "assets/page-15/page-15-source-04.png",
+      "webp": "assets/page-15/page-15-source-04.webp",
+      "old_bytes": 171259,
+      "new_bytes": 106068,
+      "width": 692,
+      "height": 853
+    },
+    {
+      "png": "assets/page-15/tongue-bacteria-bad-breath.png",
+      "webp": "assets/page-15/tongue-bacteria-bad-breath.webp",
+      "old_bytes": 381640,
+      "new_bytes": 33470,
+      "width": 554,
+      "height": 682
+    },
+    {
+      "png": "assets/page-16/mouth-breathing-diagram.png",
+      "webp": "assets/page-16/mouth-breathing-diagram.webp",
+      "old_bytes": 101864,
+      "new_bytes": 17440,
+      "width": 504,
+      "height": 294
+    },
+    {
+      "png": "assets/page-16/oral-screen-appliance.png",
+      "webp": "assets/page-16/oral-screen-appliance.webp",
+      "old_bytes": 150041,
+      "new_bytes": 12224,
+      "width": 486,
+      "height": 432
+    },
+    {
+      "png": "assets/page-16/page16-source-01.png",
+      "webp": "assets/page-16/page16-source-01.webp",
+      "old_bytes": 232984,
+      "new_bytes": 85284,
+      "width": 744,
+      "height": 1071
+    },
+    {
+      "png": "assets/page-16/page16-source-02.png",
+      "webp": "assets/page-16/page16-source-02.webp",
+      "old_bytes": 137155,
+      "new_bytes": 76148,
+      "width": 734,
+      "height": 948
+    },
+    {
+      "png": "assets/page-16/page16-source-03.png",
+      "webp": "assets/page-16/page16-source-03.webp",
+      "old_bytes": 245415,
+      "new_bytes": 46242,
+      "width": 688,
+      "height": 917
+    },
+    {
+      "png": "assets/page-16/page16-source-04.png",
+      "webp": "assets/page-16/page16-source-04.webp",
+      "old_bytes": 280454,
+      "new_bytes": 80702,
+      "width": 712,
+      "height": 979
+    },
+    {
+      "png": "assets/page-16/page16-source-05.png",
+      "webp": "assets/page-16/page16-source-05.webp",
+      "old_bytes": 315448,
+      "new_bytes": 105332,
+      "width": 735,
+      "height": 1031
+    },
+    {
+      "png": "assets/page-16/page16-source-06.png",
+      "webp": "assets/page-16/page16-source-06.webp",
+      "old_bytes": 259894,
+      "new_bytes": 80630,
+      "width": 745,
+      "height": 893
+    },
+    {
+      "png": "assets/page-16/page16-source-07.png",
+      "webp": "assets/page-16/page16-source-07.webp",
+      "old_bytes": 107044,
+      "new_bytes": 63712,
+      "width": 696,
+      "height": 639
+    },
+    {
+      "png": "assets/page-16/thumb-sucking-appliance-01.png",
+      "webp": "assets/page-16/thumb-sucking-appliance-01.webp",
+      "old_bytes": 95843,
+      "new_bytes": 10206,
+      "width": 438,
+      "height": 380
+    },
+    {
+      "png": "assets/page-16/thumb-sucking-appliance-02.png",
+      "webp": "assets/page-16/thumb-sucking-appliance-02.webp",
+      "old_bytes": 93546,
+      "new_bytes": 11386,
+      "width": 442,
+      "height": 380
+    },
+    {
+      "png": "assets/page-16/thumb-sucking-child.png",
+      "webp": "assets/page-16/thumb-sucking-child.webp",
+      "old_bytes": 199704,
+      "new_bytes": 23598,
+      "width": 624,
+      "height": 462
+    },
+    {
+      "png": "assets/page-16/thumb-sucking-malocclusion.png",
+      "webp": "assets/page-16/thumb-sucking-malocclusion.webp",
+      "old_bytes": 114966,
+      "new_bytes": 10952,
+      "width": 587,
+      "height": 216
+    },
+    {
+      "png": "assets/page-16/tongue-thrust-appliance-01.png",
+      "webp": "assets/page-16/tongue-thrust-appliance-01.webp",
+      "old_bytes": 74071,
+      "new_bytes": 9018,
+      "width": 322,
+      "height": 357
+    },
+    {
+      "png": "assets/page-16/tongue-thrust-appliance-02.png",
+      "webp": "assets/page-16/tongue-thrust-appliance-02.webp",
+      "old_bytes": 91332,
+      "new_bytes": 13440,
+      "width": 366,
+      "height": 371
+    },
+    {
+      "png": "assets/page-17/caries-clinical-photo.png",
+      "webp": "assets/page-17/caries-clinical-photo.webp",
+      "old_bytes": 187939,
+      "new_bytes": 20724,
+      "width": 540,
+      "height": 270
+    },
+    {
+      "png": "assets/page-17/page17-source-01.png",
+      "webp": "assets/page-17/page17-source-01.webp",
+      "old_bytes": 326289,
+      "new_bytes": 117874,
+      "width": 737,
+      "height": 1082
+    }
+  ],
+  "html_image_stats": {
+    "bookmark-storage.html": {
+      "static_images": 0,
+      "dynamic_images": 0
+    },
+    "comprehensive-exam.html": {
+      "static_images": 0,
+      "dynamic_images": 0
+    },
+    "index.html": {
+      "static_images": 2,
+      "dynamic_images": 1
+    },
+    "learning-map.html": {
+      "static_images": 0,
+      "dynamic_images": 0
+    },
+    "page-02.html": {
+      "static_images": 3,
+      "dynamic_images": 1
+    },
+    "page-03.html": {
+      "static_images": 1,
+      "dynamic_images": 1
+    },
+    "page-04.html": {
+      "static_images": 2,
+      "dynamic_images": 1
+    },
+    "page-05.html": {
+      "static_images": 1,
+      "dynamic_images": 1
+    },
+    "page-06.html": {
+      "static_images": 1,
+      "dynamic_images": 1
+    },
+    "page-07.html": {
+      "static_images": 4,
+      "dynamic_images": 1
+    },
+    "page-08.html": {
+      "static_images": 3,
+      "dynamic_images": 1
+    },
+    "page-09.html": {
+      "static_images": 3,
+      "dynamic_images": 1
+    },
+    "page-10.html": {
+      "static_images": 0,
+      "dynamic_images": 0
+    },
+    "page-11.html": {
+      "static_images": 0,
+      "dynamic_images": 0
+    },
+    "page-12.html": {
+      "static_images": 1,
+      "dynamic_images": 1
+    },
+    "page-13.html": {
+      "static_images": 5,
+      "dynamic_images": 1
+    },
+    "page-14.html": {
+      "static_images": 2,
+      "dynamic_images": 1
+    },
+    "page-15.html": {
+      "static_images": 1,
+      "dynamic_images": 1
+    },
+    "page-16.html": {
+      "static_images": 8,
+      "dynamic_images": 1
+    },
+    "page-17.html": {
+      "static_images": 1,
+      "dynamic_images": 1
+    },
+    "saved.html": {
+      "static_images": 0,
+      "dynamic_images": 0
+    },
+    "search.html": {
+      "static_images": 0,
+      "dynamic_images": 0
+    }
+  },
+  "old_image_bytes": 24450610,
+  "new_image_bytes": 5576766,
+  "reduction_percent": 77.19
+}

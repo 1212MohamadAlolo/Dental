@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="global-ui.css" />
   <link rel="stylesheet" href="annotation-mode.css" />
+  <link rel="stylesheet" href="print-system.css" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
@@ -29,7 +30,7 @@
       </div>
       <div class="topbar__actions">
         <span class="page-pill" aria-label="رقم الصفحة">الصفحة 07</span>
-        <button class="icon-button" id="printBtn" type="button" title="طباعة الصفحة" aria-label="طباعة الصفحة">
+        <button class="icon-button" id="printBtn" type="button" title="حفظ الدرس كملف PDF بحجم A4" aria-label="حفظ الدرس كملف PDF بحجم A4">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/></svg>
         </button>
       </div>
@@ -204,11 +205,11 @@
           </article>
 
           <figure class="anatomy-card source-figure dentin-main-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-07/dentin-tooth-cross-section.png" data-title="مخطط السن وبنيتها الداخلية ضمن قسم العاج" aria-label="تكبير مخطط بنية السن">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-07/dentin-tooth-cross-section.webp" data-title="مخطط السن وبنيتها الداخلية ضمن قسم العاج" aria-label="تكبير مخطط بنية السن">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap dentin-main-figure__image">
-              <img src="assets/page-07/dentin-tooth-cross-section.png" alt="رسم مقطعي في سن يوضح الميناء والعاج واللب والجذر والعظم واللثة" loading="lazy" />
+              <img src="assets/page-07/dentin-tooth-cross-section.webp" alt="رسم مقطعي في سن يوضح الميناء والعاج واللب والجذر والعظم واللثة" loading="lazy" decoding="async" width="760" height="731" />
             </div>
             <figcaption>
               <strong>الصورة الأصلية المقتطعة من المصدر</strong>
@@ -234,11 +235,11 @@
           </article>
 
           <figure class="anatomy-card source-figure dentin-micro-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-07/dentin-microstructure.png" data-title="رسم صغير للأنابيب العاجية والألياف" aria-label="تكبير رسم الأنابيب العاجية">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-07/dentin-microstructure.webp" data-title="رسم صغير للأنابيب العاجية والألياف" aria-label="تكبير رسم الأنابيب العاجية">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap dentin-micro-figure__image">
-              <img src="assets/page-07/dentin-microstructure.png" alt="رسم تخطيطي صغير يوضح الأنابيب العاجية وألياف توماز" loading="lazy" />
+              <img src="assets/page-07/dentin-microstructure.webp" alt="رسم تخطيطي صغير يوضح الأنابيب العاجية وألياف توماز" loading="lazy" decoding="async" width="760" height="360" />
             </div>
             <figcaption>
               <strong>مخطط داعم</strong>
@@ -259,11 +260,11 @@
 
         <div class="cementum-layout">
           <figure class="anatomy-card source-figure tall-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-07/cementum-source-diagram.png" data-title="رسم يوضح توضع الملاط ضمن بنية السن" aria-label="تكبير رسم الملاط">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-07/cementum-source-diagram.webp" data-title="رسم يوضح توضع الملاط ضمن بنية السن" aria-label="تكبير رسم الملاط">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap tall-figure__image">
-              <img src="assets/page-07/cementum-source-diagram.png" alt="رسم تخطيطي لسن يوضح الميناء والعاج واللب واللثة والعظم السنخي والملاط" loading="lazy" />
+              <img src="assets/page-07/cementum-source-diagram.webp" alt="رسم تخطيطي لسن يوضح الميناء والعاج واللب واللثة والعظم السنخي والملاط" loading="lazy" decoding="async" width="760" height="762" />
             </div>
             <figcaption>
               <strong>السن ضمن النسج الداعمة</strong>
@@ -302,11 +303,11 @@
 
         <div class="pulp-layout">
           <figure class="anatomy-card source-figure tall-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-07/pulp-source-diagram.png" data-title="مخطط أمامي يبين أجزاء السن واللب والعصب" aria-label="تكبير رسم اللب">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-07/pulp-source-diagram.webp" data-title="مخطط أمامي يبين أجزاء السن واللب والعصب" aria-label="تكبير رسم اللب">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap tall-figure__image">
-              <img src="assets/page-07/pulp-source-diagram.png" alt="مقطع طولي أمامي للسن يوضح الميناء والعاج واللب والعصب والرباط اللثوي" loading="lazy" />
+              <img src="assets/page-07/pulp-source-diagram.webp" alt="مقطع طولي أمامي للسن يوضح الميناء والعاج واللب والعصب والرباط اللثوي" loading="lazy" decoding="async" width="720" height="1092" />
             </div>
             <figcaption>
               <strong>مقطع أمامي لأجزاء السن</strong>
@@ -446,12 +447,13 @@
 
   <dialog class="image-dialog" id="imageDialog">
     <button class="dialog-close" id="dialogClose" type="button" aria-label="إغلاق الصورة">×</button>
-    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" /></div>
+    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" decoding="async" /></div>
   </dialog>
 
   <script src="page-07.js"></script>
   <script src="bookmarks.js"></script>
   <script src="global-ui.js"></script>
   <script src="annotation-mode.js"></script>
+  <script src="print-system.js"></script>
 </body>
 </html>

@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="global-ui.css" />
   <link rel="stylesheet" href="annotation-mode.css" />
+  <link rel="stylesheet" href="print-system.css" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
@@ -29,7 +30,7 @@
       </div>
       <div class="topbar__actions">
         <span class="page-pill" aria-label="رقم الصفحة">الصفحة 13</span>
-        <button class="icon-button" id="printBtn" type="button" title="طباعة الصفحة" aria-label="طباعة الصفحة">
+        <button class="icon-button" id="printBtn" type="button" title="حفظ الدرس كملف PDF بحجم A4" aria-label="حفظ الدرس كملف PDF بحجم A4">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/></svg>
         </button>
       </div>
@@ -123,11 +124,11 @@
           </div>
 
           <figure class="anatomy-card source-figure page13-figure page13-figure--main">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-13/leukoplakia-photo.png" data-title="صورة الطلاوة المقتطعة من الصفحة الأصلية" aria-label="تكبير صورة الطلاوة">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-13/leukoplakia-photo.webp" data-title="صورة الطلاوة المقتطعة من الصفحة الأصلية" aria-label="تكبير صورة الطلاوة">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap page13-figure__image">
-              <img src="assets/page-13/leukoplakia-photo.png" alt="صورة سريرية لطلاوة على اللسان" loading="eager" />
+              <img src="assets/page-13/leukoplakia-photo.webp" alt="صورة سريرية لطلاوة على اللسان" loading="lazy" decoding="async" width="568" height="296" />
             </div>
             <figcaption>
               <strong>صورة من المصدر</strong>
@@ -138,11 +139,11 @@
 
         <div class="figure-row">
           <figure class="anatomy-card source-figure page13-figure page13-figure--small">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-13/leukoplakia-tongue-alt.png" data-title="صورة إضافية للطلاوة من المصدر" aria-label="تكبير الصورة الإضافية للطلاوة">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-13/leukoplakia-tongue-alt.webp" data-title="صورة إضافية للطلاوة من المصدر" aria-label="تكبير الصورة الإضافية للطلاوة">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap page13-figure__image page13-figure__image--small">
-              <img src="assets/page-13/leukoplakia-tongue-alt.png" alt="صورة أخرى لطلاوة على ظهر اللسان" loading="lazy" />
+              <img src="assets/page-13/leukoplakia-tongue-alt.webp" alt="صورة أخرى لطلاوة على ظهر اللسان" loading="lazy" decoding="async" width="465" height="446" />
             </div>
             <figcaption>
               <strong>صورة داعمة من المصدر</strong>
@@ -176,11 +177,11 @@
           </article>
 
           <figure class="anatomy-card source-figure page13-figure page13-figure--medium">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-13/vestibule-cancer-photo.png" data-title="صورة سرطان مخاطية دهليز الفم من المصدر" aria-label="تكبير صورة سرطان مخاطية دهليز الفم">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-13/vestibule-cancer-photo.webp" data-title="صورة سرطان مخاطية دهليز الفم من المصدر" aria-label="تكبير صورة سرطان مخاطية دهليز الفم">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap page13-figure__image">
-              <img src="assets/page-13/vestibule-cancer-photo.png" alt="صورة سريرية لآفة سرطانية في دهليز الفم أو قرب الشفة" loading="lazy" />
+              <img src="assets/page-13/vestibule-cancer-photo.webp" alt="صورة سريرية لآفة سرطانية في دهليز الفم أو قرب الشفة" loading="lazy" decoding="async" width="560" height="459" />
             </div>
             <figcaption>
               <strong>صورة من المصدر</strong>
@@ -214,11 +215,11 @@
         </div>
 
         <figure class="anatomy-card source-figure page13-figure page13-figure--centered">
-          <button class="image-zoom no-print" type="button" data-image="assets/page-13/lip-cancer-photo.png" data-title="صورة سرطان الشفة من المصدر" aria-label="تكبير صورة سرطان الشفة">
+          <button class="image-zoom no-print" type="button" data-image="assets/page-13/lip-cancer-photo.webp" data-title="صورة سرطان الشفة من المصدر" aria-label="تكبير صورة سرطان الشفة">
             <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
           </button>
           <div class="anatomy-card__image-wrap page13-figure__image page13-figure__image--medium">
-            <img src="assets/page-13/lip-cancer-photo.png" alt="صورة سريرية لسرطان الشفة" loading="lazy" />
+            <img src="assets/page-13/lip-cancer-photo.webp" alt="صورة سريرية لسرطان الشفة" loading="lazy" decoding="async" width="560" height="290" />
           </div>
           <figcaption>
             <strong>الصورة السريرية الواردة في المصدر</strong>
@@ -244,11 +245,11 @@
           </article>
 
           <figure class="anatomy-card source-figure page13-figure page13-figure--medium">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-13/oral-lesion-source-photo.png" data-title="الصورة الملحقة في قسم سرطان اللسان من المصدر" aria-label="تكبير الصورة الملحقة">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-13/oral-lesion-source-photo.webp" data-title="الصورة الملحقة في قسم سرطان اللسان من المصدر" aria-label="تكبير الصورة الملحقة">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap page13-figure__image">
-              <img src="assets/page-13/oral-lesion-source-photo.png" alt="صورة فموية سريرية واردة في المصدر ضمن هذا القسم" loading="lazy" />
+              <img src="assets/page-13/oral-lesion-source-photo.webp" alt="صورة فموية سريرية واردة في المصدر ضمن هذا القسم" loading="lazy" decoding="async" width="460" height="460" />
             </div>
             <figcaption>
               <strong>الصورة الملحقة في المصدر</strong>
@@ -372,12 +373,13 @@
 
   <dialog class="image-dialog" id="imageDialog">
     <button class="dialog-close" id="dialogClose" type="button" aria-label="إغلاق الصورة">×</button>
-    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" /></div>
+    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" decoding="async" /></div>
   </dialog>
 
   <script src="page-13.js"></script>
   <script src="bookmarks.js"></script>
   <script src="global-ui.js"></script>
   <script src="annotation-mode.js"></script>
+  <script src="print-system.js"></script>
 </body>
 </html>

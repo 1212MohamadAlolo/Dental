@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="global-ui.css" />
   <link rel="stylesheet" href="annotation-mode.css" />
+  <link rel="stylesheet" href="print-system.css" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
@@ -29,7 +30,7 @@
       </div>
       <div class="topbar__actions">
         <span class="page-pill" aria-label="رقم الصفحة">الصفحة 08</span>
-        <button class="icon-button" id="printBtn" type="button" title="طباعة الصفحة" aria-label="طباعة الصفحة">
+        <button class="icon-button" id="printBtn" type="button" title="حفظ الدرس كملف PDF بحجم A4" aria-label="حفظ الدرس كملف PDF بحجم A4">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/></svg>
         </button>
       </div>
@@ -112,11 +113,11 @@
 
         <div class="periodont-layout">
           <figure class="anatomy-card source-figure tall-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-08/periodontium-overview-diagram.png" data-title="رسم يوضح النسج الداعمة المحيطة بالسن" aria-label="تكبير رسم النسج المحيطة بالسن">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-08/periodontium-overview-diagram.webp" data-title="رسم يوضح النسج الداعمة المحيطة بالسن" aria-label="تكبير رسم النسج المحيطة بالسن">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap tall-figure__image">
-              <img src="assets/page-08/periodontium-overview-diagram.png" alt="رسم تخطيطي يبين الميناء والعاج واللب والملاط والرباط حول السن والعظم واللثة" loading="eager" />
+              <img src="assets/page-08/periodontium-overview-diagram.webp" alt="رسم تخطيطي يبين الميناء والعاج واللب والملاط والرباط حول السن والعظم واللثة" loading="lazy" decoding="async" width="760" height="892" />
             </div>
             <figcaption>
               <strong>الصورة المقتطعة من الصفحة الأصلية</strong>
@@ -196,11 +197,11 @@
           </article>
 
           <figure class="anatomy-card source-figure gingiva-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-08/gingiva-anatomy-english.png" data-title="مخطط يوضح تشريح السن واللثة والعظم" aria-label="تكبير مخطط تشريح السن واللثة">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-08/gingiva-anatomy-english.webp" data-title="مخطط يوضح تشريح السن واللثة والعظم" aria-label="تكبير مخطط تشريح السن واللثة">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap gingiva-figure__image">
-              <img src="assets/page-08/gingiva-anatomy-english.png" alt="رسم توضيحي باللغة الإنكليزية يبين التاج والجذر واللثة واللب والعظم والأعصاب والأوعية" loading="lazy" />
+              <img src="assets/page-08/gingiva-anatomy-english.webp" alt="رسم توضيحي باللغة الإنكليزية يبين التاج والجذر واللثة واللب والعظم والأعصاب والأوعية" loading="lazy" decoding="async" width="760" height="768" />
             </div>
             <figcaption>
               <strong>رسم داعم</strong>
@@ -271,11 +272,11 @@
           </div>
 
           <figure class="anatomy-card source-figure tall-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-08/alveolar-bone-arabic-diagram.png" data-title="رسم يوضح العظم السنخي وبقية أجزاء السن" aria-label="تكبير رسم العظم السنخي">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-08/alveolar-bone-arabic-diagram.webp" data-title="رسم يوضح العظم السنخي وبقية أجزاء السن" aria-label="تكبير رسم العظم السنخي">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap tall-figure__image">
-              <img src="assets/page-08/alveolar-bone-arabic-diagram.png" alt="مخطط عربي يوضح الميناء والعاج واللثة والعصب والرباط اللثوي والعصب ضمن مقطع سن" loading="lazy" />
+              <img src="assets/page-08/alveolar-bone-arabic-diagram.webp" alt="مخطط عربي يوضح الميناء والعاج واللثة والعصب والرباط اللثوي والعصب ضمن مقطع سن" loading="lazy" decoding="async" width="760" height="817" />
             </div>
             <figcaption>
               <strong>مخطط داعم من الصورة الأصلية</strong>
@@ -391,12 +392,13 @@
 
   <dialog class="image-dialog" id="imageDialog">
     <button class="dialog-close" id="dialogClose" type="button" aria-label="إغلاق الصورة">×</button>
-    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" /></div>
+    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" decoding="async" /></div>
   </dialog>
 
   <script src="page-08.js"></script>
   <script src="bookmarks.js"></script>
   <script src="global-ui.js"></script>
   <script src="annotation-mode.js"></script>
+  <script src="print-system.js"></script>
 </body>
 </html>

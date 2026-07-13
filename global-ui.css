@@ -178,3 +178,34 @@ html[data-theme='dark'] .result-table th { background: #203733; color: var(--ink
 }
 
 @media print { .global-study-dock { display: none !important; } }
+
+/* A short, accessible status shown while print images/fonts are prepared. */
+.print-preparing-toast {
+  position: fixed;
+  z-index: 12000;
+  inset-inline-start: 50%;
+  inset-block-start: 24px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: calc(100vw - 28px);
+  padding: 12px 17px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--brand-dark);
+  box-shadow: 0 16px 42px rgba(20, 55, 52, .20);
+  font-size: .84rem;
+}
+.print-preparing-toast[hidden] { display: none !important; }
+.print-preparing-toast__spinner {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  border: 2px solid var(--brand-soft);
+  border-block-start-color: var(--brand);
+  border-radius: 50%;
+  animation: printPreparingSpin .75s linear infinite;
+}
+@keyframes printPreparingSpin { to { transform: rotate(360deg); } }

@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="global-ui.css" />
   <link rel="stylesheet" href="annotation-mode.css" />
+  <link rel="stylesheet" href="print-system.css" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
@@ -30,7 +31,7 @@
 
       <div class="topbar__actions">
         <span class="page-pill" aria-label="رقم الصفحة">الصفحة 01</span>
-        <button class="icon-button" id="printBtn" type="button" title="طباعة الصفحة" aria-label="طباعة الصفحة">
+        <button class="icon-button" id="printBtn" type="button" title="حفظ الدرس كملف PDF بحجم A4" aria-label="حفظ الدرس كملف PDF بحجم A4">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/></svg>
         </button>
       </div>
@@ -149,11 +150,11 @@
 
         <div class="illustration-grid">
           <figure class="anatomy-card">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-01/maxilla-medial-whiteboard.png" data-title="الفك العلوي — منظر أنسي/حنكي" aria-label="تكبير الصورة الأولى">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-01/maxilla-medial-whiteboard.webp" data-title="الفك العلوي — منظر أنسي/حنكي" aria-label="تكبير الصورة الأولى">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap">
-              <img src="assets/page-01/maxilla-medial-whiteboard.png" alt="رسم تشريحي تعليمي للفك العلوي يوضح الحجاج والناتئ الحنكي والناتئ السنخي" loading="eager" />
+              <img src="assets/page-01/maxilla-medial-whiteboard.webp" alt="رسم تشريحي تعليمي للفك العلوي يوضح الحجاج والناتئ الحنكي والناتئ السنخي" loading="lazy" decoding="async" width="1448" height="1086" />
             </div>
             <figcaption>
               <strong>المنظر الأنسي والحنكي</strong>
@@ -162,11 +163,11 @@
           </figure>
 
           <figure class="anatomy-card">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-01/maxilla-anterior-whiteboard.png" data-title="الفك العلوي — منظر أمامي/وحشي" aria-label="تكبير الصورة الثانية">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-01/maxilla-anterior-whiteboard.webp" data-title="الفك العلوي — منظر أمامي/وحشي" aria-label="تكبير الصورة الثانية">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
             <div class="anatomy-card__image-wrap">
-              <img src="assets/page-01/maxilla-anterior-whiteboard.png" alt="رسم تشريحي تعليمي للفك العلوي يوضح السطح الأمامي والثقبة تحت الحجاج والنتوء الوجني والأسناخ" loading="eager" />
+              <img src="assets/page-01/maxilla-anterior-whiteboard.webp" alt="رسم تشريحي تعليمي للفك العلوي يوضح السطح الأمامي والثقبة تحت الحجاج والنتوء الوجني والأسناخ" loading="lazy" decoding="async" width="1448" height="1086" />
             </div>
             <figcaption>
               <strong>المنظر الأمامي والوحشي</strong>
@@ -264,7 +265,7 @@
     <button class="dialog-close" id="dialogClose" type="button" aria-label="إغلاق الصورة">×</button>
     <div class="image-dialog__content">
       <h2 id="dialogTitle"></h2>
-      <img id="dialogImage" alt="" />
+      <img id="dialogImage" alt="" decoding="async" />
     </div>
   </dialog>
 
@@ -272,5 +273,6 @@
   <script src="bookmarks.js"></script>
   <script src="global-ui.js"></script>
   <script src="annotation-mode.js"></script>
+  <script src="print-system.js"></script>
 </body>
 </html>

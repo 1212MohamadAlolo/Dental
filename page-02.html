@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="global-ui.css" />
   <link rel="stylesheet" href="annotation-mode.css" />
+  <link rel="stylesheet" href="print-system.css" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
@@ -29,7 +30,7 @@
       </div>
       <div class="topbar__actions">
         <span class="page-pill" aria-label="رقم الصفحة">الصفحة 02</span>
-        <button class="icon-button" id="printBtn" type="button" title="طباعة الصفحة" aria-label="طباعة الصفحة">
+        <button class="icon-button" id="printBtn" type="button" title="حفظ الدرس كملف PDF بحجم A4" aria-label="حفظ الدرس كملف PDF بحجم A4">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/></svg>
         </button>
       </div>
@@ -124,26 +125,26 @@
         </div>
         <div class="illustration-grid illustration-grid--three">
           <figure class="anatomy-card">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-02/mandible-lateral-whiteboard.png" data-title="الفك السفلي — منظر وحشي" aria-label="تكبير المنظر الوحشي">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-02/mandible-lateral-whiteboard.webp" data-title="الفك السفلي — منظر وحشي" aria-label="تكبير المنظر الوحشي">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
-            <div class="anatomy-card__image-wrap"><img src="assets/page-02/mandible-lateral-whiteboard.png" alt="رسم تشريحي للفك السفلي من الجانب يوضح الجسم والفرع والناتئين اللقمي والإكليلي" loading="eager" /></div>
+            <div class="anatomy-card__image-wrap"><img src="assets/page-02/mandible-lateral-whiteboard.webp" alt="رسم تشريحي للفك السفلي من الجانب يوضح الجسم والفرع والناتئين اللقمي والإكليلي" loading="lazy" decoding="async" width="1148" height="1031" /></div>
             <figcaption><strong>المنظر الوحشي</strong><span>يوضح الجسم، الفرع، الناتئ اللقمي، الناتئ الإكليلي، الثقبة الذقنية، والثقبة الفكية.</span></figcaption>
           </figure>
 
           <figure class="anatomy-card">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-02/mandible-medial-whiteboard.png" data-title="الفك السفلي — منظر أمامي داخلي" aria-label="تكبير المنظر الداخلي">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-02/mandible-medial-whiteboard.webp" data-title="الفك السفلي — منظر أمامي داخلي" aria-label="تكبير المنظر الداخلي">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
-            <div class="anatomy-card__image-wrap"><img src="assets/page-02/mandible-medial-whiteboard.png" alt="رسم تشريحي للفك السفلي من الداخل يوضح الشعبتين والثقبة الفكية والخط المائل الداخلي" loading="eager" /></div>
+            <div class="anatomy-card__image-wrap"><img src="assets/page-02/mandible-medial-whiteboard.webp" alt="رسم تشريحي للفك السفلي من الداخل يوضح الشعبتين والثقبة الفكية والخط المائل الداخلي" loading="lazy" decoding="async" width="1172" height="1028" /></div>
             <figcaption><strong>المنظر الأمامي الداخلي</strong><span>يوضح الشعبتين الصاعدتين، الثقبة الفكية، الخط المائل الداخلي، والحفر الغدية.</span></figcaption>
           </figure>
 
           <figure class="anatomy-card anatomy-card--wide">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-02/mandible-dental-relations-whiteboard.png" data-title="علاقة الفك السفلي بالأسنان والفك العلوي" aria-label="تكبير صورة العلاقة السنية">
+            <button class="image-zoom no-print" type="button" data-image="assets/page-02/mandible-dental-relations-whiteboard.webp" data-title="علاقة الفك السفلي بالأسنان والفك العلوي" aria-label="تكبير صورة العلاقة السنية">
               <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
             </button>
-            <div class="anatomy-card__image-wrap"><img src="assets/page-02/mandible-dental-relations-whiteboard.png" alt="مقطع جانبي يوضح علاقة الفك السفلي والأسنان السفلية بالأضراس العلوية والتجويف الفكي" loading="lazy" /></div>
+            <div class="anatomy-card__image-wrap"><img src="assets/page-02/mandible-dental-relations-whiteboard.webp" alt="مقطع جانبي يوضح علاقة الفك السفلي والأسنان السفلية بالأضراس العلوية والتجويف الفكي" loading="lazy" decoding="async" width="1739" height="1358" /></div>
             <figcaption><strong>العلاقة السنية والهيكلية</strong><span>يوضح وضع الأسنان السفلية داخل الفك السفلي وعلاقتها بالأسنان العلوية والبنى المجاورة.</span></figcaption>
           </figure>
         </div>
@@ -199,12 +200,13 @@
 
   <dialog class="image-dialog" id="imageDialog">
     <button class="dialog-close" id="dialogClose" type="button" aria-label="إغلاق الصورة">×</button>
-    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" /></div>
+    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" decoding="async" /></div>
   </dialog>
 
   <script src="page-02.js"></script>
   <script src="bookmarks.js"></script>
   <script src="global-ui.js"></script>
   <script src="annotation-mode.js"></script>
+  <script src="print-system.js"></script>
 </body>
 </html>
