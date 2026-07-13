@@ -1,0 +1,180 @@
+
+/* Global study controls: theme, images, search and learning map */
+.global-study-dock {
+  position: fixed;
+  inset-inline-start: max(12px, env(safe-area-inset-left));
+  inset-block-end: max(12px, env(safe-area-inset-bottom));
+  z-index: 150;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  box-shadow: 0 16px 44px rgba(20, 46, 43, .18);
+  backdrop-filter: blur(16px);
+}
+.global-study-dock a,
+.global-study-dock button {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: var(--surface);
+  color: var(--brand-dark);
+  text-decoration: none;
+  cursor: pointer;
+  font: inherit;
+  transition: .18s ease;
+}
+.global-study-dock a:hover,
+.global-study-dock button:hover,
+.global-study-dock button.is-active {
+  border-color: var(--brand);
+  background: var(--brand-soft);
+  transform: translateY(-1px);
+}
+.global-study-dock svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.global-study-dock__label { position: absolute; opacity: 0; pointer-events: none; }
+.exam-active .global-study-dock { display: none; }
+
+.course-page-link--search,
+.course-page-link--map { font-weight: 800; }
+.course-page-link--search::before { content: '⌕'; margin-inline-end: 4px; }
+.course-page-link--map::before { content: '◇'; margin-inline-end: 4px; }
+
+/* Temporarily hide images without losing captions or layout context */
+html.images-hidden img { visibility: hidden !important; }
+html.images-hidden .anatomy-card__image-wrap,
+html.images-hidden figure > picture,
+html.images-hidden .source-figure > picture {
+  position: relative;
+  min-height: 115px;
+  background: repeating-linear-gradient(135deg, var(--surface-soft), var(--surface-soft) 14px, var(--surface) 14px, var(--surface) 28px) !important;
+}
+html.images-hidden .anatomy-card__image-wrap::after,
+html.images-hidden figure > picture::after {
+  content: 'الصور مخفية مؤقتاً';
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-size: .82rem;
+  font-weight: 700;
+}
+html.images-hidden .image-zoom { display: none !important; }
+
+/* Dark mode */
+html[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0e1716;
+  --surface: #162220;
+  --surface-soft: #1b2a27;
+  --ink: #ecf6f3;
+  --muted: #a8bbb6;
+  --line: #30433f;
+  --brand: #70b9b2;
+  --brand-dark: #b9e5df;
+  --brand-soft: #203b37;
+  --accent: #dda16f;
+  --accent-soft: #382a22;
+  --success: #68bd91;
+  --danger: #e18484;
+  --shadow: 0 18px 55px rgba(0,0,0,.34);
+  --shadow-soft: 0 8px 28px rgba(0,0,0,.28);
+}
+html[data-theme='dark'] body {
+  background: radial-gradient(circle at 8% 8%, rgba(112,185,178,.12), transparent 24rem), radial-gradient(circle at 96% 18%, rgba(221,161,111,.08), transparent 22rem), var(--bg);
+  color: var(--ink);
+}
+html[data-theme='dark'] .topbar,
+html[data-theme='dark'] .course-nav,
+html[data-theme='dark'] .mode-switch__inner { background: rgba(22,34,32,.92); border-color: var(--line); }
+html[data-theme='dark'] .hero-card,
+html[data-theme='dark'] .content-section,
+html[data-theme='dark'] .concept-card,
+html[data-theme='dark'] .anatomy-card,
+html[data-theme='dark'] .text-card,
+html[data-theme='dark'] .fact-card,
+html[data-theme='dark'] .topic-panel,
+html[data-theme='dark'] .summary-chip-card,
+html[data-theme='dark'] .alert-card,
+html[data-theme='dark'] .clinical-card,
+html[data-theme='dark'] .composition-tile,
+html[data-theme='dark'] .exam-card,
+html[data-theme='dark'] .exam-question-card,
+html[data-theme='dark'] .question-palette,
+html[data-theme='dark'] .review-item,
+html[data-theme='dark'] .saved-item-card,
+html[data-theme='dark'] .search-card,
+html[data-theme='dark'] .map-card,
+html[data-theme='dark'] .feature-page-hero {
+  background: var(--surface) !important;
+  border-color: var(--line) !important;
+  color: var(--ink) !important;
+}
+html[data-theme='dark'] .hero-card { background: linear-gradient(145deg, #162220, #1b2926) !important; }
+html[data-theme='dark'] h1,
+html[data-theme='dark'] h2,
+html[data-theme='dark'] h3,
+html[data-theme='dark'] strong,
+html[data-theme='dark'] .brand__title,
+html[data-theme='dark'] .exam-hero h2,
+html[data-theme='dark'] .result-hero h2,
+html[data-theme='dark'] .exam-card__heading h3,
+html[data-theme='dark'] .review-heading h3 { color: var(--ink) !important; }
+html[data-theme='dark'] p,
+html[data-theme='dark'] li,
+html[data-theme='dark'] span,
+html[data-theme='dark'] td,
+html[data-theme='dark'] label,
+html[data-theme='dark'] .hero-card__content p,
+html[data-theme='dark'] .topic-panel p,
+html[data-theme='dark'] .text-card p,
+html[data-theme='dark'] .exam-hero p,
+html[data-theme='dark'] .result-hero p { color: var(--muted); }
+html[data-theme='dark'] .icon-button,
+html[data-theme='dark'] .mode-switch__inner,
+html[data-theme='dark'] .duration-preset,
+html[data-theme='dark'] .variant-preset,
+html[data-theme='dark'] .exam-option,
+html[data-theme='dark'] .review-filter,
+html[data-theme='dark'] .palette-question,
+html[data-theme='dark'] input,
+html[data-theme='dark'] select,
+html[data-theme='dark'] textarea { background: var(--surface-soft); color: var(--ink); border-color: var(--line); }
+html[data-theme='dark'] .hero-note { background: var(--accent-soft); border-color: #644631; }
+html[data-theme='dark'] .hero-note p { color: #dcbca2; }
+html[data-theme='dark'] .anatomy-card__image-wrap,
+html[data-theme='dark'] .page13-figure__image,
+html[data-theme='dark'] .page14-figure__image,
+html[data-theme='dark'] .page15-figure__image,
+html[data-theme='dark'] .page16-figure__image,
+html[data-theme='dark'] .page17-figure__image { background: #101a18 !important; }
+html[data-theme='dark'] .exam-hero,
+html[data-theme='dark'] .result-hero { background: radial-gradient(circle at 8% 12%, rgba(221,161,111,.10), transparent 30%), radial-gradient(circle at 88% 82%, rgba(112,185,178,.12), transparent 34%), var(--surface) !important; }
+html[data-theme='dark'] .review-explanation,
+html[data-theme='dark'] .exam-dialog__stats span,
+html[data-theme='dark'] .result-stats div { background: var(--surface-soft); border-color: var(--line); }
+html[data-theme='dark'] .exam-dialog form,
+html[data-theme='dark'] .exam-dialog { background: var(--surface); color: var(--ink); }
+html[data-theme='dark'] .result-score-ring::before { background: var(--surface); }
+html[data-theme='dark'] .result-table th { background: #203733; color: var(--ink); }
+
+@media (max-width: 760px) {
+  .global-study-dock {
+    inset-inline-start: 8px;
+    inset-block-end: max(8px, env(safe-area-inset-bottom));
+    flex-direction: row;
+    padding: 6px;
+    border-radius: 15px;
+  }
+  .global-study-dock a,
+  .global-study-dock button { width: 40px; height: 40px; border-radius: 11px; }
+}
+
+@media print { .global-study-dock { display: none !important; } }

@@ -2648,13 +2648,12 @@ img { max-width: 100%; display: block; }
   line-height: 1;
 }
 
+/* Paragraph bookmark control: tiny frame-corner overlay, zero layout shift */
 .bookmarkable-paragraph {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: 9px;
-  align-items: start;
+  position: relative;
+  min-width: 0;
   scroll-margin-top: 120px;
-  border-radius: 12px;
+  border-radius: 10px;
   transition: background-color .2s ease, box-shadow .2s ease;
 }
 
@@ -2663,55 +2662,122 @@ img { max-width: 100%; display: block; }
   box-shadow: 0 0 0 5px #fff7df;
 }
 
+/* Kept for backward compatibility; new code does not wrap paragraph contents. */
 .bookmarkable-paragraph__content {
-  min-width: 0;
+  display: contents;
 }
 
 .save-paragraph-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  min-width: 62px;
-  min-height: 31px;
-  margin-top: 1px;
-  padding: 5px 8px;
-  border: 1px solid #cfdbd7;
-  border-radius: 10px;
-  background: #fff;
-  color: #52635f;
-  font-family: inherit;
-  font-size: .69rem;
-  font-weight: 800;
+  position: absolute;
+  z-index: 7;
+  inset-block-start: -7px;
+  inset-inline-end: -11px;
+  display: grid;
+  place-items: center;
+  width: 23px;
+  height: 23px;
+  min-width: 23px;
+  min-height: 23px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(108, 137, 130, .30);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, .92);
+  color: #637873;
+  font: inherit;
   line-height: 1;
   cursor: pointer;
-  box-shadow: 0 3px 10px rgba(31, 77, 72, .06);
-  transition: transform .16s ease, background-color .16s ease, border-color .16s ease, color .16s ease;
+  box-shadow: 0 3px 9px rgba(31, 77, 72, .10);
+  opacity: .48;
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  transform: translateZ(0);
+  transition: opacity .15s ease, transform .15s ease, background-color .15s ease, border-color .15s ease, color .15s ease, box-shadow .15s ease;
+}
+
+.bookmarkable-paragraph:hover .save-paragraph-button,
+.save-paragraph-button:hover,
+.save-paragraph-button:focus-visible,
+.save-paragraph-button.is-saved {
+  opacity: 1;
 }
 
 .save-paragraph-button:hover {
-  transform: translateY(-1px);
-  border-color: #9dbbb5;
+  transform: translateY(-1px) scale(1.04);
+  border-color: rgba(45, 106, 104, .52);
+  background: #fff;
   color: #285f5a;
+  box-shadow: 0 5px 13px rgba(31, 77, 72, .15);
+}
+
+.save-paragraph-button:focus-visible {
+  outline: 2px solid rgba(45, 106, 104, .55);
+  outline-offset: 2px;
 }
 
 .save-paragraph-button svg {
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   fill: none;
   stroke: currentColor;
-  stroke-width: 1.8;
+  stroke-width: 1.9;
   stroke-linejoin: round;
+  pointer-events: none;
+}
+
+.save-paragraph-button span {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
 
 .save-paragraph-button.is-saved {
-  border-color: #bfa36d;
-  background: #fff7e4;
-  color: #775820;
+  border-color: rgba(181, 137, 65, .52);
+  background: rgba(255, 247, 228, .98);
+  color: #806022;
+  box-shadow: 0 4px 12px rgba(128, 96, 34, .15);
 }
 
 .save-paragraph-button.is-saved svg {
   fill: currentColor;
+}
+
+@media (hover: none), (max-width: 700px) {
+  .save-paragraph-button {
+    width: 25px;
+    height: 25px;
+    min-width: 25px;
+    min-height: 25px;
+    inset-block-start: -7px;
+    inset-inline-end: -10px;
+    opacity: .72;
+  }
+}
+
+html[data-theme='dark'] .save-paragraph-button {
+  border-color: rgba(185, 229, 223, .20);
+  background: rgba(24, 39, 36, .91);
+  color: #a9c5c0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .24);
+}
+
+html[data-theme='dark'] .save-paragraph-button:hover,
+html[data-theme='dark'] .save-paragraph-button:focus-visible {
+  border-color: rgba(185, 229, 223, .42);
+  background: rgba(31, 51, 47, .99);
+  color: #d2f0eb;
+}
+
+html[data-theme='dark'] .save-paragraph-button.is-saved {
+  border-color: rgba(221, 177, 101, .44);
+  background: rgba(87, 65, 28, .91);
+  color: #f0cf8d;
 }
 
 .bookmark-toast {
