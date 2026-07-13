@@ -11,11 +11,33 @@
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="global-ui.css" />
-  <link rel="stylesheet" href="annotation-mode.css" />
+  <link rel="stylesheet" href="annotation-mode-recovery.css" />
+  <link rel="stylesheet" href="learning-modes-recovery.css" />
+  <link rel="stylesheet" href="interactive-images.css" />
   <link rel="stylesheet" href="print-system.css" />
+  <script id="ink-recovery-bootstrap">
+    (() => {
+      const fileName = decodeURIComponent(location.pathname.split('/').pop() || 'index.html');
+      const key = `oral-health-learning-mode-v1:${fileName}`;
+      try {
+        if (localStorage.getItem(key) === 'summary') localStorage.setItem(key, 'reading');
+      } catch (_) {}
+      try {
+        if (history.state && history.state.oralHealthInkMode) {
+          history.replaceState({ ...history.state, oralHealthInkMode: false }, '', location.href);
+        }
+      } catch (_) {}
+      window.addEventListener('DOMContentLoaded', () => {
+        document.body?.classList.remove('ink-mode', 'ink-pen-down');
+        if (document.body && !document.body.dataset.learningMode) document.body.dataset.learningMode = 'reading';
+      }, { once: true });
+    })();
+  </script>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
+    <button class="ink-emergency-recovery no-print" type="button" aria-label="الخروج الآمن من وضع التلخيص"
+    onclick="(() => { const f = decodeURIComponent(location.pathname.split('/').pop() || 'index.html'); try { localStorage.setItem('oral-health-learning-mode-v1:' + f, 'reading'); } catch (_) {} document.body.classList.remove('ink-mode','ink-pen-down','ink-ui-ready'); document.body.dataset.learningMode='reading'; const o=document.getElementById('overviewPanel'); const s=document.getElementById('studyPanel'); if(o){o.hidden=false;o.style.display='block';} if(s){s.hidden=true;s.style.display='none';} document.querySelectorAll('.mode-tab').forEach(t=>{const a=t.dataset.mode==='reading';t.classList.toggle('is-active',a);t.setAttribute('aria-selected',String(a));}); this.hidden=true; })()">خروج آمن إلى القراءة</button>
+<a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
 
   <header class="topbar no-print">
     <div class="topbar__inner shell">
@@ -432,7 +454,9 @@
   <script src="page-10.js"></script>
   <script src="bookmarks.js"></script>
   <script src="global-ui.js"></script>
-  <script src="annotation-mode.js"></script>
+  <script src="annotation-mode-recovery.js"></script>
+  <script src="learning-modes-recovery.js"></script>
+  <script src="interactive-images.js"></script>
   <script src="print-system.js"></script>
 </body>
 </html>
