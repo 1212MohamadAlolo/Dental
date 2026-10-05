@@ -1,0 +1,390 @@
+{
+  "date": "2026-10-04T18:25:57.176Z",
+  "layouts": [
+    {
+      "width": 320,
+      "height": 568,
+      "name": "dashboard",
+      "overflow": false,
+      "bodyOverflow": false,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "name": "learn",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 568,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "name": "recall",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 568,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "name": "recall-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 568,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "name": "answer-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 568,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "name": "dark-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 568,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "name": "dashboard",
+      "overflow": false,
+      "bodyOverflow": false,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "name": "learn",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 640,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "name": "recall",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 640,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "name": "recall-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 640,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "name": "answer-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 640,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "name": "dark-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 640,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "dashboard",
+      "overflow": false,
+      "bodyOverflow": false,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "learn",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 844,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "recall",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 844,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "recall-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 844,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "answer-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 844,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "dark-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 844,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "name": "dashboard",
+      "overflow": false,
+      "bodyOverflow": false,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "name": "learn",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 932,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "name": "recall",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 932,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "name": "recall-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 932,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "name": "answer-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 932,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "name": "dark-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 932,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "dashboard",
+      "overflow": false,
+      "bodyOverflow": false,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "learn",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 1024,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "recall",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 1024,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "recall-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 1024,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "answer-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 1024,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "dark-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 1024,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "dashboard",
+      "overflow": false,
+      "bodyOverflow": false,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "learn",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 900,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "recall",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 900,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "recall-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 900,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "answer-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 900,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "dark-feedback",
+      "overflow": false,
+      "bodyOverflow": false,
+      "footer": 900,
+      "font": "Cairo, Tahoma, Arial, sans-serif"
+    }
+  ],
+  "flows": [
+    {
+      "name": "deep practice full completion",
+      "steps": 35
+    },
+    {
+      "name": "interaction mcq",
+      "result": "pass"
+    },
+    {
+      "name": "interaction true-false",
+      "result": "pass"
+    },
+    {
+      "name": "interaction fill",
+      "result": "pass"
+    },
+    {
+      "name": "interaction matching",
+      "result": "pass"
+    },
+    {
+      "name": "interaction ordering",
+      "result": "pass"
+    },
+    {
+      "name": "interaction recall",
+      "result": "pass"
+    },
+    {
+      "name": "legacy index.html",
+      "result": "pass"
+    },
+    {
+      "name": "legacy learning-map.html",
+      "result": "pass"
+    },
+    {
+      "name": "legacy review.html",
+      "result": "pass"
+    },
+    {
+      "name": "legacy search.html",
+      "result": "pass"
+    },
+    {
+      "name": "legacy saved.html",
+      "result": "pass"
+    },
+    {
+      "name": "legacy comprehensive-exam.html",
+      "result": "pass"
+    },
+    {
+      "name": "legacy page-07.html",
+      "result": "pass"
+    },
+    {
+      "name": "legacy lesson.html?unit=page-01&lesson=page-01-lesson-01",
+      "result": "pass"
+    },
+    {
+      "name": "corrupt storage retained and warning visible",
+      "result": "pass"
+    }
+  ],
+  "errors": []
+}

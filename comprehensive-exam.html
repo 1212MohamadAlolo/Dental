@@ -6,13 +6,13 @@
   <meta name="theme-color" content="#2d6a68" />
   <meta name="description" content="اختبار شامل تفاعلي من 100 سؤال اختيار من متعدد من صفحات مقرر تشريح الفم والأسنان." />
   <title>الاختبار الشامل | تشريح الفم والأسنان</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  
+  
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="global-ui.css" />
   <link rel="stylesheet" href="comprehensive-exam.css" />
-</head>
+<link rel="stylesheet" href="adaptive/fonts.css"><link rel="stylesheet" href="adaptive/tokens.css"></head>
 <body class="exam-page">
   <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
 
@@ -39,7 +39,7 @@
   <nav class="course-nav no-print" aria-label="التنقل بين صفحات المقرر">
     <div class="shell course-nav__inner">
       <div class="course-pages">
-        <a class="course-page-link" href="index.html">01 · الفك العلوي</a>
+        <a class="course-page-link" href="page-01.html">01 · الفك العلوي</a>
         <a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
         <a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
         <a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
@@ -272,7 +272,7 @@
       </section>
 
       <div class="result-actions no-print">
-        <a class="secondary-button result-link-button" href="index.html">العودة إلى الصفحات</a>
+        <a class="secondary-button result-link-button" href="page-01.html">العودة إلى الصفحات</a>
         <button id="printResultBtn" class="secondary-button" type="button">طباعة النتيجة</button>
         <button id="newAttemptBtn" class="primary-button" type="button">اختيار نموذج آخر وإعادة الاختبار</button>
       </div>
@@ -298,5 +298,5 @@
   <script src="comprehensive-exam.js"></script>
   <script src="bookmarks.js"></script>
   <script src="global-ui.js"></script>
-</body>
+<script src="adaptive/integration.js"></script></body>
 </html>

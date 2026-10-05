@@ -1,0 +1,10 @@
+[
+  "Invalid import leaves state intact",
+  "Valid import persists exact state",
+  "Export produces JSON download",
+  "Confirmed reset clears adaptive records",
+  "Keyboard focus reaches controls",
+  "Print hides controls",
+  "Quota failure warns while learning remains usable",
+  "file:// opens training without server"
+]

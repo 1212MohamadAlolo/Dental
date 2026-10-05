@@ -3,7 +3,7 @@
 
   const STORAGE_KEY = 'oral-health-bookmarks-v1';
   const fileName = decodeURIComponent(location.pathname.split('/').pop() || 'index.html');
-  const isContentPage = fileName === 'index.html' || /^page-\d{2}\.html$/i.test(fileName);
+  const isContentPage = /^page-\d{2}\.html$/i.test(fileName);
   const isSavedPage = fileName === 'saved.html';
   let bookmarks = [];
   let paragraphEntries = [];
@@ -123,7 +123,7 @@
       seen.add(item.id);
       result.push({
         id: String(item.id),
-        pageFile: String(item.pageFile || 'index.html'),
+        pageFile: String(item.pageFile || 'page-01.html'),
         pageTitle: normalizeText(item.pageTitle || 'صفحة تعليمية'),
         sectionTitle: normalizeText(item.sectionTitle || 'محتوى الصفحة'),
         text: normalizeText(item.text),

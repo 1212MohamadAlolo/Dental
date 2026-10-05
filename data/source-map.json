@@ -1,0 +1,256 @@
+{
+  "page-01": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      4
+    ],
+    "printedPages": [
+      3
+    ],
+    "section": "الفك العلوي"
+  },
+  "page-02": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      5
+    ],
+    "printedPages": [
+      4
+    ],
+    "section": "الفك السفلي"
+  },
+  "page-03": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      6
+    ],
+    "printedPages": [
+      5
+    ],
+    "section": "بنية مخاطية الفم"
+  },
+  "page-04": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      7,
+      8,
+      9
+    ],
+    "printedPages": [
+      6,
+      7,
+      8
+    ],
+    "section": "الخد وسقف الفم واللسان"
+  },
+  "page-05": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      9,
+      10
+    ],
+    "printedPages": [
+      8,
+      9
+    ],
+    "section": "الغدد اللعابية واللعاب"
+  },
+  "page-06": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "printedPages": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "section": "الأسنان والبزوغ"
+  },
+  "page-07": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      17,
+      18,
+      19
+    ],
+    "printedPages": [
+      16,
+      17,
+      18
+    ],
+    "section": "بنية الأسنان"
+  },
+  "page-08": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "printedPages": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "section": "النسج المحيطة بالسن"
+  },
+  "page-09": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "printedPages": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "section": "الأمراض اللثوية"
+  },
+  "page-10": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "printedPages": [
+      29,
+      30,
+      31,
+      32
+    ],
+    "section": "اضطرابات النسج الداعمة"
+  },
+  "page-11": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      35,
+      36,
+      37,
+      38
+    ],
+    "printedPages": [
+      34,
+      35,
+      36,
+      37
+    ],
+    "section": "التهاب الفم"
+  },
+  "page-12": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      40,
+      41,
+      42
+    ],
+    "printedPages": [
+      39,
+      40,
+      41
+    ],
+    "section": "القلاع والسلاق والنكاف"
+  },
+  "page-13": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      44,
+      45,
+      46,
+      47
+    ],
+    "printedPages": [
+      43,
+      44,
+      45,
+      46
+    ],
+    "section": "الآفات ما قبل السرطانية والسرطانية"
+  },
+  "page-14": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      49,
+      50
+    ],
+    "printedPages": [
+      48,
+      49
+    ],
+    "section": "القلح والتلونات السنية"
+  },
+  "page-15": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      52,
+      53,
+      54,
+      55
+    ],
+    "printedPages": [
+      51,
+      52,
+      53,
+      54
+    ],
+    "section": "بخر الفم"
+  },
+  "page-16": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "printedPages": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "section": "العادات الفموية السيئة"
+  },
+  "page-17": {
+    "document": "source/course.pdf",
+    "pdfPages": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "printedPages": [
+      64,
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "section": "نخر الأسنان"
+  }
+}

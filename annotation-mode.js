@@ -21,12 +21,9 @@
   let eraserBatch = null;
   let saveTimer = null;
   let lastMouseNotice = 0;
-  let inkHistoryEntryActive = false;
-  let handlingHistoryExit = false;
-  let inkInfrastructureReady = false;
 
   function safeParse(value, fallback) {
-    try { return JSON.parse(value); } catch (_) { return fallback; }
+    try { return JSON.parse(value) ?? fallback; } catch (_) { return fallback; }
   }
 
   function loadState() {
@@ -430,8 +427,8 @@
     toolbar.setAttribute('role', 'toolbar');
     toolbar.setAttribute('aria-label', 'أدوات القراءة والكتابة بالقلم');
     toolbar.innerHTML = `
-      <button class="ink-exit-button" id="inkExit" type="button" title="العودة إلى وضع القراءة" aria-label="العودة إلى وضع القراءة">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/><path d="M9 12h10"/></svg><span>العودة للقراءة</span>
+      <button class="ink-tool-button" id="inkExit" type="button" title="إنهاء وضع القراءة" aria-label="إنهاء وضع القراءة">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg><span class="ink-button-label">إنهاء</span>
       </button>
       <div class="ink-toolbar__brand"><strong>القراءة والتلخيص</strong><span>القلم يكتب — الإصبع يمرّر الصفحة</span></div>
       <div class="ink-tool-group" aria-label="نوع الأداة">
@@ -476,7 +473,7 @@
     toolbar.querySelectorAll('[data-ink-tool]').forEach((button) => button.addEventListener('click', () => setTool(button.dataset.inkTool)));
     toolbar.querySelectorAll('[data-ink-color]').forEach((button) => button.addEventListener('click', () => setColor(button.dataset.inkColor)));
     toolbar.querySelectorAll('[data-ink-size]').forEach((button) => button.addEventListener('click', () => setSize(Number(button.dataset.inkSize))));
-    document.getElementById('inkExit').addEventListener('click', requestExitToReading);
+    document.getElementById('inkExit').addEventListener('click', exitMode);
     document.getElementById('inkUndo').addEventListener('click', undo);
     document.getElementById('inkRedo').addEventListener('click', redo);
     document.getElementById('inkClear').addEventListener('click', clearAll);
@@ -493,14 +490,6 @@
     intro.className = 'ink-mode-intro no-print';
     intro.textContent = 'القلم فقط للكتابة — الإصبع للتمرير والتكبير';
     document.body.appendChild(intro);
-
-    const floatingExit = document.createElement('button');
-    floatingExit.type = 'button';
-    floatingExit.className = 'ink-floating-exit no-print';
-    floatingExit.setAttribute('aria-label', 'العودة إلى وضع القراءة');
-    floatingExit.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/><path d="M9 12h10"/></svg><span>العودة للقراءة</span>`;
-    floatingExit.addEventListener('click', requestExitToReading);
-    document.body.appendChild(floatingExit);
 
     setTool(settings.tool);
     setSize(settings.size);
@@ -523,73 +512,18 @@
     if (dockButton) dockButton.addEventListener('click', enterMode);
   }
 
-  function setReadingModeWithoutScroll() {
-    const modes = window.OralHealthLearningModes;
-    if (modes?.apply) {
-      modes.apply('reading', { silent: true, scroll: false });
-      return;
-    }
-    document.body.dataset.learningMode = 'reading';
-    const overview = document.getElementById('overviewPanel');
-    const study = document.getElementById('studyPanel');
-    if (overview) overview.hidden = false;
-    if (study) study.hidden = true;
-    document.querySelectorAll('.mode-tab').forEach((tab) => {
-      const active = tab.dataset.mode === 'reading';
-      tab.classList.toggle('is-active', active);
-      tab.setAttribute('aria-selected', String(active));
-      tab.tabIndex = active ? 0 : -1;
-    });
-  }
-
-  function ensureInkInfrastructure() {
-    try {
-      buildToolbar();
-      if (hosts.size === 0) initHosts();
-      ensureEntryButtons();
-      updateSummaryVisibility();
-      redrawAll();
-      document.body.classList.add('ink-ui-ready');
-      inkInfrastructureReady = true;
-      return true;
-    } catch (error) {
-      console.error('تعذر تجهيز أدوات القلم:', error);
-      document.body.classList.remove('ink-ui-ready');
-      return false;
-    }
-  }
-
-  function enterMode(options = {}) {
-    ensureInkInfrastructure();
+  function enterMode() {
     const overviewTab = document.getElementById('overviewTab');
     if (overviewTab && !overviewTab.classList.contains('is-active')) overviewTab.click();
     document.body.classList.add('ink-mode');
     document.body.dataset.inkTool = settings.tool;
-
-    if (!options.skipHistory && !history.state?.oralHealthInkMode) {
-      try {
-        history.pushState({ ...(history.state || {}), oralHealthInkMode: true }, '', location.href);
-        inkHistoryEntryActive = true;
-      } catch (_) {}
-    }
-    if (!options.silent) showToast('تم تفعيل وضع التلخيص: اكتب بالقلم، واستخدم الإصبع للتمرير');
+    showToast('تم تفعيل وضع القراءة: اكتب بالقلم، واستخدم الإصبع للتمرير');
   }
 
-  function exitMode(options = {}) {
+  function exitMode() {
     saveState(true);
-    document.body.classList.remove('ink-mode', 'ink-pen-down');
-    if (options.returnToReading) setReadingModeWithoutScroll();
-    if (!options.silent) showToast('تم حفظ الكتابات والملاحظات والعودة إلى القراءة');
-  }
-
-  function requestExitToReading() {
-    saveState(true);
-    if (history.state?.oralHealthInkMode && !handlingHistoryExit) {
-      handlingHistoryExit = true;
-      history.back();
-      return;
-    }
-    exitMode({ returnToReading: true });
+    document.body.classList.remove('ink-mode');
+    showToast('تم حفظ الكتابات والملاحظات');
   }
 
   function updateSummaryVisibility() {
@@ -600,10 +534,11 @@
   }
 
   function init() {
-    // لا نسمح باستعادة وضع القلم تلقائياً بعد إعادة تحميل الصفحة.
-    document.body.classList.remove('ink-mode', 'ink-pen-down');
-    document.body.classList.remove('ink-ui-ready');
-    ensureInkInfrastructure();
+    buildToolbar();
+    initHosts();
+    ensureEntryButtons();
+    updateSummaryVisibility();
+    redrawAll();
 
     const observer = new MutationObserver(() => ensureEntryButtons());
     observer.observe(document.body, { childList: true, subtree: true });
@@ -613,44 +548,16 @@
     }, { passive: false });
 
     window.addEventListener('beforeunload', () => saveState(true));
-    window.addEventListener('popstate', () => {
-      if (!document.body.classList.contains('ink-mode')) {
-        handlingHistoryExit = false;
-        inkHistoryEntryActive = false;
-        return;
-      }
-      exitMode({ silent: true, returnToReading: true, fromHistory: true });
-      handlingHistoryExit = false;
-      inkHistoryEntryActive = false;
-      showToast('تم حفظ الكتابات والعودة إلى وضع القراءة');
-    });
     window.addEventListener('keydown', (event) => {
       if (!document.body.classList.contains('ink-mode')) return;
       if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'z') {
         event.preventDefault();
         if (event.shiftKey) redo(); else undo();
       }
-      if (event.key === 'Escape') requestExitToReading();
+      if (event.key === 'Escape') exitMode();
     });
   }
 
-  window.OralHealthInk = {
-    enter: enterMode,
-    exit: exitMode,
-    isActive: () => document.body.classList.contains('ink-mode'),
-    save: () => saveState(true)
-  };
-
-  function safeInit() {
-    try {
-      init();
-    } catch (error) {
-      console.error('فشل تهيئة وضع التلخيص؛ تمت العودة الآمنة إلى القراءة:', error);
-      document.body?.classList.remove('ink-mode', 'ink-pen-down', 'ink-ui-ready');
-      if (document.body) document.body.dataset.learningMode = 'reading';
-    }
-  }
-
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', safeInit, { once: true });
-  else safeInit();
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true });
+  else init();
 })();
