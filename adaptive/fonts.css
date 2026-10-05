@@ -1,0 +1,8 @@
+@font-face{font-family:Cairo;font-style:normal;font-weight:400;font-display:swap;src:url(../assets/fonts/cairo-arabic-400-normal.woff2) format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF;}
+@font-face{font-family:Cairo;font-style:normal;font-weight:400;font-display:swap;src:url(../assets/fonts/cairo-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+@font-face{font-family:Cairo;font-style:normal;font-weight:600;font-display:swap;src:url(../assets/fonts/cairo-arabic-600-normal.woff2) format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF;}
+@font-face{font-family:Cairo;font-style:normal;font-weight:600;font-display:swap;src:url(../assets/fonts/cairo-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+@font-face{font-family:Cairo;font-style:normal;font-weight:700;font-display:swap;src:url(../assets/fonts/cairo-arabic-700-normal.woff2) format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF;}
+@font-face{font-family:Cairo;font-style:normal;font-weight:700;font-display:swap;src:url(../assets/fonts/cairo-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+@font-face{font-family:Cairo;font-style:normal;font-weight:800;font-display:swap;src:url(../assets/fonts/cairo-arabic-800-normal.woff2) format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF;}
+@font-face{font-family:Cairo;font-style:normal;font-weight:800;font-display:swap;src:url(../assets/fonts/cairo-latin-800-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
