@@ -1,95 +1,70 @@
 (() => {
   'use strict';
-  const pages = window.LEARNING_MAP_PAGES || [];
-  const MAP_KEY = 'oral-health-learning-map-v1';
-  const progressKeys = { 1: 'maxilla-page-01-progress-v1', 2: 'mandible-page-02-progress-v1', 3: 'oral-mucosa-page-03-progress-v1' };
-  for (let page = 4; page <= 17; page += 1) progressKeys[page] = `oral-anatomy-page-${String(page).padStart(2, '0')}-progress-v1`;
-  const labels = { not_started: 'لم يبدأ', in_progress: 'قيد الدراسة', complete: 'مكتمل', review: 'يحتاج مراجعة', mastered: 'متقن' };
-  const colors = { not_started: '#8b9995', in_progress: '#c78545', complete: '#4d8bab', review: '#c05a58', mastered: '#3d9171' };
+  const course = window.ORAL_HEALTH_COURSE;
+  const progress = window.LearningProgress;
+  const modulesRoot = document.getElementById('pathModules');
+  const continueCard = document.getElementById('continueCard');
+  const labels = { locked: 'مقفل', available: 'متاح', in_progress: 'قيد الدراسة', completed: 'مكتمل', mastered: 'متقن', needs_review: 'يحتاج مراجعة', not_started: 'لم يبدأ' };
+  const icons = { locked: '🔒', available: '▶', in_progress: '◔', completed: '✓', mastered: '★', needs_review: '↻', not_started: '○' };
 
-  function readJSON(key, fallback = {}) {
-    try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback)); }
-    catch (_) { return fallback; }
+  function unitPercent(unit) {
+    const lessonDone = unit.lessons.filter((lesson) => ['completed', 'mastered', 'needs_review'].includes(progress.lessonRecord(lesson.id).status)).length;
+    const cpDone = ['completed', 'mastered', 'needs_review'].includes(progress.unitRecord(unit.id).checkpointStatus) ? 1 : 0;
+    return Math.round(((lessonDone + cpDone) / (unit.lessons.length + 1)) * 100);
   }
-  let map = readJSON(MAP_KEY, {});
-  const result = readJSON('oral-course-comprehensive-exam-result-v4', null) || readJSON('oral-course-comprehensive-exam-result-v3', null);
 
-  function pageExamPercent(page) {
-    if (!result?.details) return null;
-    const rows = result.details.filter((item) => item.page === page);
-    if (!rows.length) return null;
-    return Math.round((rows.filter((item) => item.isCorrect).length / rows.length) * 100);
+  function renderContinue(target) {
+    const reviewCount = progress.reviewQueue().length;
+    if (target.type === 'complete') {
+      continueCard.innerHTML = `<div><span>اكتمل المسار</span><strong>يمكنك الآن مراجعة الوحدات أو بدء الاختبار الشامل.</strong></div><div class="path-continue__actions"><a href="comprehensive-exam.html">فتح الاختبار الشامل</a>${reviewCount ? `<a href="review.html">مراجعة النقاط الضعيفة (${reviewCount})</a>` : ''}</div>`;
+      return;
+    }
+    const title = target.type === 'checkpoint' ? target.unit.checkpoint.title : target.lesson.title;
+    const meta = target.type === 'checkpoint' ? `اختبار صفحة ${String(target.unit.pageNumber).padStart(2, '0')}` : `${target.unit.title} · درس قصير`;
+    continueCard.innerHTML = `<div><span>${meta}</span><strong>${title}</strong></div><div class="path-continue__actions"><a href="${progress.targetUrl(target)}">متابعة من حيث توقفت</a>${reviewCount ? `<a class="secondary-review-link" href="review.html">مراجعة النقاط الضعيفة (${reviewCount})</a>` : ''}</div>`;
   }
-  function pageProgress(page) {
-    const state = readJSON(progressKeys[page], null);
-    if (!state?.answers || !Array.isArray(state.answers)) return { answered: 0, total: 0, pct: 0 };
-    const answered = state.answers.filter((value) => value !== null).length;
-    return { answered, total: state.answers.length, pct: state.answers.length ? Math.round((answered / state.answers.length) * 100) : 0 };
-  }
-  function autoStatus(page) {
-    const saved = map[page] || {};
-    const progress = pageProgress(page);
-    const exam = pageExamPercent(page);
-    if (exam !== null && exam >= 85) return 'mastered';
-    if (exam !== null && exam < 60) return 'review';
-    if (progress.total && progress.answered === progress.total) return 'complete';
-    if (progress.answered > 0 || saved.visited) return 'in_progress';
-    return 'not_started';
-  }
-  function status(page) { return map[page]?.manual || autoStatus(page); }
-  function persist() { try { localStorage.setItem(MAP_KEY, JSON.stringify(map)); } catch (_) {} }
 
   function render() {
-    const groups = document.getElementById('mapGroups');
-    groups.innerHTML = '';
-    const grouped = pages.reduce((result, page) => {
-      (result[page.group] ??= []).push(page);
-      return result;
-    }, {});
-    const counts = { not_started: 0, in_progress: 0, complete: 0, review: 0, mastered: 0 };
-    Object.entries(grouped).forEach(([name, items]) => {
-      const section = document.createElement('section');
-      section.className = 'map-group';
-      section.innerHTML = `<div class="map-group__heading"><h3>${name}</h3><span>${items.length} صفحات</span></div><div class="map-grid"></div>`;
-      const grid = section.querySelector('.map-grid');
-      items.forEach((page) => {
-        const currentStatus = status(page.page);
-        counts[currentStatus] += 1;
-        const progress = pageProgress(page.page);
-        const exam = pageExamPercent(page.page);
-        const visual = currentStatus === 'mastered' ? 100 : currentStatus === 'review' ? (exam ?? progress.pct) : currentStatus === 'complete' ? 100 : progress.pct;
-        const card = document.createElement('article');
-        card.className = 'map-card';
-        card.style.setProperty('--status-color', colors[currentStatus]);
-        card.innerHTML = `<div class="map-card__top"><span class="map-card__number">${String(page.page).padStart(2, '0')}</span><span class="map-status">${labels[currentStatus]}</span></div><h4>${page.title}</h4><div class="map-card__progress"><span style="width:${visual}%"></span></div><div class="map-card__meta">${progress.total ? `أسئلة الصفحة: ${progress.answered}/${progress.total}` : 'لم تُسجل إجابات بعد'}${exam !== null ? ` · الاختبار الشامل: ${exam}%` : ''}</div><div class="map-card__actions"><a href="${page.file}">فتح الصفحة</a><select aria-label="تعديل حالة الصفحة ${page.page}"><option value="auto">تلقائي</option><option value="not_started">لم يبدأ</option><option value="in_progress">قيد الدراسة</option><option value="complete">مكتمل</option><option value="review">يحتاج مراجعة</option><option value="mastered">متقن</option></select></div>`;
-        const select = card.querySelector('select');
-        select.value = map[page.page]?.manual || 'auto';
-        select.addEventListener('change', () => {
-          map[page.page] = map[page.page] || {};
-          if (select.value === 'auto') delete map[page.page].manual;
-          else map[page.page].manual = select.value;
-          persist();
-          render();
+    progress.refresh();
+    const target = progress.nextLearningTarget();
+    renderContinue(target);
+    document.getElementById('overallPercent').textContent = `${progress.totals().percent}%`;
+    modulesRoot.innerHTML = '';
+    course.modules.forEach((module, moduleIndex) => {
+      const section = document.createElement('section'); section.className = 'path-module';
+      const modulePercent = Math.round(module.units.reduce((sum, unit) => sum + unitPercent(unit), 0) / module.units.length);
+      section.innerHTML = `<header class="path-module__head"><div><span>الوحدة الرئيسية ${String(moduleIndex + 1).padStart(2, '0')}</span><h2>${module.title}</h2><p>${module.description}</p></div><div class="path-module__percent">${modulePercent}%</div></header><div class="path-unit-list"></div>`;
+      const list = section.querySelector('.path-unit-list');
+      module.units.forEach((unit) => {
+        const percent = unitPercent(unit);
+        const isCurrent = target.type !== 'complete' && target.unit?.id === unit.id;
+        const unitCard = document.createElement('article');
+        unitCard.className = `path-unit ${progress.isUnitUnlocked(unit.id) ? '' : 'is-locked'} ${isCurrent ? 'is-current-unit' : ''} ${percent === 100 && !isCurrent ? 'is-collapsed' : ''}`;
+        unitCard.innerHTML = `<header class="path-unit__head"><div><span>صفحة ${String(unit.pageNumber).padStart(2, '0')}</span><h3>${unit.title}</h3></div><div class="path-unit__progress"><span style="width:${percent}%"></span></div><small>${percent}%</small><button class="unit-collapse" type="button" aria-expanded="${percent === 100 && !isCurrent ? 'false' : 'true'}">${percent === 100 && !isCurrent ? 'إظهار' : 'طي'}</button></header><div class="path-unit__body"><div class="lesson-nodes"></div><div class="path-unit__links"><a href="${unit.referenceFile}">فتح المرجع الكامل</a></div></div>`;
+        const nodes = unitCard.querySelector('.lesson-nodes');
+        unit.lessons.forEach((lesson, index) => {
+          const status = progress.lessonStatus(lesson.id);
+          const node = document.createElement(status === 'locked' ? 'div' : 'a');
+          node.className = `lesson-node status-${status} ${target.type === 'lesson' && target.lesson?.id === lesson.id ? 'is-current-lesson' : ''}`;
+          if (status !== 'locked') node.href = `lesson.html?unit=${unit.id}&lesson=${lesson.id}`;
+          node.setAttribute('aria-label', `${lesson.title} — ${labels[status]}`);
+          node.innerHTML = `<span class="lesson-node__icon">${icons[status]}</span><span class="lesson-node__text"><small>الدرس ${index + 1} · ${lesson.estimatedMinutes} دقائق · ${lesson.questionIds.length} أنشطة</small><strong>${lesson.title}</strong><em>${labels[status]}</em></span>`;
+          nodes.appendChild(node);
         });
-        grid.appendChild(card);
+        const cpStatus = progress.checkpointStatus(unit.id);
+        const checkpoint = document.createElement(cpStatus === 'locked' ? 'div' : 'a');
+        checkpoint.className = `lesson-node lesson-node--checkpoint status-${cpStatus} ${target.type === 'checkpoint' && target.unit?.id === unit.id ? 'is-current-lesson' : ''}`;
+        if (cpStatus !== 'locked') checkpoint.href = `lesson.html?unit=${unit.id}&mode=checkpoint`;
+        checkpoint.innerHTML = `<span class="lesson-node__icon">${icons[cpStatus]}</span><span class="lesson-node__text"><small>${unit.checkpoint.questionIds.length} أسئلة موضوعية</small><strong>${unit.checkpoint.title}</strong><em>${labels[cpStatus]}</em></span>`;
+        nodes.appendChild(checkpoint);
+        unitCard.querySelector('.unit-collapse').addEventListener('click', (event) => {
+          unitCard.classList.toggle('is-collapsed'); const collapsed = unitCard.classList.contains('is-collapsed');
+          event.currentTarget.textContent = collapsed ? 'إظهار' : 'طي'; event.currentTarget.setAttribute('aria-expanded', String(!collapsed));
+        });
+        list.appendChild(unitCard);
       });
-      groups.appendChild(section);
+      modulesRoot.appendChild(section);
     });
-    document.getElementById('notStartedStat').textContent = counts.not_started;
-    document.getElementById('inProgressStat').textContent = counts.in_progress;
-    document.getElementById('completeStat').textContent = counts.complete;
-    document.getElementById('reviewStat').textContent = counts.review;
-    document.getElementById('masteredStat').textContent = counts.mastered;
-    const weighted = counts.mastered + counts.complete + counts.in_progress * 0.5;
-    document.getElementById('mapProgressBar').style.width = `${Math.round((weighted / pages.length) * 100)}%`;
-    renderContinue();
-  }
-  function renderContinue() {
-    const visited = pages.map((page) => ({ page, last: map[page.page]?.lastVisited || 0 })).sort((a, b) => b.last - a.last)[0];
-    const box = document.getElementById('continueCard');
-    if (!visited?.last) { box.hidden = true; return; }
-    box.hidden = false;
-    box.innerHTML = `<div><strong>متابعة من آخر صفحة</strong><span> ${String(visited.page.page).padStart(2, '0')} · ${visited.page.title}</span></div><a href="${visited.page.file}">متابعة الدراسة</a>`;
   }
   render();
 })();

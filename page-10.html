@@ -1,441 +1,403 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#2d6a68" />
-  <meta name="description" content="صفحة تعليمية تفاعلية عن اضطرابات النسج الداعمة المرتبطة بحركة الأسنان، الانحسار اللثوي، صرير الأسنان، الإطباق الرضي، والتواج." />
-  <title>اضطرابات النسج الداعمة | الصفحة 10</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="global-ui.css" />
-  <link rel="stylesheet" href="learning-modes-two.css?v=1.0.0" />
-  <link rel="stylesheet" href="interactive-images.css" />
-  <link rel="stylesheet" href="print-system.css" />
-  <link rel="stylesheet" href="dark-mode-polish.css?v=1.0.0" />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#2d6a68" name="theme-color"/>
+<meta content="صفحة تعليمية تفاعلية عن اضطرابات النسج الداعمة المرتبطة بحركة الأسنان، الانحسار اللثوي، صرير الأسنان، الإطباق الرضي، والتواج." name="description"/>
+<title>اضطرابات النسج الداعمة | الصفحة 10</title>
+
+
+
+<link href="styles.css" rel="stylesheet"/>
+<link href="global-ui.css" rel="stylesheet"/>
+<link href="annotation-mode.css" rel="stylesheet"/>
+<link rel="stylesheet" href="adaptive/fonts.css"><link rel="stylesheet" href="adaptive/tokens.css"></head>
 <body>
 <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
-
-  <header class="topbar no-print">
-    <div class="topbar__inner shell">
-      <div class="brand" aria-label="صفحة دراسة اضطرابات النسج الداعمة">
-        <div class="brand__mark" aria-hidden="true">
-          <svg viewBox="0 0 48 48" role="img"><path d="M11 9c8-5 18-5 26 0 3 2 4 6 3 10l-5 17c-1 4-5 5-8 2l-3-4-3 4c-3 3-7 2-8-2L8 19c-1-4 0-8 3-10Z"/><path d="M18 12c4-2 8-2 12 0"/></svg>
-        </div>
-        <div>
-          <p class="brand__eyebrow">تشريح الفم والأسنان</p>
-          <h1 class="brand__title">اضطرابات النسج الداعمة</h1>
-        </div>
-      </div>
-      <div class="topbar__actions">
-        <span class="page-pill" aria-label="رقم الصفحة">الصفحة 10</span>
-        <button class="icon-button" id="printBtn" type="button" title="حفظ الدرس كملف PDF بحجم A4" aria-label="حفظ الدرس كملف PDF بحجم A4">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/></svg>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <nav class="mode-switch no-print" aria-label="طريقة الاستخدام">
-    <div class="shell mode-switch__inner" role="tablist">
-      <button class="mode-tab is-active" role="tab" aria-selected="true" aria-controls="overviewPanel" id="overviewTab" data-mode="overview">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg>
+<header class="topbar no-print">
+<div class="topbar__inner shell">
+<div aria-label="صفحة دراسة اضطرابات النسج الداعمة" class="brand">
+<div aria-hidden="true" class="brand__mark">
+<svg role="img" viewbox="0 0 48 48"><path d="M11 9c8-5 18-5 26 0 3 2 4 6 3 10l-5 17c-1 4-5 5-8 2l-3-4-3 4c-3 3-7 2-8-2L8 19c-1-4 0-8 3-10Z"></path><path d="M18 12c4-2 8-2 12 0"></path></svg>
+</div>
+<div>
+<p class="brand__eyebrow">تشريح الفم والأسنان</p>
+<h1 class="brand__title">اضطرابات النسج الداعمة</h1>
+</div>
+</div>
+<div class="topbar__actions">
+<span aria-label="رقم الصفحة" class="page-pill">الصفحة 10</span>
+<button aria-label="طباعة الصفحة" class="icon-button" id="printBtn" title="طباعة الصفحة" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"></path></svg>
+</button>
+</div>
+</div>
+</header>
+<nav aria-label="طريقة الاستخدام" class="mode-switch no-print">
+<div class="shell mode-switch__inner" role="tablist">
+<button aria-controls="overviewPanel" aria-selected="true" class="mode-tab is-active" data-mode="overview" id="overviewTab" role="tab">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"></path></svg>
         استعراض المعلومات
       </button>
-      <button class="mode-tab" role="tab" aria-selected="false" aria-controls="studyPanel" id="studyTab" data-mode="study">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-5 9 5-9 5-9-5Zm4 3v4c3 2 7 2 10 0v-4"/></svg>
+<button aria-controls="studyPanel" aria-selected="false" class="mode-tab" data-mode="study" id="studyTab" role="tab">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="m3 11 9-5 9 5-9 5-9-5Zm4 3v4c3 2 7 2 10 0v-4"></path></svg>
         وضع الدراسة
       </button>
-    </div>
-  </nav>
-
-  <nav class="course-nav no-print" aria-label="التنقل بين صفحات المقرر">
-    <div class="shell course-nav__inner">
-      <div class="course-pages">
-        <a class="course-page-link" href="index.html">01 · الفك العلوي</a>
-        <a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
-        <a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
-        <a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
-        <a class="course-page-link" href="page-05.html">05 · الغدد اللعابية</a>
-        <a class="course-page-link" href="page-06.html">06 · الأسنان والبزوغ</a>
-        <a class="course-page-link" href="page-07.html">07 · بنية الأسنان</a>
-        <a class="course-page-link" href="page-08.html">08 · النسج المحيطة بالسن</a>
-        <a class="course-page-link" href="page-09.html">09 · الأمراض اللثوية</a>
-        <a class="course-page-link is-current" href="page-10.html" aria-current="page">10 · اضطرابات النسج الداعمة</a>
-              <a class="course-page-link" href="page-11.html">11 · التهاب الفم</a>
-              <a class="course-page-link" href="page-12.html">12 · القلاع والسلاق والنكاف</a>
-              <a class="course-page-link" href="page-13.html">13 · الآفات ما قبل السرطانية والسرطانية</a>
-              <a class="course-page-link" href="page-14.html">14 · القلح والتلونات السنية</a>
-              <a class="course-page-link" href="page-15.html">15 · بخر الفم</a>
-              <a class="course-page-link" href="page-16.html">16 · العادات الفموية السيئة</a>
-              <a class="course-page-link" href="page-17.html">17 · نخر الأسنان</a>
-              <a class="course-page-link course-page-link--exam" href="comprehensive-exam.html">الاختبار الشامل</a>
-      </div>
-      <span class="course-nav__status">17 صفحة تعليمية + اختبار شامل</span>
-    </div>
-  </nav>
-
-  <main id="main-content" class="shell page-main">
-    <section id="overviewPanel" class="mode-panel" role="tabpanel" aria-labelledby="overviewTab">
-      <article class="hero-card print-block">
-        <div class="hero-card__content">
-          <div class="section-kicker">متابعة أمراض النسج الداعمة</div>
-          <h2>حركة الأسنان، الانحسار اللثوي، صرير الأسنان، والإطباق الرضي</h2>
-          <p>
+</div>
+</nav>
+<nav aria-label="التنقل بين صفحات المقرر" class="course-nav no-print">
+<div class="shell course-nav__inner">
+<div class="course-pages">
+<a class="course-page-link" href="page-01.html">01 · الفك العلوي</a>
+<a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
+<a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
+<a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
+<a class="course-page-link" href="page-05.html">05 · الغدد اللعابية</a>
+<a class="course-page-link" href="page-06.html">06 · الأسنان والبزوغ</a>
+<a class="course-page-link" href="page-07.html">07 · بنية الأسنان</a>
+<a class="course-page-link" href="page-08.html">08 · النسج المحيطة بالسن</a>
+<a class="course-page-link" href="page-09.html">09 · الأمراض اللثوية</a>
+<a aria-current="page" class="course-page-link is-current" href="page-10.html">10 · اضطرابات النسج الداعمة</a>
+<a class="course-page-link" href="page-11.html">11 · التهاب الفم</a>
+<a class="course-page-link" href="page-12.html">12 · القلاع والسلاق والنكاف</a>
+<a class="course-page-link" href="page-13.html">13 · الآفات ما قبل السرطانية والسرطانية</a>
+<a class="course-page-link" href="page-14.html">14 · القلح والتلونات السنية</a>
+<a class="course-page-link" href="page-15.html">15 · بخر الفم</a>
+<a class="course-page-link" href="page-16.html">16 · العادات الفموية السيئة</a>
+<a class="course-page-link" href="page-17.html">17 · نخر الأسنان</a>
+<a class="course-page-link course-page-link--exam" href="comprehensive-exam.html">الاختبار الشامل</a>
+</div>
+<span class="course-nav__status">17 صفحة تعليمية + اختبار شامل</span>
+</div>
+</nav>
+<main class="shell page-main" id="main-content"><section aria-label="مسار التعلم" class="learning-path-entry no-print"><div><span>مسار التعلم المتدرج</span><strong>حوّل هذه الصفحة إلى دروس قصيرة متتابعة</strong></div><a href="lesson.html?unit=page-10">دراسة هذه الوحدة خطوة بخطوة</a></section>
+<section aria-labelledby="overviewTab" class="mode-panel" id="overviewPanel" role="tabpanel">
+<article class="hero-card print-block">
+<div class="hero-card__content">
+<div class="section-kicker">متابعة أمراض النسج الداعمة</div>
+<h2>حركة الأسنان، الانحسار اللثوي، صرير الأسنان، والإطباق الرضي</h2>
+<p>
             تعرض هذه الصفحة عدداً من الاضطرابات السريرية المهمة التي تصيب النسج الداعمة والأسنان،
             بدءاً من <strong>الحركة المرضية للأسنان</strong> و<strong>الانحسار اللثوي</strong>،
             مروراً بـ <strong>صرير الأسنان</strong>، ووصولاً إلى <strong>الإطباق الرضي</strong> و<strong>التواج</strong>.
           </p>
-          <div class="feature-strip">
-            <div class="feature-chip"><strong>الفكرة الأساسية</strong><span>أي خلل مستمر في النسج الداعمة أو الإطباق قد ينتهي بنقص الدعم العظمي وتقلقل الأسنان.</span></div>
-            <div class="feature-chip"><strong>مفتاح التمييز</strong><span>ليس كل ألم أو احتكاك سنّي يعني التهاباً، فقد يكون السبب صريراً أو رضّاً إطباقياً.</span></div>
-            <div class="feature-chip"><strong>محور المعالجة</strong><span>إزالة السبب، الوقاية المبكرة، ثم التصحيح الوظيفي أو التعويضي.</span></div>
-          </div>
-        </div>
-        <aside class="hero-note" aria-label="الخلاصة">
-          <span class="hero-note__icon" aria-hidden="true">10</span>
-          <div>
-            <strong>ملخص الصفحة</strong>
-            <p>تربط الصفحة بين الأعراض السريرية والسبب الوظيفي أو الميكانيكي المؤدي لاضطراب النسج حول الأسنان.</p>
-          </div>
-        </aside>
-      </article>
-
-      <section class="content-section print-block" aria-labelledby="toothMobilityTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">ثانياً</div>
-            <h2 id="toothMobilityTitle">حركة الأسنان</h2>
-          </div>
-          <span class="chapter-badge">M</span>
-        </div>
-
-        <div class="overview-columns overview-columns--two">
-          <article class="text-card">
-            <p>للأسنان حركة طبيعية دهليزية لسانية وبشكل أقل أنسية وحشية، وهذه الحركة تكاد لا تُرى في الأسنان الخلفية.</p>
-            <p>أما <strong>الحركة المرضية للأسنان</strong> فتنتج عن فقدان جزئي أو تام للأنسجة الداعمة، كما في <strong>مرض الرعّال</strong> أو في حالات <strong>اتساع الرباط</strong> المترافق مع تناقص الدعم العظمي للأسنان.</p>
-          </article>
-
-          <article class="text-card">
-            <h3>درجات الحركة السنية</h3>
-            <ul class="concept-list">
-              <li><strong>درجة أولى:</strong> تتحرك السن بالاتجاه الدهليزي اللساني.</li>
-              <li><strong>درجة ثانية:</strong> تتحرك السن بالاتجاه الأنسي الوحشي بالإضافة إلى الاتجاه الدهليزي اللساني.</li>
-              <li><strong>درجة ثالثة:</strong> تتحرك السن حركة شاقولية بالإضافة إلى الدرجتين السابقتين.</li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="info-grid info-grid--three">
-          <article class="summary-chip-card">
-            <strong>الحركة الطبيعية</strong>
-            <span>أوضح دهليزياً لسانياً، وأقل وضوحاً أنسياً وحشياً.</span>
-          </article>
-          <article class="summary-chip-card">
-            <strong>الحركة المرضية</strong>
-            <span>مرتبطة بتراجع الدعم العظمي أو تخرب النسج الداعمة.</span>
-          </article>
-          <article class="summary-chip-card">
-            <strong>الأهمية السريرية</strong>
-            <span>تساعد درجات الحركة في تقدير شدة الإصابة حول السنية.</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="recessionTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">ثالثاً</div>
-            <h2 id="recessionTitle">الانحسار اللثوي</h2>
-          </div>
-          <span class="chapter-badge chapter-badge--accent">R</span>
-        </div>
-
-        <div class="overview-columns overview-columns--two">
-          <article class="text-card">
-            <p>هو تراجع النسج الداعمة بما فيها اللثة عن السن، وينتج عن:</p>
-            <ul class="concept-list">
-              <li>الصفيحة الجرثومية وما تطرحه من مواد تحلّ الارتباط بين السن والنسج المحيطة به.</li>
-              <li>الإطباق الرضي.</li>
-              <li>ارتكاز الألجمة المنخفض كألجمة الشفة أو الألجمة الجانبية، مما يؤدي إلى انحسار اللثة عن السن المجاور للحاج.</li>
-            </ul>
-          </article>
-
-          <article class="text-card">
-            <p>تتدخل عوامل أخرى في ظهور الانحسار اللثوي بشكل واضح، منها:</p>
-            <ul class="concept-list">
-              <li><strong>سماكة النسج العظمي المغطي:</strong> مثل الناب السفلي حيث تكون الصفيحة الدهليزية رقيقة جداً، وكذلك الصفيحة الحنكية للرحى الأولى والثانية العلوية.</li>
-              <li>انحسارات تحدث في سياق التقريش الخاطئ.</li>
-              <li>الأجهزة الصناعية السنية السيئة.</li>
-            </ul>
-            <p>والسبب في بعض الأسنان هو اقترابها من أماكن انصباب اللعاب في الفم.</p>
-          </article>
-        </div>
-
-        <article class="alert-card alert-card--soft">
-          <h3>ملاحظة سريرية</h3>
-          <p>فلجام الشفة السفلية يتدخل في الانحسار اللثوي كثير الحدوث على السطوح الدهليزية للثنايا السفلية.</p>
-        </article>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="bruxismTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">رابعاً</div>
-            <h2 id="bruxismTitle">صرير الأسنان</h2>
-          </div>
-          <span class="chapter-badge">B</span>
-        </div>
-
-        <div class="overview-columns overview-columns--two">
-          <article class="text-card">
-            <p><strong>صرير الأسنان</strong> هو داء التشنج العضلي غير الطبيعي لعضلات المضغ.</p>
-            <p>يجب تمييز الصرير المرضي عن الصرير الطارئ الذي قد يظهر عرضاً بعد بعض الأمراض الناتجة عن التشنج العضلي العابر، فتتشنج عضلات المضغ مؤقتاً مما يؤدي إلى احتكاك الأسنان مع بعضها.</p>
-            <p>الصرير المرضي هو وجود هذه الظاهرة بشكل مستمر ومن دون الدواعي السابقة، وبالشكل الذي يهدد سلامة النسج السنية وما حول السنية.</p>
-          </article>
-
-          <article class="text-card">
-            <h3>نتائج وأعراض الصرير</h3>
-            <ul class="concept-list">
-              <li>انسحال غير طبيعي للدرجة قد يفقد معها السن قسماً كبيراً من التاج.</li>
-              <li>قد يحدث كسر في الميناء أو التيجان في مناطق الضغط.</li>
-              <li>آلام في عضلات المضغ، ثم قد تنتشر إلى عضلات العنق والرأس والكتف.</li>
-              <li>قد يترافق بألم وأصوات في المفصل الفكي الصدغي وصداع صباحي.</li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="info-grid info-grid--three">
-          <article class="summary-chip-card">
-            <strong>أحد العوامل المهمة</strong>
-            <span>الإطباق الرضي أو وجود حشوة أو تاج مرتفع على مستوى الإطباق ولو بمقدار بسيط.</span>
-          </article>
-          <article class="summary-chip-card">
-            <strong>الفحص السريري</strong>
-            <span>يمكن إثارة ألم العضلة الماضغة بالجس خارج الفم، ويبدو الألم العضلي أحياناً صباحاً عند الاستيقاظ.</span>
-          </article>
-          <article class="summary-chip-card">
-            <strong>العلاج المبدئي</strong>
-            <span>جهاز رفع العضة لقطع الحلقة المفرغة: ألم ← ضغط ← تشنج عضلي.</span>
-          </article>
-        </div>
-
-        <article class="text-card">
-          <h3>المعالجة الإضافية والتمارين</h3>
-          <p>قد نحتاج إلى المعالجة النفسية وإعطاء المرخيات العضلية أو المنومات، وتكون المعالجة الفيزيائية لاضطرابات المفصل الفكي الصدغي كما يلي:</p>
-          <ol class="concept-list concept-list--numbered">
-            <li><strong>التمرين الأول:</strong> وضع اللسان في أقصى وضع خلفي قرب اللهاة في قبة الحنك ثم فتح الفم قسرياً بما يؤدي إلى تعب عضلات المضغ والغاية من هذا حدوث توازن عضلي في الطرفين وجعل محصلة عمل العضلات في الجانبين تساوي الصفر.</li>
-            <li><strong>التمرين الثاني:</strong> فتح الفم وإغلاقه على الخط المتوسط.</li>
-            <li><strong>التمرين الثالث:</strong> فتح الفم قسرياً واليد موضوعة على الفك السفلي.</li>
-          </ol>
-          <p>والمعالجة النهائية للصرير هي تعديل الإطباق.</p>
-        </article>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="traumaTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">خامساً</div>
-            <h2 id="traumaTitle">الإطباق الرضي</h2>
-          </div>
-          <span class="chapter-badge chapter-badge--accent">T</span>
-        </div>
-
-        <article class="text-card">
-          <p>هو قوى إطباقية غير طبيعية تقع على الأسنان محدثة أضراراً في النسج الداعمة للسن.</p>
-        </article>
-
-        <div class="overview-columns overview-columns--two">
-          <article class="text-card">
-            <h3>أسباب الإطباق الرضي</h3>
-            <ol class="concept-list concept-list--numbered">
-              <li>سوء توضع الأسنان الخلفي أو وجود أسنان زائدة أو الناتج عن القلع المبكر للأسنان اللبنية.</li>
-              <li>قلع الأسنان الدائمة وعدم التعويض عنها وما يرافقه من ميلان الأسنان المجاورة لمنطقة القلع باتجاه الفراغ، وكذلك تطاول السن المقابلة للفراغ باتجاه هذا الفراغ.</li>
-              <li>العادات الفموية السيئة كعض الشفة واللسان ومسك بعض الأدوات بالفم.</li>
-              <li>المضغ وحيد الجانب.</li>
-              <li>الترميمات والأجهزة الصناعية السيئة التي لا تراعي العلاقات الإطباقية ونقاط التماس.</li>
-            </ol>
-          </article>
-
-          <article class="text-card">
-            <h3>أعراض الإطباق الرضي</h3>
-            <ol class="concept-list concept-list--numbered">
-              <li>ألم متمثل في المفصل الفكي الصدغي وآلام عضلية للعضلات الماضغة.</li>
-              <li>ألم في الرباط السني.</li>
-              <li>حساسية الأسنان إذا أدى الإطباق الرضي إلى سحل ميناء الأسنان وانكشاف العاج.</li>
-              <li>تشكل الجيوب العظمية.</li>
-              <li>تشكل الجيوب اللثوية إذا ما ترافق الإطباق الرضي مع صفيحة جرثومية.</li>
-              <li>نقص الدعم العظمي للأسنان بسبب امتصاص العظم وتراجع كل من اللثة والعظم وبالتالي تقلقل الأسنان وحركتها.</li>
-              <li>امتصاص الجذور.</li>
-            </ol>
-          </article>
-        </div>
-
-        <div class="overview-columns overview-columns--two">
-          <article class="text-card">
-            <h3>الإجراءات الوقائية</h3>
-            <ol class="concept-list concept-list--numbered">
-              <li>التعويض عن الأسنان المفقودة مباشرة.</li>
-              <li>معالجة النخور السنية مباشرة قبل تطورها ومعالجة الأسنان التي تكون مصدر آلام لمنع المضغ وحيد الجانب.</li>
-              <li>تجنب الترميمات والتعويضات الصناعية السيئة والانتباه عند صنعها إلى نقاط التماس والعلاقات الإطباقية الصحيحة.</li>
-              <li>استبعاد العادات الفموية الضارة.</li>
-            </ol>
-          </article>
-
-          <article class="text-card">
-            <h3>الإجراءات العلاجية</h3>
-            <ol class="concept-list concept-list--numbered">
-              <li>تصحيح الإطباق بالسحل لخلق تحريض ملائم للأربطة السنخية حتى تحافظ على سلامتها من التشوهات.</li>
-              <li>تصحيح الإطباق بالتعويضات الصناعية.</li>
-              <li>تصحيح الإطباق بالتقويم وذلك بإعادة الأسنان الشاذة إلى وضعها الطبيعي تقويمياً.</li>
-              <li>إزالة أسباب الصرير ومنع فرط نشاط العضلات الماضغة.</li>
-            </ol>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="pericoronitisTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">سادساً</div>
-            <h2 id="pericoronitisTitle">التواج</h2>
-          </div>
-          <span class="chapter-badge">P</span>
-        </div>
-
-        <div class="overview-columns overview-columns--two">
-          <article class="text-card">
-            <p>هو التهاب النسج المحيطة بسن في طور البزوغ، وغالباً ما تكون <strong>الرحى الثالثة السفلية</strong> هي المصابة، ويغلب أن تنمو الحافة اللثوية وتغطي جزءاً من التاج.</p>
-            <p>يمكن أن يكون الالتهاب <strong>حاداً</strong> أو <strong>تحت الحاد</strong> أو <strong>مزمناً</strong> أو <strong>ناكِساً</strong>.</p>
-          </article>
-
-          <article class="text-card">
-            <h3>المظاهر والمعالجة</h3>
-            <p>تترافق الحالة بألم شديد وقد ينتقل الالتهاب نحو الخد وأحياناً اللوزات والبلعوم وقاع الفم، وقد تترافق بنسج عضلي يمنع المريض من فتح فمه، وهذا ما يدعى <strong>الضزز</strong>.</p>
-            <p>تعتمد المعالجة على <strong>قطع القلنسوة اللثوية</strong> وغسل المنطقة جيداً بشكل متكرر، كما تفيد المضامض الفموية في هذه الحالة.</p>
-          </article>
-        </div>
-
-        <article class="alert-card alert-card--soft">
-          <h3>امتداد الصفحة القادمة</h3>
-          <p>تنتهي هذه الصفحة عند بداية عنوان <strong>سابعاً: كسور الفكين</strong>، وسيُبنى هذا العنوان في الصفحة التالية ضمن تسلسل المشروع.</p>
-        </article>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="comparisonTitle">
-        <div class="section-heading section-heading--compact">
-          <div>
-            <div class="section-kicker">مراجعة مركزة</div>
-            <h2 id="comparisonTitle">مقارنة سريعة بين أهم اضطرابات الصفحة</h2>
-          </div>
-        </div>
-
-        <div class="table-scroll" tabindex="0">
-          <table class="eruption-table page10-table">
-            <thead>
-              <tr>
-                <th>الاضطراب</th>
-                <th>جوهر المشكلة</th>
-                <th>علامات مميزة</th>
-                <th>مبدأ المعالجة</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>حركة الأسنان المرضية</td>
-                <td>نقص النسج الداعمة أو الدعم العظمي</td>
-                <td>تدرج من حركة دهليزية لسانية إلى حركة شاقولية</td>
-                <td>تقدير السبب ومعالجة النسج الداعمة</td>
-              </tr>
-              <tr>
-                <td>الانحسار اللثوي</td>
-                <td>تراجع اللثة والنسج المحيطة عن السن</td>
-                <td>يتأثر بسماكة العظم، الألجمة، والتقريش الخاطئ</td>
-                <td>إزالة العوامل المسببة وتحسين العناية</td>
-              </tr>
-              <tr>
-                <td>صرير الأسنان</td>
-                <td>تشنج عضلي غير طبيعي لعضلات المضغ</td>
-                <td>انسحال الأسنان، ألم عضلي، صداع، وأصوات مفصلية</td>
-                <td>جهاز رفع العضة ثم تعديل الإطباق</td>
-              </tr>
-              <tr>
-                <td>الإطباق الرضي</td>
-                <td>قوى إطباقية غير طبيعية تؤذي النسج الداعمة</td>
-                <td>آلام، جيوب عظمية ولثوية، امتصاص جذور، تقلقل</td>
-                <td>الوقاية المبكرة ثم التصحيح بالسحل أو التعويض أو التقويم</td>
-              </tr>
-              <tr>
-                <td>التواج</td>
-                <td>التهاب حول سن في طور البزوغ</td>
-                <td>يشاهد غالباً في الرحى الثالثة السفلية مع ضزز أحياناً</td>
-                <td>قطع القلنسوة اللثوية وغسل المنطقة والمضامض</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-    </section>
-
-    <section id="studyPanel" class="mode-panel" role="tabpanel" aria-labelledby="studyTab" hidden>
-      <div class="study-layout">
-        <aside class="study-sidebar no-print">
-          <div class="progress-card">
-            <div class="progress-card__top"><div><span>تقدمك</span><strong id="progressText">0 من 15</strong></div><div class="progress-ring" id="progressRing" aria-label="نسبة التقدم 0 بالمئة"><span id="progressPercent">0%</span></div></div>
-            <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
-            <button id="resetProgress" class="text-button" type="button">إعادة المحاولة</button>
-          </div>
-          <div class="study-tips">
-            <h3>نصيحة مذاكرة</h3>
-            <ol>
-              <li>ابدأ بتمييز الاضطرابات المرتبطة بالدعم العظمي عن الاضطرابات المرتبطة بالإطباق أو النشاط العضلي.</li>
-              <li>احفظ درجات الحركة السنية الثلاث بترتيبها.</li>
-              <li>اربط الإطباق الرضي بالوقاية المبكرة والتعويض السريع عن الأسنان المفقودة.</li>
-            </ol>
-          </div>
-        </aside>
-
-        <div class="quiz-card" aria-live="polite">
-          <div class="quiz-card__header">
-            <span class="question-counter" id="questionCounter">السؤال 1 من 15</span>
-            <span class="question-type" id="questionType">اختيار من متعدد</span>
-          </div>
-          <div class="quiz-card__body">
-            <h2 id="questionText">جارٍ تحميل السؤال…</h2>
-            <div id="answerArea" class="answer-area"></div>
-            <div id="feedbackBox" class="feedback-box" hidden><div class="feedback-box__icon" id="feedbackIcon" aria-hidden="true"></div><div><strong id="feedbackTitle"></strong><p id="feedbackText"></p></div></div>
-          </div>
-          <div class="quiz-card__footer">
-            <button id="prevQuestion" class="secondary-button" type="button">السابق</button>
-            <div class="quiz-dots" id="quizDots" aria-label="التنقل بين الأسئلة"></div>
-            <button id="nextQuestion" class="primary-button" type="button">التالي</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <nav class="page-actions no-print" aria-label="التنقل التسلسلي">
-      <a class="page-action" href="page-09.html"><span>→ الصفحة السابقة</span><span>الأمراض اللثوية</span></a>
-      <span class="page-counter">صفحة 10 من 17</span>
-      <a class="page-action page-action--primary" href="page-11.html"><span>الصفحة التالية</span><span>التهاب الفم ←</span></a>
-    </nav>
-  </main>
-
-  <footer class="site-footer no-print">
-    <div class="shell site-footer__inner">
-      <p>صفحة تعليمية تفاعلية — اضطرابات النسج الداعمة</p>
-      <span>مصممة للمراجعة، الدراسة، والطباعة</span>
-    </div>
-  </footer>
-
-  <script src="page-10.js"></script>
-  <script src="bookmarks.js"></script>
-  <script src="global-ui.js"></script>
-  <script src="learning-modes-two.js?v=1.0.0"></script>
-  <script src="interactive-images.js"></script>
-  <script src="print-system.js"></script>
-</body>
+<div class="feature-strip">
+<div class="feature-chip"><strong>الفكرة الأساسية</strong><span>أي خلل مستمر في النسج الداعمة أو الإطباق قد ينتهي بنقص الدعم العظمي وتقلقل الأسنان.</span></div>
+<div class="feature-chip"><strong>مفتاح التمييز</strong><span>ليس كل ألم أو احتكاك سنّي يعني التهاباً، فقد يكون السبب صريراً أو رضّاً إطباقياً.</span></div>
+<div class="feature-chip"><strong>محور المعالجة</strong><span>إزالة السبب، الوقاية المبكرة، ثم التصحيح الوظيفي أو التعويضي.</span></div>
+</div>
+</div>
+<aside aria-label="الخلاصة" class="hero-note">
+<span aria-hidden="true" class="hero-note__icon">10</span>
+<div>
+<strong>ملخص الصفحة</strong>
+<p>تربط الصفحة بين الأعراض السريرية والسبب الوظيفي أو الميكانيكي المؤدي لاضطراب النسج حول الأسنان.</p>
+</div>
+</aside>
+</article>
+<section aria-labelledby="toothMobilityTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">ثانياً</div>
+<h2 id="toothMobilityTitle">حركة الأسنان</h2>
+</div>
+<span class="chapter-badge">M</span>
+</div>
+<div class="overview-columns overview-columns--two">
+<article class="text-card">
+<p>للأسنان حركة طبيعية دهليزية لسانية وبشكل أقل أنسية وحشية، وهذه الحركة تكاد لا تُرى في الأسنان الخلفية.</p>
+<p>أما <strong>الحركة المرضية للأسنان</strong> فتنتج عن فقدان جزئي أو تام للأنسجة الداعمة، كما في <strong>مرض الرعّال</strong> أو في حالات <strong>اتساع الرباط</strong> المترافق مع تناقص الدعم العظمي للأسنان.</p>
+</article>
+<article class="text-card">
+<h3>درجات الحركة السنية</h3>
+<ul class="concept-list">
+<li><strong>درجة أولى:</strong> تتحرك السن بالاتجاه الدهليزي اللساني.</li>
+<li><strong>درجة ثانية:</strong> تتحرك السن بالاتجاه الأنسي الوحشي بالإضافة إلى الاتجاه الدهليزي اللساني.</li>
+<li><strong>درجة ثالثة:</strong> تتحرك السن حركة شاقولية بالإضافة إلى الدرجتين السابقتين.</li>
+</ul>
+</article>
+</div>
+<div class="info-grid info-grid--three">
+<article class="summary-chip-card">
+<strong>الحركة الطبيعية</strong>
+<span>أوضح دهليزياً لسانياً، وأقل وضوحاً أنسياً وحشياً.</span>
+</article>
+<article class="summary-chip-card">
+<strong>الحركة المرضية</strong>
+<span>مرتبطة بتراجع الدعم العظمي أو تخرب النسج الداعمة.</span>
+</article>
+<article class="summary-chip-card">
+<strong>الأهمية السريرية</strong>
+<span>تساعد درجات الحركة في تقدير شدة الإصابة حول السنية.</span>
+</article>
+</div>
+</section>
+<section aria-labelledby="recessionTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">ثالثاً</div>
+<h2 id="recessionTitle">الانحسار اللثوي</h2>
+</div>
+<span class="chapter-badge chapter-badge--accent">R</span>
+</div>
+<div class="overview-columns overview-columns--two">
+<article class="text-card">
+<p>هو تراجع النسج الداعمة بما فيها اللثة عن السن، وينتج عن:</p>
+<ul class="concept-list">
+<li>الصفيحة الجرثومية وما تطرحه من مواد تحلّ الارتباط بين السن والنسج المحيطة به.</li>
+<li>الإطباق الرضي.</li>
+<li>ارتكاز الألجمة المنخفض كألجمة الشفة أو الألجمة الجانبية، مما يؤدي إلى انحسار اللثة عن السن المجاور للحاج.</li>
+</ul>
+</article>
+<article class="text-card">
+<p>تتدخل عوامل أخرى في ظهور الانحسار اللثوي بشكل واضح، منها:</p>
+<ul class="concept-list">
+<li><strong>سماكة النسج العظمي المغطي:</strong> مثل الناب السفلي حيث تكون الصفيحة الدهليزية رقيقة جداً، وكذلك الصفيحة الحنكية للرحى الأولى والثانية العلوية.</li>
+<li>انحسارات تحدث في سياق التقريش الخاطئ.</li>
+<li>الأجهزة الصناعية السنية السيئة.</li>
+</ul>
+<p>والسبب في بعض الأسنان هو اقترابها من أماكن انصباب اللعاب في الفم.</p>
+</article>
+</div>
+<article class="alert-card alert-card--soft">
+<h3>ملاحظة سريرية</h3>
+<p>فلجام الشفة السفلية يتدخل في الانحسار اللثوي كثير الحدوث على السطوح الدهليزية للثنايا السفلية.</p>
+</article>
+</section>
+<section aria-labelledby="bruxismTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">رابعاً</div>
+<h2 id="bruxismTitle">صرير الأسنان</h2>
+</div>
+<span class="chapter-badge">B</span>
+</div>
+<div class="overview-columns overview-columns--two">
+<article class="text-card">
+<p><strong>صرير الأسنان</strong> هو داء التشنج العضلي غير الطبيعي لعضلات المضغ.</p>
+<p>يجب تمييز الصرير المرضي عن الصرير الطارئ الذي قد يظهر عرضاً بعد بعض الأمراض الناتجة عن التشنج العضلي العابر، فتتشنج عضلات المضغ مؤقتاً مما يؤدي إلى احتكاك الأسنان مع بعضها.</p>
+<p>الصرير المرضي هو وجود هذه الظاهرة بشكل مستمر ومن دون الدواعي السابقة، وبالشكل الذي يهدد سلامة النسج السنية وما حول السنية.</p>
+</article>
+<article class="text-card">
+<h3>نتائج وأعراض الصرير</h3>
+<ul class="concept-list">
+<li>انسحال غير طبيعي للدرجة قد يفقد معها السن قسماً كبيراً من التاج.</li>
+<li>قد يحدث كسر في الميناء أو التيجان في مناطق الضغط.</li>
+<li>آلام في عضلات المضغ، ثم قد تنتشر إلى عضلات العنق والرأس والكتف.</li>
+<li>قد يترافق بألم وأصوات في المفصل الفكي الصدغي وصداع صباحي.</li>
+</ul>
+</article>
+</div>
+<div class="info-grid info-grid--three">
+<article class="summary-chip-card">
+<strong>أحد العوامل المهمة</strong>
+<span>الإطباق الرضي أو وجود حشوة أو تاج مرتفع على مستوى الإطباق ولو بمقدار بسيط.</span>
+</article>
+<article class="summary-chip-card">
+<strong>الفحص السريري</strong>
+<span>يمكن إثارة ألم العضلة الماضغة بالجس خارج الفم، ويبدو الألم العضلي أحياناً صباحاً عند الاستيقاظ.</span>
+</article>
+<article class="summary-chip-card">
+<strong>العلاج المبدئي</strong>
+<span>جهاز رفع العضة لقطع الحلقة المفرغة: ألم ← ضغط ← تشنج عضلي.</span>
+</article>
+</div>
+<article class="text-card">
+<h3>المعالجة الإضافية والتمارين</h3>
+<p>قد نحتاج إلى المعالجة النفسية وإعطاء المرخيات العضلية أو المنومات، وتكون المعالجة الفيزيائية لاضطرابات المفصل الفكي الصدغي كما يلي:</p>
+<ol class="concept-list concept-list--numbered">
+<li><strong>التمرين الأول:</strong> وضع اللسان في أقصى وضع خلفي قرب اللهاة في قبة الحنك ثم فتح الفم قسرياً بما يؤدي إلى تعب عضلات المضغ والغاية من هذا حدوث توازن عضلي في الطرفين وجعل محصلة عمل العضلات في الجانبين تساوي الصفر.</li>
+<li><strong>التمرين الثاني:</strong> فتح الفم وإغلاقه على الخط المتوسط.</li>
+<li><strong>التمرين الثالث:</strong> فتح الفم قسرياً واليد موضوعة على الفك السفلي.</li>
+</ol>
+<p>والمعالجة النهائية للصرير هي تعديل الإطباق.</p>
+</article>
+</section>
+<section aria-labelledby="traumaTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">خامساً</div>
+<h2 id="traumaTitle">الإطباق الرضي</h2>
+</div>
+<span class="chapter-badge chapter-badge--accent">T</span>
+</div>
+<article class="text-card">
+<p>هو قوى إطباقية غير طبيعية تقع على الأسنان محدثة أضراراً في النسج الداعمة للسن.</p>
+</article>
+<div class="overview-columns overview-columns--two">
+<article class="text-card">
+<h3>أسباب الإطباق الرضي</h3>
+<ol class="concept-list concept-list--numbered">
+<li>سوء توضع الأسنان الخلفي أو وجود أسنان زائدة أو الناتج عن القلع المبكر للأسنان اللبنية.</li>
+<li>قلع الأسنان الدائمة وعدم التعويض عنها وما يرافقه من ميلان الأسنان المجاورة لمنطقة القلع باتجاه الفراغ، وكذلك تطاول السن المقابلة للفراغ باتجاه هذا الفراغ.</li>
+<li>العادات الفموية السيئة كعض الشفة واللسان ومسك بعض الأدوات بالفم.</li>
+<li>المضغ وحيد الجانب.</li>
+<li>الترميمات والأجهزة الصناعية السيئة التي لا تراعي العلاقات الإطباقية ونقاط التماس.</li>
+</ol>
+</article>
+<article class="text-card">
+<h3>أعراض الإطباق الرضي</h3>
+<ol class="concept-list concept-list--numbered">
+<li>ألم متمثل في المفصل الفكي الصدغي وآلام عضلية للعضلات الماضغة.</li>
+<li>ألم في الرباط السني.</li>
+<li>حساسية الأسنان إذا أدى الإطباق الرضي إلى سحل ميناء الأسنان وانكشاف العاج.</li>
+<li>تشكل الجيوب العظمية.</li>
+<li>تشكل الجيوب اللثوية إذا ما ترافق الإطباق الرضي مع صفيحة جرثومية.</li>
+<li>نقص الدعم العظمي للأسنان بسبب امتصاص العظم وتراجع كل من اللثة والعظم وبالتالي تقلقل الأسنان وحركتها.</li>
+<li>امتصاص الجذور.</li>
+</ol>
+</article>
+</div>
+<div class="overview-columns overview-columns--two">
+<article class="text-card">
+<h3>الإجراءات الوقائية</h3>
+<ol class="concept-list concept-list--numbered">
+<li>التعويض عن الأسنان المفقودة مباشرة.</li>
+<li>معالجة النخور السنية مباشرة قبل تطورها ومعالجة الأسنان التي تكون مصدر آلام لمنع المضغ وحيد الجانب.</li>
+<li>تجنب الترميمات والتعويضات الصناعية السيئة والانتباه عند صنعها إلى نقاط التماس والعلاقات الإطباقية الصحيحة.</li>
+<li>استبعاد العادات الفموية الضارة.</li>
+</ol>
+</article>
+<article class="text-card">
+<h3>الإجراءات العلاجية</h3>
+<ol class="concept-list concept-list--numbered">
+<li>تصحيح الإطباق بالسحل لخلق تحريض ملائم للأربطة السنخية حتى تحافظ على سلامتها من التشوهات.</li>
+<li>تصحيح الإطباق بالتعويضات الصناعية.</li>
+<li>تصحيح الإطباق بالتقويم وذلك بإعادة الأسنان الشاذة إلى وضعها الطبيعي تقويمياً.</li>
+<li>إزالة أسباب الصرير ومنع فرط نشاط العضلات الماضغة.</li>
+</ol>
+</article>
+</div>
+</section>
+<section aria-labelledby="pericoronitisTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">سادساً</div>
+<h2 id="pericoronitisTitle">التواج</h2>
+</div>
+<span class="chapter-badge">P</span>
+</div>
+<div class="overview-columns overview-columns--two">
+<article class="text-card">
+<p>هو التهاب النسج المحيطة بسن في طور البزوغ، وغالباً ما تكون <strong>الرحى الثالثة السفلية</strong> هي المصابة، ويغلب أن تنمو الحافة اللثوية وتغطي جزءاً من التاج.</p>
+<p>يمكن أن يكون الالتهاب <strong>حاداً</strong> أو <strong>تحت الحاد</strong> أو <strong>مزمناً</strong> أو <strong>ناكِساً</strong>.</p>
+</article>
+<article class="text-card">
+<h3>المظاهر والمعالجة</h3>
+<p>تترافق الحالة بألم شديد وقد ينتقل الالتهاب نحو الخد وأحياناً اللوزات والبلعوم وقاع الفم، وقد تترافق بنسج عضلي يمنع المريض من فتح فمه، وهذا ما يدعى <strong>الضزز</strong>.</p>
+<p>تعتمد المعالجة على <strong>قطع القلنسوة اللثوية</strong> وغسل المنطقة جيداً بشكل متكرر، كما تفيد المضامض الفموية في هذه الحالة.</p>
+</article>
+</div>
+<article class="alert-card alert-card--soft">
+<h3>امتداد الصفحة القادمة</h3>
+<p>تنتهي هذه الصفحة عند بداية عنوان <strong>سابعاً: كسور الفكين</strong>، وسيُبنى هذا العنوان في الصفحة التالية ضمن تسلسل المشروع.</p>
+</article>
+</section>
+<section aria-labelledby="comparisonTitle" class="content-section print-block">
+<div class="section-heading section-heading--compact">
+<div>
+<div class="section-kicker">مراجعة مركزة</div>
+<h2 id="comparisonTitle">مقارنة سريعة بين أهم اضطرابات الصفحة</h2>
+</div>
+</div>
+<div class="table-scroll" tabindex="0">
+<table class="eruption-table page10-table">
+<thead>
+<tr>
+<th>الاضطراب</th>
+<th>جوهر المشكلة</th>
+<th>علامات مميزة</th>
+<th>مبدأ المعالجة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>حركة الأسنان المرضية</td>
+<td>نقص النسج الداعمة أو الدعم العظمي</td>
+<td>تدرج من حركة دهليزية لسانية إلى حركة شاقولية</td>
+<td>تقدير السبب ومعالجة النسج الداعمة</td>
+</tr>
+<tr>
+<td>الانحسار اللثوي</td>
+<td>تراجع اللثة والنسج المحيطة عن السن</td>
+<td>يتأثر بسماكة العظم، الألجمة، والتقريش الخاطئ</td>
+<td>إزالة العوامل المسببة وتحسين العناية</td>
+</tr>
+<tr>
+<td>صرير الأسنان</td>
+<td>تشنج عضلي غير طبيعي لعضلات المضغ</td>
+<td>انسحال الأسنان، ألم عضلي، صداع، وأصوات مفصلية</td>
+<td>جهاز رفع العضة ثم تعديل الإطباق</td>
+</tr>
+<tr>
+<td>الإطباق الرضي</td>
+<td>قوى إطباقية غير طبيعية تؤذي النسج الداعمة</td>
+<td>آلام، جيوب عظمية ولثوية، امتصاص جذور، تقلقل</td>
+<td>الوقاية المبكرة ثم التصحيح بالسحل أو التعويض أو التقويم</td>
+</tr>
+<tr>
+<td>التواج</td>
+<td>التهاب حول سن في طور البزوغ</td>
+<td>يشاهد غالباً في الرحى الثالثة السفلية مع ضزز أحياناً</td>
+<td>قطع القلنسوة اللثوية وغسل المنطقة والمضامض</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section aria-labelledby="studyTab" class="mode-panel" hidden="" id="studyPanel" role="tabpanel">
+<div class="study-layout">
+<aside class="study-sidebar no-print">
+<div class="progress-card">
+<div class="progress-card__top"><div><span>تقدمك</span><strong id="progressText">0 من 15</strong></div><div aria-label="نسبة التقدم 0 بالمئة" class="progress-ring" id="progressRing"><span id="progressPercent">0%</span></div></div>
+<div aria-hidden="true" class="progress-track"><span id="progressBar"></span></div>
+<button class="text-button" id="resetProgress" type="button">إعادة المحاولة</button>
+</div>
+<div class="study-tips">
+<h3>نصيحة مذاكرة</h3>
+<ol>
+<li>ابدأ بتمييز الاضطرابات المرتبطة بالدعم العظمي عن الاضطرابات المرتبطة بالإطباق أو النشاط العضلي.</li>
+<li>احفظ درجات الحركة السنية الثلاث بترتيبها.</li>
+<li>اربط الإطباق الرضي بالوقاية المبكرة والتعويض السريع عن الأسنان المفقودة.</li>
+</ol>
+</div>
+</aside>
+<div aria-live="polite" class="quiz-card">
+<div class="quiz-card__header">
+<span class="question-counter" id="questionCounter">السؤال 1 من 15</span>
+<span class="question-type" id="questionType">اختيار من متعدد</span>
+</div>
+<div class="quiz-card__body">
+<h2 id="questionText">جارٍ تحميل السؤال…</h2>
+<div class="answer-area" id="answerArea"></div>
+<div class="feedback-box" hidden="" id="feedbackBox"><div aria-hidden="true" class="feedback-box__icon" id="feedbackIcon"></div><div><strong id="feedbackTitle"></strong><p id="feedbackText"></p></div></div>
+</div>
+<div class="quiz-card__footer">
+<button class="secondary-button" id="prevQuestion" type="button">السابق</button>
+<div aria-label="التنقل بين الأسئلة" class="quiz-dots" id="quizDots"></div>
+<button class="primary-button" id="nextQuestion" type="button">التالي</button>
+</div>
+</div>
+</div>
+</section>
+<nav aria-label="التنقل التسلسلي" class="page-actions no-print">
+<a class="page-action" href="page-09.html"><span>→ الصفحة السابقة</span><span>الأمراض اللثوية</span></a>
+<span class="page-counter">صفحة 10 من 70</span>
+<a class="page-action page-action--primary" href="page-11.html"><span>الصفحة التالية</span><span>التهاب الفم ←</span></a>
+</nav>
+</main>
+<footer class="site-footer no-print">
+<div class="shell site-footer__inner">
+<p>صفحة تعليمية تفاعلية — اضطرابات النسج الداعمة</p>
+<span>مصممة للمراجعة، الدراسة، والطباعة</span>
+</div>
+</footer>
+<script src="page-10.js"></script>
+<script src="bookmarks.js"></script>
+<script src="global-ui.js"></script>
+<script src="annotation-mode.js"></script>
+<script src="adaptive/integration.js"></script></body>
 </html>

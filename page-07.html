@@ -1,462 +1,423 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#2d6a68" />
-  <meta name="description" content="صفحة تعليمية تفاعلية عن بنية الأسنان: الميناء والعاج والملاط واللب، مع خصائص كل نسيج وتركيبه ومخططات توضيحية من الصور الأصلية." />
-  <title>بنية الأسنان | الصفحة 07</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="global-ui.css" />
-  <link rel="stylesheet" href="learning-modes-two.css?v=1.0.0" />
-  <link rel="stylesheet" href="interactive-images.css" />
-  <link rel="stylesheet" href="print-system.css" />
-  <link rel="stylesheet" href="dark-mode-polish.css?v=1.0.0" />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#2d6a68" name="theme-color"/>
+<meta content="صفحة تعليمية تفاعلية عن بنية الأسنان: الميناء والعاج والملاط واللب، مع خصائص كل نسيج وتركيبه ومخططات توضيحية من الصور الأصلية." name="description"/>
+<title>بنية الأسنان | الصفحة 07</title>
+
+
+
+<link href="styles.css" rel="stylesheet"/>
+<link href="global-ui.css" rel="stylesheet"/>
+<link href="annotation-mode.css" rel="stylesheet"/>
+<link rel="stylesheet" href="adaptive/fonts.css"><link rel="stylesheet" href="adaptive/tokens.css"></head>
 <body>
 <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
-
-  <header class="topbar no-print">
-    <div class="topbar__inner shell">
-      <div class="brand" aria-label="صفحة دراسة بنية الأسنان">
-        <div class="brand__mark" aria-hidden="true">
-          <svg viewBox="0 0 48 48" role="img"><path d="M11 9c8-5 18-5 26 0 3 2 4 6 3 10l-5 17c-1 4-5 5-8 2l-3-4-3 4c-3 3-7 2-8-2L8 19c-1-4 0-8 3-10Z"/><path d="M18 12c4-2 8-2 12 0"/></svg>
-        </div>
-        <div>
-          <p class="brand__eyebrow">تشريح الفم والأسنان</p>
-          <h1 class="brand__title">بنية الأسنان</h1>
-        </div>
-      </div>
-      <div class="topbar__actions">
-        <span class="page-pill" aria-label="رقم الصفحة">الصفحة 07</span>
-        <button class="icon-button" id="printBtn" type="button" title="حفظ الدرس كملف PDF بحجم A4" aria-label="حفظ الدرس كملف PDF بحجم A4">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/></svg>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <nav class="mode-switch no-print" aria-label="طريقة الاستخدام">
-    <div class="shell mode-switch__inner" role="tablist">
-      <button class="mode-tab is-active" role="tab" aria-selected="true" aria-controls="overviewPanel" id="overviewTab" data-mode="overview">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg>
+<header class="topbar no-print">
+<div class="topbar__inner shell">
+<div aria-label="صفحة دراسة بنية الأسنان" class="brand">
+<div aria-hidden="true" class="brand__mark">
+<svg role="img" viewbox="0 0 48 48"><path d="M11 9c8-5 18-5 26 0 3 2 4 6 3 10l-5 17c-1 4-5 5-8 2l-3-4-3 4c-3 3-7 2-8-2L8 19c-1-4 0-8 3-10Z"></path><path d="M18 12c4-2 8-2 12 0"></path></svg>
+</div>
+<div>
+<p class="brand__eyebrow">تشريح الفم والأسنان</p>
+<h1 class="brand__title">بنية الأسنان</h1>
+</div>
+</div>
+<div class="topbar__actions">
+<span aria-label="رقم الصفحة" class="page-pill">الصفحة 07</span>
+<button aria-label="طباعة الصفحة" class="icon-button" id="printBtn" title="طباعة الصفحة" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"></path></svg>
+</button>
+</div>
+</div>
+</header>
+<nav aria-label="طريقة الاستخدام" class="mode-switch no-print">
+<div class="shell mode-switch__inner" role="tablist">
+<button aria-controls="overviewPanel" aria-selected="true" class="mode-tab is-active" data-mode="overview" id="overviewTab" role="tab">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"></path></svg>
         استعراض المعلومات
       </button>
-      <button class="mode-tab" role="tab" aria-selected="false" aria-controls="studyPanel" id="studyTab" data-mode="study">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-5 9 5-9 5-9-5Zm4 3v4c3 2 7 2 10 0v-4"/></svg>
+<button aria-controls="studyPanel" aria-selected="false" class="mode-tab" data-mode="study" id="studyTab" role="tab">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="m3 11 9-5 9 5-9 5-9-5Zm4 3v4c3 2 7 2 10 0v-4"></path></svg>
         وضع الدراسة
       </button>
-    </div>
-  </nav>
-
-  <nav class="course-nav no-print" aria-label="التنقل بين صفحات المقرر">
-    <div class="shell course-nav__inner">
-      <div class="course-pages">
-        <a class="course-page-link" href="index.html">01 · الفك العلوي</a>
-        <a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
-        <a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
-        <a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
-        <a class="course-page-link" href="page-05.html">05 · الغدد اللعابية</a>
-        <a class="course-page-link" href="page-06.html">06 · الأسنان والبزوغ</a>
-        <a class="course-page-link is-current" href="page-07.html" aria-current="page">07 · بنية الأسنان</a>
-              <a class="course-page-link" href="page-08.html">08 · النسج المحيطة بالسن</a>
-              <a class="course-page-link" href="page-09.html">09 · الأمراض اللثوية</a>
-              <a class="course-page-link" href="page-10.html">10 · اضطرابات النسج الداعمة</a>
-              <a class="course-page-link" href="page-11.html">11 · التهاب الفم</a>
-              <a class="course-page-link" href="page-12.html">12 · القلاع والسلاق والنكاف</a>
-              <a class="course-page-link" href="page-13.html">13 · الآفات ما قبل السرطانية والسرطانية</a>
-              <a class="course-page-link" href="page-14.html">14 · القلح والتلونات السنية</a>
-              <a class="course-page-link" href="page-15.html">15 · بخر الفم</a>
-              <a class="course-page-link" href="page-16.html">16 · العادات الفموية السيئة</a>
-              <a class="course-page-link" href="page-17.html">17 · نخر الأسنان</a>
-              <a class="course-page-link course-page-link--exam" href="comprehensive-exam.html">الاختبار الشامل</a>
-      </div>
-      <span class="course-nav__status">17 صفحة تعليمية + اختبار شامل</span>
-    </div>
-  </nav>
-
-  <main id="main-content" class="shell page-main">
-    <section id="overviewPanel" class="mode-panel" role="tabpanel" aria-labelledby="overviewTab">
-      <article class="hero-card print-block">
-        <div class="hero-card__content">
-          <div class="section-kicker">أربعة أنسجة رئيسية</div>
-          <h2>الميناء، العاج، الملاط، واللب</h2>
-          <p>
+</div>
+</nav>
+<nav aria-label="التنقل بين صفحات المقرر" class="course-nav no-print">
+<div class="shell course-nav__inner">
+<div class="course-pages">
+<a class="course-page-link" href="page-01.html">01 · الفك العلوي</a>
+<a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
+<a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
+<a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
+<a class="course-page-link" href="page-05.html">05 · الغدد اللعابية</a>
+<a class="course-page-link" href="page-06.html">06 · الأسنان والبزوغ</a>
+<a aria-current="page" class="course-page-link is-current" href="page-07.html">07 · بنية الأسنان</a>
+<a class="course-page-link" href="page-08.html">08 · النسج المحيطة بالسن</a>
+<a class="course-page-link" href="page-09.html">09 · الأمراض اللثوية</a>
+<a class="course-page-link" href="page-10.html">10 · اضطرابات النسج الداعمة</a>
+<a class="course-page-link" href="page-11.html">11 · التهاب الفم</a>
+<a class="course-page-link" href="page-12.html">12 · القلاع والسلاق والنكاف</a>
+<a class="course-page-link" href="page-13.html">13 · الآفات ما قبل السرطانية والسرطانية</a>
+<a class="course-page-link" href="page-14.html">14 · القلح والتلونات السنية</a>
+<a class="course-page-link" href="page-15.html">15 · بخر الفم</a>
+<a class="course-page-link" href="page-16.html">16 · العادات الفموية السيئة</a>
+<a class="course-page-link" href="page-17.html">17 · نخر الأسنان</a>
+<a class="course-page-link course-page-link--exam" href="comprehensive-exam.html">الاختبار الشامل</a>
+</div>
+<span class="course-nav__status">17 صفحة تعليمية + اختبار شامل</span>
+</div>
+</nav>
+<main class="shell page-main" id="main-content"><section aria-label="مسار التعلم" class="learning-path-entry no-print"><div><span>مسار التعلم المتدرج</span><strong>حوّل هذه الصفحة إلى دروس قصيرة متتابعة</strong></div><a href="lesson.html?unit=page-07">دراسة هذه الوحدة خطوة بخطوة</a></section>
+<section aria-labelledby="overviewTab" class="mode-panel" id="overviewPanel" role="tabpanel">
+<article class="hero-card print-block">
+<div class="hero-card__content">
+<div class="section-kicker">أربعة أنسجة رئيسية</div>
+<h2>الميناء، العاج، الملاط، واللب</h2>
+<p>
             تتألف السن من أنسجة مختلفة تؤدي معاً وظيفة الحماية والدعم والحس. تغطي <strong>الميناء</strong> التاج، ويشكّل <strong>العاج</strong> القسم الأكبر من السن،
             بينما يغطي <strong>الملاط</strong> الجذر، ويشكّل <strong>اللب</strong> النسيج الحي المركزي الحساس داخل السن.
           </p>
-          <div class="feature-strip">
-            <div class="feature-chip"><strong>أقسى نسيج</strong><span>الميناء هي الأشد صلابة بين أنسجة الجسم.</span></div>
-            <div class="feature-chip"><strong>الكتلة الرئيسية</strong><span>العاج هو الكتلة المركزية للسن ومصدر قوتها.</span></div>
-            <div class="feature-chip"><strong>النسيج الحي</strong><span>اللب يحوي أوعية وأليافاً عصبية ويعطي الحساسية.</span></div>
-          </div>
-        </div>
-        <aside class="hero-note" aria-label="الخلاصة">
-          <span class="hero-note__icon" aria-hidden="true">4</span>
-          <div>
-            <strong>خريطة سريعة</strong>
-            <p>التاج يُغطى بالميناء، الجذر يُغطى بالملاط، وبينهما العاج، وفي المركز اللب.</p>
-          </div>
-        </aside>
-      </article>
-
-      <section class="content-section print-block" aria-labelledby="overviewTissuesTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">نظرة بنيوية</div>
-            <h2 id="overviewTissuesTitle">ملخص الأنسجة السنية</h2>
-          </div>
-          <span class="chapter-badge">07</span>
-        </div>
-
-        <div class="tooth-tissues-grid">
-          <article class="tooth-tissue-card tissue-enamel">
-            <span>1</span>
-            <h3>الميناء</h3>
-            <p>طبقة خارجية تغطي التاج وتحميه من المؤثرات الميكانيكية والحرارية والكيميائية.</p>
-          </article>
-          <article class="tooth-tissue-card tissue-dentin">
-            <span>2</span>
-            <h3>العاج</h3>
-            <p>يشكل أساس السن والكتلة المركزية لها، وهو أقل صلابة من الميناء وأكثر صلابة من العظم.</p>
-          </article>
-          <article class="tooth-tissue-card tissue-cementum">
-            <span>3</span>
-            <h3>الملاط</h3>
-            <p>يغلف الجذر فقط، ويشبه في تركيبه إلى حد بعيد تركيب العظم.</p>
-          </article>
-          <article class="tooth-tissue-card tissue-pulp">
-            <span>4</span>
-            <h3>اللب</h3>
-            <p>النسيج الحي داخل السن، مكوّن من ألياف عصبية وأوعية شريانية ووريدية.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="enamelTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">1 — الطبقة الخارجية للتاج</div>
-            <h2 id="enamelTitle">الميناء</h2>
-          </div>
-          <span class="chapter-badge chapter-badge--accent">E</span>
-        </div>
-
-        <div class="enamel-layout">
-          <article class="text-card">
-            <p>الميناء هي الطبقة الخارجية المغطية للسن، وتشكل غطاءً متيناً يقاوم المؤثرات الخارجية الميكانيكية والحرارية والكيميائية.</p>
-            <p>يختلف سمكها بحسب المناطق المختلفة للسن وحسب نوع الأسنان، ويتراوح تقريباً بين <strong>0.01 مم</strong> عند الأعناق و<strong>2 مم</strong> عند ذرى الحدبات، ولا تزيد في بروزات الأرحاء على <strong>3 مم</strong>.</p>
-            <p>يتدرج لون الميناء بين الأبيض المصفر والأبيض الرمادي، ويُعزى اختلاف اللون إلى شفافية الميناء ودرجة تجانسها.</p>
-          </article>
-
-          <div class="facts-stack">
-            <article class="fact-card">
-              <h3>اللون والشفافية</h3>
-              <p>الأسنان المصفرة تملك ميناء رقيقة نسبياً يشف من خلالها لون العاج الأصفر، بينما تظهر الأسنان الرمادية أكثر عتامـة.</p>
-            </article>
-            <article class="fact-card">
-              <h3>مناطق خاصة</h3>
-              <p>تبدو منطقة العنق أكثر اصفراراً، بينما تميل الأقسام القاطعة إلى الأزرق قليلاً بسبب رقة الحد القاطع.</p>
-            </article>
-            <article class="fact-card">
-              <h3>الصلابة</h3>
-              <p>تُعد من أقسى أنسجة الجسم، وتُقارن صلابتها بصلابة الكوارتز وفق الوصف المذكور في المصدر.</p>
-            </article>
-          </div>
-        </div>
-
-        <div class="composition-band">
-          <article>
-            <span>97%</span>
-            <strong>أملاح الكالسيوم</strong>
-            <p>تضم فوسفات الكالسيوم (هيدروكسي أباتيت) وفوسفات الكالسيوم وفلورور الكالسيوم.</p>
-          </article>
-          <article>
-            <span>3%</span>
-            <strong>ماء ومواد عضوية</strong>
-            <p>تمثل النسبة الصغيرة غير المعدنية من بنية الميناء.</p>
-          </article>
-        </div>
-
-        <div class="source-observation">
-          <span class="source-observation__icon" aria-hidden="true">i</span>
-          <div>
-            <strong>التركيب البنيوي</strong>
-            <p>تتكون طبقة الميناء نسيجياً من المؤاشير المينائية والمادة اللاصقة بينها، حيث تتخذ المؤاشير اتجاهات شعاعية وتتجاوز سماكة الميناء.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="dentinTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">2 — الكتلة الأساسية للسن</div>
-            <h2 id="dentinTitle">العاج</h2>
-          </div>
-          <span class="chapter-badge">D</span>
-        </div>
-
-        <div class="dentin-layout">
-          <article class="text-card">
-            <p>العاج يشكل أساس السن ومصدر قوتها، ويمثل الكتلة المركزية لأنسجة السن الصلبة.</p>
-            <p>لونه الطبيعي عند الشباب بين الأبيض والأصفر الفاتح، ويزداد اصفراراً مع التقدم في العمر. وقد يتلون بألوان مختلفة عند تماسّه مع سوائل الفم أو الأدوية الموضعية أو مواد الحشو.</p>
-            <p><strong>العاج أقل صلابة من الميناء وأكثر صلابة من العظم.</strong></p>
-          </article>
-
-          <figure class="anatomy-card source-figure dentin-main-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-07/dentin-tooth-cross-section.webp" data-title="مخطط السن وبنيتها الداخلية ضمن قسم العاج" aria-label="تكبير مخطط بنية السن">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
-            </button>
-            <div class="anatomy-card__image-wrap dentin-main-figure__image">
-              <img src="assets/page-07/dentin-tooth-cross-section.webp" alt="رسم مقطعي في سن يوضح الميناء والعاج واللب والجذر والعظم واللثة" loading="lazy" decoding="async" width="760" height="731" />
-            </div>
-            <figcaption>
-              <strong>الصورة الأصلية المقتطعة من المصدر</strong>
-              <span>توضح تموضع العاج بالنسبة إلى الميناء واللب وعظم الفك.</span>
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="dentin-composition-grid">
-          <article class="composition-tile">
-            <h3>التركيب الكيميائي</h3>
-            <ul>
-              <li><strong>70%</strong> مواد معدنية.</li>
-              <li>أهمها فوسفات الكالسيوم وكربونات الكالسيوم وكربونات المغنزيوم.</li>
-              <li><strong>17%</strong> مواد عضوية.</li>
-              <li><strong>13%</strong> ماء.</li>
-            </ul>
-          </article>
-
-          <article class="composition-tile">
-            <h3>التركيب النسجي</h3>
-            <p>يتألف العاج من أنابيب عاجية صغيرة تمتد من المركز نحو المحيط، وتحتوي أليافاً شبه عصبية تنقل الإحساسات الألمية إلى اللب السني، وتسمى ألياف توماز.</p>
-          </article>
-
-          <figure class="anatomy-card source-figure dentin-micro-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-07/dentin-microstructure.webp" data-title="رسم صغير للأنابيب العاجية والألياف" aria-label="تكبير رسم الأنابيب العاجية">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
-            </button>
-            <div class="anatomy-card__image-wrap dentin-micro-figure__image">
-              <img src="assets/page-07/dentin-microstructure.webp" alt="رسم تخطيطي صغير يوضح الأنابيب العاجية وألياف توماز" loading="lazy" decoding="async" width="760" height="360" />
-            </div>
-            <figcaption>
-              <strong>مخطط داعم</strong>
-              <span>يبين الأنابيب العاجية والألياف الممتدة ضمنها.</span>
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="cementumTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">3 — الغطاء الخارجي للجذر</div>
-            <h2 id="cementumTitle">الملاط</h2>
-          </div>
-          <span class="chapter-badge chapter-badge--accent">C</span>
-        </div>
-
-        <div class="cementum-layout">
-          <figure class="anatomy-card source-figure tall-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-07/cementum-source-diagram.webp" data-title="رسم يوضح توضع الملاط ضمن بنية السن" aria-label="تكبير رسم الملاط">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
-            </button>
-            <div class="anatomy-card__image-wrap tall-figure__image">
-              <img src="assets/page-07/cementum-source-diagram.webp" alt="رسم تخطيطي لسن يوضح الميناء والعاج واللب واللثة والعظم السنخي والملاط" loading="lazy" decoding="async" width="760" height="762" />
-            </div>
-            <figcaption>
-              <strong>السن ضمن النسج الداعمة</strong>
-              <span>يوضح أن الملاط يغلف الجذر ويتصل بالميناء عند العنق بطرائق مختلفة.</span>
-            </figcaption>
-          </figure>
-
-          <div class="text-column">
-            <article class="text-card">
-              <p>الملاط يغلف الجذور فقط وينتهي عند العنق، ويلتقي مع الميناء في هذه المنطقة.</p>
-              <p>قد يكون التقاء الميناء بالملاط بإحدى ثلاث حالات:
+<div class="feature-strip">
+<div class="feature-chip"><strong>أقسى نسيج</strong><span>الميناء هي الأشد صلابة بين أنسجة الجسم.</span></div>
+<div class="feature-chip"><strong>الكتلة الرئيسية</strong><span>العاج هو الكتلة المركزية للسن ومصدر قوتها.</span></div>
+<div class="feature-chip"><strong>النسيج الحي</strong><span>اللب يحوي أوعية وأليافاً عصبية ويعطي الحساسية.</span></div>
+</div>
+</div>
+<aside aria-label="الخلاصة" class="hero-note">
+<span aria-hidden="true" class="hero-note__icon">4</span>
+<div>
+<strong>خريطة سريعة</strong>
+<p>التاج يُغطى بالميناء، الجذر يُغطى بالملاط، وبينهما العاج، وفي المركز اللب.</p>
+</div>
+</aside>
+</article>
+<section aria-labelledby="overviewTissuesTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">نظرة بنيوية</div>
+<h2 id="overviewTissuesTitle">ملخص الأنسجة السنية</h2>
+</div>
+<span class="chapter-badge">07</span>
+</div>
+<div class="tooth-tissues-grid">
+<article class="tooth-tissue-card tissue-enamel">
+<span>1</span>
+<h3>الميناء</h3>
+<p>طبقة خارجية تغطي التاج وتحميه من المؤثرات الميكانيكية والحرارية والكيميائية.</p>
+</article>
+<article class="tooth-tissue-card tissue-dentin">
+<span>2</span>
+<h3>العاج</h3>
+<p>يشكل أساس السن والكتلة المركزية لها، وهو أقل صلابة من الميناء وأكثر صلابة من العظم.</p>
+</article>
+<article class="tooth-tissue-card tissue-cementum">
+<span>3</span>
+<h3>الملاط</h3>
+<p>يغلف الجذر فقط، ويشبه في تركيبه إلى حد بعيد تركيب العظم.</p>
+</article>
+<article class="tooth-tissue-card tissue-pulp">
+<span>4</span>
+<h3>اللب</h3>
+<p>النسيج الحي داخل السن، مكوّن من ألياف عصبية وأوعية شريانية ووريدية.</p>
+</article>
+</div>
+</section>
+<section aria-labelledby="enamelTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">1 — الطبقة الخارجية للتاج</div>
+<h2 id="enamelTitle">الميناء</h2>
+</div>
+<span class="chapter-badge chapter-badge--accent">E</span>
+</div>
+<div class="enamel-layout">
+<article class="text-card">
+<p>الميناء هي الطبقة الخارجية المغطية للسن، وتشكل غطاءً متيناً يقاوم المؤثرات الخارجية الميكانيكية والحرارية والكيميائية.</p>
+<p>يختلف سمكها بحسب المناطق المختلفة للسن وحسب نوع الأسنان، ويتراوح تقريباً بين <strong>0.01 مم</strong> عند الأعناق و<strong>2 مم</strong> عند ذرى الحدبات، ولا تزيد في ميزاب الأرحاء على <strong>0.5 مم</strong> تقريبًا.</p>
+<p>يتدرج لون الميناء بين الأبيض المصفر والأبيض الرمادي، ويُعزى اختلاف اللون إلى شفافية الميناء ودرجة تجانسها.</p>
+</article>
+<div class="facts-stack">
+<article class="fact-card">
+<h3>اللون والشفافية</h3>
+<p>الأسنان المصفرة تملك ميناء رقيقة نسبياً يشف من خلالها لون العاج الأصفر، بينما تظهر الأسنان الرمادية أكثر عتامـة.</p>
+</article>
+<article class="fact-card">
+<h3>مناطق خاصة</h3>
+<p>تبدو منطقة العنق أكثر اصفراراً، بينما تميل الأقسام القاطعة إلى الأزرق قليلاً بسبب رقة الحد القاطع.</p>
+</article>
+<article class="fact-card">
+<h3>الصلابة</h3>
+<p>تُعد من أقسى أنسجة الجسم، وتُقارن صلابتها بصلابة الكوارتز وفق الوصف المذكور في المصدر.</p>
+</article>
+</div>
+</div>
+<div class="composition-band">
+<article>
+<span>97%</span>
+<strong>أملاح الكالسيوم</strong>
+<p>تضم فوسفات الكالسيوم (هيدروكسي أباتيت) وفوسفات الكالسيوم وفلورور الكالسيوم.</p>
+</article>
+<article>
+<span>3%</span>
+<strong>ماء ومواد عضوية</strong>
+<p>تمثل النسبة الصغيرة غير المعدنية من بنية الميناء.</p>
+</article>
+</div>
+<div class="source-observation">
+<span aria-hidden="true" class="source-observation__icon">i</span>
+<div>
+<strong>التركيب البنيوي</strong>
+<p>تتكون طبقة الميناء نسيجياً من المؤاشير المينائية والمادة اللاصقة بينها، حيث تتخذ المؤاشير اتجاهات شعاعية وتتجاوز سماكة الميناء.</p>
+</div>
+</div>
+</section>
+<section aria-labelledby="dentinTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">2 — الكتلة الأساسية للسن</div>
+<h2 id="dentinTitle">العاج</h2>
+</div>
+<span class="chapter-badge">D</span>
+</div>
+<div class="dentin-layout">
+<article class="text-card">
+<p>العاج يشكل أساس السن ومصدر قوتها، ويمثل الكتلة المركزية لأنسجة السن الصلبة.</p>
+<p>لونه الطبيعي عند الشباب بين الأبيض والأصفر الفاتح، ويزداد اصفراراً مع التقدم في العمر. وقد يتلون بألوان مختلفة عند تماسّه مع سوائل الفم أو الأدوية الموضعية أو مواد الحشو.</p>
+<p><strong>العاج أقل صلابة من الميناء وأكثر صلابة من العظم.</strong></p>
+</article>
+<figure class="anatomy-card source-figure dentin-main-figure">
+<button aria-label="تكبير مخطط بنية السن" class="image-zoom no-print" data-image="assets/page-07/dentin-tooth-cross-section.webp" data-title="مخطط السن وبنيتها الداخلية ضمن قسم العاج" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5M8 11h6M11 8v6"></path></svg>
+</button>
+<div class="anatomy-card__image-wrap dentin-main-figure__image">
+<img alt="رسم مقطعي في سن يوضح الميناء والعاج واللب والجذر والعظم واللثة" decoding="async" height="731" loading="lazy" src="assets/page-07/dentin-tooth-cross-section.webp" width="760"/>
+</div>
+<figcaption>
+<strong>الصورة الأصلية المقتطعة من المصدر</strong>
+<span>توضح تموضع العاج بالنسبة إلى الميناء واللب وعظم الفك.</span>
+</figcaption>
+</figure>
+</div>
+<div class="dentin-composition-grid">
+<article class="composition-tile">
+<h3>التركيب الكيميائي</h3>
+<ul>
+<li><strong>70%</strong> مواد معدنية.</li>
+<li>أهمها فوسفات الكالسيوم وكربونات الكالسيوم وكربونات المغنزيوم.</li>
+<li><strong>17%</strong> مواد عضوية.</li>
+<li><strong>13%</strong> ماء.</li>
+</ul>
+</article>
+<article class="composition-tile">
+<h3>التركيب النسجي</h3>
+<p>يتألف العاج من أنابيب عاجية صغيرة تمتد من المركز نحو المحيط، وتحتوي أليافاً شبه عصبية تنقل الإحساسات الألمية إلى اللب السني، وتسمى ألياف توماز.</p>
+</article>
+<figure class="anatomy-card source-figure dentin-micro-figure">
+<button aria-label="تكبير رسم الأنابيب العاجية" class="image-zoom no-print" data-image="assets/page-07/dentin-microstructure.webp" data-title="رسم صغير للأنابيب العاجية والألياف" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5M8 11h6M11 8v6"></path></svg>
+</button>
+<div class="anatomy-card__image-wrap dentin-micro-figure__image">
+<img alt="رسم تخطيطي صغير يوضح الأنابيب العاجية وألياف توماز" decoding="async" height="360" loading="lazy" src="assets/page-07/dentin-microstructure.webp" width="760"/>
+</div>
+<figcaption>
+<strong>مخطط داعم</strong>
+<span>يبين الأنابيب العاجية والألياف الممتدة ضمنها.</span>
+</figcaption>
+</figure>
+</div>
+</section>
+<section aria-labelledby="cementumTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">3 — الغطاء الخارجي للجذر</div>
+<h2 id="cementumTitle">الملاط</h2>
+</div>
+<span class="chapter-badge chapter-badge--accent">C</span>
+</div>
+<div class="cementum-layout">
+<figure class="anatomy-card source-figure tall-figure">
+<button aria-label="تكبير رسم الملاط" class="image-zoom no-print" data-image="assets/page-07/cementum-source-diagram.webp" data-title="رسم يوضح توضع الملاط ضمن بنية السن" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5M8 11h6M11 8v6"></path></svg>
+</button>
+<div class="anatomy-card__image-wrap tall-figure__image">
+<img alt="رسم تخطيطي لسن يوضح الميناء والعاج واللب واللثة والعظم السنخي والملاط" decoding="async" height="762" loading="lazy" src="assets/page-07/cementum-source-diagram.webp" width="760"/>
+</div>
+<figcaption>
+<strong>السن ضمن النسج الداعمة</strong>
+<span>يوضح أن الملاط يغلف الجذر ويتصل بالميناء عند العنق بطرائق مختلفة.</span>
+</figcaption>
+</figure>
+<div class="text-column">
+<article class="text-card">
+<p>الملاط يغلف الجذور فقط وينتهي عند العنق، ويلتقي مع الميناء في هذه المنطقة.</p>
+<p>قد يكون التقاء الميناء بالملاط بإحدى ثلاث حالات:
                 أن يغطي الملاط الميناء بمسافة قصيرة، أو أن تغطي الميناء الملاط، أو أن يكون بينهما فراغ بسيط ينكشف فيه العاج.</p>
-              <p>يكشف هذا سبب الألم عند محاولة حكّ السن بأداة عند منطقة العنق.</p>
-            </article>
-
-            <article class="fact-band fact-band--stacked">
-              <strong>علاقة بالميناء والعاج:</strong>
-              <span>إذا نشأ فراغ بسيط بين الميناء والملاط ينكشف العاج في المنطقة العنقية، فتزداد الحساسية.</span>
-            </article>
-
-            <article class="text-card">
-              <p>يشبه تركيب الملاط إلى حد بعيد تركيب العظم بحسب النص المرفق.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="pulpTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">4 — النسيج الحي المركزي</div>
-            <h2 id="pulpTitle">اللب</h2>
-          </div>
-          <span class="chapter-badge">P</span>
-        </div>
-
-        <div class="pulp-layout">
-          <figure class="anatomy-card source-figure tall-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-07/pulp-source-diagram.webp" data-title="مخطط أمامي يبين أجزاء السن واللب والعصب" aria-label="تكبير رسم اللب">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
-            </button>
-            <div class="anatomy-card__image-wrap tall-figure__image">
-              <img src="assets/page-07/pulp-source-diagram.webp" alt="مقطع طولي أمامي للسن يوضح الميناء والعاج واللب والعصب والرباط اللثوي" loading="lazy" decoding="async" width="720" height="1092" />
-            </div>
-            <figcaption>
-              <strong>مقطع أمامي لأجزاء السن</strong>
-              <span>يوضح تموضع اللب السني بالنسبة إلى العاج والعصب وبقية البنى.</span>
-            </figcaption>
-          </figure>
-
-          <div class="text-column">
-            <article class="text-card">
-              <p>اللب هو النسيج الحي داخل السن، ويتألف من ألياف عصبية وأوعية شريانية ووريدية.</p>
-              <p>وظيفة اللب إعطاء الحساسية للسن، كما يتشكل فيه نوعان من العاج:</p>
-            </article>
-
-            <div class="pulp-types">
-              <article class="pulp-type-card">
-                <h3>العاج الثانوي</h3>
-                <p>يتشكل بشكل طبيعي مع الزمن على جدران اللب، مؤدياً إلى زيادة سماكة العاج.</p>
-              </article>
-              <article class="pulp-type-card">
-                <h3>العاج الثالثي أو العاج المرمم</h3>
-                <p>يتشكل كرد فعل دفاعي تجاه العوامل المؤذية الخارجية مثل نخر السن أو التهيج الحراري، فيدفع اللب إلى التراجع مبتعداً عن الخطر.</p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="compareTitle">
-        <div class="section-heading section-heading--compact">
-          <div>
-            <div class="section-kicker">مقارنة سريعة</div>
-            <h2 id="compareTitle">مقارنة بين الأنسجة الأربعة</h2>
-          </div>
-        </div>
-
-        <div class="comparison-table-wrap table-scroll" tabindex="0">
-          <table class="eruption-table tissues-comparison-table">
-            <thead>
-              <tr>
-                <th>النسيج</th>
-                <th>الموقع</th>
-                <th>أبرز صفة</th>
-                <th>معلومة مهمة</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>الميناء</td>
-                <td>يغطي التاج</td>
-                <td>أقسى أنسجة الجسم</td>
-                <td>97% أملاح الكالسيوم و3% ماء ومواد عضوية</td>
-              </tr>
-              <tr>
-                <td>العاج</td>
-                <td>يشكل الكتلة الأساسية للسن</td>
-                <td>أقل صلابة من الميناء وأكثر صلابة من العظم</td>
-                <td>يحوي أنابيب عاجية تنقل الإحساسات نحو اللب</td>
-              </tr>
-              <tr>
-                <td>الملاط</td>
-                <td>يغلف الجذر</td>
-                <td>يشبه العظم</td>
-                <td>قد يلتقي بالميناء بثلاث طرائق عند العنق</td>
-              </tr>
-              <tr>
-                <td>اللب</td>
-                <td>داخل السن</td>
-                <td>نسيج حي عصبي وعائي</td>
-                <td>يشكل عاجاً ثانوياً ومرمماً بحسب التنبيه</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="termsTitle">
-        <div class="section-heading section-heading--compact">
-          <div><div class="section-kicker">مصطلحات الصفحة</div><h2 id="termsTitle">قاموس سريع</h2></div>
-        </div>
-        <div class="term-list">
-          <div class="term-item"><span lang="en">Enamel</span><strong>الميناء</strong></div>
-          <div class="term-item"><span lang="en">Dentin</span><strong>العاج</strong></div>
-          <div class="term-item"><span lang="en">Cementum</span><strong>الملاط</strong></div>
-          <div class="term-item"><span lang="en">Pulp</span><strong>اللب</strong></div>
-          <div class="term-item"><span lang="en">Hydroxyapatite</span><strong>هيدروكسي أباتيت</strong></div>
-          <div class="term-item"><span lang="en">Dentinal tubules</span><strong>الأنابيب العاجية</strong></div>
-          <div class="term-item"><span lang="en">Tomes fibers</span><strong>ألياف توماز</strong></div>
-          <div class="term-item"><span lang="en">Secondary dentin</span><strong>العاج الثانوي</strong></div>
-          <div class="term-item"><span lang="en">Tertiary / reparative dentin</span><strong>العاج الثالثي / المرمم</strong></div>
-        </div>
-      </section>
-    </section>
-
-    <section id="studyPanel" class="mode-panel" role="tabpanel" aria-labelledby="studyTab" hidden>
-      <div class="study-layout">
-        <aside class="study-sidebar no-print">
-          <div class="progress-card">
-            <div class="progress-card__top"><div><span>تقدمك</span><strong id="progressText">0 من 12</strong></div><div class="progress-ring" id="progressRing" aria-label="نسبة التقدم 0 بالمئة"><span id="progressPercent">0%</span></div></div>
-            <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
-            <button id="resetProgress" class="text-button" type="button">إعادة المحاولة</button>
-          </div>
-          <div class="study-tips">
-            <h3>طريقة الدراسة</h3>
-            <ol>
-              <li>ابدأ بحفظ موضع كل نسيج: تاج / جذر / مركز السن.</li>
-              <li>افصل بين الصلابة والتركيب الكيميائي.</li>
-              <li>احفظ ما يميز العاج والملاط واللب بمقارنات قصيرة.</li>
-            </ol>
-          </div>
-        </aside>
-
-        <div class="quiz-card" aria-live="polite">
-          <div class="quiz-card__header"><span class="question-counter" id="questionCounter">السؤال 1 من 12</span><span class="question-type" id="questionType">اختيار من متعدد</span></div>
-          <div class="quiz-card__body">
-            <h2 id="questionText">جارٍ تحميل السؤال…</h2>
-            <div id="answerArea" class="answer-area"></div>
-            <div id="feedbackBox" class="feedback-box" hidden><div class="feedback-box__icon" id="feedbackIcon" aria-hidden="true"></div><div><strong id="feedbackTitle"></strong><p id="feedbackText"></p></div></div>
-          </div>
-          <div class="quiz-card__footer"><button id="prevQuestion" class="secondary-button" type="button">السابق</button><div class="quiz-dots" id="quizDots" aria-label="التنقل بين الأسئلة"></div><button id="nextQuestion" class="primary-button" type="button">التالي</button></div>
-        </div>
-      </div>
-    </section>
-
-    <nav class="page-actions no-print" aria-label="التنقل التسلسلي">
-      <a class="page-action" href="page-06.html"><span>→ الصفحة السابقة</span><span>الأسنان والبزوغ</span></a>
-      <span class="page-counter">صفحة 07 من 17</span>
-      <a class="page-action page-action--primary" href="page-08.html"><span>الصفحة التالية</span><span>النسج المحيطة بالسن ←</span></a>
-    </nav>
-  </main>
-
-  <footer class="site-footer no-print">
-    <div class="shell site-footer__inner">
-      <p>صفحة تعليمية تفاعلية — بنية الأسنان</p>
-      <span>مصممة للقراءة، المراجعة، والطباعة</span>
-    </div>
-  </footer>
-
-  <dialog class="image-dialog" id="imageDialog">
-    <button class="dialog-close" id="dialogClose" type="button" aria-label="إغلاق الصورة">×</button>
-    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" decoding="async" /></div>
-  </dialog>
-
-  <script src="page-07.js"></script>
-  <script src="bookmarks.js"></script>
-  <script src="global-ui.js"></script>
-  <script src="learning-modes-two.js?v=1.0.0"></script>
-  <script src="interactive-images.js"></script>
-  <script src="print-system.js"></script>
-</body>
+<p>يكشف هذا سبب الألم عند محاولة حكّ السن بأداة عند منطقة العنق.</p>
+</article>
+<article class="fact-band fact-band--stacked">
+<strong>علاقة بالميناء والعاج:</strong>
+<span>إذا نشأ فراغ بسيط بين الميناء والملاط ينكشف العاج في المنطقة العنقية، فتزداد الحساسية.</span>
+</article>
+<article class="text-card">
+<p>يشبه تركيب الملاط إلى حد بعيد تركيب العظم بحسب النص المرفق.</p>
+</article>
+</div>
+</div>
+</section>
+<section aria-labelledby="pulpTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">4 — النسيج الحي المركزي</div>
+<h2 id="pulpTitle">اللب</h2>
+</div>
+<span class="chapter-badge">P</span>
+</div>
+<div class="pulp-layout">
+<figure class="anatomy-card source-figure tall-figure">
+<button aria-label="تكبير رسم اللب" class="image-zoom no-print" data-image="assets/page-07/pulp-source-diagram.webp" data-title="مخطط أمامي يبين أجزاء السن واللب والعصب" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5M8 11h6M11 8v6"></path></svg>
+</button>
+<div class="anatomy-card__image-wrap tall-figure__image">
+<img alt="مقطع طولي أمامي للسن يوضح الميناء والعاج واللب والعصب والرباط اللثوي" decoding="async" height="1092" loading="lazy" src="assets/page-07/pulp-source-diagram.webp" width="720"/>
+</div>
+<figcaption>
+<strong>مقطع أمامي لأجزاء السن</strong>
+<span>يوضح تموضع اللب السني بالنسبة إلى العاج والعصب وبقية البنى.</span>
+</figcaption>
+</figure>
+<div class="text-column">
+<article class="text-card">
+<p>اللب هو النسيج الحي داخل السن، ويتألف من ألياف عصبية وأوعية شريانية ووريدية.</p>
+<p>وظيفة اللب إعطاء الحساسية للسن، كما يتشكل فيه نوعان من العاج:</p>
+</article>
+<div class="pulp-types">
+<article class="pulp-type-card">
+<h3>العاج الثانوي</h3>
+<p>يتشكل بشكل طبيعي مع الزمن على جدران اللب، مؤدياً إلى زيادة سماكة العاج.</p>
+</article>
+<article class="pulp-type-card">
+<h3>العاج الثالثي أو العاج المرمم</h3>
+<p>يتشكل كرد فعل دفاعي تجاه العوامل المؤذية الخارجية مثل نخر السن أو التهيج الحراري، فيدفع اللب إلى التراجع مبتعداً عن الخطر.</p>
+</article>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="compareTitle" class="content-section print-block">
+<div class="section-heading section-heading--compact">
+<div>
+<div class="section-kicker">مقارنة سريعة</div>
+<h2 id="compareTitle">مقارنة بين الأنسجة الأربعة</h2>
+</div>
+</div>
+<div class="comparison-table-wrap table-scroll" tabindex="0">
+<table class="eruption-table tissues-comparison-table">
+<thead>
+<tr>
+<th>النسيج</th>
+<th>الموقع</th>
+<th>أبرز صفة</th>
+<th>معلومة مهمة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>الميناء</td>
+<td>يغطي التاج</td>
+<td>أقسى أنسجة الجسم</td>
+<td>97% أملاح الكالسيوم و3% ماء ومواد عضوية</td>
+</tr>
+<tr>
+<td>العاج</td>
+<td>يشكل الكتلة الأساسية للسن</td>
+<td>أقل صلابة من الميناء وأكثر صلابة من العظم</td>
+<td>يحوي أنابيب عاجية تنقل الإحساسات نحو اللب</td>
+</tr>
+<tr>
+<td>الملاط</td>
+<td>يغلف الجذر</td>
+<td>يشبه العظم</td>
+<td>قد يلتقي بالميناء بثلاث طرائق عند العنق</td>
+</tr>
+<tr>
+<td>اللب</td>
+<td>داخل السن</td>
+<td>نسيج حي عصبي وعائي</td>
+<td>يشكل عاجاً ثانوياً ومرمماً بحسب التنبيه</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section aria-labelledby="termsTitle" class="content-section print-block">
+<div class="section-heading section-heading--compact">
+<div><div class="section-kicker">مصطلحات الصفحة</div><h2 id="termsTitle">قاموس سريع</h2></div>
+</div>
+<div class="term-list">
+<div class="term-item"><span lang="en">Enamel</span><strong>الميناء</strong></div>
+<div class="term-item"><span lang="en">Dentin</span><strong>العاج</strong></div>
+<div class="term-item"><span lang="en">Cementum</span><strong>الملاط</strong></div>
+<div class="term-item"><span lang="en">Pulp</span><strong>اللب</strong></div>
+<div class="term-item"><span lang="en">Hydroxyapatite</span><strong>هيدروكسي أباتيت</strong></div>
+<div class="term-item"><span lang="en">Dentinal tubules</span><strong>الأنابيب العاجية</strong></div>
+<div class="term-item"><span lang="en">Tomes fibers</span><strong>ألياف توماز</strong></div>
+<div class="term-item"><span lang="en">Secondary dentin</span><strong>العاج الثانوي</strong></div>
+<div class="term-item"><span lang="en">Tertiary / reparative dentin</span><strong>العاج الثالثي / المرمم</strong></div>
+</div>
+</section>
+</section>
+<section aria-labelledby="studyTab" class="mode-panel" hidden="" id="studyPanel" role="tabpanel">
+<div class="study-layout">
+<aside class="study-sidebar no-print">
+<div class="progress-card">
+<div class="progress-card__top"><div><span>تقدمك</span><strong id="progressText">0 من 12</strong></div><div aria-label="نسبة التقدم 0 بالمئة" class="progress-ring" id="progressRing"><span id="progressPercent">0%</span></div></div>
+<div aria-hidden="true" class="progress-track"><span id="progressBar"></span></div>
+<button class="text-button" id="resetProgress" type="button">إعادة المحاولة</button>
+</div>
+<div class="study-tips">
+<h3>طريقة الدراسة</h3>
+<ol>
+<li>ابدأ بحفظ موضع كل نسيج: تاج / جذر / مركز السن.</li>
+<li>افصل بين الصلابة والتركيب الكيميائي.</li>
+<li>احفظ ما يميز العاج والملاط واللب بمقارنات قصيرة.</li>
+</ol>
+</div>
+</aside>
+<div aria-live="polite" class="quiz-card">
+<div class="quiz-card__header"><span class="question-counter" id="questionCounter">السؤال 1 من 12</span><span class="question-type" id="questionType">اختيار من متعدد</span></div>
+<div class="quiz-card__body">
+<h2 id="questionText">جارٍ تحميل السؤال…</h2>
+<div class="answer-area" id="answerArea"></div>
+<div class="feedback-box" hidden="" id="feedbackBox"><div aria-hidden="true" class="feedback-box__icon" id="feedbackIcon"></div><div><strong id="feedbackTitle"></strong><p id="feedbackText"></p></div></div>
+</div>
+<div class="quiz-card__footer"><button class="secondary-button" id="prevQuestion" type="button">السابق</button><div aria-label="التنقل بين الأسئلة" class="quiz-dots" id="quizDots"></div><button class="primary-button" id="nextQuestion" type="button">التالي</button></div>
+</div>
+</div>
+</section>
+<nav aria-label="التنقل التسلسلي" class="page-actions no-print">
+<a class="page-action" href="page-06.html"><span>→ الصفحة السابقة</span><span>الأسنان والبزوغ</span></a>
+<span class="page-counter">صفحة 07 من 70</span>
+<a class="page-action page-action--primary" href="page-08.html"><span>الصفحة التالية</span><span>النسج المحيطة بالسن ←</span></a>
+</nav>
+</main>
+<footer class="site-footer no-print">
+<div class="shell site-footer__inner">
+<p>صفحة تعليمية تفاعلية — بنية الأسنان</p>
+<span>مصممة للقراءة، المراجعة، والطباعة</span>
+</div>
+</footer>
+<dialog class="image-dialog" id="imageDialog">
+<button aria-label="إغلاق الصورة" class="dialog-close" id="dialogClose" type="button">×</button>
+<div class="image-dialog__content"><h2 id="dialogTitle"></h2><img alt="" decoding="async" id="dialogImage"/></div>
+</dialog>
+<script src="page-07.js"></script>
+<script src="bookmarks.js"></script>
+<script src="global-ui.js"></script>
+<script src="annotation-mode.js"></script>
+<script src="adaptive/integration.js"></script></body>
 </html>

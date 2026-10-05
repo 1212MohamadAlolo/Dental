@@ -6,12 +6,12 @@
   <meta name="theme-color" content="#2d6a68" />
   <meta name="description" content="قسم المحفوظات لعرض الفقرات المحفوظة من صفحات مقرر تشريح الفم والأسنان." />
   <title>المحفوظات | تشريح الفم والأسنان</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  
+  
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="global-ui.css" />
-</head>
+<link rel="stylesheet" href="adaptive/fonts.css"><link rel="stylesheet" href="adaptive/tokens.css"></head>
 <body>
   <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
 
@@ -35,7 +35,7 @@
   <nav class="course-nav no-print" aria-label="التنقل بين صفحات المقرر">
     <div class="shell course-nav__inner">
       <div class="course-pages">
-        <a class="course-page-link" href="index.html">01 · الفك العلوي</a>
+        <a class="course-page-link" href="page-01.html">01 · الفك العلوي</a>
         <a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
         <a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
         <a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
@@ -92,7 +92,7 @@
       <div class="saved-empty__icon" aria-hidden="true">☆</div>
       <h2>لا توجد فقرات محفوظة</h2>
       <p class="no-bookmark">افتح أي صفحة تعليمية واضغط زر <strong>حفظ</strong> بجانب الفقرة، وستظهر هنا مباشرة.</p>
-      <a href="index.html" class="primary-button">الذهاب إلى الصفحة الأولى</a>
+      <a href="page-01.html" class="primary-button">الذهاب إلى الصفحة الأولى</a>
     </section>
 
     <section id="savedItems" class="saved-items" aria-live="polite"></section>
@@ -107,5 +107,5 @@
 
   <script src="bookmarks.js"></script>
   <script src="global-ui.js"></script>
-</body>
+<script src="adaptive/integration.js"></script></body>
 </html>

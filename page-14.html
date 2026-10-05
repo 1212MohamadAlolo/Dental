@@ -1,278 +1,253 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#2d6a68" />
-  <meta name="description" content="صفحة تعليمية تفاعلية عن القلح والتلونات السنية." />
-  <title>القلح والتلونات السنية | الصفحة 14</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="global-ui.css" />
-  <link rel="stylesheet" href="learning-modes-two.css?v=1.0.0" />
-  <link rel="stylesheet" href="interactive-images.css" />
-  <link rel="stylesheet" href="print-system.css" />
-  <link rel="stylesheet" href="dark-mode-polish.css?v=1.0.0" />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#2d6a68" name="theme-color"/>
+<meta content="صفحة تعليمية تفاعلية عن القلح والتلونات السنية." name="description"/>
+<title>القلح والتلونات السنية | الصفحة 14</title>
+
+
+
+<link href="styles.css" rel="stylesheet"/>
+<link href="global-ui.css" rel="stylesheet"/>
+<link href="annotation-mode.css" rel="stylesheet"/>
+<link rel="stylesheet" href="adaptive/fonts.css"><link rel="stylesheet" href="adaptive/tokens.css"></head>
 <body>
 <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
-
-  <header class="topbar no-print">
-    <div class="topbar__inner shell">
-      <div class="brand" aria-label="صفحة القلح والتلونات السنية">
-        <div class="brand__mark" aria-hidden="true">
-          <svg viewBox="0 0 48 48" role="img"><path d="M11 9c8-5 18-5 26 0 3 2 4 6 3 10l-5 17c-1 4-5 5-8 2l-3-4-3 4c-3 3-7 2-8-2L8 19c-1-4 0-8 3-10Z"/><path d="M18 12c4-2 8-2 12 0"/></svg>
-        </div>
-        <div>
-          <p class="brand__eyebrow">تشريح الفم والأسنان</p>
-          <h1 class="brand__title">القلح والتلونات السنية</h1>
-        </div>
-      </div>
-      <div class="topbar__actions">
-        <span class="page-pill" aria-label="رقم الصفحة">الصفحة 14</span>
-        <button class="icon-button" id="printBtn" type="button" title="حفظ الدرس كملف PDF بحجم A4" aria-label="حفظ الدرس كملف PDF بحجم A4">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/></svg>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <nav class="mode-switch no-print" aria-label="طريقة الاستخدام">
-    <div class="shell mode-switch__inner" role="tablist">
-      <button class="mode-tab is-active" role="tab" aria-selected="true" aria-controls="overviewPanel" id="overviewTab" data-mode="overview">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg>
+<header class="topbar no-print">
+<div class="topbar__inner shell">
+<div aria-label="صفحة القلح والتلونات السنية" class="brand">
+<div aria-hidden="true" class="brand__mark">
+<svg role="img" viewbox="0 0 48 48"><path d="M11 9c8-5 18-5 26 0 3 2 4 6 3 10l-5 17c-1 4-5 5-8 2l-3-4-3 4c-3 3-7 2-8-2L8 19c-1-4 0-8 3-10Z"></path><path d="M18 12c4-2 8-2 12 0"></path></svg>
+</div>
+<div>
+<p class="brand__eyebrow">تشريح الفم والأسنان</p>
+<h1 class="brand__title">القلح والتلونات السنية</h1>
+</div>
+</div>
+<div class="topbar__actions">
+<span aria-label="رقم الصفحة" class="page-pill">الصفحة 14</span>
+<button aria-label="طباعة الصفحة" class="icon-button" id="printBtn" title="طباعة الصفحة" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"></path></svg>
+</button>
+</div>
+</div>
+</header>
+<nav aria-label="طريقة الاستخدام" class="mode-switch no-print">
+<div class="shell mode-switch__inner" role="tablist">
+<button aria-controls="overviewPanel" aria-selected="true" class="mode-tab is-active" data-mode="overview" id="overviewTab" role="tab">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"></path></svg>
         استعراض المعلومات
       </button>
-      <button class="mode-tab" role="tab" aria-selected="false" aria-controls="studyPanel" id="studyTab" data-mode="study">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-5 9 5-9 5-9-5Zm4 3v4c3 2 7 2 10 0v-4"/></svg>
+<button aria-controls="studyPanel" aria-selected="false" class="mode-tab" data-mode="study" id="studyTab" role="tab">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="m3 11 9-5 9 5-9 5-9-5Zm4 3v4c3 2 7 2 10 0v-4"></path></svg>
         وضع الدراسة
       </button>
-    </div>
-  </nav>
-
-  <nav class="course-nav no-print" aria-label="التنقل بين صفحات المقرر">
-    <div class="shell course-nav__inner">
-      <div class="course-pages">
-        <a class="course-page-link" href="index.html">01 · الفك العلوي</a>
-        <a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
-        <a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
-        <a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
-        <a class="course-page-link" href="page-05.html">05 · الغدد اللعابية</a>
-        <a class="course-page-link" href="page-06.html">06 · الأسنان والبزوغ</a>
-        <a class="course-page-link" href="page-07.html">07 · بنية الأسنان</a>
-        <a class="course-page-link" href="page-08.html">08 · النسج المحيطة بالسن</a>
-        <a class="course-page-link" href="page-09.html">09 · الأمراض اللثوية</a>
-        <a class="course-page-link" href="page-10.html">10 · اضطرابات النسج الداعمة</a>
-        <a class="course-page-link" href="page-11.html">11 · التهاب الفم</a>
-        <a class="course-page-link" href="page-12.html">12 · القلاع والسلاق والنكاف</a>
-        <a class="course-page-link" href="page-13.html">13 · الآفات ما قبل السرطانية والسرطانية</a>
-        <a class="course-page-link is-current" href="page-14.html" aria-current="page">14 · القلح والتلونات السنية</a>
-              <a class="course-page-link" href="page-15.html">15 · بخر الفم</a>
-              <a class="course-page-link" href="page-16.html">16 · العادات الفموية السيئة</a>
-              <a class="course-page-link" href="page-17.html">17 · نخر الأسنان</a>
-              <a class="course-page-link course-page-link--exam" href="comprehensive-exam.html">الاختبار الشامل</a>
-      </div>
-      <span class="course-nav__status">17 صفحة تعليمية + اختبار شامل</span>
-    </div>
-  </nav>
-
-  <main id="main-content" class="shell page-main">
-    <section id="overviewPanel" class="mode-panel" role="tabpanel" aria-labelledby="overviewTab">
-      <article class="hero-card print-block">
-        <div class="hero-card__content">
-          <div class="section-kicker">الموضوع الرئيسي</div>
-          <h2>القلح (Calculus) والتلونات السنية</h2>
-          <p>
+</div>
+</nav>
+<nav aria-label="التنقل بين صفحات المقرر" class="course-nav no-print">
+<div class="shell course-nav__inner">
+<div class="course-pages">
+<a class="course-page-link" href="page-01.html">01 · الفك العلوي</a>
+<a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
+<a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
+<a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
+<a class="course-page-link" href="page-05.html">05 · الغدد اللعابية</a>
+<a class="course-page-link" href="page-06.html">06 · الأسنان والبزوغ</a>
+<a class="course-page-link" href="page-07.html">07 · بنية الأسنان</a>
+<a class="course-page-link" href="page-08.html">08 · النسج المحيطة بالسن</a>
+<a class="course-page-link" href="page-09.html">09 · الأمراض اللثوية</a>
+<a class="course-page-link" href="page-10.html">10 · اضطرابات النسج الداعمة</a>
+<a class="course-page-link" href="page-11.html">11 · التهاب الفم</a>
+<a class="course-page-link" href="page-12.html">12 · القلاع والسلاق والنكاف</a>
+<a class="course-page-link" href="page-13.html">13 · الآفات ما قبل السرطانية والسرطانية</a>
+<a aria-current="page" class="course-page-link is-current" href="page-14.html">14 · القلح والتلونات السنية</a>
+<a class="course-page-link" href="page-15.html">15 · بخر الفم</a>
+<a class="course-page-link" href="page-16.html">16 · العادات الفموية السيئة</a>
+<a class="course-page-link" href="page-17.html">17 · نخر الأسنان</a>
+<a class="course-page-link course-page-link--exam" href="comprehensive-exam.html">الاختبار الشامل</a>
+</div>
+<span class="course-nav__status">17 صفحة تعليمية + اختبار شامل</span>
+</div>
+</nav>
+<main class="shell page-main" id="main-content"><section aria-label="مسار التعلم" class="learning-path-entry no-print"><div><span>مسار التعلم المتدرج</span><strong>حوّل هذه الصفحة إلى دروس قصيرة متتابعة</strong></div><a href="lesson.html?unit=page-14">دراسة هذه الوحدة خطوة بخطوة</a></section>
+<section aria-labelledby="overviewTab" class="mode-panel" id="overviewPanel" role="tabpanel">
+<article class="hero-card print-block">
+<div class="hero-card__content">
+<div class="section-kicker">الموضوع الرئيسي</div>
+<h2>القلح (Calculus) والتلونات السنية</h2>
+<p>
             تعرض هذه الصفحة تعريف <strong>القلح</strong> وتركيبه وتوضعه السريرية، ثم تميّز بين نوعيه:
             <strong>القلح فوق اللثوي/اللعابي</strong> و<strong>القلح تحت اللثوي/المصلي</strong>.
             كما تستعرض <strong>التلونات السنية</strong> وأهم أنماطها، خاصة التلونات المرتبطة بالتبغ والمعادن.
           </p>
-          <div class="feature-strip">
-            <div class="feature-chip"><strong>التركيب</strong><span>70–90% أملاح معدنية والباقي مكون عضوي.</span></div>
-            <div class="feature-chip"><strong>المواضع الشائعة</strong><span>الأسطح اللسانية للقواطع السفلية والأسطح الدهليزية للرحى العلوية.</span></div>
-            <div class="feature-chip"><strong>الأهمية</strong><span>يساهم القلح والتلونات في تخريش اللثة وإيواء الجراثيم.</span></div>
-          </div>
-        </div>
-        <aside class="hero-note" aria-label="خلاصة سريعة">
-          <span class="hero-note__icon" aria-hidden="true">14</span>
-          <div>
-            <strong>فكرة أساسية</strong>
-            <p>القلح يبدأ من الصفحة السنية، وقد يتشكل أحياناً حتى دون وجود صفحة سنية واضحة.</p>
-          </div>
-        </aside>
-      </article>
-
-      <section class="content-section print-block" aria-labelledby="calculusTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">أولاً</div>
-            <h2 id="calculusTitle">القلح</h2>
-          </div>
-          <span class="chapter-badge">C</span>
-        </div>
-
-        <div class="page14-intro-grid">
-          <article class="text-card">
-            <p>القلح هو كتل صلبة متكلسة تلتصق على سطوح الأسنان والتعويضات الصناعية. يتركب من أملاح معدنية بنسبة تقارب <strong>70–90%</strong>، وتشكل فوسفات الكالسيوم النسبة الغالبة من هذه الأملاح، مع وجود كربونات الكالسيوم وفوسفات المغنزيوم.</p>
-            <p>أما المحتوى العضوي فيتألف من مزيج من بروتينات عديدة السكريات، مع خلايا متوسفة، وكريات بيض، وعضويات دقيقة.</p>
-          </article>
-          <article class="text-card">
-            <h3>أماكن التوضع</h3>
-            <p>يتوضع القلح على معظم الأسنان تقريباً، لكنه يكثر في مناطق الانصباب اللعابي، وبخاصة:</p>
-            <ul class="bullet-list compact-list">
-              <li>السطوح اللسانية للقواطع السفلية.</li>
-              <li>السطوح الدهليزية المقابلة للرحى الأولى والثانية العلوية.</li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="figure-grid figure-grid--two">
-          <figure class="anatomy-card source-figure page14-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-14/calculus-lingual-photo.webp" data-title="صورة القلح على السطوح اللسانية للقواطع السفلية" aria-label="تكبير صورة القلح اللساني">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
-            </button>
-            <div class="anatomy-card__image-wrap page14-figure__image">
-              <img src="assets/page-14/calculus-lingual-photo.webp" alt="صورة تبين تراكم القلح على السطوح اللسانية للقواطع السفلية" loading="lazy" decoding="async" width="467" height="414" />
-            </div>
-            <figcaption>
-              <strong>الصورة المقتطعة من المصدر</strong>
-              <span>توضح التوضع الشائع للقلح قرب مخرج اللعاب.</span>
-            </figcaption>
-          </figure>
-
-          <figure class="anatomy-card source-figure page14-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-14/calculus-anterior-photo.webp" data-title="صورة القلح على الأسنان الأمامية" aria-label="تكبير صورة القلح على الأسنان الأمامية">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
-            </button>
-            <div class="anatomy-card__image-wrap page14-figure__image">
-              <img src="assets/page-14/calculus-anterior-photo.webp" alt="صورة سريرية لتراكم القلح على الأسنان الأمامية" loading="lazy" decoding="async" width="516" height="414" />
-            </div>
-            <figcaption>
-              <strong>الصورة المقتطعة من المصدر</strong>
-              <span>تعكس تراكمات قلحية واضحة على الأسنان الأمامية السفلية.</span>
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="info-grid info-grid--two">
-          <article class="summary-chip-card"><strong>القلح فوق اللثوي أو اللعابي</strong><span>يتوضع في التاج حتى قمة الحافة اللثوية، قوامه قاسٍ وخزفي، لونه أبيض أو أبيض مصفر، ويزال بسهولة نسبياً عن السطح السني.</span></article>
-          <article class="summary-chip-card"><strong>القلح تحت اللثوي أو المصلي</strong><span>يوجد تحت قمة اللثة الحرة داخل الجيوب اللثوية، لذلك يكون غير مرئي، وهو كثيف وقاسٍ، لونه كستنائي غامق أو أسود مخضر، ويلتصق بشدة بسطح السن.</span></article>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="stainTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">ثانياً</div>
-            <h2 id="stainTitle">التلونات السنية في أمراض النسج الداعمة</h2>
-          </div>
-          <span class="chapter-badge chapter-badge--accent">S</span>
-        </div>
-
-        <div class="stacked-cards">
-          <article class="topic-panel">
-            <h3>1) التلون السني</h3>
-            <p>يطلق على الأصبغة الملونة التي تتوضع على سطوح الأسنان مسببة مشكلات تجميلية، وقد تصبح مع الوقت مصدر تخريش ثانوي. تحدث بسبب جراثيم مولدة للأصباغ، أو الأطعمة، أو بعض المنتجات الكيميائية، أو بسبب بشـرات سنية مكتسبة أو تطورية.</p>
-            <p>تختلف التلونات في <strong>اللون</strong> و<strong>التركيب</strong> و<strong>شدة الالتصاق</strong> على السطح السني.</p>
-          </article>
-
-          <div class="dual-topic-grid">
-            <article class="topic-panel topic-panel--accent">
-              <h3>2) التصبغات التبغية</h3>
-              <p>يسبب التبغ فضلات سطحها صلب، ولونها كستنائي غامق أو أسود. كما ينجم التلون عن احتراق قطران الفحم الحجري ودخول عصير التبغ في شقوق الميناء والعاج.</p>
-              <p>ليس من الضروري أن يتناسب الاصطباغ طرداً مع كمية استهلاك التبغ، لكنه يتعلق بدرجة كبيرة <strong>بالأغشية السنية الموجودة مسبقاً</strong>.</p>
-            </article>
-
-            <article class="topic-panel">
-              <h3>3) التلون المعدني</h3>
-              <p>قد تدخل بعض المعادن والأملاح المعدنية إلى الحفرة الفموية عند العاملين في الصناعة أو مع بعض الأدوية المتناولة فموياً، فتتحد مع الغلاف السني وتسبب لوناً سطحياً أو تدخل في المادة السنية فتحدث تلوناً دائماً.</p>
-              <ul class="bullet-list compact-list">
-                <li>غبار النحاس: تلون أخضر.</li>
-                <li>غبار الحديد: تلون أسمر.</li>
-                <li>العقاقير الحاوية على ساليفت الحديد: فضلات سوداء.</li>
-                <li>تلونات أخرى: منغنيز (أسود)، زئبق (أسود مخضر)، نيكل (أخضر)، فضة (أسود).</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-
-        <article class="highlight-card highlight-card--note">
-          <h3>الخلاصة السريرية</h3>
-          <p>تشترك هذه التلونات جميعها في قدرتها على الإسهام في إحداث مرض لثوي من خلال <strong>إيواء الجراثيم</strong> ومفرزاتها وما يرافق ذلك من <strong>تخريش اللثة</strong> وبدء مرضها ثانوياً.</p>
-        </article>
-      </section>
-    </section>
-
-    <section id="studyPanel" class="mode-panel" role="tabpanel" aria-labelledby="studyTab" hidden>
-      <div class="study-layout">
-        <aside class="study-sidebar no-print">
-          <div class="progress-card">
-            <div class="progress-card__top">
-              <div><span>تقدمك</span><strong id="progressText">0 من 14</strong></div>
-              <div class="progress-ring" id="progressRing" aria-label="نسبة التقدم 0 بالمئة"><span id="progressPercent">0%</span></div>
-            </div>
-            <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
-            <button id="resetProgress" class="text-button" type="button">إعادة المحاولة</button>
-          </div>
-
-          <div class="study-tips">
-            <h3>طريقة التثبيت</h3>
-            <ol>
-              <li>احفظ نسبة المعدني/العضوي في القلح.</li>
-              <li>اربط القلح فوق اللثوي باللون الأبيض وتحت اللثوي باللون الداكن.</li>
-              <li>ميّز التلونات حسب السبب: جرثومي/تبغي/معدني.</li>
-            </ol>
-          </div>
-        </aside>
-
-        <div class="quiz-card" aria-live="polite">
-          <div class="quiz-card__header">
-            <span class="question-counter" id="questionCounter">السؤال 1 من 14</span>
-            <span class="question-type" id="questionType">اختيار من متعدد</span>
-          </div>
-          <div class="quiz-card__body">
-            <h2 id="questionText">جارٍ تحميل السؤال…</h2>
-            <div id="answerArea" class="answer-area"></div>
-            <div id="feedbackBox" class="feedback-box" hidden>
-              <div class="feedback-box__icon" id="feedbackIcon" aria-hidden="true"></div>
-              <div><strong id="feedbackTitle"></strong><p id="feedbackText"></p></div>
-            </div>
-          </div>
-          <div class="quiz-card__footer">
-            <button id="prevQuestion" class="secondary-button" type="button">السابق</button>
-            <div class="quiz-dots" id="quizDots" aria-label="التنقل بين الأسئلة"></div>
-            <button id="nextQuestion" class="primary-button" type="button">التالي</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <nav class="page-actions no-print" aria-label="التنقل التسلسلي">
-      <a class="page-action" href="page-13.html"><span>→ الصفحة السابقة</span><span>الآفات ما قبل السرطانية والسرطانية</span></a>
-      <span class="page-counter">صفحة 14 من 17</span>
-      <a class="page-action page-action--primary" href="page-15.html"><span>الصفحة التالية</span><span>بخر الفم ←</span></a>
-    </nav>
-  </main>
-
-  <footer class="site-footer no-print">
-    <div class="shell site-footer__inner">
-      <p>صفحة تعليمية تفاعلية — القلح والتلونات السنية</p>
-      <span>مصممة للقراءة، المراجعة، والطباعة</span>
-    </div>
-  </footer>
-
-  <dialog class="image-dialog" id="imageDialog">
-    <button class="dialog-close" id="dialogClose" type="button" aria-label="إغلاق الصورة">×</button>
-    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" decoding="async" /></div>
-  </dialog>
-
-  <script src="page-14.js"></script>
-  <script src="bookmarks.js"></script>
-  <script src="global-ui.js"></script>
-  <script src="learning-modes-two.js?v=1.0.0"></script>
-  <script src="interactive-images.js"></script>
-  <script src="print-system.js"></script>
-</body>
+<div class="feature-strip">
+<div class="feature-chip"><strong>التركيب</strong><span>70–90% أملاح معدنية والباقي مكون عضوي.</span></div>
+<div class="feature-chip"><strong>المواضع الشائعة</strong><span>الأسطح اللسانية للقواطع السفلية والأسطح الدهليزية للرحى العلوية.</span></div>
+<div class="feature-chip"><strong>الأهمية</strong><span>يساهم القلح والتلونات في تخريش اللثة وإيواء الجراثيم.</span></div>
+</div>
+</div>
+<aside aria-label="خلاصة سريعة" class="hero-note">
+<span aria-hidden="true" class="hero-note__icon">14</span>
+<div>
+<strong>فكرة أساسية</strong>
+<p>القلح يبدأ من الصفحة السنية، وقد يتشكل أحياناً حتى دون وجود صفحة سنية واضحة.</p>
+</div>
+</aside>
+</article>
+<section aria-labelledby="calculusTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">أولاً</div>
+<h2 id="calculusTitle">القلح</h2>
+</div>
+<span class="chapter-badge">C</span>
+</div>
+<div class="page14-intro-grid">
+<article class="text-card">
+<p>القلح هو كتل صلبة متكلسة تلتصق على سطوح الأسنان والتعويضات الصناعية. يتركب من أملاح معدنية بنسبة تقارب <strong>70–90%</strong>، وتشكل فوسفات الكالسيوم النسبة الغالبة من هذه الأملاح، مع وجود كربونات الكالسيوم وفوسفات المغنزيوم.</p>
+<p>أما المحتوى العضوي فيتألف من مزيج من بروتينات عديدة السكريات، مع خلايا متوسفة، وكريات بيض، وعضويات دقيقة.</p>
+</article>
+<article class="text-card">
+<h3>أماكن التوضع</h3>
+<p>يتوضع القلح على معظم الأسنان تقريباً، لكنه يكثر في مناطق الانصباب اللعابي، وبخاصة:</p>
+<ul class="bullet-list compact-list">
+<li>السطوح اللسانية للقواطع السفلية.</li>
+<li>السطوح الدهليزية المقابلة للرحى الأولى والثانية العلوية.</li>
+</ul>
+</article>
+</div>
+<div class="figure-grid figure-grid--two">
+<figure class="anatomy-card source-figure page14-figure">
+<button aria-label="تكبير صورة القلح اللساني" class="image-zoom no-print" data-image="assets/page-14/calculus-lingual-photo.webp" data-title="صورة القلح على السطوح اللسانية للقواطع السفلية" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5M8 11h6M11 8v6"></path></svg>
+</button>
+<div class="anatomy-card__image-wrap page14-figure__image">
+<img alt="صورة تبين تراكم القلح على السطوح اللسانية للقواطع السفلية" decoding="async" height="414" loading="lazy" src="assets/page-14/calculus-lingual-photo.webp" width="467"/>
+</div>
+<figcaption>
+<strong>الصورة المقتطعة من المصدر</strong>
+<span>توضح التوضع الشائع للقلح قرب مخرج اللعاب.</span>
+</figcaption>
+</figure>
+<figure class="anatomy-card source-figure page14-figure">
+<button aria-label="تكبير صورة القلح على الأسنان الأمامية" class="image-zoom no-print" data-image="assets/page-14/calculus-anterior-photo.webp" data-title="صورة القلح على الأسنان الأمامية" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5M8 11h6M11 8v6"></path></svg>
+</button>
+<div class="anatomy-card__image-wrap page14-figure__image">
+<img alt="صورة سريرية لتراكم القلح على الأسنان الأمامية" decoding="async" height="414" loading="lazy" src="assets/page-14/calculus-anterior-photo.webp" width="516"/>
+</div>
+<figcaption>
+<strong>الصورة المقتطعة من المصدر</strong>
+<span>تعكس تراكمات قلحية واضحة على الأسنان الأمامية السفلية.</span>
+</figcaption>
+</figure>
+</div>
+<div class="info-grid info-grid--two">
+<article class="summary-chip-card"><strong>القلح فوق اللثوي أو اللعابي</strong><span>يتوضع في التاج حتى قمة الحافة اللثوية، قوامه قاسٍ وخزفي، لونه أبيض أو أبيض مصفر، ويزال بسهولة نسبياً عن السطح السني.</span></article>
+<article class="summary-chip-card"><strong>القلح تحت اللثوي أو المصلي</strong><span>يوجد تحت قمة اللثة الحرة داخل الجيوب اللثوية، لذلك يكون غير مرئي، وهو كثيف وقاسٍ، لونه كستنائي غامق أو أسود مخضر، ويلتصق بشدة بسطح السن.</span></article>
+</div>
+</section>
+<section aria-labelledby="stainTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">ثانياً</div>
+<h2 id="stainTitle">التلونات السنية في أمراض النسج الداعمة</h2>
+</div>
+<span class="chapter-badge chapter-badge--accent">S</span>
+</div>
+<div class="stacked-cards">
+<article class="topic-panel">
+<h3>1) التلون السني</h3>
+<p>يطلق على الأصبغة الملونة التي تتوضع على سطوح الأسنان مسببة مشكلات تجميلية، وقد تصبح مع الوقت مصدر تخريش ثانوي. تحدث بسبب جراثيم مولدة للأصباغ، أو الأطعمة، أو بعض المنتجات الكيميائية، أو بسبب بشـرات سنية مكتسبة أو تطورية.</p>
+<p>تختلف التلونات في <strong>اللون</strong> و<strong>التركيب</strong> و<strong>شدة الالتصاق</strong> على السطح السني.</p>
+</article>
+<div class="dual-topic-grid">
+<article class="topic-panel topic-panel--accent">
+<h3>2) التصبغات التبغية</h3>
+<p>يسبب التبغ فضلات سطحها صلب، ولونها كستنائي غامق أو أسود. كما ينجم التلون عن احتراق قطران الفحم الحجري ودخول عصير التبغ في شقوق الميناء والعاج.</p>
+<p>ليس من الضروري أن يتناسب الاصطباغ طرداً مع كمية استهلاك التبغ، لكنه يتعلق بدرجة كبيرة <strong>بالأغشية السنية الموجودة مسبقاً</strong>.</p>
+</article>
+<article class="topic-panel">
+<h3>3) التلون المعدني</h3>
+<p>قد تدخل بعض المعادن والأملاح المعدنية إلى الحفرة الفموية عند العاملين في الصناعة أو مع بعض الأدوية المتناولة فموياً، فتتحد مع الغلاف السني وتسبب لوناً سطحياً أو تدخل في المادة السنية فتحدث تلوناً دائماً.</p>
+<ul class="bullet-list compact-list">
+<li>غبار النحاس: تلون أخضر.</li>
+<li>غبار الحديد: تلون أسمر.</li>
+<li>العقاقير الحاوية على ساليفت الحديد: فضلات سوداء.</li>
+<li>تلونات أخرى: منغنيز (أسود)، زئبق (أسود مخضر)، نيكل (أخضر)، فضة (أسود).</li>
+</ul>
+</article>
+</div>
+</div>
+<article class="highlight-card highlight-card--note">
+<h3>الخلاصة السريرية</h3>
+<p>تشترك هذه التلونات جميعها في قدرتها على الإسهام في إحداث مرض لثوي من خلال <strong>إيواء الجراثيم</strong> ومفرزاتها وما يرافق ذلك من <strong>تخريش اللثة</strong> وبدء مرضها ثانوياً.</p>
+</article>
+</section>
+</section>
+<section aria-labelledby="studyTab" class="mode-panel" hidden="" id="studyPanel" role="tabpanel">
+<div class="study-layout">
+<aside class="study-sidebar no-print">
+<div class="progress-card">
+<div class="progress-card__top">
+<div><span>تقدمك</span><strong id="progressText">0 من 14</strong></div>
+<div aria-label="نسبة التقدم 0 بالمئة" class="progress-ring" id="progressRing"><span id="progressPercent">0%</span></div>
+</div>
+<div aria-hidden="true" class="progress-track"><span id="progressBar"></span></div>
+<button class="text-button" id="resetProgress" type="button">إعادة المحاولة</button>
+</div>
+<div class="study-tips">
+<h3>طريقة التثبيت</h3>
+<ol>
+<li>احفظ نسبة المعدني/العضوي في القلح.</li>
+<li>اربط القلح فوق اللثوي باللون الأبيض وتحت اللثوي باللون الداكن.</li>
+<li>ميّز التلونات حسب السبب: جرثومي/تبغي/معدني.</li>
+</ol>
+</div>
+</aside>
+<div aria-live="polite" class="quiz-card">
+<div class="quiz-card__header">
+<span class="question-counter" id="questionCounter">السؤال 1 من 14</span>
+<span class="question-type" id="questionType">اختيار من متعدد</span>
+</div>
+<div class="quiz-card__body">
+<h2 id="questionText">جارٍ تحميل السؤال…</h2>
+<div class="answer-area" id="answerArea"></div>
+<div class="feedback-box" hidden="" id="feedbackBox">
+<div aria-hidden="true" class="feedback-box__icon" id="feedbackIcon"></div>
+<div><strong id="feedbackTitle"></strong><p id="feedbackText"></p></div>
+</div>
+</div>
+<div class="quiz-card__footer">
+<button class="secondary-button" id="prevQuestion" type="button">السابق</button>
+<div aria-label="التنقل بين الأسئلة" class="quiz-dots" id="quizDots"></div>
+<button class="primary-button" id="nextQuestion" type="button">التالي</button>
+</div>
+</div>
+</div>
+</section>
+<nav aria-label="التنقل التسلسلي" class="page-actions no-print">
+<a class="page-action" href="page-13.html"><span>→ الصفحة السابقة</span><span>الآفات ما قبل السرطانية والسرطانية</span></a>
+<span class="page-counter">صفحة 14 من 70</span>
+<a class="page-action page-action--primary" href="page-15.html"><span>الصفحة التالية</span><span>بخر الفم ←</span></a>
+</nav>
+</main>
+<footer class="site-footer no-print">
+<div class="shell site-footer__inner">
+<p>صفحة تعليمية تفاعلية — القلح والتلونات السنية</p>
+<span>مصممة للقراءة، المراجعة، والطباعة</span>
+</div>
+</footer>
+<dialog class="image-dialog" id="imageDialog">
+<button aria-label="إغلاق الصورة" class="dialog-close" id="dialogClose" type="button">×</button>
+<div class="image-dialog__content"><h2 id="dialogTitle"></h2><img alt="" decoding="async" id="dialogImage"/></div>
+</dialog>
+<script src="page-14.js"></script>
+<script src="bookmarks.js"></script>
+<script src="global-ui.js"></script>
+<script src="annotation-mode.js"></script>
+<script src="adaptive/integration.js"></script></body>
 </html>

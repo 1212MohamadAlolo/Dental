@@ -1,0 +1,19 @@
+{
+  "name": "Oral Health Learning Path",
+  "version": "1.2",
+  "language": "ar",
+  "direction": "rtl",
+  "source": "source/course.pdf",
+  "modules": {
+    "adaptiveTraining": true,
+    "spacedReview": true,
+    "mistakeTracking": true,
+    "search": true,
+    "bookmarks": true,
+    "darkMode": true,
+    "print": true,
+    "cloudSync": false,
+    "gamificationXP": false
+  },
+  "adaptiveData": "data/adaptive-bank.json"
+}

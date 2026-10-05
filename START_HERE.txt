@@ -1,0 +1,5 @@
+Oral Health Learning Path 1.2
+افتح index.html ثم «ابدأ مراجعة اليوم».
+فك الضغط كاملًا أولًا. اقرأ README.md للتشغيل والنشر.
+التقرير العلمي: docs/SCIENTIFIC_REVIEW_AR.md
+التوثيق البرمجي وQA: docs/

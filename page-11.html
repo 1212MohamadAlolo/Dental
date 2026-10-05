@@ -1,366 +1,333 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#2d6a68" />
-  <meta name="description" content="صفحة تعليمية تفاعلية عن التهاب الفم، وتشمل التهاب الفم القلاعي، التهاب الفم واللثة التبغي، التهاب الفم الناتج عن التعويضات الصناعية، والتهاب الفم الناتج عن التحسس للمعادن." />
-  <title>التهاب الفم | الصفحة 11</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="global-ui.css" />
-  <link rel="stylesheet" href="learning-modes-two.css?v=1.0.0" />
-  <link rel="stylesheet" href="interactive-images.css" />
-  <link rel="stylesheet" href="print-system.css" />
-  <link rel="stylesheet" href="dark-mode-polish.css?v=1.0.0" />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#2d6a68" name="theme-color"/>
+<meta content="صفحة تعليمية تفاعلية عن التهاب الفم، وتشمل التهاب الفم القلحي، التهاب الفم واللثة التبغي، التهاب الفم الناتج عن التعويضات الصناعية، والتهاب الفم الناتج عن التحسس للمعادن." name="description"/>
+<title>التهاب الفم | الصفحة 11</title>
+
+
+
+<link href="styles.css" rel="stylesheet"/>
+<link href="global-ui.css" rel="stylesheet"/>
+<link href="annotation-mode.css" rel="stylesheet"/>
+<link rel="stylesheet" href="adaptive/fonts.css"><link rel="stylesheet" href="adaptive/tokens.css"></head>
 <body>
 <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
-
-  <header class="topbar no-print">
-    <div class="topbar__inner shell">
-      <div class="brand" aria-label="صفحة دراسة التهاب الفم">
-        <div class="brand__mark" aria-hidden="true">
-          <svg viewBox="0 0 48 48" role="img"><path d="M11 9c8-5 18-5 26 0 3 2 4 6 3 10l-5 17c-1 4-5 5-8 2l-3-4-3 4c-3 3-7 2-8-2L8 19c-1-4 0-8 3-10Z"/><path d="M18 12c4-2 8-2 12 0"/></svg>
-        </div>
-        <div>
-          <p class="brand__eyebrow">تشريح الفم والأسنان</p>
-          <h1 class="brand__title">التهاب الفم</h1>
-        </div>
-      </div>
-      <div class="topbar__actions">
-        <span class="page-pill" aria-label="رقم الصفحة">الصفحة 11</span>
-        <button class="icon-button" id="printBtn" type="button" title="حفظ الدرس كملف PDF بحجم A4" aria-label="حفظ الدرس كملف PDF بحجم A4">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/></svg>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <nav class="mode-switch no-print" aria-label="طريقة الاستخدام">
-    <div class="shell mode-switch__inner" role="tablist">
-      <button class="mode-tab is-active" role="tab" aria-selected="true" aria-controls="overviewPanel" id="overviewTab" data-mode="overview">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg>
+<header class="topbar no-print">
+<div class="topbar__inner shell">
+<div aria-label="صفحة دراسة التهاب الفم" class="brand">
+<div aria-hidden="true" class="brand__mark">
+<svg role="img" viewbox="0 0 48 48"><path d="M11 9c8-5 18-5 26 0 3 2 4 6 3 10l-5 17c-1 4-5 5-8 2l-3-4-3 4c-3 3-7 2-8-2L8 19c-1-4 0-8 3-10Z"></path><path d="M18 12c4-2 8-2 12 0"></path></svg>
+</div>
+<div>
+<p class="brand__eyebrow">تشريح الفم والأسنان</p>
+<h1 class="brand__title">التهاب الفم</h1>
+</div>
+</div>
+<div class="topbar__actions">
+<span aria-label="رقم الصفحة" class="page-pill">الصفحة 11</span>
+<button aria-label="طباعة الصفحة" class="icon-button" id="printBtn" title="طباعة الصفحة" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"></path></svg>
+</button>
+</div>
+</div>
+</header>
+<nav aria-label="طريقة الاستخدام" class="mode-switch no-print">
+<div class="shell mode-switch__inner" role="tablist">
+<button aria-controls="overviewPanel" aria-selected="true" class="mode-tab is-active" data-mode="overview" id="overviewTab" role="tab">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"></path></svg>
         استعراض المعلومات
       </button>
-      <button class="mode-tab" role="tab" aria-selected="false" aria-controls="studyPanel" id="studyTab" data-mode="study">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-5 9 5-9 5-9-5Zm4 3v4c3 2 7 2 10 0v-4"/></svg>
+<button aria-controls="studyPanel" aria-selected="false" class="mode-tab" data-mode="study" id="studyTab" role="tab">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="m3 11 9-5 9 5-9 5-9-5Zm4 3v4c3 2 7 2 10 0v-4"></path></svg>
         وضع الدراسة
       </button>
-    </div>
-  </nav>
-
-  <nav class="course-nav no-print" aria-label="التنقل بين صفحات المقرر">
-    <div class="shell course-nav__inner">
-      <div class="course-pages">
-        <a class="course-page-link" href="index.html">01 · الفك العلوي</a>
-        <a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
-        <a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
-        <a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
-        <a class="course-page-link" href="page-05.html">05 · الغدد اللعابية</a>
-        <a class="course-page-link" href="page-06.html">06 · الأسنان والبزوغ</a>
-        <a class="course-page-link" href="page-07.html">07 · بنية الأسنان</a>
-        <a class="course-page-link" href="page-08.html">08 · النسج المحيطة بالسن</a>
-        <a class="course-page-link" href="page-09.html">09 · الأمراض اللثوية</a>
-        <a class="course-page-link" href="page-10.html">10 · اضطرابات النسج الداعمة</a>
-        <a class="course-page-link is-current" href="page-11.html" aria-current="page">11 · التهاب الفم</a>
-              <a class="course-page-link" href="page-12.html">12 · القلاع والسلاق والنكاف</a>
-              <a class="course-page-link" href="page-13.html">13 · الآفات ما قبل السرطانية والسرطانية</a>
-              <a class="course-page-link" href="page-14.html">14 · القلح والتلونات السنية</a>
-              <a class="course-page-link" href="page-15.html">15 · بخر الفم</a>
-              <a class="course-page-link" href="page-16.html">16 · العادات الفموية السيئة</a>
-              <a class="course-page-link" href="page-17.html">17 · نخر الأسنان</a>
-              <a class="course-page-link course-page-link--exam" href="comprehensive-exam.html">الاختبار الشامل</a>
-      </div>
-      <span class="course-nav__status">17 صفحة تعليمية + اختبار شامل</span>
-    </div>
-  </nav>
-
-  <main id="main-content" class="shell page-main">
-    <section id="overviewPanel" class="mode-panel" role="tabpanel" aria-labelledby="overviewTab">
-      <article class="hero-card print-block">
-        <div class="hero-card__content">
-          <div class="section-kicker">مشكلات التهابية في مخاطية الفم</div>
-          <h2>التهاب الفم بأشكاله المختلفة</h2>
-          <p>
+</div>
+</nav>
+<nav aria-label="التنقل بين صفحات المقرر" class="course-nav no-print">
+<div class="shell course-nav__inner">
+<div class="course-pages">
+<a class="course-page-link" href="page-01.html">01 · الفك العلوي</a>
+<a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
+<a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
+<a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
+<a class="course-page-link" href="page-05.html">05 · الغدد اللعابية</a>
+<a class="course-page-link" href="page-06.html">06 · الأسنان والبزوغ</a>
+<a class="course-page-link" href="page-07.html">07 · بنية الأسنان</a>
+<a class="course-page-link" href="page-08.html">08 · النسج المحيطة بالسن</a>
+<a class="course-page-link" href="page-09.html">09 · الأمراض اللثوية</a>
+<a class="course-page-link" href="page-10.html">10 · اضطرابات النسج الداعمة</a>
+<a aria-current="page" class="course-page-link is-current" href="page-11.html">11 · التهاب الفم</a>
+<a class="course-page-link" href="page-12.html">12 · القلاع والسلاق والنكاف</a>
+<a class="course-page-link" href="page-13.html">13 · الآفات ما قبل السرطانية والسرطانية</a>
+<a class="course-page-link" href="page-14.html">14 · القلح والتلونات السنية</a>
+<a class="course-page-link" href="page-15.html">15 · بخر الفم</a>
+<a class="course-page-link" href="page-16.html">16 · العادات الفموية السيئة</a>
+<a class="course-page-link" href="page-17.html">17 · نخر الأسنان</a>
+<a class="course-page-link course-page-link--exam" href="comprehensive-exam.html">الاختبار الشامل</a>
+</div>
+<span class="course-nav__status">17 صفحة تعليمية + اختبار شامل</span>
+</div>
+</nav>
+<main class="shell page-main" id="main-content"><section aria-label="مسار التعلم" class="learning-path-entry no-print"><div><span>مسار التعلم المتدرج</span><strong>حوّل هذه الصفحة إلى دروس قصيرة متتابعة</strong></div><a href="lesson.html?unit=page-11">دراسة هذه الوحدة خطوة بخطوة</a></section>
+<section aria-labelledby="overviewTab" class="mode-panel" id="overviewPanel" role="tabpanel">
+<article class="hero-card print-block">
+<div class="hero-card__content">
+<div class="section-kicker">مشكلات التهابية في مخاطية الفم</div>
+<h2>التهاب الفم بأشكاله المختلفة</h2>
+<p>
             تتناول هذه الصفحة الأنماط السريرية المهمة من <strong>التهاب الفم</strong>، وتشمل:
-            <strong>التهاب الفم القلاعي</strong>، و<strong>التهاب الفم واللثة التبغي</strong>،
+            <strong>التهاب الفم القلحي</strong>، و<strong>التهاب الفم واللثة التبغي</strong>،
             و<strong>التهاب الفم الناتج عن التعويضات الصناعية</strong>، إضافة إلى
             <strong>التهاب الفم الناتج عن التحسس للمعادن</strong> بأنواعه المختلفة.
           </p>
-          <div class="feature-strip">
-            <div class="feature-chip"><strong>فكرة أساسية</strong><span>التهاب الفم قد ينتج عن القلح، التدخين، الأجهزة السنية، أو التعرض المزمن لبعض المعادن.</span></div>
-            <div class="feature-chip"><strong>منظور سريري</strong><span>نوع السبب يغيّر شكل الإصابة والعلاج: فالعلاج السببي هو المفتاح الأساسي.</span></div>
-            <div class="feature-chip"><strong>محور الوقاية</strong><span>تحسين الصحة الفموية، تجنب المخرشات، وصنع التعويضات بدقة.</span></div>
-          </div>
-        </div>
-        <aside class="hero-note" aria-label="الخلاصة">
-          <span class="hero-note__icon" aria-hidden="true">11</span>
-          <div>
-            <strong>ملخص الصفحة</strong>
-            <p>تربط الصفحة بين المسببات الموضعية والدوائية والمهنية وبين صور الالتهاب المختلفة في الغشاء المخاطي الفموي.</p>
-          </div>
-        </aside>
-      </article>
-
-      <section class="content-section print-block" aria-labelledby="aphthousTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">أولاً</div>
-            <h2 id="aphthousTitle">التهاب الفم القلاعي</h2>
-          </div>
-          <span class="chapter-badge">A</span>
-        </div>
-
-        <div class="overview-columns overview-columns--two">
-          <article class="text-card">
-            <p>يمثل بالتهاب اللثة الناجمة عن غياب الصحة الفموية السنية بسبب تجمع الصفيحة اللثوية السنية وتحولها إلى قلح، وقد تزداد شدة الالتهاب أو احتمال حدوثه عندما لا يتعلق المضغ الجيد أو تنحشر فضلات الطعام بين نقاط التماس أو تتوضع الأسنان بشكل خاطئ.</p>
-          </article>
-
-          <article class="text-card">
-            <h3>المظاهر والمعالجة</h3>
-            <p>يتظاهر هذا الالتهاب بحليمات لثوية حمراء أو وذمية محتقنة أو حليمات أتوية تنزف عند أقل تماس. يكثر في مناطق القلح، وخاصة اللسانية للقواطع السفلية بسبب قربها من فوهة الغدة تحت اللسان، والدهليزية للأرحاء العلوية بسبب قربها من فوهة قناة الغدة النكفية.</p>
-            <p>تعتمد المعالجة على إزالة القلح والعناية بالصحة الفموية ومعالجة الأسنان النخرة وإعادة نقاط التماس وإصلاح وضع الأسنان الشاذة تقويمياً عند الحاجة.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="smokerTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">ثانياً</div>
-            <h2 id="smokerTitle">التهاب الفم واللثة التبغي</h2>
-          </div>
-          <span class="chapter-badge chapter-badge--accent">S</span>
-        </div>
-
-        <div class="overview-columns overview-columns--two">
-          <article class="text-card">
-            <p>يبين تحليل التبغ وجود عدة مواد محرّضة للالتهاب، أهمها: <strong>حمض سيان هيدريك</strong>، و<strong>أكسيد الأزوت</strong>، و<strong>الفينول</strong>، و<strong>القطران</strong>.</p>
-            <p>هذه المواد ندفانات خلوية تحرض ردود فعل نسجية التهابية، كما أن للتبغ تأثيراً سُمّياً في الغشاء الفموي والغشاء المخاطي لجهاز التنفس حيث يؤدي إلى إلغاء النشاط الهدبي.</p>
-          </article>
-
-          <article class="text-card">
-            <p>النيكوتين ينقص إفراز اللعاب ويحرض زيادة الدوران الدموي ويؤدي إلى ضمور الغشاء المخاطي. كما أن التسمم بالتبغ بسبب الإفراط فيه غالباً ما يرافقه غياب العناية الفموية مما يزيد سوء الحالة.</p>
-            <p>تكون المعالجة في هذه الحالة صعبة لأنها تعتمد على المعالجة السببية، أي <strong>الإقلاع عن التدخين</strong>، وهي غالباً ما تكون شبه مستحيلة عند بعض المرضى.</p>
-          </article>
-        </div>
-
-        <article class="alert-card alert-card--soft">
-          <h3>خلاصة سريعة</h3>
-          <p>الآثار التخريشية والسُمّية للتبغ لا تسبب الالتهاب فقط، بل تضعف أيضاً مقاومة النسج المخاطية وتعيق تنظيفها الطبيعي.</p>
-        </article>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="prosthesisTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">ثالثاً</div>
-            <h2 id="prosthesisTitle">التهاب الفم الناتج عن التعويضات الصناعية</h2>
-          </div>
-          <span class="chapter-badge">P</span>
-        </div>
-
-        <article class="text-card">
-          <p>ينتج عن وجود أعراض في الفم وترتفع نسبة الإصابة به في الأجهزة فاشلة الصنع، ويتجلى ذلك بوجود تقرحات رضية بعد استعمال جهاز ذي حواف غير منتظمة وتكون مؤلمة مغطاة بنسج رمادي متموت ومحاطة بنسيج التهابي.</p>
-        </article>
-
-        <div class="overview-columns overview-columns--two">
-          <article class="text-card">
-            <h3>أهم العوامل المسببة</h3>
-            <ol class="concept-list concept-list--numbered">
-              <li>الضغط غير الفيزيولوجي المباشر بواسطة التعويضات على الغشاء المخاطي.</li>
-              <li>هشاشة الأوعية الشعرية، وتزداد عند سن بعد العقد الثالث من العمر.</li>
-              <li>الخرش الفموي والضغط على سطح الغشاء المخاطي الملامس للتعويضات حيث يكون مكشوفاً ومساميّاً.</li>
-              <li>استطالة حواف الجهاز أو وجود نتوءات عظمية بارزة على الحافة السنخية أو الخشونة الموجودة داخل الجهاز.</li>
-              <li>قد يكون سوء الإطباق سبباً في ذلك.</li>
-            </ol>
-          </article>
-
-          <article class="text-card">
-            <h3>التطور والوقاية والعلاج</h3>
-            <p>تدوم هذه التقرحات من <strong>7–10 أيام</strong> وتشفى دون ندبة، وقد تتحول التقرحات في منطقة حواف الجهاز إلى طيات مخاطية التهابية وهي فرط في نمو النسج في منطقة الدهليز. وإذا استمر التخريش قد تتحول هذه الطيات إلى أورام خبيثة.</p>
-            <ul class="concept-list">
-              <li>استعمال التعويضات الثابتة ما أمكن والتعويضات الهيكلية ذات الدعم السني.</li>
-              <li>أن تكون التعويضات اللدنة عند الضرورة متقنة الصنع.</li>
-              <li>نزع التعويضات باستمرار وتطهيرها بالمؤكسدات ومعالجة التقرحات.</li>
-              <li>الطيات المخاطية تزال بالجراحة.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="metalTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">رابعاً</div>
-            <h2 id="metalTitle">التهاب الفم الناتج عن التحسس للمعادن</h2>
-          </div>
-          <span class="chapter-badge chapter-badge--accent">M</span>
-        </div>
-
-        <article class="text-card">
-          <p>تشاهد التهابات الفم المعدنية في حالات التعرض المزمن للمعادن وامتصاصها حيث تحدث تقرحات في الغشاء المخاطي الفموي، ونميز عدة أنواع منها.</p>
-        </article>
-
-        <div class="info-grid info-grid--three">
-          <article class="summary-chip-card">
-            <strong>الفم الرصاصي</strong>
-            <span>يظهر خط أزرق مسود يحيط باللثويات، ويزول تدريجياً بإيقاف التعرض للمواد الرصاصية.</span>
-          </article>
-          <article class="summary-chip-card">
-            <strong>الفم الزرنيخي</strong>
-            <span>طعم معدني، تلونات مخاطية، تأكل ونخر، وقد تحدث زيادة في اللعاب وأحياناً تنخر في عظم الفك.</span>
-          </article>
-          <article class="summary-chip-card">
-            <strong>الفم البرموتي</strong>
-            <span>خط برموتي يحيط باللثويات مع اصطباغ في أعناق الأسنان والتهاب وتقرح في الغشاء المخاطي الفموي.</span>
-          </article>
-        </div>
-
-        <div class="info-grid info-grid--two-col page11-grid">
-          <article class="text-card">
-            <h3>4) التهاب الفم الزئبقي</h3>
-            <p>يمكن للزئبق أن يُمتص من خلال الجلد أو الجهاز التنفسي أو الجهاز الهضمي. تؤدي الإصابة إلى التهاب لثة تقرحي مع انتباج في الشفاه واللسان وغزارة في اللعاب، ويمكن أن تفقد الأسنان إذا شمل التهرب العظم. تتدرج التصبغات الرمادية مع تقدم الالتهاب.</p>
-            <p>المعالجة تتضمن التوقف عن التعرض للزئبق مع تناول الأدوية التي تساعد على طرحه.</p>
-          </article>
-
-          <article class="text-card">
-            <h3>5) التهاب الفم الفوسفوري</h3>
-            <p>لا يزال الفوسفور يدخل في بعض المواد الصناعية المستخدمة حتى الآن، ويتميز هذا الالتهاب بالتقرح مع ضياع سريع لأسنان المصاب بسبب تخرب العظم وإصابته بالتهاب العظم والنقي الثانوي.</p>
-            <p>تعتمد الوقاية على منع حدوث الالتهاب، وتشمل معالجة المصاب استعمال المضادات الحيوية والاستئصال الجراحي للتشكلّات النسجية عند الحاجة.</p>
-          </article>
-        </div>
-
-        <article class="text-card">
-          <h3>مبادئ المعالجة حسب النوع</h3>
-          <ul class="concept-list">
-            <li><strong>الرصاص:</strong> إيقاف التعرض للمادة الرصاصية فتختفي الرواسب والخط اللثوي تدريجياً.</li>
-            <li><strong>الزرنيخ:</strong> عزل العامل المسبب أولاً، وفي الحالات الشديدة تعطى الأدوية المساعدة على التخلص منه.</li>
-            <li><strong>البرموت:</strong> يوصى بإيقاف الدواء الحاوي على البرموت أو إبعاد المريض عن بيئة التعرض، ويختفي الخط الأسود خلال شهرين إلى ثلاثة مع وسائل الصحة الفموية.</li>
-            <li><strong>الزئبق:</strong> التوقف عن التعرض مع الأدوية الطارحة له.</li>
-            <li><strong>الفوسفور:</strong> الوقاية المهنية ثم المعالجة بالمضادات الحيوية والجراحة عند الضرورة.</li>
-          </ul>
-        </article>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="compareTitle">
-        <div class="section-heading section-heading--compact">
-          <div>
-            <div class="section-kicker">مراجعة مركزة</div>
-            <h2 id="compareTitle">مقارنة سريعة</h2>
-          </div>
-        </div>
-
-        <div class="table-scroll" tabindex="0">
-          <table class="eruption-table page10-table">
-            <thead>
-              <tr>
-                <th>النوع</th>
-                <th>السبب الأساسي</th>
-                <th>السمات السريرية الأوضح</th>
-                <th>خط العلاج العام</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>التهاب الفم القلاعي</td>
-                <td>تراكم الصفيحة وتحولها إلى قلح مع عوامل مساعدة</td>
-                <td>حليمات لثوية محتقنة أو أتوية تنزف عند اللمس</td>
-                <td>إزالة القلح وتحسين الصحة الفموية</td>
-              </tr>
-              <tr>
-                <td>التهاب الفم واللثة التبغي</td>
-                <td>التدخين ومواد التبغ السمية</td>
-                <td>التهاب وضمور مخاطي مع نقص اللعاب</td>
-                <td>الإقلاع عن التدخين</td>
-              </tr>
-              <tr>
-                <td>التهاب الفم بسبب التعويضات</td>
-                <td>سوء صنع الجهاز أو ضغطه وخرشه للمخاطية</td>
-                <td>تقرحات رضية وطيات مخاطية التهابية</td>
-                <td>تصحيح التعويض، التطهير، ومعالجة التقرحات</td>
-              </tr>
-              <tr>
-                <td>التحسس للمعادن</td>
-                <td>التعرض المزمن وامتصاص المعادن</td>
-                <td>خطوط لثوية ملونة أو تقرحات أو تخرب عظمي حسب المعدن</td>
-                <td>إيقاف التعرض ثم المعالجة النوعية</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-    </section>
-
-    <section id="studyPanel" class="mode-panel" role="tabpanel" aria-labelledby="studyTab" hidden>
-      <div class="study-layout">
-        <aside class="study-sidebar no-print">
-          <div class="progress-card">
-            <div class="progress-card__top">
-              <div><span>تقدمك</span><strong id="progressText">0 من 15</strong></div>
-              <div class="progress-ring" id="progressRing" aria-label="نسبة التقدم 0 بالمئة"><span id="progressPercent">0%</span></div>
-            </div>
-            <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
-            <button id="resetProgress" class="text-button" type="button">إعادة المحاولة</button>
-          </div>
-
-          <div class="study-tips">
-            <h3>نصيحة مذاكرة</h3>
-            <ol>
-              <li>صنّف التهابات الصفحة حسب السبب: قلح، تبغ، تعويضات، معادن.</li>
-              <li>اربط كل نوع بعلامته السريرية الأوضح وخط العلاج الأساسي.</li>
-              <li>انتبه للتمييز بين أنواع التهاب الفم المعدني لأن السؤال الامتحاني قد يكون بالمقارنة.</li>
-            </ol>
-          </div>
-        </aside>
-
-        <div class="quiz-card" aria-live="polite">
-          <div class="quiz-card__header">
-            <span class="question-counter" id="questionCounter">السؤال 1 من 15</span>
-            <span class="question-type" id="questionType">اختيار من متعدد</span>
-          </div>
-          <div class="quiz-card__body">
-            <h2 id="questionText">جارٍ تحميل السؤال…</h2>
-            <div id="answerArea" class="answer-area"></div>
-            <div id="feedbackBox" class="feedback-box" hidden>
-              <div class="feedback-box__icon" id="feedbackIcon" aria-hidden="true"></div>
-              <div>
-                <strong id="feedbackTitle"></strong>
-                <p id="feedbackText"></p>
-              </div>
-            </div>
-          </div>
-          <div class="quiz-card__footer">
-            <button id="prevQuestion" class="secondary-button" type="button">السابق</button>
-            <div class="quiz-dots" id="quizDots" aria-label="التنقل بين الأسئلة"></div>
-            <button id="nextQuestion" class="primary-button" type="button">التالي</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <nav class="page-actions no-print" aria-label="التنقل التسلسلي">
-      <a class="page-action" href="page-10.html"><span>→ الصفحة السابقة</span><span>اضطرابات النسج الداعمة</span></a>
-      <span class="page-counter">صفحة 11 من 17</span>
-      <a class="page-action page-action--primary" href="page-12.html"><span>الصفحة التالية</span><span>القلاع والسلاق والنكاف ←</span></a>
-    </nav>
-  </main>
-
-  <footer class="site-footer no-print">
-    <div class="shell site-footer__inner">
-      <p>صفحة تعليمية تفاعلية — التهاب الفم</p>
-      <span>مصممة للمراجعة، الدراسة، والطباعة</span>
-    </div>
-  </footer>
-
-  <script src="page-11.js"></script>
-  <script src="bookmarks.js"></script>
-  <script src="global-ui.js"></script>
-  <script src="learning-modes-two.js?v=1.0.0"></script>
-  <script src="interactive-images.js"></script>
-  <script src="print-system.js"></script>
-</body>
+<div class="feature-strip">
+<div class="feature-chip"><strong>فكرة أساسية</strong><span>التهاب الفم قد ينتج عن القلح، التدخين، الأجهزة السنية، أو التعرض المزمن لبعض المعادن.</span></div>
+<div class="feature-chip"><strong>منظور سريري</strong><span>نوع السبب يغيّر شكل الإصابة والعلاج: فالعلاج السببي هو المفتاح الأساسي.</span></div>
+<div class="feature-chip"><strong>محور الوقاية</strong><span>تحسين الصحة الفموية، تجنب المخرشات، وصنع التعويضات بدقة.</span></div>
+</div>
+</div>
+<aside aria-label="الخلاصة" class="hero-note">
+<span aria-hidden="true" class="hero-note__icon">11</span>
+<div>
+<strong>ملخص الصفحة</strong>
+<p>تربط الصفحة بين المسببات الموضعية والدوائية والمهنية وبين صور الالتهاب المختلفة في الغشاء المخاطي الفموي.</p>
+</div>
+</aside>
+</article>
+<section aria-labelledby="aphthousTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">أولاً</div>
+<h2 id="aphthousTitle">التهاب الفم القلحي</h2>
+</div>
+<span class="chapter-badge">A</span>
+</div>
+<div class="overview-columns overview-columns--two">
+<article class="text-card">
+<p>يمثل بالتهاب اللثة الناجمة عن غياب الصحة الفموية السنية بسبب تجمع الصفيحة اللثوية السنية وتحولها إلى قلح، وقد تزداد شدة الالتهاب أو احتمال حدوثه عندما لا يتعلق المضغ الجيد أو تنحشر فضلات الطعام بين نقاط التماس أو تتوضع الأسنان بشكل خاطئ.</p>
+</article>
+<article class="text-card">
+<h3>المظاهر والمعالجة</h3>
+<p>يتظاهر هذا الالتهاب بحليمات لثوية حمراء أو وذمية محتقنة أو حليمات أتوية تنزف عند أقل تماس. يكثر في مناطق القلح، وخاصة اللسانية للقواطع السفلية بسبب قربها من فوهة الغدة تحت اللسان، والدهليزية للأرحاء العلوية بسبب قربها من فوهة قناة الغدة النكفية.</p>
+<p>تعتمد المعالجة على إزالة القلح والعناية بالصحة الفموية ومعالجة الأسنان النخرة وإعادة نقاط التماس وإصلاح وضع الأسنان الشاذة تقويمياً عند الحاجة.</p>
+</article>
+</div>
+</section>
+<section aria-labelledby="smokerTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">ثانياً</div>
+<h2 id="smokerTitle">التهاب الفم واللثة التبغي</h2>
+</div>
+<span class="chapter-badge chapter-badge--accent">S</span>
+</div>
+<div class="overview-columns overview-columns--two">
+<article class="text-card">
+<p>يبين تحليل التبغ وجود عدة مواد محرّضة للالتهاب، أهمها: <strong>حمض سيان هيدريك</strong>، و<strong>أكسيد الأزوت</strong>، و<strong>الفينول</strong>، و<strong>القطران</strong>.</p>
+<p>هذه المواد ندفانات خلوية تحرض ردود فعل نسجية التهابية، كما أن للتبغ تأثيراً سُمّياً في الغشاء الفموي والغشاء المخاطي لجهاز التنفس حيث يؤدي إلى إلغاء النشاط الهدبي.</p>
+</article>
+<article class="text-card">
+<p>النيكوتين ينقص إفراز اللعاب ويحرض زيادة الدوران الدموي ويؤدي إلى ضمور الغشاء المخاطي. كما أن التسمم بالتبغ بسبب الإفراط فيه غالباً ما يرافقه غياب العناية الفموية مما يزيد سوء الحالة.</p>
+<p>تكون المعالجة في هذه الحالة صعبة لأنها تعتمد على المعالجة السببية، أي <strong>الإقلاع عن التدخين</strong>، وهي غالباً ما تكون شبه مستحيلة عند بعض المرضى.</p>
+</article>
+</div>
+<article class="alert-card alert-card--soft">
+<h3>خلاصة سريعة</h3>
+<p>الآثار التخريشية والسُمّية للتبغ لا تسبب الالتهاب فقط، بل تضعف أيضاً مقاومة النسج المخاطية وتعيق تنظيفها الطبيعي.</p>
+</article>
+</section>
+<section aria-labelledby="prosthesisTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">ثالثاً</div>
+<h2 id="prosthesisTitle">التهاب الفم الناتج عن التعويضات الصناعية</h2>
+</div>
+<span class="chapter-badge">P</span>
+</div>
+<article class="text-card">
+<p>ينتج عن وجود أعراض في الفم وترتفع نسبة الإصابة به في الأجهزة فاشلة الصنع، ويتجلى ذلك بوجود تقرحات رضية بعد استعمال جهاز ذي حواف غير منتظمة وتكون مؤلمة مغطاة بنسج رمادي متموت ومحاطة بنسيج التهابي.</p>
+</article>
+<div class="overview-columns overview-columns--two">
+<article class="text-card">
+<h3>أهم العوامل المسببة</h3>
+<ol class="concept-list concept-list--numbered">
+<li>الضغط غير الفيزيولوجي المباشر بواسطة التعويضات على الغشاء المخاطي.</li>
+<li>هشاشة الأوعية الشعرية، وتزداد عند سن بعد العقد الثالث من العمر.</li>
+<li>الخرش الفموي والضغط على سطح الغشاء المخاطي الملامس للتعويضات حيث يكون مكشوفاً ومساميّاً.</li>
+<li>استطالة حواف الجهاز أو وجود نتوءات عظمية بارزة على الحافة السنخية أو الخشونة الموجودة داخل الجهاز.</li>
+<li>قد يكون سوء الإطباق سبباً في ذلك.</li>
+</ol>
+</article>
+<article class="text-card">
+<h3>التطور والوقاية والعلاج</h3>
+<p>تدوم هذه التقرحات من <strong>7–10 أيام</strong> وتشفى دون ندبة، وقد تتحول التقرحات في منطقة حواف الجهاز إلى طيات مخاطية التهابية وهي فرط في نمو النسج في منطقة الدهليز. وإذا استمر التخريش قد تتحول هذه الطيات إلى أورام خبيثة.</p>
+<ul class="concept-list">
+<li>استعمال التعويضات الثابتة ما أمكن والتعويضات الهيكلية ذات الدعم السني.</li>
+<li>أن تكون التعويضات اللدنة عند الضرورة متقنة الصنع.</li>
+<li>نزع التعويضات باستمرار وتطهيرها بالمؤكسدات ومعالجة التقرحات.</li>
+<li>الطيات المخاطية تزال بالجراحة.</li>
+</ul>
+</article>
+</div>
+</section>
+<section aria-labelledby="metalTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">رابعاً</div>
+<h2 id="metalTitle">التهاب الفم الناتج عن التحسس للمعادن</h2>
+</div>
+<span class="chapter-badge chapter-badge--accent">M</span>
+</div>
+<article class="text-card">
+<p>تشاهد التهابات الفم المعدنية في حالات التعرض المزمن للمعادن وامتصاصها حيث تحدث تقرحات في الغشاء المخاطي الفموي، ونميز عدة أنواع منها.</p>
+</article>
+<div class="info-grid info-grid--three">
+<article class="summary-chip-card">
+<strong>الفم الرصاصي</strong>
+<span>يظهر خط أزرق مسود يحيط باللثويات، ويزول تدريجياً بإيقاف التعرض للمواد الرصاصية.</span>
+</article>
+<article class="summary-chip-card">
+<strong>الفم الزرنيخي</strong>
+<span>طعم معدني، تلونات مخاطية، تأكل ونخر، وقد تحدث زيادة في اللعاب وأحياناً تنخر في عظم الفك.</span>
+</article>
+<article class="summary-chip-card">
+<strong>الفم البزموتي</strong>
+<span>خط بزموتي يحيط باللثويات مع اصطباغ في أعناق الأسنان والتهاب وتقرح في الغشاء المخاطي الفموي.</span>
+</article>
+</div>
+<div class="info-grid info-grid--two-col page11-grid">
+<article class="text-card">
+<h3>4) التهاب الفم الزئبقي</h3>
+<p>يمكن للزئبق أن يُمتص من خلال الجلد أو الجهاز التنفسي أو الجهاز الهضمي. تؤدي الإصابة إلى التهاب لثة تقرحي مع انتباج في الشفاه واللسان وغزارة في اللعاب، ويمكن أن تفقد الأسنان إذا شمل التهرب العظم. تتدرج التصبغات الرمادية مع تقدم الالتهاب.</p>
+<p>المعالجة تتضمن التوقف عن التعرض للزئبق مع تناول الأدوية التي تساعد على طرحه.</p>
+</article>
+<article class="text-card">
+<h3>5) التهاب الفم الفوسفوري</h3>
+<p>لا يزال الفوسفور يدخل في بعض المواد الصناعية المستخدمة حتى الآن، ويتميز هذا الالتهاب بالتقرح مع ضياع سريع لأسنان المصاب بسبب تخرب العظم وإصابته بالتهاب العظم والنقي الثانوي.</p>
+<p>تعتمد الوقاية على منع حدوث الالتهاب، وتشمل معالجة المصاب استعمال المضادات الحيوية والاستئصال الجراحي للتشكلّات النسجية عند الحاجة.</p>
+</article>
+</div>
+<article class="text-card">
+<h3>مبادئ المعالجة حسب النوع</h3>
+<ul class="concept-list">
+<li><strong>الرصاص:</strong> إيقاف التعرض للمادة الرصاصية فتختفي الرواسب والخط اللثوي تدريجياً.</li>
+<li><strong>الزرنيخ:</strong> عزل العامل المسبب أولاً، وفي الحالات الشديدة تعطى الأدوية المساعدة على التخلص منه.</li>
+<li><strong>البزموت:</strong> يوصى بإيقاف الدواء الحاوي على البزموت أو إبعاد المريض عن بيئة التعرض، ويختفي الخط الأسود خلال شهرين إلى ثلاثة مع وسائل الصحة الفموية.</li>
+<li><strong>الزئبق:</strong> التوقف عن التعرض مع الأدوية الطارحة له.</li>
+<li><strong>الفوسفور:</strong> الوقاية المهنية ثم المعالجة بالمضادات الحيوية والجراحة عند الضرورة.</li>
+</ul>
+</article>
+</section>
+<section aria-labelledby="compareTitle" class="content-section print-block">
+<div class="section-heading section-heading--compact">
+<div>
+<div class="section-kicker">مراجعة مركزة</div>
+<h2 id="compareTitle">مقارنة سريعة</h2>
+</div>
+</div>
+<div class="table-scroll" tabindex="0">
+<table class="eruption-table page10-table">
+<thead>
+<tr>
+<th>النوع</th>
+<th>السبب الأساسي</th>
+<th>السمات السريرية الأوضح</th>
+<th>خط العلاج العام</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>التهاب الفم القلحي</td>
+<td>تراكم الصفيحة وتحولها إلى قلح مع عوامل مساعدة</td>
+<td>حليمات لثوية محتقنة أو أتوية تنزف عند اللمس</td>
+<td>إزالة القلح وتحسين الصحة الفموية</td>
+</tr>
+<tr>
+<td>التهاب الفم واللثة التبغي</td>
+<td>التدخين ومواد التبغ السمية</td>
+<td>التهاب وضمور مخاطي مع نقص اللعاب</td>
+<td>الإقلاع عن التدخين</td>
+</tr>
+<tr>
+<td>التهاب الفم بسبب التعويضات</td>
+<td>سوء صنع الجهاز أو ضغطه وخرشه للمخاطية</td>
+<td>تقرحات رضية وطيات مخاطية التهابية</td>
+<td>تصحيح التعويض، التطهير، ومعالجة التقرحات</td>
+</tr>
+<tr>
+<td>التحسس للمعادن</td>
+<td>التعرض المزمن وامتصاص المعادن</td>
+<td>خطوط لثوية ملونة أو تقرحات أو تخرب عظمي حسب المعدن</td>
+<td>إيقاف التعرض ثم المعالجة النوعية</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section aria-labelledby="studyTab" class="mode-panel" hidden="" id="studyPanel" role="tabpanel">
+<div class="study-layout">
+<aside class="study-sidebar no-print">
+<div class="progress-card">
+<div class="progress-card__top">
+<div><span>تقدمك</span><strong id="progressText">0 من 15</strong></div>
+<div aria-label="نسبة التقدم 0 بالمئة" class="progress-ring" id="progressRing"><span id="progressPercent">0%</span></div>
+</div>
+<div aria-hidden="true" class="progress-track"><span id="progressBar"></span></div>
+<button class="text-button" id="resetProgress" type="button">إعادة المحاولة</button>
+</div>
+<div class="study-tips">
+<h3>نصيحة مذاكرة</h3>
+<ol>
+<li>صنّف التهابات الصفحة حسب السبب: قلح، تبغ، تعويضات، معادن.</li>
+<li>اربط كل نوع بعلامته السريرية الأوضح وخط العلاج الأساسي.</li>
+<li>انتبه للتمييز بين أنواع التهاب الفم المعدني لأن السؤال الامتحاني قد يكون بالمقارنة.</li>
+</ol>
+</div>
+</aside>
+<div aria-live="polite" class="quiz-card">
+<div class="quiz-card__header">
+<span class="question-counter" id="questionCounter">السؤال 1 من 15</span>
+<span class="question-type" id="questionType">اختيار من متعدد</span>
+</div>
+<div class="quiz-card__body">
+<h2 id="questionText">جارٍ تحميل السؤال…</h2>
+<div class="answer-area" id="answerArea"></div>
+<div class="feedback-box" hidden="" id="feedbackBox">
+<div aria-hidden="true" class="feedback-box__icon" id="feedbackIcon"></div>
+<div>
+<strong id="feedbackTitle"></strong>
+<p id="feedbackText"></p>
+</div>
+</div>
+</div>
+<div class="quiz-card__footer">
+<button class="secondary-button" id="prevQuestion" type="button">السابق</button>
+<div aria-label="التنقل بين الأسئلة" class="quiz-dots" id="quizDots"></div>
+<button class="primary-button" id="nextQuestion" type="button">التالي</button>
+</div>
+</div>
+</div>
+</section>
+<nav aria-label="التنقل التسلسلي" class="page-actions no-print">
+<a class="page-action" href="page-10.html"><span>→ الصفحة السابقة</span><span>اضطرابات النسج الداعمة</span></a>
+<span class="page-counter">صفحة 11 من 70</span>
+<a class="page-action page-action--primary" href="page-12.html"><span>الصفحة التالية</span><span>القلاع والسلاق والنكاف ←</span></a>
+</nav>
+</main>
+<footer class="site-footer no-print">
+<div class="shell site-footer__inner">
+<p>صفحة تعليمية تفاعلية — التهاب الفم</p>
+<span>مصممة للمراجعة، الدراسة، والطباعة</span>
+</div>
+</footer>
+<script src="page-11.js"></script>
+<script src="bookmarks.js"></script>
+<script src="global-ui.js"></script>
+<script src="annotation-mode.js"></script>
+<script src="adaptive/integration.js"></script></body>
 </html>

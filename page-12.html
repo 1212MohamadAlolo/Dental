@@ -1,401 +1,365 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#2d6a68" />
-  <meta name="description" content="صفحة تعليمية تفاعلية عن القلاع، ضخامة اللثة الناتجة عن الديلانتين، السلاق، والنكاف." />
-  <title>القلاع والسلاق والنكاف | الصفحة 12</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="global-ui.css" />
-  <link rel="stylesheet" href="learning-modes-two.css?v=1.0.0" />
-  <link rel="stylesheet" href="interactive-images.css" />
-  <link rel="stylesheet" href="print-system.css" />
-  <link rel="stylesheet" href="dark-mode-polish.css?v=1.0.0" />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#2d6a68" name="theme-color"/>
+<meta content="صفحة تعليمية تفاعلية عن القلاع، ضخامة اللثة الناتجة عن الديلانتين، السلاق، والنكاف." name="description"/>
+<title>القلاع والسلاق والنكاف | الصفحة 12</title>
+
+
+
+<link href="styles.css" rel="stylesheet"/>
+<link href="global-ui.css" rel="stylesheet"/>
+<link href="annotation-mode.css" rel="stylesheet"/>
+<link rel="stylesheet" href="adaptive/fonts.css"><link rel="stylesheet" href="adaptive/tokens.css"></head>
 <body>
 <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
-
-  <header class="topbar no-print">
-    <div class="topbar__inner shell">
-      <div class="brand" aria-label="صفحة دراسة القلاع والسلاق والنكاف">
-        <div class="brand__mark" aria-hidden="true">
-          <svg viewBox="0 0 48 48" role="img"><path d="M11 9c8-5 18-5 26 0 3 2 4 6 3 10l-5 17c-1 4-5 5-8 2l-3-4-3 4c-3 3-7 2-8-2L8 19c-1-4 0-8 3-10Z"/><path d="M18 12c4-2 8-2 12 0"/></svg>
-        </div>
-        <div>
-          <p class="brand__eyebrow">تشريح الفم والأسنان</p>
-          <h1 class="brand__title">القلاع والسلاق والنكاف</h1>
-        </div>
-      </div>
-      <div class="topbar__actions">
-        <span class="page-pill" aria-label="رقم الصفحة">الصفحة 12</span>
-        <button class="icon-button" id="printBtn" type="button" title="حفظ الدرس كملف PDF بحجم A4" aria-label="حفظ الدرس كملف PDF بحجم A4">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/></svg>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <nav class="mode-switch no-print" aria-label="طريقة الاستخدام">
-    <div class="shell mode-switch__inner" role="tablist">
-      <button class="mode-tab is-active" role="tab" aria-selected="true" aria-controls="overviewPanel" id="overviewTab" data-mode="overview">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg>
+<header class="topbar no-print">
+<div class="topbar__inner shell">
+<div aria-label="صفحة دراسة القلاع والسلاق والنكاف" class="brand">
+<div aria-hidden="true" class="brand__mark">
+<svg role="img" viewbox="0 0 48 48"><path d="M11 9c8-5 18-5 26 0 3 2 4 6 3 10l-5 17c-1 4-5 5-8 2l-3-4-3 4c-3 3-7 2-8-2L8 19c-1-4 0-8 3-10Z"></path><path d="M18 12c4-2 8-2 12 0"></path></svg>
+</div>
+<div>
+<p class="brand__eyebrow">تشريح الفم والأسنان</p>
+<h1 class="brand__title">القلاع والسلاق والنكاف</h1>
+</div>
+</div>
+<div class="topbar__actions">
+<span aria-label="رقم الصفحة" class="page-pill">الصفحة 12</span>
+<button aria-label="طباعة الصفحة" class="icon-button" id="printBtn" title="طباعة الصفحة" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"></path></svg>
+</button>
+</div>
+</div>
+</header>
+<nav aria-label="طريقة الاستخدام" class="mode-switch no-print">
+<div class="shell mode-switch__inner" role="tablist">
+<button aria-controls="overviewPanel" aria-selected="true" class="mode-tab is-active" data-mode="overview" id="overviewTab" role="tab">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"></path></svg>
         استعراض المعلومات
       </button>
-      <button class="mode-tab" role="tab" aria-selected="false" aria-controls="studyPanel" id="studyTab" data-mode="study">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-5 9 5-9 5-9-5Zm4 3v4c3 2 7 2 10 0v-4"/></svg>
+<button aria-controls="studyPanel" aria-selected="false" class="mode-tab" data-mode="study" id="studyTab" role="tab">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="m3 11 9-5 9 5-9 5-9-5Zm4 3v4c3 2 7 2 10 0v-4"></path></svg>
         وضع الدراسة
       </button>
-    </div>
-  </nav>
-
-  <nav class="course-nav no-print" aria-label="التنقل بين صفحات المقرر">
-    <div class="shell course-nav__inner">
-      <div class="course-pages">
-        <a class="course-page-link" href="index.html">01 · الفك العلوي</a>
-        <a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
-        <a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
-        <a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
-        <a class="course-page-link" href="page-05.html">05 · الغدد اللعابية</a>
-        <a class="course-page-link" href="page-06.html">06 · الأسنان والبزوغ</a>
-        <a class="course-page-link" href="page-07.html">07 · بنية الأسنان</a>
-        <a class="course-page-link" href="page-08.html">08 · النسج المحيطة بالسن</a>
-        <a class="course-page-link" href="page-09.html">09 · الأمراض اللثوية</a>
-        <a class="course-page-link" href="page-10.html">10 · اضطرابات النسج الداعمة</a>
-        <a class="course-page-link" href="page-11.html">11 · التهاب الفم</a>
-        <a class="course-page-link is-current" href="page-12.html" aria-current="page">12 · القلاع والسلاق والنكاف</a>
-              <a class="course-page-link" href="page-13.html">13 · الآفات ما قبل السرطانية والسرطانية</a>
-              <a class="course-page-link" href="page-14.html">14 · القلح والتلونات السنية</a>
-              <a class="course-page-link" href="page-15.html">15 · بخر الفم</a>
-              <a class="course-page-link" href="page-16.html">16 · العادات الفموية السيئة</a>
-              <a class="course-page-link" href="page-17.html">17 · نخر الأسنان</a>
-              <a class="course-page-link course-page-link--exam" href="comprehensive-exam.html">الاختبار الشامل</a>
-      </div>
-      <span class="course-nav__status">17 صفحة تعليمية + اختبار شامل</span>
-    </div>
-  </nav>
-
-  <main id="main-content" class="shell page-main">
-    <section id="overviewPanel" class="mode-panel" role="tabpanel" aria-labelledby="overviewTab">
-      <article class="hero-card print-block">
-        <div class="hero-card__content">
-          <div class="section-kicker">آفات فموية وأمراض جهازية ذات مظاهر فموية</div>
-          <h2>القلاع، الضخامة الدوائية، السلاق، والنكاف</h2>
-          <p>
+</div>
+</nav>
+<nav aria-label="التنقل بين صفحات المقرر" class="course-nav no-print">
+<div class="shell course-nav__inner">
+<div class="course-pages">
+<a class="course-page-link" href="page-01.html">01 · الفك العلوي</a>
+<a class="course-page-link" href="page-02.html">02 · الفك السفلي</a>
+<a class="course-page-link" href="page-03.html">03 · مخاطية الفم</a>
+<a class="course-page-link" href="page-04.html">04 · الخد والحنك واللسان</a>
+<a class="course-page-link" href="page-05.html">05 · الغدد اللعابية</a>
+<a class="course-page-link" href="page-06.html">06 · الأسنان والبزوغ</a>
+<a class="course-page-link" href="page-07.html">07 · بنية الأسنان</a>
+<a class="course-page-link" href="page-08.html">08 · النسج المحيطة بالسن</a>
+<a class="course-page-link" href="page-09.html">09 · الأمراض اللثوية</a>
+<a class="course-page-link" href="page-10.html">10 · اضطرابات النسج الداعمة</a>
+<a class="course-page-link" href="page-11.html">11 · التهاب الفم</a>
+<a aria-current="page" class="course-page-link is-current" href="page-12.html">12 · القلاع والسلاق والنكاف</a>
+<a class="course-page-link" href="page-13.html">13 · الآفات ما قبل السرطانية والسرطانية</a>
+<a class="course-page-link" href="page-14.html">14 · القلح والتلونات السنية</a>
+<a class="course-page-link" href="page-15.html">15 · بخر الفم</a>
+<a class="course-page-link" href="page-16.html">16 · العادات الفموية السيئة</a>
+<a class="course-page-link" href="page-17.html">17 · نخر الأسنان</a>
+<a class="course-page-link course-page-link--exam" href="comprehensive-exam.html">الاختبار الشامل</a>
+</div>
+<span class="course-nav__status">17 صفحة تعليمية + اختبار شامل</span>
+</div>
+</nav>
+<main class="shell page-main" id="main-content"><section aria-label="مسار التعلم" class="learning-path-entry no-print"><div><span>مسار التعلم المتدرج</span><strong>حوّل هذه الصفحة إلى دروس قصيرة متتابعة</strong></div><a href="lesson.html?unit=page-12">دراسة هذه الوحدة خطوة بخطوة</a></section>
+<section aria-labelledby="overviewTab" class="mode-panel" id="overviewPanel" role="tabpanel">
+<article class="hero-card print-block">
+<div class="hero-card__content">
+<div class="section-kicker">آفات فموية وأمراض جهازية ذات مظاهر فموية</div>
+<h2>القلاع، الضخامة الدوائية، السلاق، والنكاف</h2>
+<p>
             تجمع هذه الصفحة أربع موضوعات مترابطة سريرياً: <strong>القلاع</strong> كآفة تقرحية مؤلمة،
             و<strong>ضخامة اللثة المرتبطة بالديلانتين</strong>، و<strong>السلاق</strong> الناتج عن فطر المبيضات،
             و<strong>النكاف</strong> بوصفه التهاباً فيروسياً يصيب الغدد اللعابية، ولا سيما الغدة النكفية.
           </p>
-          <div class="feature-strip">
-            <div class="feature-chip"><strong>القلاع</strong><span>تقرحات مؤلمة صغيرة ذات مركز مصفر وهالة حمراء.</span></div>
-            <div class="feature-chip"><strong>السلاق</strong><span>عدوى فطرية يغلب أن تصيب الفم والمخاطية.</span></div>
-            <div class="feature-chip"><strong>النكاف</strong><span>مرض فيروسي معدٍ يصيب الغدة النكفية غالباً.</span></div>
-          </div>
-        </div>
-        <aside class="hero-note" aria-label="الخلاصة">
-          <span class="hero-note__icon" aria-hidden="true">12</span>
-          <div>
-            <strong>مفتاح المقارنة</strong>
-            <p>يتميّز كل موضوع بسبب مختلف: مناعي أو دوائي أو فطري أو فيروسي، ولذلك تختلف الوقاية والمعالجة.</p>
-          </div>
-        </aside>
-      </article>
-
-      <section class="content-section print-block" aria-labelledby="aphthaeTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">أولاً</div>
-            <h2 id="aphthaeTitle">القلاع</h2>
-          </div>
-          <span class="chapter-badge">A</span>
-        </div>
-
-        <div class="page12-aphthae-layout">
-          <div class="page12-text-stack">
-            <article class="text-card">
-              <p>القلاع من الأمراض التي تصيب الفم، ويتصف بحدوث تقرح بسيط قطره نحو <strong>1–5 ملم</strong>، وقد يكون وحيداً أو متعدداً ومؤلماً، وله مركز مصفر تحيط به هالة حمراء. يبقى الاندفاع المؤلم بضعة أيام ثم يشفى عفوياً.</p>
-              <p>أما <strong>التهاب الفم القلاعي</strong> فيتظاهر بتعدد الاندفاعات القلاعية، مع الألم وزيادة اللعاب وارتفاع الحرارة أحياناً.</p>
-            </article>
-
-            <article class="text-card">
-              <h3>التطور السريري</h3>
-              <p>تكون الآفة في البداية حطاطية، وقد تنتشر أحياناً على شكل حويصلات صغيرة سريعة الزوال. وبعد نحو 24 ساعة قد تتحول إلى تقرحات سطحية تكبر بسرعة حتى يبلغ قطرها نحو <strong>0.5 سم</strong>، وتأخذ شكلاً بيضوياً قليل العمق ومركزاً أصفر محاطاً بهالة أو شريط أحمر.</p>
-              <p>تكون الآفات مؤلمة عند اللمس، وتتوزع في مخاطية الشفة والدهليز والخدود واللسان وقاع الفم.</p>
-            </article>
-          </div>
-
-          <figure class="anatomy-card source-figure page12-aphthae-figure">
-            <button class="image-zoom no-print" type="button" data-image="assets/page-12/aphthous-ulcers-source-photo.webp" data-title="صورة القلاع الفموي المقتطعة من المصدر" aria-label="تكبير صورة القلاع">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M8 11h6M11 8v6"/></svg>
-            </button>
-            <div class="anatomy-card__image-wrap page12-aphthae-figure__image">
-              <img src="assets/page-12/aphthous-ulcers-source-photo.webp" alt="قرحتان قلاعيتان صغيرتان على مخاطية الشفة السفلية" loading="lazy" decoding="async" width="900" height="519" />
-            </div>
-            <figcaption>
-              <strong>الصورة الموجودة في الصفحة الأصلية</strong>
-              <span>تظهر قرحات صغيرة ذات مركز فاتح وهالة حمامية محيطة.</span>
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="info-grid info-grid--three">
-          <article class="summary-chip-card">
-            <strong>مدة الشفاء</strong>
-            <span>تسير معظم حالات القلاع نحو ترك ندبة خلال 8–10 أيام، ويحدث الشفاء في غالبية الحالات خلال نحو أسبوعين.</span>
-          </article>
-          <article class="summary-chip-card">
-            <strong>القلاع المتعدد</strong>
-            <span>قد يظهر القلاع المتعدد بشكل متتابع، بحيث تلي آفةٌ آفةً أخرى.</span>
-          </article>
-          <article class="summary-chip-card">
-            <strong>المعالجة الواردة في المصدر</strong>
-            <span>مسكنات، مخدرات موضعية، وعلاجات موضعية أخرى وفق تقييم مهني.</span>
-          </article>
-        </div>
-
-        <article class="medical-note">
-          <strong>تنبيه:</strong>
-          <span>الأساليب العلاجية المذكورة في المصدر، مثل نترات الفضة أو الكورتيزون، يجب ألا تطبق ذاتياً وتحتاج إلى تقييم طبيب الأسنان أو الطبيب.</span>
-        </article>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="dilantinTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">ثانياً</div>
-            <h2 id="dilantinTitle">التهاب اللثة الضخامي الناجم عن استعمال الديلانتين</h2>
-          </div>
-          <span class="chapter-badge chapter-badge--accent">D</span>
-        </div>
-
-        <div class="overview-columns overview-columns--two">
-          <article class="text-card">
-            <p>الديلانتين دواء يعطى للمصابين بمرض الصرع، وقد ينجم عن استعماله تضخم في اللثة بدرجات تختلف تبعاً لمدة تناول الدواء وشدة الاستجابة، وقد تصبح الضخامة كبيرة إلى درجة تطوق الأسنان وتغطيها في الحالات المزمنة.</p>
-            <p>لا تحدث هذه الضخامة عادةً في المناطق الرداء، بينما يزيد سوء الإطباق وضعف الصحة الفموية والمخرشات السنية الموضعية من شدتها.</p>
-          </article>
-
-          <article class="text-card">
-            <h3>الصفات المميزة</h3>
-            <ul class="concept-list">
-              <li>قوام اللثة قاسٍ وغير مؤلم.</li>
-              <li>تميل الضخامة إلى شمول الأسنان الأمامية بصورة واسعة.</li>
-              <li>قد تأخذ اللثة لوناً قرنفلياً.</li>
-              <li>تميل إلى النكس بعد الاستئصال الجراحي.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="thrushTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">ثالثاً</div>
-            <h2 id="thrushTitle">السلاق</h2>
-          </div>
-          <span class="chapter-badge">C</span>
-        </div>
-
-        <article class="text-card">
-          <p>السلاق إنتان فطري تشبه فطوره الخمائر، وأهمها <strong>المبيضات البيض (Candida albicans)</strong>. تسكن هذه الفطور في الفم بشكل طبيعي من دون أن تسبب مرضاً، كما توجد في الأنبوب الهضمي. وعند ظهور المرض يجب البحث عن سبب أو عوامل مهيئة موضعية أو عامة.</p>
-        </article>
-
-        <div class="overview-columns overview-columns--two">
-          <article class="text-card">
-            <h3>المواضع والفئات الأكثر عرضة</h3>
-            <p>الفم هو المنطقة الأكثر إصابة، وتتعرض له الخدود واللثة وقاع الفم، وقد يمتد إلى زاوية الفم. يشاهد عند النساء الحوامل، وعند من يتناولون كميات كبيرة من الكورتيزون، وقد يتجاوز حدود الفم نادراً فيصيب البلعوم والحنجرة والجلد والأنبوب الهضمي والمسالك البولية.</p>
-          </article>
-
-          <article class="text-card">
-            <h3>العوامل المهيئة</h3>
-            <ul class="concept-list">
-              <li>الأطفال الرضع الضعفاء وكبار السن.</li>
-              <li>العدوى عبر زجاجات الحليب عند الأطفال.</li>
-              <li>الأمراض المزمنة مثل السكري والعوز الفيتاميني، ولا سيما مجموعة فيتامين (B) والريبوفلافين وفيتامين (B12).</li>
-              <li>داء أديسون وسرطان الدم وسوء التغذية.</li>
-              <li>الاستعمال المطول لبعض المضادات الحيوية.</li>
-            </ul>
-          </article>
-        </div>
-
-        <article class="alert-card alert-card--soft">
-          <h3>فكرة مهمة</h3>
-          <p>إن تناول بعض المضادات الحيوية لمدد طويلة قد يخل بالتوازن الجرثومي والفطري في الفم، فيهيئ لظهور السلاق.</p>
-        </article>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="mumpsTitle">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">رابعاً</div>
-            <h2 id="mumpsTitle">النكاف</h2>
-          </div>
-          <span class="chapter-badge chapter-badge--accent">M</span>
-        </div>
-
-        <article class="text-card">
-          <p>يسمى النكاف <strong>التهاب الغدة النكفية الوبائي</strong>، وهو مرض جهازي أكثر منه موضعياً. يصيب الغدد اللعابية، وأكثر ما تتأثر به الغدة النكفية، وقد يصيب أيضاً الخصيتين والجملة العصبية.</p>
-          <p>قد يكون الالتهاب أحادي الجانب أو ثنائياً، وتتراوح فترة الحضانة بين <strong>2–3 أسابيع</strong>. العامل الممرض فيروس (RNA) من الفصيلة المخاطية، وينتشر عن طريق التماس والرذاذ اللعابي.</p>
-        </article>
-
-        <div class="mumps-layout">
-          <article class="text-card">
-            <h3>الأعراض</h3>
-            <ol class="concept-list concept-list--numbered">
-              <li>انفعال نفسي، نقص الشهية، صداع، وحمى.</li>
-              <li>ألم في الخدين، ولا سيما عند المضغ.</li>
-              <li>انتفاخ غدي مميز أمام وأسفل وخلف الأذن، مع وجود طفح خاص حول فوهة قناة ستنسن.</li>
-              <li>إنتاج لعابي مفرط.</li>
-              <li>ارتفاع شحمة الأذن.</li>
-              <li>يبدأ الانتفاخ بالزوال بعد 7–10 أيام.</li>
-            </ol>
-          </article>
-
-          <article class="text-card">
-            <h3>الاختلاطات</h3>
-            <ol class="concept-list concept-list--numbered">
-              <li>التهاب الخصية أو المبيض، وقد يؤدي إلى العقم.</li>
-              <li>التهاب البنكرياس، وقد يترافق بألم بطني وإقياء.</li>
-              <li>التهاب السحايا أو الدماغ والصمم.</li>
-            </ol>
-          </article>
-        </div>
-
-        <div class="info-grid info-grid--three">
-          <article class="summary-chip-card">
-            <strong>الانتقال</strong>
-            <span>التماس المباشر والرذاذ اللعابي.</span>
-          </article>
-          <article class="summary-chip-card">
-            <strong>المعالجة</strong>
-            <span>عرضية: راحة تامة، طعام سهل خفيف، والعناية بصحة الفم.</span>
-          </article>
-          <article class="summary-chip-card">
-            <strong>الوقاية</strong>
-            <span>التلقيح المكوّن من الفيروسات الحية المضعفة.</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-section print-block" aria-labelledby="comparisonTitle">
-        <div class="section-heading section-heading--compact">
-          <div>
-            <div class="section-kicker">مقارنة سريعة</div>
-            <h2 id="comparisonTitle">تمييز موضوعات الصفحة</h2>
-          </div>
-        </div>
-
-        <div class="table-scroll" tabindex="0">
-          <table class="eruption-table page12-table">
-            <thead>
-              <tr>
-                <th>الحالة</th>
-                <th>السبب أو العامل المرتبط</th>
-                <th>المظهر الأساسي</th>
-                <th>مبدأ التدبير</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>القلاع</td>
-                <td>آفة تقرحية التهابية متكررة</td>
-                <td>قرحات مؤلمة صغيرة ذات مركز مصفر وهالة حمراء</td>
-                <td>تسكين الألم والتدبير الموضعي تحت إشراف مهني</td>
-              </tr>
-              <tr>
-                <td>ضخامة اللثة بالديلانتين</td>
-                <td>الاستعمال المزمن لدواء الصرع</td>
-                <td>ضخامة قاسية غير مؤلمة، خاصة حول الأسنان الأمامية</td>
-                <td>تحسين الصحة الفموية وتقييم دوائي وجراحي</td>
-              </tr>
-              <tr>
-                <td>السلاق</td>
-                <td>المبيضات البيض مع عوامل مهيئة</td>
-                <td>عدوى فطرية في المخاطية الفموية</td>
-                <td>البحث عن العامل المهيئ ومعالجته</td>
-              </tr>
-              <tr>
-                <td>النكاف</td>
-                <td>فيروس (RNA) ينتقل باللعاب والرذاذ</td>
-                <td>تورم مؤلم في الغدة النكفية مع حمى</td>
-                <td>معالجة عرضية ووقاية باللقاح</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-    </section>
-
-    <section id="studyPanel" class="mode-panel" role="tabpanel" aria-labelledby="studyTab" hidden>
-      <div class="study-layout">
-        <aside class="study-sidebar no-print">
-          <div class="progress-card">
-            <div class="progress-card__top">
-              <div><span>تقدمك</span><strong id="progressText">0 من 16</strong></div>
-              <div class="progress-ring" id="progressRing" aria-label="نسبة التقدم 0 بالمئة"><span id="progressPercent">0%</span></div>
-            </div>
-            <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
-            <button id="resetProgress" class="text-button" type="button">إعادة المحاولة</button>
-          </div>
-
-          <div class="study-tips">
-            <h3>طريقة الدراسة</h3>
-            <ol>
-              <li>ميّز القلاع عن السلاق: الأول تقرحي، والثاني فطري.</li>
-              <li>احفظ علاقة الديلانتين بضخامة اللثة.</li>
-              <li>اربط النكاف بالغدة النكفية، الرذاذ اللعابي، واللقاح.</li>
-            </ol>
-          </div>
-        </aside>
-
-        <div class="quiz-card" aria-live="polite">
-          <div class="quiz-card__header">
-            <span class="question-counter" id="questionCounter">السؤال 1 من 16</span>
-            <span class="question-type" id="questionType">اختيار من متعدد</span>
-          </div>
-          <div class="quiz-card__body">
-            <h2 id="questionText">جارٍ تحميل السؤال…</h2>
-            <div id="answerArea" class="answer-area"></div>
-            <div id="feedbackBox" class="feedback-box" hidden>
-              <div class="feedback-box__icon" id="feedbackIcon" aria-hidden="true"></div>
-              <div><strong id="feedbackTitle"></strong><p id="feedbackText"></p></div>
-            </div>
-          </div>
-          <div class="quiz-card__footer">
-            <button id="prevQuestion" class="secondary-button" type="button">السابق</button>
-            <div class="quiz-dots" id="quizDots" aria-label="التنقل بين الأسئلة"></div>
-            <button id="nextQuestion" class="primary-button" type="button">التالي</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <nav class="page-actions no-print" aria-label="التنقل التسلسلي">
-      <a class="page-action" href="page-11.html"><span>→ الصفحة السابقة</span><span>التهاب الفم</span></a>
-      <span class="page-counter">صفحة 12 من 17</span>
-      <a class="page-action page-action--primary" href="page-13.html"><span>الصفحة التالية</span><span>الآفات ما قبل السرطانية والسرطانية ←</span></a>
-    </nav>
-  </main>
-
-  <footer class="site-footer no-print">
-    <div class="shell site-footer__inner">
-      <p>صفحة تعليمية تفاعلية — القلاع والسلاق والنكاف</p>
-      <span>مصممة للقراءة، المراجعة، والطباعة</span>
-    </div>
-  </footer>
-
-  <dialog class="image-dialog" id="imageDialog">
-    <button class="dialog-close" id="dialogClose" type="button" aria-label="إغلاق الصورة">×</button>
-    <div class="image-dialog__content"><h2 id="dialogTitle"></h2><img id="dialogImage" alt="" decoding="async" /></div>
-  </dialog>
-
-  <script src="page-12.js"></script>
-  <script src="bookmarks.js"></script>
-  <script src="global-ui.js"></script>
-  <script src="learning-modes-two.js?v=1.0.0"></script>
-  <script src="interactive-images.js"></script>
-  <script src="print-system.js"></script>
-</body>
+<div class="feature-strip">
+<div class="feature-chip"><strong>القلاع</strong><span>تقرحات مؤلمة صغيرة ذات مركز مصفر وهالة حمراء.</span></div>
+<div class="feature-chip"><strong>السلاق</strong><span>عدوى فطرية يغلب أن تصيب الفم والمخاطية.</span></div>
+<div class="feature-chip"><strong>النكاف</strong><span>مرض فيروسي معدٍ يصيب الغدة النكفية غالباً.</span></div>
+</div>
+</div>
+<aside aria-label="الخلاصة" class="hero-note">
+<span aria-hidden="true" class="hero-note__icon">12</span>
+<div>
+<strong>مفتاح المقارنة</strong>
+<p>يتميّز كل موضوع بسبب مختلف: مناعي أو دوائي أو فطري أو فيروسي، ولذلك تختلف الوقاية والمعالجة.</p>
+</div>
+</aside>
+</article>
+<section aria-labelledby="aphthaeTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">أولاً</div>
+<h2 id="aphthaeTitle">القلاع</h2>
+</div>
+<span class="chapter-badge">A</span>
+</div>
+<div class="page12-aphthae-layout">
+<div class="page12-text-stack">
+<article class="text-card">
+<p>القلاع من الأمراض التي تصيب الفم، ويتصف بحدوث تقرح بسيط قطره نحو <strong>1–5 ملم</strong>، وقد يكون وحيداً أو متعدداً ومؤلماً، وله مركز مصفر تحيط به هالة حمراء. يبقى الاندفاع المؤلم بضعة أيام ثم يشفى عفوياً.</p>
+<p>أما <strong>التهاب الفم القلاعي</strong> فيتظاهر بتعدد الاندفاعات القلاعية، مع الألم وزيادة اللعاب وارتفاع الحرارة أحياناً.</p>
+</article>
+<article class="text-card">
+<h3>التطور السريري</h3>
+<p>تكون الآفة في البداية حطاطية، وقد تنتشر أحياناً على شكل حويصلات صغيرة سريعة الزوال. وبعد نحو 24 ساعة قد تتحول إلى تقرحات سطحية تكبر بسرعة حتى يبلغ قطرها نحو <strong>0.5 سم</strong>، وتأخذ شكلاً بيضوياً قليل العمق ومركزاً أصفر محاطاً بهالة أو شريط أحمر.</p>
+<p>تكون الآفات مؤلمة عند اللمس، وتتوزع في مخاطية الشفة والدهليز والخدود واللسان وقاع الفم.</p>
+</article>
+</div>
+<figure class="anatomy-card source-figure page12-aphthae-figure">
+<button aria-label="تكبير صورة القلاع" class="image-zoom no-print" data-image="assets/page-12/aphthous-ulcers-source-photo.webp" data-title="صورة القلاع الفموي المقتطعة من المصدر" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5M8 11h6M11 8v6"></path></svg>
+</button>
+<div class="anatomy-card__image-wrap page12-aphthae-figure__image">
+<img alt="قرحتان قلاعيتان صغيرتان على مخاطية الشفة السفلية" decoding="async" height="519" loading="lazy" src="assets/page-12/aphthous-ulcers-source-photo.webp" width="900"/>
+</div>
+<figcaption>
+<strong>الصورة الموجودة في الصفحة الأصلية</strong>
+<span>تظهر قرحات صغيرة ذات مركز فاتح وهالة حمامية محيطة.</span>
+</figcaption>
+</figure>
+</div>
+<div class="info-grid info-grid--three">
+<article class="summary-chip-card">
+<strong>مدة الشفاء</strong>
+<span>تسير معظم حالات القلاع نحو ترك ندبة خلال 8–10 أيام، ويحدث الشفاء في غالبية الحالات خلال نحو أسبوعين.</span>
+</article>
+<article class="summary-chip-card">
+<strong>القلاع المتعدد</strong>
+<span>قد يظهر القلاع المتعدد بشكل متتابع، بحيث تلي آفةٌ آفةً أخرى.</span>
+</article>
+<article class="summary-chip-card">
+<strong>المعالجة الواردة في المصدر</strong>
+<span>مسكنات، مخدرات موضعية، وعلاجات موضعية أخرى وفق تقييم مهني.</span>
+</article>
+</div>
+<article class="medical-note">
+<strong>تنبيه:</strong>
+<span>الأساليب العلاجية المذكورة في المصدر، مثل نترات الفضة أو الكورتيزون، يجب ألا تطبق ذاتياً وتحتاج إلى تقييم طبيب الأسنان أو الطبيب.</span>
+</article>
+</section>
+<section aria-labelledby="dilantinTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">ثانياً</div>
+<h2 id="dilantinTitle">التهاب اللثة الضخامي الناجم عن استعمال الديلانتين</h2>
+</div>
+<span class="chapter-badge chapter-badge--accent">D</span>
+</div>
+<div class="overview-columns overview-columns--two">
+<article class="text-card">
+<p>الديلانتين دواء يعطى للمصابين بمرض الصرع، وقد ينجم عن استعماله تضخم في اللثة بدرجات تختلف تبعاً لمدة تناول الدواء وشدة الاستجابة، وقد تصبح الضخامة كبيرة إلى درجة تطوق الأسنان وتغطيها في الحالات المزمنة.</p>
+<p>لا تحدث هذه الضخامة عادةً في المناطق الرداء، بينما يزيد سوء الإطباق وضعف الصحة الفموية والمخرشات السنية الموضعية من شدتها.</p>
+</article>
+<article class="text-card">
+<h3>الصفات المميزة</h3>
+<ul class="concept-list">
+<li>قوام اللثة قاسٍ وغير مؤلم.</li>
+<li>تميل الضخامة إلى شمول الأسنان الأمامية بصورة واسعة.</li>
+<li>قد تأخذ اللثة لوناً قرنفلياً.</li>
+<li>تميل إلى النكس بعد الاستئصال الجراحي.</li>
+</ul>
+</article>
+</div>
+</section>
+<section aria-labelledby="thrushTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">ثالثاً</div>
+<h2 id="thrushTitle">السلاق</h2>
+</div>
+<span class="chapter-badge">C</span>
+</div>
+<article class="text-card">
+<p>السلاق إنتان فطري تشبه فطوره الخمائر، وأهمها <strong>المبيضات البيض (Candida albicans)</strong>. تسكن هذه الفطور في الفم بشكل طبيعي من دون أن تسبب مرضاً، كما توجد في الأنبوب الهضمي. وعند ظهور المرض يجب البحث عن سبب أو عوامل مهيئة موضعية أو عامة.</p>
+</article>
+<div class="overview-columns overview-columns--two">
+<article class="text-card">
+<h3>المواضع والفئات الأكثر عرضة</h3>
+<p>الفم هو المنطقة الأكثر إصابة، وتتعرض له الخدود واللثة وقاع الفم، وقد يمتد إلى زاوية الفم. يشاهد عند النساء الحوامل، وعند من يتناولون كميات كبيرة من الكورتيزون، وقد يتجاوز حدود الفم نادراً فيصيب البلعوم والحنجرة والجلد والأنبوب الهضمي والمسالك البولية.</p>
+</article>
+<article class="text-card">
+<h3>العوامل المهيئة</h3>
+<ul class="concept-list">
+<li>الأطفال الرضع الضعفاء وكبار السن.</li>
+<li>العدوى عبر زجاجات الحليب عند الأطفال.</li>
+<li>الأمراض المزمنة مثل السكري والعوز الفيتاميني، ولا سيما مجموعة فيتامين (B) والريبوفلافين وفيتامين (B12).</li>
+<li>داء أديسون وسرطان الدم وسوء التغذية.</li>
+<li>الاستعمال المطول لبعض المضادات الحيوية.</li>
+</ul>
+</article>
+</div>
+<article class="alert-card alert-card--soft">
+<h3>فكرة مهمة</h3>
+<p>إن تناول بعض المضادات الحيوية لمدد طويلة قد يخل بالتوازن الجرثومي والفطري في الفم، فيهيئ لظهور السلاق.</p>
+</article>
+</section>
+<section aria-labelledby="mumpsTitle" class="content-section print-block">
+<div class="section-heading">
+<div>
+<div class="section-kicker">رابعاً</div>
+<h2 id="mumpsTitle">النكاف</h2>
+</div>
+<span class="chapter-badge chapter-badge--accent">M</span>
+</div>
+<article class="text-card">
+<p>يسمى النكاف <strong>التهاب الغدة النكفية الوبائي</strong>، وهو مرض جهازي أكثر منه موضعياً. يصيب الغدد اللعابية، وأكثر ما تتأثر به الغدة النكفية، وقد يصيب أيضاً الخصيتين والجملة العصبية.</p>
+<p>قد يكون الالتهاب أحادي الجانب أو ثنائياً، وتتراوح فترة الحضانة بين <strong>2–3 أسابيع</strong>. العامل الممرض فيروس (RNA) من الفصيلة المخاطية، وينتشر عن طريق التماس والرذاذ اللعابي.</p>
+</article>
+<div class="mumps-layout">
+<article class="text-card">
+<h3>الأعراض</h3>
+<ol class="concept-list concept-list--numbered">
+<li>انفعال نفسي، نقص الشهية، صداع، وحمى.</li>
+<li>ألم في الخدين، ولا سيما عند المضغ.</li>
+<li>انتفاخ غدي مميز أمام وأسفل وخلف الأذن، مع وجود طفح خاص حول فوهة قناة ستنسن.</li>
+<li>إنتاج لعابي مفرط.</li>
+<li>ارتفاع شحمة الأذن.</li>
+<li>يبدأ الانتفاخ بالزوال بعد 7–10 أيام.</li>
+</ol>
+</article>
+<article class="text-card">
+<h3>الاختلاطات</h3>
+<ol class="concept-list concept-list--numbered">
+<li>التهاب الخصية أو المبيض، وقد يؤدي إلى العقم.</li>
+<li>التهاب البنكرياس، وقد يترافق بألم بطني وإقياء.</li>
+<li>التهاب السحايا أو الدماغ والصمم.</li>
+</ol>
+</article>
+</div>
+<div class="info-grid info-grid--three">
+<article class="summary-chip-card">
+<strong>الانتقال</strong>
+<span>التماس المباشر والرذاذ اللعابي.</span>
+</article>
+<article class="summary-chip-card">
+<strong>المعالجة</strong>
+<span>عرضية: راحة تامة، طعام سهل خفيف، والعناية بصحة الفم.</span>
+</article>
+<article class="summary-chip-card">
+<strong>الوقاية</strong>
+<span>التلقيح المكوّن من الفيروسات الحية المضعفة.</span>
+</article>
+</div>
+</section>
+<section aria-labelledby="comparisonTitle" class="content-section print-block">
+<div class="section-heading section-heading--compact">
+<div>
+<div class="section-kicker">مقارنة سريعة</div>
+<h2 id="comparisonTitle">تمييز موضوعات الصفحة</h2>
+</div>
+</div>
+<div class="table-scroll" tabindex="0">
+<table class="eruption-table page12-table">
+<thead>
+<tr>
+<th>الحالة</th>
+<th>السبب أو العامل المرتبط</th>
+<th>المظهر الأساسي</th>
+<th>مبدأ التدبير</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>القلاع</td>
+<td>آفة تقرحية التهابية متكررة</td>
+<td>قرحات مؤلمة صغيرة ذات مركز مصفر وهالة حمراء</td>
+<td>تسكين الألم والتدبير الموضعي تحت إشراف مهني</td>
+</tr>
+<tr>
+<td>ضخامة اللثة بالديلانتين</td>
+<td>الاستعمال المزمن لدواء الصرع</td>
+<td>ضخامة قاسية غير مؤلمة، خاصة حول الأسنان الأمامية</td>
+<td>تحسين الصحة الفموية وتقييم دوائي وجراحي</td>
+</tr>
+<tr>
+<td>السلاق</td>
+<td>المبيضات البيض مع عوامل مهيئة</td>
+<td>عدوى فطرية في المخاطية الفموية</td>
+<td>البحث عن العامل المهيئ ومعالجته</td>
+</tr>
+<tr>
+<td>النكاف</td>
+<td>فيروس (RNA) ينتقل باللعاب والرذاذ</td>
+<td>تورم مؤلم في الغدة النكفية مع حمى</td>
+<td>معالجة عرضية ووقاية باللقاح</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section aria-labelledby="studyTab" class="mode-panel" hidden="" id="studyPanel" role="tabpanel">
+<div class="study-layout">
+<aside class="study-sidebar no-print">
+<div class="progress-card">
+<div class="progress-card__top">
+<div><span>تقدمك</span><strong id="progressText">0 من 16</strong></div>
+<div aria-label="نسبة التقدم 0 بالمئة" class="progress-ring" id="progressRing"><span id="progressPercent">0%</span></div>
+</div>
+<div aria-hidden="true" class="progress-track"><span id="progressBar"></span></div>
+<button class="text-button" id="resetProgress" type="button">إعادة المحاولة</button>
+</div>
+<div class="study-tips">
+<h3>طريقة الدراسة</h3>
+<ol>
+<li>ميّز القلاع عن السلاق: الأول تقرحي، والثاني فطري.</li>
+<li>احفظ علاقة الديلانتين بضخامة اللثة.</li>
+<li>اربط النكاف بالغدة النكفية، الرذاذ اللعابي، واللقاح.</li>
+</ol>
+</div>
+</aside>
+<div aria-live="polite" class="quiz-card">
+<div class="quiz-card__header">
+<span class="question-counter" id="questionCounter">السؤال 1 من 16</span>
+<span class="question-type" id="questionType">اختيار من متعدد</span>
+</div>
+<div class="quiz-card__body">
+<h2 id="questionText">جارٍ تحميل السؤال…</h2>
+<div class="answer-area" id="answerArea"></div>
+<div class="feedback-box" hidden="" id="feedbackBox">
+<div aria-hidden="true" class="feedback-box__icon" id="feedbackIcon"></div>
+<div><strong id="feedbackTitle"></strong><p id="feedbackText"></p></div>
+</div>
+</div>
+<div class="quiz-card__footer">
+<button class="secondary-button" id="prevQuestion" type="button">السابق</button>
+<div aria-label="التنقل بين الأسئلة" class="quiz-dots" id="quizDots"></div>
+<button class="primary-button" id="nextQuestion" type="button">التالي</button>
+</div>
+</div>
+</div>
+</section>
+<nav aria-label="التنقل التسلسلي" class="page-actions no-print">
+<a class="page-action" href="page-11.html"><span>→ الصفحة السابقة</span><span>التهاب الفم</span></a>
+<span class="page-counter">صفحة 12 من 70</span>
+<a class="page-action page-action--primary" href="page-13.html"><span>الصفحة التالية</span><span>الآفات ما قبل السرطانية والسرطانية ←</span></a>
+</nav>
+</main>
+<footer class="site-footer no-print">
+<div class="shell site-footer__inner">
+<p>صفحة تعليمية تفاعلية — القلاع والسلاق والنكاف</p>
+<span>مصممة للقراءة، المراجعة، والطباعة</span>
+</div>
+</footer>
+<dialog class="image-dialog" id="imageDialog">
+<button aria-label="إغلاق الصورة" class="dialog-close" id="dialogClose" type="button">×</button>
+<div class="image-dialog__content"><h2 id="dialogTitle"></h2><img alt="" decoding="async" id="dialogImage"/></div>
+</dialog>
+<script src="page-12.js"></script>
+<script src="bookmarks.js"></script>
+<script src="global-ui.js"></script>
+<script src="annotation-mode.js"></script>
+<script src="adaptive/integration.js"></script></body>
 </html>

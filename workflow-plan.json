@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "mode": "GUIDED",
+  "goal": "Extend original Arabic educational project without redesign",
+  "steps": [
+    {
+      "id": "audit",
+      "skill": "pdf + educational-content-workflow-orchestrator",
+      "inputs": [
+        "uploaded ZIP",
+        "uploaded PDF"
+      ],
+      "outputs": [
+        "docs/AUDIT_AR.md",
+        "data/source-map.json"
+      ],
+      "dependencies": [],
+      "completionCriteria": "Outputs exist and documented tests pass; source caveats disclosed",
+      "failureRoute": "Repair responsible stage then retest affected downstream paths"
+    },
+    {
+      "id": "identity",
+      "skill": "modular-interactive-learning-site-builder",
+      "inputs": [
+        "styles.css",
+        "global-ui.css"
+      ],
+      "outputs": [
+        "docs/VISUAL_IDENTITY_AR.md",
+        "adaptive/tokens.css"
+      ],
+      "dependencies": [
+        "audit"
+      ],
+      "completionCriteria": "Outputs exist and documented tests pass; source caveats disclosed",
+      "failureRoute": "Repair responsible stage then retest affected downstream paths"
+    },
+    {
+      "id": "prototype",
+      "skill": "modular-interactive-learning-site-builder",
+      "inputs": [
+        "PDF 17–19"
+      ],
+      "outputs": [
+        "adaptive/engine.js",
+        "adaptive/app.js",
+        "tests/engine.test.cjs"
+      ],
+      "dependencies": [
+        "identity"
+      ],
+      "completionCriteria": "Outputs exist and documented tests pass; source caveats disclosed",
+      "failureRoute": "Repair responsible stage then retest affected downstream paths"
+    },
+    {
+      "id": "expand",
+      "skill": "modular-interactive-learning-site-builder",
+      "inputs": [
+        "prototype",
+        "source pages"
+      ],
+      "outputs": [
+        "data/adaptive-bank.json",
+        "data/coverage.json"
+      ],
+      "dependencies": [
+        "prototype"
+      ],
+      "completionCriteria": "Outputs exist and documented tests pass; source caveats disclosed",
+      "failureRoute": "Repair responsible stage then retest affected downstream paths"
+    },
+    {
+      "id": "qa",
+      "skill": "modular-interactive-learning-site-builder",
+      "inputs": [
+        "site"
+      ],
+      "outputs": [
+        "docs/QA_REPORT_AR.md",
+        "docs/qa/"
+      ],
+      "dependencies": [
+        "expand"
+      ],
+      "completionCriteria": "Outputs exist and documented tests pass; source caveats disclosed",
+      "failureRoute": "Repair responsible stage then retest affected downstream paths"
+    },
+    {
+      "id": "deliver",
+      "skill": "library",
+      "inputs": [
+        "validated site"
+      ],
+      "outputs": [
+        "release ZIP",
+        "original backup ZIP"
+      ],
+      "dependencies": [
+        "qa"
+      ],
+      "completionCriteria": "Outputs exist and documented tests pass; source caveats disclosed",
+      "failureRoute": "Repair responsible stage then retest affected downstream paths"
+    }
+  ]
+}

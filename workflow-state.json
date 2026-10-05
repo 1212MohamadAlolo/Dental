@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "steps": {
+    "audit": "completed",
+    "identity": "completed",
+    "prototype": "completed",
+    "expand": "completed",
+    "qa": "completed",
+    "deliver": "packaged-pending-save"
+  },
+  "delivery": "packaged",
+  "skipped": {
+    "image-generation": "Original reference images retained; no new explanatory bitmap requested",
+    "clinical-approval": "Requires human specialist; never claimed complete"
+  },
+  "gates": {
+    "sourceCoverage": "93 lessons linked to core concepts; not all facts independently validated",
+    "prototype": "passed before expansion",
+    "responsive": "36 checks passed",
+    "clinical": "pending-human-review"
+  }
+}
