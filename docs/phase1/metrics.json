@@ -1,0 +1,23 @@
+{
+  "newBank": {
+    "lessons": 93,
+    "units": 17,
+    "independentObjectives": 181,
+    "questionVariants": 365,
+    "objectiveQuestionVariants": 340,
+    "humanRubricVariants": 25,
+    "lessonsWithAssessedSubset": 92,
+    "fullLessonCoverageCertified": 0
+  },
+  "oldBanks": {
+    "bankCounts": {
+      "lesson-legacy": 220,
+      "comprehensive-legacy": 220,
+      "adaptive-v1.2": 173
+    },
+    "entriesWithoutLessonLinks": 316,
+    "broadlyLinkedEntries": 211,
+    "repeatedPromptGroups": 220,
+    "policy": "No old item auto-approved by similarity or source-checked label; originals unchanged."
+  }
+}

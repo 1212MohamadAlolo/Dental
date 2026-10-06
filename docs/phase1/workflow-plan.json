@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "mode": "GUIDED",
+  "scope": "Phase 1 only; no UI replacement or main merge",
+  "steps": [
+    {
+      "id": "audit",
+      "skill": "educational-content-workflow-orchestrator",
+      "inputs": [
+        "source/course.pdf",
+        "course-path-data.js",
+        "data/adaptive-bank.json",
+        "comprehensive-exam.js"
+      ],
+      "outputs": [
+        "data/assessment/coverage.json",
+        "data/assessment/legacy-audit.json",
+        "data/assessment/review-register.json"
+      ],
+      "dependencies": [],
+      "completionCriteria": "All 93 lessons and 3 banks inventoried; exceptions explicitly recorded",
+      "failureRoute": "Mark unreadable/unverified material and prevent automatic grading"
+    },
+    {
+      "id": "bank-engine",
+      "skill": "source-led assessment implementation",
+      "inputs": [
+        "data/assessment/curated-facts.tsv",
+        "data/assessment/source-pages.json"
+      ],
+      "outputs": [
+        "data/assessment/bank.json",
+        "assessment/engine.js"
+      ],
+      "dependencies": [
+        "audit"
+      ],
+      "completionCriteria": "Source traceability, objective identities and validated session/grading contracts",
+      "failureRoute": "Reject unsupported anchors and malformed items"
+    },
+    {
+      "id": "qa",
+      "skill": "source-led assessment implementation",
+      "inputs": [
+        "tests/assessment.test.cjs"
+      ],
+      "outputs": [
+        "docs/phase1/QA-report.md"
+      ],
+      "dependencies": [
+        "bank-engine"
+      ],
+      "completionCriteria": "Meaningful source and engine tests pass; no change to active content",
+      "failureRoute": "Repair only failing logic before publication"
+    }
+  ],
+  "schemaNote": "Referenced skill schema unavailable; preserved the required step fields from the skill itself."
+}

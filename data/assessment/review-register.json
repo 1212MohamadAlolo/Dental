@@ -1,0 +1,244 @@
+[
+  {
+    "id": "taste-map",
+    "lessonIds": [
+      "page-04-lesson-05"
+    ],
+    "pdfPages": [
+      9
+    ],
+    "topic": "خريطة مذاقات حصرية",
+    "decision": "لا سؤال موضوعي قبل الحسم الأكاديمي",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "teething-treatment",
+    "lessonIds": [
+      "page-06-lesson-04",
+      "page-06-lesson-06-b"
+    ],
+    "pdfPages": [
+      14,
+      16
+    ],
+    "topic": "وصفات وتدابير التسنين",
+    "decision": "استبعاد جرعات ووصفات التدبير من البنك",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "enamel-hardness",
+    "lessonIds": [
+      "page-07-lesson-02"
+    ],
+    "pdfPages": [
+      17
+    ],
+    "topic": "قيمة موس وتشبيه الكوارتز",
+    "decision": "معلّق؛ التركيز على الوصف البنيوي",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "tomes",
+    "lessonIds": [
+      "page-07-lesson-03",
+      "page-17-lesson-04-b"
+    ],
+    "pdfPages": [
+      18,
+      70
+    ],
+    "topic": "ألياف تومز وآلية الألم",
+    "decision": "استبعاد تفسير الآلية الملتبس",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "cement-junction",
+    "lessonIds": [
+      "page-07-lesson-04"
+    ],
+    "pdfPages": [
+      19
+    ],
+    "topic": "أنماط التقاء الملاط بالميناء",
+    "decision": "تعليق تفاصيل القائمة",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "pocket-threshold",
+    "lessonIds": [
+      "page-08-lesson-01",
+      "page-08-lesson-02"
+    ],
+    "pdfPages": [
+      21,
+      22
+    ],
+    "topic": "تباين عتبات الميزاب والجيب داخل المقرر",
+    "decision": "لا اعتماد حد منفرد للتشخيص",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "old-classifications",
+    "lessonIds": [
+      "page-09-lesson-02",
+      "page-09-lesson-02-b",
+      "page-09-lesson-04",
+      "page-10-lesson-01"
+    ],
+    "pdfPages": [
+      27,
+      28,
+      29,
+      30
+    ],
+    "topic": "تصنيفات وأوصاف تاريخية",
+    "decision": "تقييد الأسئلة بوصف المقرر لا ببروتوكول سريري",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "bruxism-treatment",
+    "lessonIds": [
+      "page-10-lesson-03",
+      "page-10-lesson-04"
+    ],
+    "pdfPages": [
+      31,
+      32,
+      33
+    ],
+    "topic": "أسباب الصرير والسحل والفتح القسري",
+    "decision": "تعليق التوصيات العلاجية",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "tobacco-flow",
+    "lessonIds": [
+      "page-11-lesson-02",
+      "page-16-lesson-05"
+    ],
+    "pdfPages": [
+      35,
+      63
+    ],
+    "topic": "تعميمات الدوران الدموي والتغيرات اللثوية",
+    "decision": "عدم إدخال التعميمات محل الإشكال",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "prosthesis-cancer",
+    "lessonIds": [
+      "page-11-lesson-03"
+    ],
+    "pdfPages": [
+      36
+    ],
+    "topic": "انتقال الطيات التخريشية إلى خباثة",
+    "decision": "تعليق السببية",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "aphthae-scar",
+    "lessonIds": [
+      "page-12-lesson-01",
+      "page-12-lesson-01-b"
+    ],
+    "pdfPages": [
+      40
+    ],
+    "topic": "ندبة كل حالات القلاع ووصف العلاج",
+    "decision": "تعليق الندبة والعلاج؛ المحتوى الحالي يخفف كل إلى معظم دون حسم",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "cancer-statistics",
+    "lessonIds": [
+      "page-13-lesson-01",
+      "page-13-lesson-02",
+      "page-13-lesson-03",
+      "page-13-lesson-04"
+    ],
+    "pdfPages": [
+      44,
+      45,
+      46,
+      47
+    ],
+    "topic": "نسب وأسباب وإطلاقات سرطانية",
+    "decision": "لا اختبار للنسب ولا تشخيص من وصف واحد",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "halitosis",
+    "lessonIds": [
+      "page-15-lesson-01",
+      "page-15-lesson-03"
+    ],
+    "pdfPages": [
+      53,
+      55
+    ],
+    "topic": "الصباح وحقن الغلوكوز ومضادات البخر",
+    "decision": "استبعاد المقارنة والحقن والوصفات",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "thumb-causation",
+    "lessonIds": [
+      "page-16-lesson-04",
+      "page-16-lesson-04-b"
+    ],
+    "pdfPages": [
+      60,
+      61,
+      62
+    ],
+    "topic": "نقص الحنان والتعميمات النفسية",
+    "decision": "تعليق السببية؛ اختبار الوضعية والتكرار والمدة",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "caries-generalizations",
+    "lessonIds": [
+      "page-17-lesson-01",
+      "page-17-lesson-02-b",
+      "page-17-lesson-03"
+    ],
+    "pdfPages": [
+      65,
+      66,
+      67,
+      68
+    ],
+    "topic": "أرقام وانتشار والسكر بلا حد والعمر والجنس",
+    "decision": "استبعاد التعميمات غير المحسومة",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  },
+  {
+    "id": "arsenic",
+    "lessonIds": [
+      "page-17-lesson-04-b"
+    ],
+    "pdfPages": [
+      70
+    ],
+    "topic": "إماتة اللب بالزرنيخ",
+    "decision": "لا أسئلة علاجية مؤيدة لهذا التدبير",
+    "status": "pending-specialist-review",
+    "basis": "source inspection and existing SCIENTIFIC_REVIEW_AR.md; no new clinical validation claimed"
+  }
+]

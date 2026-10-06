@@ -1,0 +1,52 @@
+{
+  "phase": 1,
+  "status": "engineering-deliverable-complete-content-coverage-partial",
+  "completed": [
+    "audit",
+    "bank-engine",
+    "qa"
+  ],
+  "humanAcademicApproval": "pending",
+  "fullCurriculumCoverageCertified": false,
+  "uiActivated": false,
+  "mainMerged": false,
+  "metrics": {
+    "newBank": {
+      "lessons": 93,
+      "units": 17,
+      "independentObjectives": 181,
+      "questionVariants": 365,
+      "objectiveQuestionVariants": 340,
+      "humanRubricVariants": 25,
+      "lessonsWithAssessedSubset": 92,
+      "fullLessonCoverageCertified": 0
+    },
+    "oldBanks": {
+      "bankCounts": {
+        "lesson-legacy": 220,
+        "comprehensive-legacy": 220,
+        "adaptive-v1.2": 173
+      },
+      "entriesWithoutLessonLinks": 316,
+      "broadlyLinkedEntries": 211,
+      "repeatedPromptGroups": 220,
+      "policy": "No old item auto-approved by similarity or source-checked label; originals unchanged."
+    }
+  },
+  "nextPhase": 2,
+  "pending": [
+    "specialist decisions in review-register.json",
+    "exhaustive fact-by-fact curriculum coverage beyond selected objectives",
+    "UI integration and device testing in phase 2/3"
+  ],
+  "skipped": [
+    {
+      "skill": "whiteboard generation and image placement",
+      "reason": "No new images required in phase 1"
+    },
+    {
+      "skill": "modular-interactive-learning-site-builder",
+      "reason": "UI implementation belongs to phase 2, not authorized in this turn"
+    }
+  ]
+}

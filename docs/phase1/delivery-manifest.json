@@ -1,0 +1,92 @@
+[
+  {
+    "path": "assessment/bank.js",
+    "bytes": 1108443,
+    "sha256": "8cadbd9a4a980e714fa5362ec8510ae736a9ce5b0a2ff10869db0b93de657227"
+  },
+  {
+    "path": "assessment/engine.js",
+    "bytes": 13289,
+    "sha256": "5976729966a28f1adc2175b1782bb5a93f71a58241286b5df3a38b1d2d83c2f6"
+  },
+  {
+    "path": "data/assessment/bank.json",
+    "bytes": 1313241,
+    "sha256": "4233f6072c20995d9525fd5fd556939be85c086046be77355c83b4a48b429538"
+  },
+  {
+    "path": "data/assessment/source-pages.json",
+    "bytes": 121954,
+    "sha256": "5cf05e075d6c90ee642a075c2974a9692ec95544be3ca5432b8a32163b391e99"
+  },
+  {
+    "path": "data/assessment/held-items.json",
+    "bytes": 782,
+    "sha256": "3cc4975aef98f9ad3cacb94238c7257bb455d8079ffd15df5e4c586a21de58c5"
+  },
+  {
+    "path": "data/assessment/legacy-audit.json",
+    "bytes": 338336,
+    "sha256": "853498a0f94a3a61c4c9aa6cc96794982fd7c705dc5c3aa615a6748e4b18fc7f"
+  },
+  {
+    "path": "data/assessment/curated-facts.tsv",
+    "bytes": 42664,
+    "sha256": "fa9c6d858386ea3334df9a973d6efd8c0bd9844d9c3dc3dc8eba310220e72067"
+  },
+  {
+    "path": "data/assessment/coverage.json",
+    "bytes": 170300,
+    "sha256": "ea18447756b9bea25189dba42a7dc6c39e20d2a8ec52d740df4e7f917896bef4"
+  },
+  {
+    "path": "data/assessment/review-register.json",
+    "bytes": 7425,
+    "sha256": "d28b69a99ee3f55975a014491ac344c27fd17e796224ce9c7b22957577e499a2"
+  },
+  {
+    "path": "docs/phase1/README_AR.md",
+    "bytes": 5827,
+    "sha256": "669f3a0ccd0e3c19c29d3af7fe115fa7643556a3543bd944e7556cbb647e78d2"
+  },
+  {
+    "path": "docs/phase1/workflow-state.json",
+    "bytes": 1471,
+    "sha256": "958c961e505d451af6b6ecb86d10af421519020a256fc7583eba614c60aa6070"
+  },
+  {
+    "path": "docs/phase1/EXAM_LOGIC_AR.md",
+    "bytes": 6111,
+    "sha256": "3df0f823addc632e84a916eb68c07748f5d9837b577211b66927bd405224b74d"
+  },
+  {
+    "path": "docs/phase1/COVERAGE_AR.md",
+    "bytes": 10997,
+    "sha256": "71de2bc09566e51e51023275ff86661fe0c4f7450bb4c7144e2d03710f5980f4"
+  },
+  {
+    "path": "docs/phase1/workflow-plan.json",
+    "bytes": 1833,
+    "sha256": "f0d4ddc6ab177d6da9c63738e9cf132fb6fab77b3474d9290c38f117e6d1b261"
+  },
+  {
+    "path": "docs/phase1/metrics.json",
+    "bytes": 609,
+    "sha256": "160e9ed615bc77dfb738944894e9c1303e64348a5005151c03237910fe5dd6ff"
+  },
+  {
+    "path": "docs/phase1/QA-report.md",
+    "bytes": 3630,
+    "sha256": "111dd7dd78087e5e46e57f01c04158fe16a554d25b6fe63789a2541fd4471f72"
+  },
+  {
+    "path": "scripts/build-assessment.py",
+    "bytes": 16569,
+    "sha256": "9236bd5673f4b207082ab6d2d38fbe060454fbefb9fa60b1de7f998dd8949291"
+  },
+  {
+    "path": "tests/assessment.test.cjs",
+    "bytes": 8571,
+    "sha256": "6578a967ed910ae49c9fd5cd84fdfbd8c769215298932a9c3afcb9c81a465e51"
+  }
+]
