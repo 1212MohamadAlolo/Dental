@@ -1,6 +1,6 @@
 {
   "name": "Oral Health Learning Path",
-  "version": "1.2",
+  "version": "2.0-phase2",
   "language": "ar",
   "direction": "rtl",
   "source": "source/course.pdf",
@@ -15,5 +15,18 @@
     "cloudSync": false,
     "gamificationXP": false
   },
-  "adaptiveData": "data/adaptive-bank.json"
+  "adaptiveData": "data/adaptive-bank.json",
+  "mobileShell": {
+    "entry": "index.html",
+    "script": "mobile/app.js",
+    "styles": "mobile/app.css",
+    "assessmentBank": "assessment/bank.js",
+    "engine": "assessment/engine.js",
+    "localStorage": "dental-mobile-v1",
+    "navigation": [
+      "lessons",
+      "study",
+      "progress"
+    ]
+  }
 }

@@ -1,0 +1,372 @@
+{
+  "layouts": [
+    {
+      "w": 320,
+      "h": 568,
+      "name": "study",
+      "width": 320,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 568,
+      "main": 491.8125
+    },
+    {
+      "w": 320,
+      "h": 568,
+      "name": "catalog",
+      "width": 320,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 568,
+      "main": 491.8125
+    },
+    {
+      "w": 320,
+      "h": 568,
+      "name": "reader",
+      "width": 320,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 568,
+      "main": 491.8125
+    },
+    {
+      "w": 320,
+      "h": 568,
+      "name": "reader-large-dark",
+      "width": 320,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 568,
+      "main": 491.8125
+    },
+    {
+      "w": 320,
+      "h": 568,
+      "name": "question",
+      "width": 320,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 568,
+      "main": 491.8125
+    },
+    {
+      "w": 320,
+      "h": 568,
+      "name": "feedback",
+      "width": 320,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 568,
+      "main": 491.8125
+    },
+    {
+      "w": 360,
+      "h": 800,
+      "name": "study",
+      "width": 360,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 800,
+      "main": 723.8125
+    },
+    {
+      "w": 360,
+      "h": 800,
+      "name": "catalog",
+      "width": 360,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 800,
+      "main": 723.8125
+    },
+    {
+      "w": 360,
+      "h": 800,
+      "name": "reader",
+      "width": 360,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 800,
+      "main": 723.8125
+    },
+    {
+      "w": 360,
+      "h": 800,
+      "name": "reader-large-dark",
+      "width": 360,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 800,
+      "main": 723.8125
+    },
+    {
+      "w": 360,
+      "h": 800,
+      "name": "question",
+      "width": 360,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 800,
+      "main": 723.8125
+    },
+    {
+      "w": 360,
+      "h": 800,
+      "name": "feedback",
+      "width": 360,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 800,
+      "main": 723.8125
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "name": "study",
+      "width": 390,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 844,
+      "main": 767.8125
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "name": "catalog",
+      "width": 390,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 844,
+      "main": 767.8125
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "name": "reader",
+      "width": 390,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 844,
+      "main": 767.8125
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "name": "reader-large-dark",
+      "width": 390,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 844,
+      "main": 767.8125
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "name": "question",
+      "width": 390,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 844,
+      "main": 767.8125
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "name": "feedback",
+      "width": 390,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 844,
+      "main": 767.8125
+    },
+    {
+      "w": 800,
+      "h": 1280,
+      "name": "study",
+      "width": 800,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 1280,
+      "main": 1203.8125
+    },
+    {
+      "w": 800,
+      "h": 1280,
+      "name": "catalog",
+      "width": 800,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 1280,
+      "main": 1203.8125
+    },
+    {
+      "w": 800,
+      "h": 1280,
+      "name": "reader",
+      "width": 800,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 1280,
+      "main": 1203.8125
+    },
+    {
+      "w": 800,
+      "h": 1280,
+      "name": "reader-large-dark",
+      "width": 800,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 1280,
+      "main": 1203.8125
+    },
+    {
+      "w": 800,
+      "h": 1280,
+      "name": "question",
+      "width": 800,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 1280,
+      "main": 1203.8125
+    },
+    {
+      "w": 800,
+      "h": 1280,
+      "name": "feedback",
+      "width": 800,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 1280,
+      "main": 1203.8125
+    },
+    {
+      "w": 1280,
+      "h": 800,
+      "name": "study",
+      "width": 1280,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 800,
+      "main": 723.8125
+    },
+    {
+      "w": 1280,
+      "h": 800,
+      "name": "catalog",
+      "width": 1280,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 800,
+      "main": 723.8125
+    },
+    {
+      "w": 1280,
+      "h": 800,
+      "name": "reader",
+      "width": 1280,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 800,
+      "main": 723.8125
+    },
+    {
+      "w": 1280,
+      "h": 800,
+      "name": "reader-large-dark",
+      "width": 1280,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 800,
+      "main": 723.8125
+    },
+    {
+      "w": 1280,
+      "h": 800,
+      "name": "question",
+      "width": 1280,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 800,
+      "main": 723.8125
+    },
+    {
+      "w": 1280,
+      "h": 800,
+      "name": "feedback",
+      "width": 1280,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 800,
+      "main": 723.8125
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "name": "study",
+      "width": 1440,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 900,
+      "main": 823.8125
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "name": "catalog",
+      "width": 1440,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 900,
+      "main": 823.8125
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "name": "reader",
+      "width": 1440,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 900,
+      "main": 823.8125
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "name": "reader-large-dark",
+      "width": 1440,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 900,
+      "main": 823.8125
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "name": "question",
+      "width": 1440,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 900,
+      "main": 823.8125
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "name": "feedback",
+      "width": 1440,
+      "overflow": false,
+      "bodyOverflow": false,
+      "nav": 900,
+      "main": 823.8125
+    }
+  ],
+  "flows": [
+    "all five activity types, objective scoring and pending written self-review",
+    "mistakes queued and new review starts",
+    "comprehensive answer explanation hidden until completion",
+    "unconfirmed answer draft survives reload",
+    "real service worker full download and offline reload/exam"
+  ],
+  "errors": []
+}

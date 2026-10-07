@@ -26,12 +26,12 @@
   ],
   "shortcuts": [
     {
-      "name": "مراجعة اليوم",
-      "url": "./adaptive.html"
+      "name": "الدراسة",
+      "url": "./index.html#study"
     },
     {
-      "name": "مسار التعلم",
-      "url": "./learning-map.html"
+      "name": "الدروس",
+      "url": "./index.html#lessons"
     }
   ]
 }
