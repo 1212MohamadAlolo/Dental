@@ -1,6 +1,6 @@
 {
   "name": "Oral Health Learning Path",
-  "version": "2.0-phase2",
+  "version": "2.1-written",
   "language": "ar",
   "direction": "rtl",
   "source": "source/course.pdf",
@@ -27,6 +27,7 @@
       "lessons",
       "study",
       "progress"
-    ]
+    ],
+    "writtenBank": "assessment/written-bank.js"
   }
 }

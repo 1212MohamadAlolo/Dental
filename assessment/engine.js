@@ -93,6 +93,12 @@ function reviewWritten(state,questionId,decision,now=Date.now()){
  if(decision!=='matches-model'){const r=record(state,q.objectiveId);r.open=true;r.lastWrong=now;r.evidence=[];r.due=now+10*60000;}
  return saved;
 }
+function archiveWrittenReview(state,questionId,now=Date.now()){
+ const a=state.active,q=a?.items.find(q=>q.id===questionId),saved=a?.answers[questionId];
+ if(!q||q.collection!=='written'||q.type!=='explanation'||saved?.selfReview!=='matches-model'||!q.rubric.every(r=>saved.rubricReview?.[r.id]===true))throw Error('Complete explicit rubric self-review first');
+ const r=record(state,q.objectiveId);r.open=false;r.selfReviewedAt=now;r.resolution='self-reviewed-not-certified';saved.selfArchivedAt=now;
+ return saved;
+}
 function publicFeedback(attempt,questionId){if(attempt.feedback==='exam'&&!attempt.finishedAt)return {status:'recorded'};const q=attempt.items.find(q=>q.id===questionId);return {answer:attempt.answers[questionId]||null,explanation:q?.explanation,source:q?.source};}
 function finish(state,now=Date.now()){
  const a=state.active;if(!a)throw Error('No attempt');a.finishedAt=a.finishedAt||now;return result(a);
@@ -109,5 +115,5 @@ function valid(s){
 }
 function save(storage,state){try{storage.setItem(KEY,JSON.stringify(state));return {ok:true};}catch{return {ok:false,warning:'تعذر حفظ التقدم؛ احتفظ بنسخة مصدّرة.'};}}
 function load(storage){try{const raw=storage.getItem(KEY);if(!raw)return {state:empty(),warning:null};const s=JSON.parse(raw);if(!valid(s))throw Error();if(s.active)s.active=s.attempts.find(a=>a.id===s.active.id);return {state:s,warning:null};}catch{return {state:empty(),warning:'بيانات غير قابلة للقراءة؛ لم تُحذف النسخة المخزنة.'};}}
-return {VERSION,KEY,DAY,empty,normalize,grade,select,start,submit,reviewWritten,finish,result,publicFeedback,save,load,valid};
+return {VERSION,KEY,DAY,empty,normalize,grade,select,start,submit,reviewWritten,archiveWrittenReview,finish,result,publicFeedback,save,load,valid};
 });

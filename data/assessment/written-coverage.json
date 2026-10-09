@@ -1,0 +1,2852 @@
+[
+  {
+    "lessonId": "page-01-lesson-01",
+    "title": "الفك العلوي (Maxilla)",
+    "writtenTaskIds": [
+      "written-5e11c96f74fec3-response",
+      "written-42935289476550-response"
+    ],
+    "commands": [
+      "اشرح",
+      "علّل"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-01-lesson-02",
+    "title": "مشاهد تشريحية للفك العلوي",
+    "writtenTaskIds": [
+      "written-566d8f0adbe1fc-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-01-lesson-03",
+    "title": "قاموس تشريحي سريع",
+    "writtenTaskIds": [
+      "written-59c14a5f10d3d3-response",
+      "written-58045b0b551cac-response",
+      "written-ec672789aa98e0-response",
+      "written-24da8e4b079981-response",
+      "written-b273b96f1136a2-response",
+      "written-6013b25bc1876e-response"
+    ],
+    "commands": [
+      "مصطلح"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-02-lesson-01",
+    "title": "الفكرة التشريحية الأساسية",
+    "writtenTaskIds": [
+      "written-19a0813858a872-response"
+    ],
+    "commands": [
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      2,
+      3,
+      5
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 1,
+        "text": "يتخذ الفك السفلي شكلا قريبا من نعل الفرس."
+      },
+      {
+        "index": 4,
+        "text": "العظم الوحيد المتحرك بين عظام الجمجمة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-02-lesson-02",
+    "title": "مشاهد تشريحية للفك السفلي",
+    "writtenTaskIds": [
+      "written-c092388da75b91-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 2,
+        "text": "العلاقة السنية والهيكلية يوضح وضع الأسنان السفلية داخل الفك السفلي وعلاقتها بالأسنان العلوية والبنى المجاورة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-02-lesson-03",
+    "title": "قاموس تشريحي سريع",
+    "writtenTaskIds": [
+      "written-b9850053c221f7-response",
+      "written-05fded58e542f5-response",
+      "written-5a232421c29844-response",
+      "written-1f498a1de4cccf-response",
+      "written-bdf5894827d77c-response",
+      "written-54915dc878f411-response",
+      "written-c6c2db48a87173-response",
+      "written-640862ba0c49be-response",
+      "written-857f5ef72a4183-response"
+    ],
+    "commands": [
+      "مصطلح"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-03-lesson-01",
+    "title": "الدور الحيوي لمخاطية الفم",
+    "writtenTaskIds": [
+      "written-e59e411e9fe67a-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "تقع مخاطية الفم في داخل جهاز الهضم، وهي جزء من أجزائه المهمة؛ إذ إن أغلب الأمراض التي تصيب العضوية عامة وجهاز الهضم بصورة خاصة تتظاهر فيها في مرحلة من مراحلها، وكأنها ميزان العضوية الحساس."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-03-lesson-02",
+    "title": "الشفتان (Lips)",
+    "writtenTaskIds": [
+      "written-e133af83bed4e0-response"
+    ],
+    "commands": [
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-03-lesson-03",
+    "title": "المعالم السطحية للشفتين",
+    "writtenTaskIds": [
+      "written-fd7570b7f03a2d-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-03-lesson-04",
+    "title": "مصطلحات مخاطية الفم والشفتين",
+    "writtenTaskIds": [
+      "written-31da354d93ecf9-response",
+      "written-762caede4ef38b-response",
+      "written-14270bc0c48067-response",
+      "written-ca254b496d30e7-response",
+      "written-e30c38a96a1e25-response",
+      "written-86839bc9354a21-response"
+    ],
+    "commands": [
+      "مصطلح"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-04-lesson-01",
+    "title": "الخد وسقف الفم",
+    "writtenTaskIds": [
+      "written-1c26806875e8e3-response",
+      "written-db00d36a1dea9f-response",
+      "written-2d0d59a73d0487-response"
+    ],
+    "commands": [
+      "اشرح",
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "تستكمل هذه الصفحة دراسة مخاطية الفم من خلال الغشاء المخاطي المبطن للخد، وبنية الحنك الصلب والحنك الرخو، ثم اللسان وحليماته وبراعم الذوق."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-04-lesson-02",
+    "title": "مكوّنات جوف الفم",
+    "writtenTaskIds": [
+      "written-de40949a713b16-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-04-lesson-03",
+    "title": "اللسان (Tongue)",
+    "writtenTaskIds": [
+      "written-42e1c15ed6b2fb-response",
+      "written-34e4631db59ac8-response"
+    ],
+    "commands": [
+      "عدّد",
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-04-lesson-04",
+    "title": "أنواع الحليمات وبراعم الذوق",
+    "writtenTaskIds": [
+      "written-feb9272824a47a-response",
+      "written-2e934fb5798617-response"
+    ],
+    "commands": [
+      "عدّد",
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      4
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "أحد الأنواع الأربعة للحليمات الدقيقة الموجودة على ظهر اللسان."
+      },
+      {
+        "index": 1,
+        "text": "تذكر في المصدر ضمن الأنواع الرئيسية للحليمات اللسانية."
+      },
+      {
+        "index": 2,
+        "text": "توجد ضمن مجموعات الحليمات اللسانية ذات العلاقة بالإحساس الذوقي."
+      },
+      {
+        "index": 3,
+        "text": "تقع عند الحد الفاصل بين الثلث الخلفي والثلثين الأماميين للسان."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-04-lesson-05",
+    "title": "مواضع الإحساس بالمذاقات",
+    "writtenTaskIds": [],
+    "commands": [],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "ذروة اللسان."
+      },
+      {
+        "index": 1,
+        "text": "أطراف اللسان."
+      },
+      {
+        "index": 2,
+        "text": "القسم المتوسط الخلفي."
+      },
+      {
+        "index": 3,
+        "text": "المناطق الجانبية الخلفية."
+      },
+      {
+        "index": 4,
+        "text": "يعرض هذا القسم التوزع التقليدي للمذاقات كما ورد في الصفحة الأصلية."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "taste-map"
+    ]
+  },
+  {
+    "lessonId": "page-04-lesson-06",
+    "title": "مصطلحات الخد والحنك واللسان",
+    "writtenTaskIds": [
+      "written-8c61d98dc9c597-response",
+      "written-6b3200e3ac90aa-response",
+      "written-8e83a23842e38c-response",
+      "written-84a3fe2602a905-response",
+      "written-839823a1337527-response",
+      "written-769a0085b6824c-response"
+    ],
+    "commands": [
+      "مصطلح"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-05-lesson-01",
+    "title": "لماذا يحتاج الفم إلى اللعاب؟",
+    "writtenTaskIds": [
+      "written-24955119d0bcd4-response",
+      "written-34c56b45b423b8-response"
+    ],
+    "commands": [
+      "عدّد",
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-05-lesson-02",
+    "title": "الغدد اللعابية الكبرى وقنواتها",
+    "writtenTaskIds": [
+      "written-d969f166026a68-response",
+      "written-ef71f314ace263-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-05-lesson-03",
+    "title": "مواضع الغدد اللعابية الكبرى",
+    "writtenTaskIds": [
+      "written-01f735579f4e3c-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2,
+      3
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "الخريطة التشريحية في المصدر توضح موضع الغدة النكفية، وتحت الفك، وتحت اللسان بالنسبة إلى اللسان وجوف الفم."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-05-lesson-04",
+    "title": "الغدد اللعابية الصغرى",
+    "writtenTaskIds": [
+      "written-49641f50948ed1-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "توجد إلى جانب الغدد الكبرى، وتنتشر في مناطق عديدة من جوف الفم."
+      },
+      {
+        "index": 1,
+        "text": "تشير الصفحة الأصلية إلى دور للغدد اللعابية في استقلاب اليود، وإلى احتوائها على عوامل مرتبطة بالنمو ومادة تؤثر في استقلاب الكالسيوم."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-05-lesson-05",
+    "title": "مساهمة الغدد في مجموع اللعاب",
+    "writtenTaskIds": [
+      "written-6eddfd588e9889-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "تمثل النسبة الأكبر من الإفراز اللعابي الوسطي."
+      },
+      {
+        "index": 1,
+        "text": "تأتي في المرتبة الثانية بحسب النسب المذكورة."
+      },
+      {
+        "index": 2,
+        "text": "تسهم بنسبة أصغر من مجموع الإفراز."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-05-lesson-06",
+    "title": "لماذا يختلف تركيب اللعاب؟",
+    "writtenTaskIds": [
+      "written-ba288d57737a3c-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-05-lesson-07",
+    "title": "مصطلحات الغدد اللعابية واللعاب",
+    "writtenTaskIds": [
+      "written-de202f4a918866-response",
+      "written-03b2137039f9dc-response",
+      "written-5df4650eb20b55-response",
+      "written-085630bc93733f-response",
+      "written-a26e82ecc02611-response",
+      "written-597f50b3c97c11-response"
+    ],
+    "commands": [
+      "مصطلح"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-06-lesson-01",
+    "title": "من الأسنان المؤقتة إلى الدائمة",
+    "writtenTaskIds": [
+      "written-1f7e3941e78e16-response",
+      "written-8a8c09f57533d8-response"
+    ],
+    "commands": [
+      "علّل",
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-06-lesson-02",
+    "title": "مخطط أوقات بزوغ الأسنان و مواعيد البزوغ والسقوط",
+    "writtenTaskIds": [
+      "written-a96acde2cf11d7-response",
+      "written-446a1218d1f979-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "المخطط الوارد في الصفحة الأصلية يعرض ترتيبا عاما لمواعيد بزوغ الأسنان اللبنية والدائمة في الفكين العلوي والسفلي."
+      },
+      {
+        "index": 1,
+        "text": "السن موعد البزوغ موعد السقوط"
+      },
+      {
+        "index": 7,
+        "text": "السن موعد البزوغ موعد السقوط"
+      },
+      {
+        "index": 13,
+        "text": "يختلف توقيت بزوغ الأسنان اللبنية والدائمة إلى درجة كبيرة، ويعد تقدم أو تأخر البزوغ نحو ستة أشهر عن الوقت المعتاد أمرا طبيعيا لدى طفل معين."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-06-lesson-03",
+    "title": "أهمية المحافظة على الأسنان اللبنية",
+    "writtenTaskIds": [
+      "written-71a19cf7b44bf5-response"
+    ],
+    "commands": [
+      "علّل"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-06-lesson-04",
+    "title": "عوارض بزوغ الأسنان والتدبير المذكور في المصدر",
+    "writtenTaskIds": [
+      "written-814123cd6f5de3-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 2,
+        "text": "قد يرافق البزوغ ألم عابر يزول خلال أيام قليلة، ولا ينصح باستئصال النسيج المغطي للسن إلا عند الضرورة."
+      },
+      {
+        "index": 3,
+        "text": "يذكر المصدر إمكان استخدام مخدر موضعي غير مخرش عدة مرات يوميا، قبل الطعام وقبل النوم، وفق توجيه مهني مناسب."
+      },
+      {
+        "index": 4,
+        "text": "يمكن تقديم حلقة تسنين باردة بالثلاجة لتخفيف الانزعاج، مع تجنب تشجيع الطفل على مص الإصبع."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "teething-treatment"
+    ]
+  },
+  {
+    "lessonId": "page-06-lesson-05",
+    "title": "العدد والترتيب ومواعيد البزوغ",
+    "writtenTaskIds": [
+      "written-f6e07a30476c65-response",
+      "written-e7a96b8b426f67-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "السن الأسنان العلوية الأسنان السفلية"
+      },
+      {
+        "index": 1,
+        "text": "موعد البزوغ التسلسل موعد البزوغ التسلسل"
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-06-lesson-06",
+    "title": "شذوذات عدد الأسنان وشكلها",
+    "writtenTaskIds": [
+      "written-dd3617e2e20d17-response",
+      "written-fc57ada94e0844-response",
+      "written-f6799ca12d81af-response"
+    ],
+    "commands": [
+      "اشرح",
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      4,
+      5,
+      6,
+      7
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "يعتقد أنها تنتج عن انحرافات في المرحلة الأولية لدورة حياة السن، مع احتمال وجود ميل وراثي. ترد بنسبة 1–9% في الأسنان الدائمة، وتكون أقل شيوعا في الأسنان المؤقتة وأكثر انتشارا لدى الذكور."
+      },
+      {
+        "index": 2,
+        "text": "قد تؤخر بزوغ الأسنان الخلفية أو تمنعه أو تغير مسار البزوغ؛ لذلك يفيد الكشف المبكر وقلعها بعد بزوغها، أو قبل ذلك عند وجود اختلاط."
+      },
+      {
+        "index": 3,
+        "text": "يكون عادة وراثيا، وقد يكون غيابا كاملا أو جزئيا."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-06-lesson-06-b",
+    "title": "شذوذات بنية الأسنان والسن الولادي وأكياس البزوغ",
+    "writtenTaskIds": [
+      "written-cd5bddd9441dde-response"
+    ],
+    "commands": [
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 1,
+        "text": "قد يرافق البزوغ انزعاج موضعي واضطراب في النوم. يذكر المصدر إمكان التخفيف موضعيا بمستحضرات مناسبة، كما أن عض جسم قاس قد يساعد على تخفيف الانزعاج."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "teething-treatment"
+    ]
+  },
+  {
+    "lessonId": "page-06-lesson-07",
+    "title": "مصطلحات الأسنان والبزوغ",
+    "writtenTaskIds": [
+      "written-51de19a9b3aef4-response",
+      "written-35ef0e165e7bd6-response",
+      "written-0f30712f5f3e5a-response",
+      "written-5e2ba02d6f87e9-response",
+      "written-577bbb3b569490-response",
+      "written-2f111e479d7162-response",
+      "written-09f50c19c9cf29-response",
+      "written-a802e8589c61af-response",
+      "written-a597b9afa74056-response"
+    ],
+    "commands": [
+      "مصطلح"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-07-lesson-01",
+    "title": "ملخص الأنسجة السنية",
+    "writtenTaskIds": [
+      "written-6d0b327d056e37-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-07-lesson-02",
+    "title": "الميناء",
+    "writtenTaskIds": [
+      "written-e90be6aff720b0-response",
+      "written-71ca57ae6fb339-response",
+      "written-f64f5397814cd9-response"
+    ],
+    "commands": [
+      "اشرح",
+      "عرّف",
+      "علّل"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 5,
+        "text": "تعد من أقسى أنسجة الجسم، وتقارن صلابتها بصلابة الكوارتز وفق الوصف المذكور في المصدر."
+      },
+      {
+        "index": 6,
+        "text": "تضم فوسفات الكالسيوم (هيدروكسي أباتيت) وفوسفات الكالسيوم وفلورور الكالسيوم."
+      },
+      {
+        "index": 7,
+        "text": "تمثل النسبة الصغيرة غير المعدنية من بنية الميناء."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "enamel-hardness"
+    ]
+  },
+  {
+    "lessonId": "page-07-lesson-03",
+    "title": "العاج",
+    "writtenTaskIds": [
+      "written-85e5896162a5af-response",
+      "written-2a4af1072a5abb-response"
+    ],
+    "commands": [
+      "عدّد",
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 3,
+        "text": "الصورة الأصلية المقتطعة من المصدر توضح تموضع العاج بالنسبة إلى الميناء واللب وعظم الفك."
+      },
+      {
+        "index": 8,
+        "text": "يتألف العاج من أنابيب عاجية صغيرة تمتد من المركز نحو المحيط، وتحتوي أليافا شبه عصبية تنقل الإحساسات الألمية إلى اللب السني، وتسمى ألياف توماز."
+      },
+      {
+        "index": 9,
+        "text": "مخطط داعم يبين الأنابيب العاجية والألياف الممتدة ضمنها."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "tomes"
+    ]
+  },
+  {
+    "lessonId": "page-07-lesson-04",
+    "title": "الملاط",
+    "writtenTaskIds": [
+      "written-d811aac13c4fa6-response"
+    ],
+    "commands": [
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      4
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "السن ضمن النسج الداعمة يوضح أن الملاط يغلف الجذر ويتصل بالميناء عند العنق بطرائق مختلفة."
+      },
+      {
+        "index": 2,
+        "text": "قد يكون التقاء الميناء بالملاط بإحدى ثلاث حالات: أن يغطي الملاط الميناء بمسافة قصيرة، أو أن تغطي الميناء الملاط، أو أن يكون بينهما فراغ بسيط ينكشف فيه العاج."
+      },
+      {
+        "index": 3,
+        "text": "يكشف هذا سبب الألم عند محاولة حك السن بأداة عند منطقة العنق."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "cement-junction"
+    ]
+  },
+  {
+    "lessonId": "page-07-lesson-05",
+    "title": "اللب",
+    "writtenTaskIds": [
+      "written-432bd0e7fc4137-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "مقطع أمامي لأجزاء السن يوضح تموضع اللب السني بالنسبة إلى العاج والعصب وبقية البنى."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-07-lesson-06",
+    "title": "مقارنة بين الأنسجة الأربعة",
+    "writtenTaskIds": [
+      "written-11a1046e1af997-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "النسيج الموقع أبرز صفة معلومة مهمة"
+      },
+      {
+        "index": 1,
+        "text": "الميناء يغطي التاج أقسى أنسجة الجسم 97% أملاح الكالسيوم و3% ماء ومواد عضوية"
+      },
+      {
+        "index": 2,
+        "text": "العاج يشكل الكتلة الأساسية للسن أقل صلابة من الميناء وأكثر صلابة من العظم يحوي أنابيب عاجية تنقل الإحساسات نحو اللب"
+      },
+      {
+        "index": 3,
+        "text": "الملاط يغلف الجذر يشبه العظم قد يلتقي بالميناء بثلاث طرائق عند العنق"
+      },
+      {
+        "index": 4,
+        "text": "اللب داخل السن نسيج حي عصبي وعائي يشكل عاجا ثانويا ومرمما بحسب التنبيه"
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-07-lesson-07",
+    "title": "مصطلحات بنية الأسنان",
+    "writtenTaskIds": [
+      "written-305225df7e5bb7-response",
+      "written-573871fbe1ae51-response",
+      "written-4b6964670642a3-response",
+      "written-1163e67dcb5b88-response",
+      "written-60153cb44e2045-response",
+      "written-800798a1f5da60-response",
+      "written-079972e7c8e54d-response",
+      "written-39741c32160f42-response"
+    ],
+    "commands": [
+      "مصطلح"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-08-lesson-01",
+    "title": "ما النسج المحيطة بالسن؟",
+    "writtenTaskIds": [
+      "written-1898f6d1620aef-response"
+    ],
+    "commands": [
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 1,
+        "text": "الصورة المقتطعة من الصفحة الأصلية توضح تموضع النسج المحيطة بالنسبة إلى التاج والجذر والعظم واللثة."
+      },
+      {
+        "index": 3,
+        "text": "أمراض النسج الداعمة للسن: هي جميع الحالات السريرية أو التدرج المرضي من النوع الالتهابي والمتخرب الذي يشمل جميع العناصر الداعمة للسن، وقد يتميز سريريا بالتهاب اللثة وتشكل الخراجات وتآكل الأسنان وتقلقل الأسنان وسقوطها."
+      },
+      {
+        "index": 4,
+        "text": "يكشف هذا الالتهاب عند ظهور عرض أو مجموعة أعراض، مثل احمرار اللثة وتورمها وتقرحها."
+      },
+      {
+        "index": 5,
+        "text": "يكشف بإدخال المسبار حول السن بعمق يزيد عن 3 ملم ، وهو دليل على إصابة مرضية أعمق في النسج الداعمة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "pocket-threshold"
+    ]
+  },
+  {
+    "lessonId": "page-08-lesson-02",
+    "title": "اللثة",
+    "writtenTaskIds": [
+      "written-b8e0aeb7075685-response"
+    ],
+    "commands": [
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 2,
+        "text": "عرضها نحو 1 ملم ، تغطي أعناق الأسنان وتنطبق عليها بشكل كبير، ويمكن إدخال آلية ذات رأس كليل بين السن واللثة لمسافة 0.5–1 ملم ، وهذا ما يسمى الميزاب اللثوي. وإذا زادت المسافة فنكون أمام حالة مرضية تسمى الجيب السني."
+      },
+      {
+        "index": 5,
+        "text": "رسم داعم يفيد في تصور علاقة اللثة بالجذر والعظم وبقية أجزاء السن."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "pocket-threshold"
+    ]
+  },
+  {
+    "lessonId": "page-08-lesson-03",
+    "title": "الرباط السنيخي السني",
+    "writtenTaskIds": [
+      "written-cc742075a2bfd9-response",
+      "written-a95a6ef887e846-response"
+    ],
+    "commands": [
+      "اشرح",
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-08-lesson-04",
+    "title": "العظم السنخي",
+    "writtenTaskIds": [
+      "written-e21084251f5ea6-response",
+      "written-5690fd8afeccde-response"
+    ],
+    "commands": [
+      "اشرح",
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 3,
+        "text": "مخطط داعم من الصورة الأصلية يساعد على فهم موقع العظم السنخي بالنسبة إلى الجذر والرباط واللثة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-08-lesson-05",
+    "title": "مقارنة بين العناصر الثلاثة",
+    "writtenTaskIds": [
+      "written-57ee8e764d162f-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "العنصر الموقع التركيب أو البنية معلومة سريرية مهمة"
+      },
+      {
+        "index": 1,
+        "text": "اللثة تحيط بأعناق الأسنان وتغلف العظم السنخي نسيج ضام مع مكونات ظهارية ولثوية زيادة عمق الميزاب تدل على جيب سني مرضي"
+      },
+      {
+        "index": 2,
+        "text": "الرباط السنيخي السني بين الملاط والعظم السنخي ألياف كثيفة مع أوعية وأعصاب احتقانه يسبب ألما على الإطباق وارتفاعا بسيطا للسن"
+      },
+      {
+        "index": 3,
+        "text": "العظم السنخي العظم الحامل للأسنان عظم إسفنجي + صفائح وحواجز سنية يمتص بعد فقد الأسنان ويتأثر سريعا بالأمراض اللثوية"
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-08-lesson-06",
+    "title": "مصطلحات النسج الداعمة للسن",
+    "writtenTaskIds": [
+      "written-621337b9bd9b53-response",
+      "written-2319b7150a7ed8-response",
+      "written-f20ba826c425c8-response",
+      "written-faefefe0cd6aa5-response",
+      "written-2fa43ddc2ca48c-response",
+      "written-f972dfadd20bfc-response",
+      "written-1d2460e2582eb2-response",
+      "written-9bff30e1fccc33-response",
+      "written-71ef8cfeff1f9f-response"
+    ],
+    "commands": [
+      "مصطلح"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-09-lesson-01",
+    "title": "التهاب اللثة: التعريف، الأسباب، والمظاهر العامة",
+    "writtenTaskIds": [
+      "written-47c3b848102d45-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2,
+      3
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "تركز هذه الصفحة على التهاب اللثة كأحد أكثر أمراض النسج الداعمة شيوعا، وتعرض أهم أسبابه وأنواعه، ثم تنتقل إلى التهاب اللثة حول السن و الخراجات اللثوية الرباطية و التهاب اللثة الضخامي ."
+      },
+      {
+        "index": 4,
+        "text": "النزف الدوري والدائم هو الذي يرافق الحالة الالتهابية ويشتد بوجود عامل مساعد، بينما النزف العابر قد يحدث دون مرض لثوي حقيقي."
+      },
+      {
+        "index": 5,
+        "text": "صورة مقتطعة من الصفحة الأصلية توضح مظهرا شائعا لالتهاب اللثة مع احمرار وانتفاخ هامشي."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-09-lesson-02",
+    "title": "التهاب اللثة البسيط والإنتاني والهرموني",
+    "writtenTaskIds": [
+      "written-7005072263e548-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 1,
+        "text": "يشابه البسيط لكن شدته أكبر، والعامل الجرثومي الرئيسي هو المكورات العنقودية . تنتج اللثة وتصبح حمراء مؤلمة، وقد يمتد الالتهاب إلى الغشاء المخاطي الفموي."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "old-classifications"
+    ]
+  },
+  {
+    "lessonId": "page-09-lesson-02-b",
+    "title": "أنواع التهاب اللثة الأخرى وتمييزها",
+    "writtenTaskIds": [
+      "written-37e65a9f68b329-response",
+      "written-0e0a5e3d46cea2-response"
+    ],
+    "commands": [
+      "علّل",
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2,
+      3
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "يصيب بعض النساء في سن اليأس، وتظهر توسفات لثوية تزول بسهولة تاركة مساحات نازفة. وقد تبدأ الإصابة بشكل حويصلات تنفجر لاحقا."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "old-classifications"
+    ]
+  },
+  {
+    "lessonId": "page-09-lesson-03",
+    "title": "العلامات المرئية للالتهاب اللثوي الحاد",
+    "writtenTaskIds": [
+      "written-4e0254d86ca1fb-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "رسم مقتطع من الصفحة الأصلية يفيد في تصور امتداد الالتهاب إلى النسج الفموية والبلعومية عند الحالات الشديدة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-09-lesson-04",
+    "title": "التهاب اللثة حول السن والخراجات اللثوية الرباطية",
+    "writtenTaskIds": [
+      "written-887d3ad2ab7f84-response",
+      "written-fdf1d924890942-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 4,
+        "text": "صورة مقتطعة من الصفحة الأصلية مثال سريري على تشكل خراج لثوي رباطي مع انتفاخ موضعي واضح."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "old-classifications"
+    ]
+  },
+  {
+    "lessonId": "page-09-lesson-05",
+    "title": "التهاب اللثة الضخامي",
+    "writtenTaskIds": [
+      "written-8215829142f5e8-response"
+    ],
+    "commands": [
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-09-lesson-06",
+    "title": "خريطة مختصرة للأمراض اللثوية في هذه الصفحة",
+    "writtenTaskIds": [
+      "written-b94008a3e63e0d-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "الحالة السمات الأساسية ما يميزها الخطوة العلاجية البارزة"
+      },
+      {
+        "index": 1,
+        "text": "التهاب اللثة البسيط احمرار وانتباج دون امتداد للرباط أو العظم سببه تحريش موضعي مباشر إزالة العامل المسبب"
+      },
+      {
+        "index": 2,
+        "text": "التهاب اللثة الإنتاني أشد من البسيط مع ألم واحمرار واضح عامل جرثومي أساسي (المكورات العنقودية) مضادات حيوية + مضماض + إزالة المخرشات"
+      },
+      {
+        "index": 3,
+        "text": "إنتان فنسان تقرحات، تموت الحليمات، رائحة كريهة، أعراض عامة غشاء كاذب أصفر رمادي ونزف وألم مضادات حيوية + ماء أكسجيني + راحة"
+      },
+      {
+        "index": 4,
+        "text": "التهاب اللثة حول السن امتداد إلى الرباط والعظم مع تقلقل الأسنان تخرب عظمي وجيوب رباطية معالجة السبب وتحسين الصحة الفموية"
+      },
+      {
+        "index": 5,
+        "text": "الخراج اللثوي الرباطي احتباس قيح وانتفاخ موضعي قد يترافق مع ناسور وتخرب عظمي سريع تفجير الخراج وإخراج القيح"
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-10-lesson-01",
+    "title": "حركة الأسنان",
+    "writtenTaskIds": [
+      "written-f928fcfbefe6b5-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "تعرض هذه الصفحة عددا من الاضطرابات السريرية المهمة التي تصيب النسج الداعمة والأسنان، بدءا من الحركة المرضية للأسنان و الانحسار اللثوي ، مرورا ب صرير الأسنان ، ووصولا إلى الإطباق الرضي و التواج ."
+      },
+      {
+        "index": 3,
+        "text": "درجة أولى: تتحرك السن بالاتجاه الدهليزي اللساني."
+      },
+      {
+        "index": 4,
+        "text": "درجة ثانية: تتحرك السن بالاتجاه الأنسي الوحشي بالإضافة إلى الاتجاه الدهليزي اللساني."
+      },
+      {
+        "index": 5,
+        "text": "درجة ثالثة: تتحرك السن حركة شاقولية بالإضافة إلى الدرجتين السابقتين."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "old-classifications"
+    ]
+  },
+  {
+    "lessonId": "page-10-lesson-02",
+    "title": "الانحسار اللثوي",
+    "writtenTaskIds": [
+      "written-f15ff841ec5c5b-response"
+    ],
+    "commands": [
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      9
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 4,
+        "text": "تتدخل عوامل أخرى في ظهور الانحسار اللثوي بشكل واضح، منها:"
+      },
+      {
+        "index": 8,
+        "text": "والسبب في بعض الأسنان هو اقترابها من أماكن انصباب اللعاب في الفم."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-10-lesson-03",
+    "title": "صرير الأسنان",
+    "writtenTaskIds": [
+      "written-d927ecfcd5986e-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "صرير الأسنان هو داء التشنج العضلي غير الطبيعي لعضلات المضغ."
+      },
+      {
+        "index": 7,
+        "text": "قد نحتاج إلى المعالجة النفسية وإعطاء المرخيات العضلية أو المنومات، وتكون المعالجة الفيزيائية لاضطرابات المفصل الفكي الصدغي كما يلي:"
+      },
+      {
+        "index": 8,
+        "text": "التمرين الأول: وضع اللسان في أقصى وضع خلفي قرب اللهاة في قبة الحنك ثم فتح الفم قسريا بما يؤدي إلى تعب عضلات المضغ والغاية من هذا حدوث توازن عضلي في الطرفين وجعل محصلة عمل العضلات في الجانبين تساوي الصفر."
+      },
+      {
+        "index": 9,
+        "text": "التمرين الثاني: فتح الفم وإغلاقه على الخط المتوسط."
+      },
+      {
+        "index": 10,
+        "text": "التمرين الثالث: فتح الفم قسريا واليد موضوعة على الفك السفلي."
+      },
+      {
+        "index": 11,
+        "text": "والمعالجة النهائية للصرير هي تعديل الإطباق."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "bruxism-treatment"
+    ]
+  },
+  {
+    "lessonId": "page-10-lesson-04",
+    "title": "الإطباق الرضي",
+    "writtenTaskIds": [
+      "written-cf203f78b062f9-response",
+      "written-c629662f06a19b-response"
+    ],
+    "commands": [
+      "عدّد",
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 13,
+        "text": "التعويض عن الأسنان المفقودة مباشرة."
+      },
+      {
+        "index": 14,
+        "text": "معالجة النخور السنية مباشرة قبل تطورها ومعالجة الأسنان التي تكون مصدر آلام لمنع المضغ وحيد الجانب."
+      },
+      {
+        "index": 15,
+        "text": "تجنب الترميمات والتعويضات الصناعية السيئة والانتباه عند صنعها إلى نقاط التماس والعلاقات الإطباقية الصحيحة."
+      },
+      {
+        "index": 16,
+        "text": "استبعاد العادات الفموية الضارة."
+      },
+      {
+        "index": 17,
+        "text": "تصحيح الإطباق بالسحل لخلق تحريض ملائم للأربطة السنخية حتى تحافظ على سلامتها من التشوهات."
+      },
+      {
+        "index": 18,
+        "text": "تصحيح الإطباق بالتعويضات الصناعية."
+      },
+      {
+        "index": 19,
+        "text": "تصحيح الإطباق بالتقويم وذلك بإعادة الأسنان الشاذة إلى وضعها الطبيعي تقويميا."
+      },
+      {
+        "index": 20,
+        "text": "إزالة أسباب الصرير ومنع فرط نشاط العضلات الماضغة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "bruxism-treatment"
+    ]
+  },
+  {
+    "lessonId": "page-10-lesson-05",
+    "title": "التواج",
+    "writtenTaskIds": [
+      "written-81c088598f47af-response"
+    ],
+    "commands": [
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 3,
+        "text": "تعتمد المعالجة على قطع القلنسوة اللثوية وغسل المنطقة جيدا بشكل متكرر، كما تفيد المضامض الفموية في هذه الحالة."
+      },
+      {
+        "index": 4,
+        "text": "تنتهي هذه الصفحة عند بداية عنوان سابعا: كسور الفكين ، وسيبنى هذا العنوان في الصفحة التالية ضمن تسلسل المشروع."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-10-lesson-06",
+    "title": "مقارنة سريعة بين أهم اضطرابات الصفحة",
+    "writtenTaskIds": [
+      "written-e527ea34e54df2-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "الاضطراب جوهر المشكلة علامات مميزة مبدأ المعالجة"
+      },
+      {
+        "index": 1,
+        "text": "حركة الأسنان المرضية نقص النسج الداعمة أو الدعم العظمي تدرج من حركة دهليزية لسانية إلى حركة شاقولية تقدير السبب ومعالجة النسج الداعمة"
+      },
+      {
+        "index": 2,
+        "text": "الانحسار اللثوي تراجع اللثة والنسج المحيطة عن السن يتأثر بسماكة العظم، الألجمة، والتقريش الخاطئ إزالة العوامل المسببة وتحسين العناية"
+      },
+      {
+        "index": 3,
+        "text": "صرير الأسنان تشنج عضلي غير طبيعي لعضلات المضغ انسحال الأسنان، ألم عضلي، صداع، وأصوات مفصلية جهاز رفع العضة ثم تعديل الإطباق"
+      },
+      {
+        "index": 4,
+        "text": "الإطباق الرضي قوى إطباقية غير طبيعية تؤذي النسج الداعمة آلام، جيوب عظمية ولثوية، امتصاص جذور، تقلقل الوقاية المبكرة ثم التصحيح بالسحل أو التعويض أو التقويم"
+      },
+      {
+        "index": 5,
+        "text": "التواج التهاب حول سن في طور البزوغ يشاهد غالبا في الرحى الثالثة السفلية مع ضزز أحيانا قطع القلنسوة اللثوية وغسل المنطقة والمضامض"
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-11-lesson-01",
+    "title": "التهاب الفم القلحي",
+    "writtenTaskIds": [
+      "written-47c0234f225d19-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "تتناول هذه الصفحة الأنماط السريرية المهمة من التهاب الفم ، وتشمل: التهاب الفم القلحي ، و التهاب الفم واللثة التبغي ، و التهاب الفم الناتج عن التعويضات الصناعية ، إضافة إلى التهاب الفم الناتج عن التحسس للمعادن بأنواعه المختلفة."
+      },
+      {
+        "index": 3,
+        "text": "تعتمد المعالجة على إزالة القلح والعناية بالصحة الفموية ومعالجة الأسنان النخرة وإعادة نقاط التماس وإصلاح وضع الأسنان الشاذة تقويميا عند الحاجة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-11-lesson-02",
+    "title": "التهاب الفم واللثة التبغي",
+    "writtenTaskIds": [
+      "written-490e41ea82ed7e-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      4
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 2,
+        "text": "النيكوتين ينقص إفراز اللعاب ويحرض زيادة الدوران الدموي ويؤدي إلى ضمور الغشاء المخاطي. كما أن التسمم بالتبغ بسبب الإفراط فيه غالبا ما يرافقه غياب العناية الفموية مما يزيد سوء الحالة."
+      },
+      {
+        "index": 3,
+        "text": "تكون المعالجة في هذه الحالة صعبة لأنها تعتمد على المعالجة السببية، أي الإقلاع عن التدخين ، وهي غالبا ما تكون شبه مستحيلة عند بعض المرضى."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "tobacco-flow"
+    ]
+  },
+  {
+    "lessonId": "page-11-lesson-03",
+    "title": "التهاب الفم الناتج عن التعويضات الصناعية",
+    "writtenTaskIds": [
+      "written-0214fa97092b54-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      3,
+      4,
+      5
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 2,
+        "text": "هشاشة الأوعية الشعرية، وتزداد عند سن بعد العقد الثالث من العمر."
+      },
+      {
+        "index": 6,
+        "text": "تدوم هذه التقرحات من 7–10 أيام وتشفى دون ندبة، وقد تتحول التقرحات في منطقة حواف الجهاز إلى طيات مخاطية التهابية وهي فرط في نمو النسج في منطقة الدهليز. وإذا استمر التخريش قد تتحول هذه الطيات إلى أورام خبيثة."
+      },
+      {
+        "index": 7,
+        "text": "استعمال التعويضات الثابتة ما أمكن والتعويضات الهيكلية ذات الدعم السني."
+      },
+      {
+        "index": 8,
+        "text": "أن تكون التعويضات اللدنة عند الضرورة متقنة الصنع."
+      },
+      {
+        "index": 9,
+        "text": "نزع التعويضات باستمرار وتطهيرها بالمؤكسدات ومعالجة التقرحات."
+      },
+      {
+        "index": 10,
+        "text": "الطيات المخاطية تزال بالجراحة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "prosthesis-cancer"
+    ]
+  },
+  {
+    "lessonId": "page-11-lesson-04",
+    "title": "التهاب الفم الناتج عن التحسس للمعادن",
+    "writtenTaskIds": [
+      "written-434f682f3ffda8-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      3
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 2,
+        "text": "المعالجة تتضمن التوقف عن التعرض للزئبق مع تناول الأدوية التي تساعد على طرحه."
+      },
+      {
+        "index": 4,
+        "text": "تعتمد الوقاية على منع حدوث الالتهاب، وتشمل معالجة المصاب استعمال المضادات الحيوية والاستئصال الجراحي للتشكلات النسجية عند الحاجة."
+      },
+      {
+        "index": 5,
+        "text": "الرصاص: إيقاف التعرض للمادة الرصاصية فتختفي الرواسب والخط اللثوي تدريجيا."
+      },
+      {
+        "index": 6,
+        "text": "الزرنيخ: عزل العامل المسبب أولا، وفي الحالات الشديدة تعطى الأدوية المساعدة على التخلص منه."
+      },
+      {
+        "index": 7,
+        "text": "البزموت: يوصى بإيقاف الدواء الحاوي على البزموت أو إبعاد المريض عن بيئة التعرض، ويختفي الخط الأسود خلال شهرين إلى ثلاثة مع وسائل الصحة الفموية."
+      },
+      {
+        "index": 8,
+        "text": "الزئبق: التوقف عن التعرض مع الأدوية الطارحة له."
+      },
+      {
+        "index": 9,
+        "text": "الفوسفور: الوقاية المهنية ثم المعالجة بالمضادات الحيوية والجراحة عند الضرورة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-11-lesson-05",
+    "title": "مقارنة سريعة",
+    "writtenTaskIds": [
+      "written-07d69a0a103b73-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "النوع السبب الأساسي السمات السريرية الأوضح خط العلاج العام"
+      },
+      {
+        "index": 1,
+        "text": "التهاب الفم القلحي تراكم الصفيحة وتحولها إلى قلح مع عوامل مساعدة حليمات لثوية محتقنة أو أتوية تنزف عند اللمس إزالة القلح وتحسين الصحة الفموية"
+      },
+      {
+        "index": 2,
+        "text": "التهاب الفم واللثة التبغي التدخين ومواد التبغ السمية التهاب وضمور مخاطي مع نقص اللعاب الإقلاع عن التدخين"
+      },
+      {
+        "index": 3,
+        "text": "التهاب الفم بسبب التعويضات سوء صنع الجهاز أو ضغطه وخرشه للمخاطية تقرحات رضية وطيات مخاطية التهابية تصحيح التعويض، التطهير، ومعالجة التقرحات"
+      },
+      {
+        "index": 4,
+        "text": "التحسس للمعادن التعرض المزمن وامتصاص المعادن خطوط لثوية ملونة أو تقرحات أو تخرب عظمي حسب المعدن إيقاف التعرض ثم المعالجة النوعية"
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-12-lesson-01",
+    "title": "القلاع: الصفات والأسباب",
+    "writtenTaskIds": [
+      "written-5ec4cc33d7fb68-response",
+      "written-71a0c66842ac68-response"
+    ],
+    "commands": [
+      "اشرح",
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "تجمع هذه الصفحة أربع موضوعات مترابطة سريريا: القلاع كآفة تقرحية مؤلمة، و ضخامة اللثة المرتبطة بالديلانتين ، و السلاق الناتج عن فطر المبيضات، و النكاف بوصفه التهابا فيروسيا يصيب الغدد اللعابية، ولا سيما الغدة النكفية."
+      },
+      {
+        "index": 5,
+        "text": "الصورة الموجودة في الصفحة الأصلية تظهر قرحات صغيرة ذات مركز فاتح وهالة حمامية محيطة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "aphthae-scar"
+    ]
+  },
+  {
+    "lessonId": "page-12-lesson-01-b",
+    "title": "القلاع: الأنواع والمعالجة",
+    "writtenTaskIds": [
+      "written-fe7e5a2839915a-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "aphthae-scar"
+    ]
+  },
+  {
+    "lessonId": "page-12-lesson-02",
+    "title": "التهاب اللثة الضخامي الناجم عن استعمال الديلانتين",
+    "writtenTaskIds": [
+      "written-48f84bce782aa0-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      2,
+      3,
+      4,
+      5
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 1,
+        "text": "لا تحدث هذه الضخامة عادة في المناطق الرداء، بينما يزيد سوء الإطباق وضعف الصحة الفموية والمخرشات السنية الموضعية من شدتها."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-12-lesson-03",
+    "title": "السلاق",
+    "writtenTaskIds": [
+      "written-837dc4c71d96f4-response",
+      "written-dbf0c6b6bfcabb-response",
+      "written-e762b170a36524-response"
+    ],
+    "commands": [
+      "عدّد",
+      "عرّف",
+      "علّل"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-12-lesson-04",
+    "title": "النكاف",
+    "writtenTaskIds": [
+      "written-5254b6a65cebd9-response",
+      "written-170b357378c26b-response",
+      "written-e39501dc4504c7-response"
+    ],
+    "commands": [
+      "عدّد",
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 5,
+        "text": "إنتاج لعابي مفرط."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-12-lesson-05",
+    "title": "تمييز موضوعات الصفحة",
+    "writtenTaskIds": [
+      "written-25866a1f4ab045-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "الحالة السبب أو العامل المرتبط المظهر الأساسي مبدأ التدبير"
+      },
+      {
+        "index": 1,
+        "text": "القلاع آفة تقرحية التهابية متكررة قرحات مؤلمة صغيرة ذات مركز مصفر وهالة حمراء تسكين الألم والتدبير الموضعي تحت إشراف مهني"
+      },
+      {
+        "index": 2,
+        "text": "ضخامة اللثة بالديلانتين الاستعمال المزمن لدواء الصرع ضخامة قاسية غير مؤلمة، خاصة حول الأسنان الأمامية تحسين الصحة الفموية وتقييم دوائي وجراحي"
+      },
+      {
+        "index": 3,
+        "text": "السلاق المبيضات البيض مع عوامل مهيئة عدوى فطرية في المخاطية الفموية البحث عن العامل المهيئ ومعالجته"
+      },
+      {
+        "index": 4,
+        "text": "النكاف فيروس (RNA) ينتقل باللعاب والرذاذ تورم مؤلم في الغدة النكفية مع حمى معالجة عرضية ووقاية باللقاح"
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-13-lesson-01",
+    "title": "الطلاوة",
+    "writtenTaskIds": [
+      "written-d76a484aabafa0-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      2,
+      3
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "تتناول هذه الصفحة أربع محاور رئيسية: الطلاوة (Leukoplakia) بوصفها آفة ما قبل سرطانية مهمة، ثم سرطان مخاطية دهليز الفم ، و سرطان اللثة ، و سرطان الشفة ، وأخيرا سرطان اللسان . تركز الصفحة على المظهر السريري، أماكن التوضع، والعوامل المهيئة والأسباب الرئيسية."
+      },
+      {
+        "index": 1,
+        "text": "الطلاوة إحدى الآفات التي تتوضع على سطح الأغشية المخاطية للفم، وقد تشاهد أيضا في بعض المخاطيات الأخرى. تصيب الرجال أكثر من النساء، ولا سيما المتقدمين بالعمر، ويكون العمر المتوسط للمصابين نحو 60 سنة ، وغالبهم فوق الأربعين."
+      },
+      {
+        "index": 4,
+        "text": "صورة من المصدر توضح مظهرا أبيض متبقعا على اللسان ضمن قسم الطلاوة."
+      },
+      {
+        "index": 5,
+        "text": "صورة داعمة من المصدر تفيد في المقارنة البصرية لمظاهر الطلاوة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "cancer-statistics"
+    ]
+  },
+  {
+    "lessonId": "page-13-lesson-02",
+    "title": "سرطان مخاطية دهليز الفم",
+    "writtenTaskIds": [
+      "written-256208dc28c422-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "يشكل هذا السرطان نحو 9% من سرطانات داخل الفم، وهو أكثر شيوعا عند المتقدمين بالعمر، ويشاهد عند الرجال أكثر بكثير من النساء."
+      },
+      {
+        "index": 1,
+        "text": "من أهم أسبابه: مضغ التبغ وبعض المواد الشبيهة به، ويكثر في الجهة التي اعتاد الشخص أن يمضغ عليها. ويظهر في أكثر الحالات على طول الخط المجاور لمستوى الإطباق أو أخفض قليلا."
+      },
+      {
+        "index": 3,
+        "text": "صورة من المصدر تم إيرادها ضمن جزء سرطان مخاطية دهليز الفم في المادة الأصلية."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "cancer-statistics"
+    ]
+  },
+  {
+    "lessonId": "page-13-lesson-03",
+    "title": "سرطان اللثة وسرطان الشفة",
+    "writtenTaskIds": [
+      "written-2d0c01563bd44d-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "يشكل نحو 10–11% من سرطانات داخل الفم، وقد يشبه التهابات اللثة السنية المنشأ مما يؤدي إلى تأخر اكتشافه أو سوء تشخيصه. متوسط العمر المذكور لسرطان اللثة هو 61 سنة ."
+      },
+      {
+        "index": 1,
+        "text": "من أهم العوامل المهيئة: التخريش المزمن، والالتهاب الناتج عن القلح، وبعض العوامل الموضعية طويلة الأمد. ويتوضع أكثر ما يتوضع في لثة الفك السفلي."
+      },
+      {
+        "index": 3,
+        "text": "يشاهد أكثر عند الرجال بنسبة تقارب 86–98% من الحالات، ويصيب الشفة السفلى في معظم الإصابات بنسبة عالية، بينما تكون إصابة الشفة العليا أقل بكثير."
+      },
+      {
+        "index": 4,
+        "text": "يعد التدخين من أهم أسبابه، ويظهر سريريا في المنطقة الحمراء الانتقالية للشفة، غالبا قرب الخط المتوسط، وقد يأخذ شكل فوهة بركان أو كتلة ورقية بارزة."
+      },
+      {
+        "index": 5,
+        "text": "الصورة السريرية الواردة في المصدر تعكس مظهرا متقدما لإصابة خبيثة في الشفة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "cancer-statistics"
+    ]
+  },
+  {
+    "lessonId": "page-13-lesson-04",
+    "title": "سرطان اللسان",
+    "writtenTaskIds": [
+      "written-26350a4fc06aa5-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "يشكل سرطان اللسان نسبة كبيرة من مجموع السرطانات داخل الفموية، ويصيب الرجال أكثر من النساء. لا توجد له أسباب نوعية قاطعة، لكن الالتهاب المزمن، والتخريش المستمر، والتدخين، والكحول، وسوء صحة الفم كلها عوامل ترفع احتمال حدوثه."
+      },
+      {
+        "index": 2,
+        "text": "تعالج الحالات بصعوبة نسبية، ويكون العلاج بالجراحة أو بالأشعة وفق التقييم الاختصاصي."
+      },
+      {
+        "index": 3,
+        "text": "الصورة الملحقة في المصدر أدرجت كما وردت في الصفحة الأصلية دون إعادة تصميم."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "cancer-statistics"
+    ]
+  },
+  {
+    "lessonId": "page-13-lesson-05",
+    "title": "تمييز الآفات قبل السرطانية والسرطانية",
+    "writtenTaskIds": [
+      "written-af3c892a1a7c12-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "الموضوع الصفة البارزة العوامل أو الأسباب المهمة ملاحظة سريرية"
+      },
+      {
+        "index": 1,
+        "text": "الطلاوة آفة بيضاء أو رمادية خشنة التدخين، الكحول، التخريش الموضعي تعد من أهم الآفات ما قبل السرطانية"
+      },
+      {
+        "index": 2,
+        "text": "سرطان مخاطية دهليز الفم آفة متقرحة أو ثؤلولية مضغ التبغ ومواد مشابهة يشاهد أكثر قرب مستوى الإطباق"
+      },
+      {
+        "index": 3,
+        "text": "سرطان اللثة قد يشبه التهاب اللثة التخريش المزمن والقلح قربه من العظم يزيد خطورة الامتداد"
+      },
+      {
+        "index": 4,
+        "text": "سرطان الشفة آفة على الشفة السفلى غالبا التدخين بشكل رئيسي أكثر مشاهدة عند الرجال"
+      },
+      {
+        "index": 5,
+        "text": "سرطان اللسان غالبا على الجوانب أو السطح السفلي التهاب مزمن، تخريش، تدخين، كحول قد يكون غير مؤلم في البداية"
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-14-lesson-01",
+    "title": "أماكن التوضع",
+    "writtenTaskIds": [
+      "written-7a2cdd06f25cfe-response",
+      "written-bb9af3d94ede95-response"
+    ],
+    "commands": [
+      "عدّد",
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "تعرض هذه الصفحة تعريف القلح وتركيبه وتوضعه السريرية، ثم تميز بين نوعيه: القلح فوق اللثوي/اللعابي و القلح تحت اللثوي/المصلي . كما تستعرض التلونات السنية وأهم أنماطها، خاصة التلونات المرتبطة بالتبغ والمعادن."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-14-lesson-02",
+    "title": "القلح فوق اللثوي وخصائصه",
+    "writtenTaskIds": [
+      "written-99e78bfef968eb-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "الصورة المقتطعة من المصدر توضح التوضع الشائع للقلح قرب مخرج اللعاب."
+      },
+      {
+        "index": 1,
+        "text": "الصورة المقتطعة من المصدر تعكس تراكمات قلحية واضحة على الأسنان الأمامية السفلية."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-14-lesson-03",
+    "title": "القلح تحت اللثوي وخصائصه",
+    "writtenTaskIds": [
+      "written-99e78bfef968eb-response"
+    ],
+    "commands": [
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-14-lesson-04",
+    "title": "1) التلون السني",
+    "writtenTaskIds": [
+      "written-7f725b6fbcc080-response",
+      "written-4796cc9cd427ae-response",
+      "written-60d588344a1f04-response"
+    ],
+    "commands": [
+      "اشرح",
+      "عدّد",
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-14-lesson-05",
+    "title": "الخلاصة السريرية",
+    "writtenTaskIds": [
+      "written-304ea26a6c525c-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-15-lesson-01",
+    "title": "ما هو بخر الفم؟",
+    "writtenTaskIds": [
+      "written-a3873c6cde2481-response",
+      "written-001a8a74979dbf-response"
+    ],
+    "commands": [
+      "اشرح",
+      "عرّف"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      8
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 4,
+        "text": "تختلف رائحة الفم تبعا لأوقات النهار وكمية اللعاب المتدفق."
+      },
+      {
+        "index": 5,
+        "text": "تكون أشد في الصباح بسبب تناقص اللعاب أثناء النوم وتفسخ البقايا."
+      },
+      {
+        "index": 6,
+        "text": "تشتد أيضا عند المصابين بآفات رئوية وعند من لديهم حليمات لسانية كثيفة مغطية للسان."
+      },
+      {
+        "index": 7,
+        "text": "الصورة المقتطعة من المصدر تبين تراكم الجراثيم على اللسان باعتباره أحد المصادر المهمة للرائحة الفموية."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "halitosis"
+    ]
+  },
+  {
+    "lessonId": "page-15-lesson-02",
+    "title": "تصنيف الأسباب المؤدية لبخر الفم",
+    "writtenTaskIds": [
+      "written-c1b28c6ed2b4a6-response",
+      "written-e2496c97c670d7-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-15-lesson-03",
+    "title": "معالجة البخر ومضادات البخر",
+    "writtenTaskIds": [
+      "written-e72edb6a2a04d0-response"
+    ],
+    "commands": [
+      "علّل"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 3,
+        "text": "تعمل هذه الأدوية بتأثير كيميائي أو ميكانيكي بهدف تعديل التفاعلات الناتجة عن تفسخ المادة الأجنبية الفاغرة بين المسافات أو داخل الحفر النخرة أو الجيوب المرضية. وتشمل المواد المؤكسدة والماصة مثل الفحم و الكلوروفيل وبعض الأحماض ومشتقاتها والمواد التي تحرر الكلور ."
+      },
+      {
+        "index": 4,
+        "text": "وظيفتها تخريب الفضلات وتعطيل البؤر الفموية السنية المؤدية للتفسخ، والقضاء على العوامل الجرثومية أو إيقاف نموها، مع تعديل الغازات الناجمة عنها وامتصاصها."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "halitosis"
+    ]
+  },
+  {
+    "lessonId": "page-16-lesson-01",
+    "title": "العادات الفموية وأثرها في الفم والأسنان",
+    "writtenTaskIds": [
+      "written-57f033a27093bb-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-16-lesson-02",
+    "title": "دفع اللسان",
+    "writtenTaskIds": [
+      "written-5f0020d3643465-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 6,
+        "text": "المعالجة: وضع جهاز تقويمي يساعد الطفل على التعود على البلع الصحيح."
+      },
+      {
+        "index": 7,
+        "text": "وسيلة علاجية تقويمية تستخدم لتوجيه اللسان وتعليم البلع الصحيح."
+      },
+      {
+        "index": 8,
+        "text": "مثال ثان يظهر نفس المبدأ العلاجي في منع الدفع اللساني غير الطبيعي."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-16-lesson-03",
+    "title": "التنفس الفموي",
+    "writtenTaskIds": [
+      "written-164da5b0472920-response",
+      "written-525fcefa76504e-response"
+    ],
+    "commands": [
+      "اشرح",
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 12,
+        "text": "يبدأ بعلاج السبب المؤدي، مع إحالة المريض إلى اختصاصي أنف أذن حنجرة عند الحاجة."
+      },
+      {
+        "index": 13,
+        "text": "يمكن استخدام الشاشة الفموية الواقية ، وهي جهاز من صفيحة أكريلية يلامس السطوح الدهليزية للفكين أثناء النوم، ويساعد على التحول التدريجي إلى التنفس الأنفي."
+      },
+      {
+        "index": 14,
+        "text": "الشاشة الفموية الواقية جهاز يساعد على تدريب المريض على التنفس الأنفي تدريجيا."
+      },
+      {
+        "index": 15,
+        "text": "توضيح تشريحي/وظيفي يوضح شكل الجهاز وعلاقته بالفك أو المجرى التنفسي."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-16-lesson-04",
+    "title": "نشأة عادة مص الإصبع وآثارها",
+    "writtenTaskIds": [
+      "written-899dfeeac31450-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "منعكس المص هو النظام العصبي الباكر الذي يسمح للطفل بالرضاعة والالتصاق بالأم، وهو موجود منذ المراحل الأولى بعد الولادة. وعندما يستبدل الإرضاع الطبيعي بالرضاعة الصناعية أو تختصر مدة الرضاعة قد يضطر الطفل إلى مص الإصبع تعويضا للنقص الحاصل."
+      },
+      {
+        "index": 1,
+        "text": "تنشأ عادة مص الإصبع خلال السنوات الأولى من عمر الطفل."
+      },
+      {
+        "index": 2,
+        "text": "يمارسها نسبة ملحوظة من الأطفال."
+      },
+      {
+        "index": 3,
+        "text": "يمكن أن يبدأ العلاج بعمر 5 سنوات تقريبا."
+      },
+      {
+        "index": 4,
+        "text": "صورة سريرية عامة توضح الممارسة الشائعة للعلاقة بين المص والطمأنة الذاتية عند الطفل."
+      },
+      {
+        "index": 5,
+        "text": "العامل النفسي والاجتماعي ونقص حنان الأم."
+      },
+      {
+        "index": 6,
+        "text": "دور الرضاعة الصناعية."
+      },
+      {
+        "index": 7,
+        "text": "ولادة طفل جديد في العائلة أو الاهتمام الزائد به."
+      },
+      {
+        "index": 8,
+        "text": "عدم كفاية حليب الأم أو عدم الاستعاضة بالحليب الصناعي وشعور الطفل بالجوع."
+      },
+      {
+        "index": 9,
+        "text": "موقف الأهل غير المتفهم لطبيعة العادة وأسباب لجوء الطفل إليها."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "thumb-causation"
+    ]
+  },
+  {
+    "lessonId": "page-16-lesson-04-b",
+    "title": "عوامل شدة مص الإصبع وطرق معالجتها",
+    "writtenTaskIds": [
+      "written-009aa7aaf38a98-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      2,
+      3,
+      5
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "أثر سريري على الإطباق يظهر بروز القواطع والفراغ الأمامي الناجمين عن مص الإصبع."
+      },
+      {
+        "index": 1,
+        "text": "غالبا ما يحدث تصحيح عفوي للعضة المفتوحة بعد زوال العادة، أما استمرارها بعد 8 سنوات فقد يحتاج إلى تصحيح الخلل المتشكل."
+      },
+      {
+        "index": 4,
+        "text": "وسائل التذكير: كربط الإصبع أو وضع طلاء سيئ الطعم، مع الحذر من الأساليب العنيفة."
+      },
+      {
+        "index": 6,
+        "text": "الوسائل الميكانيكية: أجهزة تقويمية مثل كابح اللسان أو الأكتيفاتور."
+      },
+      {
+        "index": 7,
+        "text": "جهاز علاجي 1 وسيلة ميكانيكية لتعديل السلوك الفموي الضار."
+      },
+      {
+        "index": 8,
+        "text": "جهاز علاجي 2 مثال إضافي للوسائل التقويمية المساعدة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "thumb-causation"
+    ]
+  },
+  {
+    "lessonId": "page-16-lesson-05",
+    "title": "التبغ",
+    "writtenTaskIds": [
+      "written-af4f3e5abc995b-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "لا يسبب التدخين عادة تغيرات لثوية واضحة بذاته فقط، لكن الحرارة وتجمع نواتج الاحتراق يمثلان مخرشين موضعيين . كما يمكن ملاحظة تبدلات فموية مهمة عند المدخنين."
+      },
+      {
+        "index": 1,
+        "text": "تتدرج التبدلات من فضلات سمراء تشبه القطران وتلون الأسنان إلى تغيرات منتشرة في اللثة والمخاطية، مع ازدياد شدة الإصابات النسجية لدى المدخنين."
+      },
+      {
+        "index": 5,
+        "text": "قد يسبب مسك الغليون في موضع واحد انحلالا سنيا مع تشكل فراغ هلالي بين الأسنان، وازحاما أو انغراسا للأسنان، وتغيرات مرضية في النسج الداعمة."
+      },
+      {
+        "index": 8,
+        "text": "يزداد عدد الخلايا اللثوية المتقرنة عند المدخنين، مع تغيرات أخرى في مخاطية الفم باستثناء تشوه استهلاك الأكسجين."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "tobacco-flow"
+    ]
+  },
+  {
+    "lessonId": "page-17-lesson-01",
+    "title": "تعريف مختصر وصورة سريرية",
+    "writtenTaskIds": [
+      "written-c716d96eb26c7c-response"
+    ],
+    "commands": [
+      "اشرح"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "يعد نخر الأسنان من أوسع الأمراض انتشارا، وقد تتجاوز نسبة انتشاره في بعض البلاد 90% من السكان. ويتسع هذا المرض مع ارتفاع مستوى الحضارة والمدنية، إذ يرتبط بعادات غذائية وسلوكية تزيد من فرصة حدوثه."
+      },
+      {
+        "index": 3,
+        "text": "مثال سريري تظهر الصورة آفات نخرية متعددة على الأسنان الأمامية."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "caries-generalizations"
+    ]
+  },
+  {
+    "lessonId": "page-17-lesson-02",
+    "title": "دور السن والجراثيم في حدوث النخر",
+    "writtenTaskIds": [
+      "written-4ede96f0c35787-response",
+      "written-dcd04999a3705c-response"
+    ],
+    "commands": [
+      "عرّف",
+      "علّل"
+    ],
+    "directlyReferencedParagraphIndices": [
+      2
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "لا يحدث النخر من دون وجود سطح سني، لكن قابلية السن تختلف باختلاف البنية والتركيب ودرجة المقاومة، وتذكر هذه العوامل لاحقا ضمن العوامل العامة والموضعية."
+      },
+      {
+        "index": 1,
+        "text": "يولد الطفل وفمه خال من الجراثيم، ثم يصبح حاويا لها خلال الأشهر الأولى. تتجمع الجراثيم ضمن هيكل عضوي يضم بروتينات وشحوما وسكريات متعددة، ويعرف هذا التجمع باسم اللويحات الجرثومية . تستفيد الجراثيم من السكريات المتناولة، ولا سيما السكر ثنائي السكروز ، فتفككه إلى سكريات أحادية وتنتج أحماضا تزيل تمعدن النسج السنية."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-17-lesson-02-b",
+    "title": "دور الغذاء والزمن في حدوث النخر",
+    "writtenTaskIds": [
+      "written-c7ceea7a29aa97-response",
+      "written-7f4f77db870ecc-response"
+    ],
+    "commands": [
+      "اشرح",
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "يقصد بالغذاء هنا الغنى بالسكريات ، إذ يمكن أن تتحول هذه الأخيرة إلى أحماض بتأثير الجراثيم الفموية، وتزداد نسبة حدوث النخر طردا مع زيادة استهلاك السكر."
+      },
+      {
+        "index": 4,
+        "text": "المواد الممزوجة معه: وجود مواد مضادة للنخر مثل الدسم أو الفول والشوكولا قد ينقص من شدة التأثير الضار لبعض المنتجات السكرية."
+      },
+      {
+        "index": 6,
+        "text": "تشير الدراسات إلى أن تناول السكريات في نهاية أو أثناء الوجبة الرئيسية أقل ضررا مما لو تناولها الطفل منفصلة بين الوجبات، لذلك ينصح بإعطاء الطفل مواد غير مهيئة للنخر كالفواكه أو اللوز أو الفستق عند الحاجة."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "caries-generalizations"
+    ]
+  },
+  {
+    "lessonId": "page-17-lesson-03",
+    "title": "عوامل النخر",
+    "writtenTaskIds": [
+      "written-f799babd2ce97d-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      7,
+      8,
+      9,
+      11,
+      12,
+      13
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 0,
+        "text": "الوراثة: تلعب دورا في قابلية النخر كما في بعض الأمراض العامة."
+      },
+      {
+        "index": 1,
+        "text": "العمر: تقل قابلية النخر مع تقدم العمر، أما الأسنان اللبنية فتكون شديدة المقاومة بداية ثم تقل هذه المقاومة لاحقا."
+      },
+      {
+        "index": 2,
+        "text": "الجنس: للحمل والإرضاع أثر يجعل المرأة أكثر تعرضا للنخر من الرجل."
+      },
+      {
+        "index": 3,
+        "text": "الغذاء: مهم عند الحامل، وعند الطفل خلال تشكل الأسنان وبدايات العمر."
+      },
+      {
+        "index": 4,
+        "text": "الهرمونات: مثل تأثير فرط نشاط الدرق في زيادة زوال الكلس من الأسنان."
+      },
+      {
+        "index": 5,
+        "text": "الفيتامينات: نقص (A) و(C) والكالسيوم والفسفور قد يسيء إلى بنية الأسنان والنسج المخاطية."
+      },
+      {
+        "index": 6,
+        "text": "الأمراض العامة: خاصة الأمراض المرافقة لزوال الكلس من الجسم أو سوء الهضم أو الحمى التيفية وغيرها."
+      },
+      {
+        "index": 10,
+        "text": "انسحال الأسنان: يؤدي إلى زوال الميناء وانكشاف العاج وحدوث النخر فيه."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "caries-generalizations"
+    ]
+  },
+  {
+    "lessonId": "page-17-lesson-04",
+    "title": "بداية النخر ونخر الميناء والعاج",
+    "writtenTaskIds": [
+      "written-90671e4870f283-response"
+    ],
+    "commands": [
+      "عدّد"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": []
+  },
+  {
+    "lessonId": "page-17-lesson-04-b",
+    "title": "التهاب اللب وتطور اختلاطات النخر",
+    "writtenTaskIds": [
+      "written-a149453fd5ded0-response",
+      "written-158535f11c43d9-response",
+      "written-f8274baeb88647-response"
+    ],
+    "commands": [
+      "اشرح",
+      "قارن"
+    ],
+    "directlyReferencedParagraphIndices": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      9
+    ],
+    "paragraphsNotDirectlyReferencedInWrittenTasks": [
+      {
+        "index": 3,
+        "text": "يترافق نخر العاج بألم مثار بالماء البارد أو الساخن وبالمشروبات أو المواد الحامضة أو السكرية، وينجم ذلك عن تأثر ألياف تنطلق من اللب حتى ملتقى الميناء بالعاج."
+      },
+      {
+        "index": 7,
+        "text": "تنبيه سريري مهم: لا يفيد وضع المسكنات أو الأدوية الكاوية مباشرة على السن، بل قد يسبب أذى للثة."
+      },
+      {
+        "index": 8,
+        "text": "قد يستدعي وصول الجراثيم إلى اللب استئصال كامل النسيج اللبي أو معالجته اللبية المناسبة."
+      },
+      {
+        "index": 10,
+        "text": "الأسنان ذات الألباب الميتة يتغير لونها إلى القتامة وتصبح أكثر هشاشة، وقد تحتاج في كثير من الحالات إلى تتويج ."
+      },
+      {
+        "index": 11,
+        "text": "عند فقد كمية كبيرة من النسج السنية قد يلزم استخدام وتد وقلب معدني قبل التتويج."
+      }
+    ],
+    "unreferencedInterpretation": "Includes image captions, repeated summaries, excluded claims, and remaining details; not automatically mastered or fully covered.",
+    "fullLessonCoverageCertified": false,
+    "pendingReviewIds": [
+      "tomes",
+      "arsenic"
+    ]
+  }
+]

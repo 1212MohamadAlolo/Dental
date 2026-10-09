@@ -1,0 +1,19 @@
+{
+  "writtenTasks": 177,
+  "extendedResponseTasks": 118,
+  "terminologyTasks": 59,
+  "rubricCriteria": 429,
+  "lessonsWithWrittenTasks": 92,
+  "units": 17,
+  "commands": {
+    "اشرح": 32,
+    "علّل": 8,
+    "عدّد": 26,
+    "عرّف": 23,
+    "قارن": 29,
+    "مصطلح": 59
+  },
+  "totalBaseAndWrittenVariants": 542,
+  "countsNote": "Compound tasks and repeated synthesis cannot be added to 181 base objectives as independent facts.",
+  "fullCurriculumCertified": false
+}
